@@ -1,0 +1,28 @@
+{
+  "schema": "MB_TELEMETRY_V2_1",
+  "written": "2026-01-20T18:46:08.159610Z",
+  "version": "2.1.0",
+  "record": {
+    "timestamp": "RFC3339",
+    "run_id": "string",
+    "archive_context": {
+      "namespace": "CURRENT_CHAT|ARCHIVE_CHAT",
+      "archive_chat_index": "int|null",
+      "archive_chat_id": "string|null"
+    },
+    "engine": {
+      "engine_id": "ELE|ITLE|NBE|MBE|TDAE|NONE",
+      "engine_spec_version": "2.1.0"
+    },
+    "event": {
+      "type": "ENGINE_DECLARED|SIGNAL_DETECTED|SIGNAL_CLASSIFIED|ARBITRATION_DECISION|MUTATION_APPLIED|PROMOTION_CONFIRMED|PROMOTION_REJECTED|VIOLATION|MACROBLOOM_REVIEW_ELIGIBLE",
+      "details": "object"
+    },
+    "evidence": {
+      "paths": [
+        "string"
+      ],
+      "notes": "string"
+    }
+  }
+}

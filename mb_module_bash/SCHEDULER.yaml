@@ -1,0 +1,8 @@
+
+scheduler:
+  mode: adaptive
+  default_cadence: daily
+  escalation: weekly_review
+  rules:
+    - if stuck: shorten tasks
+    - if fluent: expand tasks

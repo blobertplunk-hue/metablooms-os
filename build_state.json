@@ -1,0 +1,12 @@
+{
+  "os_version": "v1.3.24_FULL_FORWARDPORT_RUN_RECEIPTS",
+  "canonical_root": "/mnt/data/MetaBlooms_OS",
+  "applied_deltas": [
+    "P0_CANONICAL_ROOT_ENFORCEMENT_v1",
+    "SEGMENT_PIPELINE_REGISTRY_v1",
+    "INTAKE_TEMPLATE_BINDING_v1",
+    "EVOLUTION_SEAM_GOVERNANCE_v1"
+  ],
+  "last_mutation_ts": "2026-01-11T22:18:42.075343Z",
+  "integrity_hash": "3be2e95f5048e55a5a2837ac761d3f56e21c71633ab2d2b141bbff76f5957c9c"
+}

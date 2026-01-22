@@ -1,0 +1,9 @@
+{
+  "schema": "rehydrate_breadcrumb_v1",
+  "ts": "ISO-8601",
+  "user_id": "UNKNOWN",
+  "active_project_id": "UNKNOWN",
+  "open_threads": [],
+  "outcome": "PENDING",
+  "reason": ""
+}

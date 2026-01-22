@@ -1,0 +1,97 @@
+#!/usr/bin/env python3
+# ECL_VERSION: 1
+# ECL_SCOPE: GENERAL
+# ECL_RESPONSIBILITY: Deterministic, truthful behavior; no hidden side effects; evidence-first.
+
+"""RUN_METABLOOMS.py
+
+Stable runner invoked by BOOT_METABLOOMS.py.
+
+This performs a *boot smoke test*:
+- Executes only MetaBlooms-authored preflight gates (wiring/validators).
+- Stops before legacy runtime prompt-dependent gates (ROW/PIPELINE/etc.).
+
+Exit codes:
+- 0: smoke test passed
+- 2: smoke test failed (any P0 gate failed)
+"""
+
+from __future__ import annotations
+
+import importlib
+import json
+import os
+import sys
+from typing import Any, Dict, List
+
+
+def _repo_root() -> str:
+    return os.path.abspath(os.path.dirname(__file__))
+
+
+def _load_chain(root: str) -> List[Dict[str, Any]]:
+    chain_path = os.path.join(root, "metablooms", "preflight", "preflight_gate_chain_v1.json")
+    with open(chain_path, "r", encoding="utf-8") as f:
+        obj = json.load(f)
+    return list(obj.get("gates", []))
+
+
+def main() -> int:
+    root = _repo_root()
+    os.chdir(root)
+    if root not in sys.path:
+        sys.path.insert(0, root)
+
+    chain = _load_chain(root)
+
+    results: List[Dict[str, Any]] = []
+    ok = True
+
+    run_context = {
+        "root": root,
+        "prompt": "__BOOT_SMOKE__",
+        "objective_key": "OBJ.OS.BOOT.SMOKE",
+    }
+
+    for g in chain:
+        gate_id = g.get("id") or g.get("gate_id")
+        module = g.get("module")
+        callable_name = g.get("callable")
+        level = g.get("level")
+
+        # Stop before prompt-dependent legacy runtime gates.
+        if isinstance(module, str) and module.startswith("runtime."):
+            break
+
+        try:
+            mod = importlib.import_module(module)
+            fn = getattr(mod, callable_name)
+            out = fn(run_context, None) if callable_name == "run_gate" else fn(run_context)
+
+            # Normalize minimal expected keys
+            passed = bool(out.get("ok", False)) if isinstance(out, dict) else bool(out)
+            results.append({
+                "gate_id": gate_id,
+                "level": level,
+                "pass": passed,
+                "errors": out.get("errors", []) if isinstance(out, dict) else [],
+            })
+            if level == "P0" and not passed:
+                ok = False
+        except Exception as e:  # noqa: BLE001
+            results.append({
+                "gate_id": gate_id,
+                "level": level,
+                "pass": False,
+                "errors": [f"EXCEPTION:{type(e).__name__}:{e}"],
+            })
+            if level == "P0":
+                ok = False
+
+    report = {"ok": ok, "results": results}
+    print(json.dumps(report, indent=2, sort_keys=True))
+    return 0 if ok else 2
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

@@ -1,0 +1,8 @@
+{
+  "schema": {
+    "name": "MB_ARTIFACT2_ROWS_PIPELINES_INDEX",
+    "version": "v1"
+  },
+  "manifest_path": "registry/artifact2_rows_pipelines/index_manifest.json",
+  "discovery_hint": "Load manifest then merge section registries into active registry layer (non-authoritative unless promoted)."
+}

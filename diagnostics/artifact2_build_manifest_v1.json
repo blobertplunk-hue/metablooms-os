@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "built_at": "2026-01-14T23:02:59.920941Z",
+  "base_os_zip": "/mnt/data/MetaBlooms_CTOS_v2.3_ROWS_PIPELINES_OFFICIAL_v1.zip",
+  "artifact2_zip": "/mnt/data/Archive 2 (1).zip",
+  "included_sections": [
+    "sectionF_001_to_005",
+    "sectionF_006_to_010",
+    "sectionF_011_to_015",
+    "sectionF_016_to_020",
+    "sectionF_026_to_030",
+    "sectionF_031_to_035",
+    "sectionF_036_to_040",
+    "sectionF_041_to_045",
+    "sectionF_046_to_050",
+    "sectionF_051_to_054"
+  ],
+  "excluded_sections": [
+    "sectionF_056_to_060 (out of range)"
+  ],
+  "files_added": {
+    "section_registries": [
+      "registry/artifact2_rows_pipelines/sections/sectionF_001_to_005.registry.json",
+      "registry/artifact2_rows_pipelines/sections/sectionF_006_to_010.registry.json",
+      "registry/artifact2_rows_pipelines/sections/sectionF_011_to_015.registry.json",
+      "registry/artifact2_rows_pipelines/sections/sectionF_016_to_020.registry.json",
+      "registry/artifact2_rows_pipelines/sections/sectionF_026_to_030.registry.json",
+      "registry/artifact2_rows_pipelines/sections/sectionF_031_to_035.registry.json",
+      "registry/artifact2_rows_pipelines/sections/sectionF_036_to_040.registry.json",
+      "registry/artifact2_rows_pipelines/sections/sectionF_041_to_045.registry.json",
+      "registry/artifact2_rows_pipelines/sections/sectionF_046_to_050.registry.json",
+      "registry/artifact2_rows_pipelines/sections/sectionF_051_to_054.registry.json"
+    ],
+    "consolidated_master": [
+      "registry/artifact2_rows_pipelines/consolidated/artifact2_rows_pipelines_master_v1.json",
+      "registry/artifact2_rows_pipelines/consolidated/artifact2_rows_pipelines_master_v1.md"
+    ],
+    "preflight": [
+      "runtime/tools/artifact2_preflight.py",
+      "diagnostics/artifact2_preflight/artifact2_preflight_manifest_v2.json",
+      "diagnostics/artifact2_preflight/artifact2_preflight_report_v2.md"
+    ]
+  }
+}

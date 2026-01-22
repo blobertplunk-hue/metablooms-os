@@ -1,0 +1,71 @@
+{
+  "frame_code": "K.2",
+  "frame_text": "Beginning Reading Skills / Print Concepts",
+  "trees": [
+    {
+      "expectation": "K.2A",
+      "leaves": [
+        {
+          "grade": "K",
+          "frame_code": "K.2",
+          "frame_text": "Beginning Reading Skills / Print Concepts",
+          "expectation_code": "K.2A",
+          "expectation_text": "Identify the front cover, back cover, and title page of a book",
+          "subpart": null,
+          "verb": "identify",
+          "object": "front cover",
+          "conditions": [
+            "in a physical or digital book",
+            "demonstrates understanding"
+          ],
+          "modality": "reading",
+          "evidence_claim": "Student identifies the front cover of a book.",
+          "non_substitutability": "Does not substitute for identifying text directionality.",
+          "prerequisites": [
+            "K.1A"
+          ]
+        },
+        {
+          "grade": "K",
+          "frame_code": "K.2",
+          "frame_text": "Beginning Reading Skills / Print Concepts",
+          "expectation_code": "K.2A",
+          "expectation_text": "Identify the front cover, back cover, and title page of a book",
+          "subpart": null,
+          "verb": "identify",
+          "object": "back cover",
+          "conditions": [
+            "in a physical or digital book",
+            "demonstrates understanding"
+          ],
+          "modality": "reading",
+          "evidence_claim": "Student identifies the back cover of a book.",
+          "non_substitutability": "Does not substitute for identifying the title page.",
+          "prerequisites": [
+            "K.1A"
+          ]
+        },
+        {
+          "grade": "K",
+          "frame_code": "K.2",
+          "frame_text": "Beginning Reading Skills / Print Concepts",
+          "expectation_code": "K.2A",
+          "expectation_text": "Identify the front cover, back cover, and title page of a book",
+          "subpart": null,
+          "verb": "identify",
+          "object": "title page",
+          "conditions": [
+            "in a physical or digital book",
+            "demonstrates understanding"
+          ],
+          "modality": "reading",
+          "evidence_claim": "Student identifies the title page of a book.",
+          "non_substitutability": "Does not substitute for identifying author/illustrator.",
+          "prerequisites": [
+            "K.1A"
+          ]
+        }
+      ]
+    }
+  ]
+}

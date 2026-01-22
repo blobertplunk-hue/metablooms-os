@@ -1,0 +1,22 @@
+{
+  "pandoc": {
+    "path": "metablooms/vendor/bin/pandoc",
+    "required": false
+  },
+  "pdfcpu": {
+    "path": "metablooms/vendor/bin/pdfcpu",
+    "required": false
+  },
+  "ffmpeg": {
+    "path": "metablooms/vendor/bin/ffmpeg",
+    "required": false
+  },
+  "whisper_cli": {
+    "path": "metablooms/vendor/bin/whisper-cli",
+    "required": false
+  },
+  "whisper_model": {
+    "path": "metablooms/vendor/models/whisper/ggml-base.en-q5_1.bin",
+    "required": false
+  }
+}

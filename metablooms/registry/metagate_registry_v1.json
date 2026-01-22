@@ -1,0 +1,25 @@
+{
+  "metagates": [
+    {
+      "metagate_id": "METAGATE.P0.PROJECT_FILES.MATERIALIZE_FIRST.V1",
+      "mode": "BLOCK",
+      "path": "metablooms/metagates/mb_metagate_project_files_materialize_first_v1.py"
+    },
+    {
+      "metagate_id": "METAGATE.P0.ZROOT.SENTINEL.MATCH.V1",
+      "mode": "BLOCK",
+      "path": "metablooms/metagates/mb_metagate_zroot_sentinel_match_v1.py"
+    },
+    {
+      "metagate_id": "METAGATE.P0.NO_PARALLEL_ARCHIVE_WITHOUT_STATE_RECONCILE.V1",
+      "mode": "BLOCK",
+      "path": "metablooms/metagates/mb_metagate_no_parallel_archive_without_state_reconcile_v1.py"
+    },
+    {
+      "metagate_id": "METAGATE.P0.ARCHIVE.SINGLE_WRITER.V1",
+      "mode": "BLOCK",
+      "path": "metablooms/metagates/mb_metagate_archive_single_writer_v1.py"
+    }
+  ],
+  "version": 1
+}

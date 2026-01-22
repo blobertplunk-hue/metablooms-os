@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/mnt/data/_os_fix_p0/BOOT_METABLOOMS.py", line 28, in <module>
+    from BOOT_GATE.BOOT_P0_ENFORCER import enforce as _enforce_p0
+  File "/mnt/data/_os_fix_p0/BOOT_GATE/BOOT_P0_ENFORCER.py", line 34
+    ")
+    ^
+SyntaxError: unterminated string literal (detected at line 34)

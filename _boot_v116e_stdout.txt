@@ -1,0 +1,42 @@
+{
+  "ok": true,
+  "results": [
+    {
+      "errors": [],
+      "gate_id": "GATE.CHAIN.SCHEMA.V1",
+      "level": "P0",
+      "pass": true
+    },
+    {
+      "errors": [],
+      "gate_id": "GATE.AUTOSAVE.KEEP_DROP_WHY.V1",
+      "level": "P0",
+      "pass": true
+    },
+    {
+      "errors": [],
+      "gate_id": "GATE.SUBCAUSAL_SENTRY.V1",
+      "level": "P0",
+      "pass": true
+    },
+    {
+      "errors": [],
+      "gate_id": "GATE.PROVENANCE.MIN3.V1",
+      "level": "P0",
+      "pass": true
+    },
+    {
+      "errors": [],
+      "gate_id": "GATE.DECISION.TRACE.WIRING.V1",
+      "level": "P0",
+      "pass": true
+    },
+    {
+      "errors": [],
+      "gate_id": "GATE.DECISION.TRACE.SCHEMA.VALIDATE.V1",
+      "level": "P0",
+      "pass": true
+    }
+  ]
+}
+BOOT_OK

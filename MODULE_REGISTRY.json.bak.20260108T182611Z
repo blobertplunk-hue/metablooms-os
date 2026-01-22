@@ -1,0 +1,21 @@
+{
+  "modules": {
+    "telemetry": {
+      "entry": "telemetry",
+      "always_on": true
+    },
+    "governance_runtime": {
+      "entry": "enforcement",
+      "always_on": true
+    },
+    "rrk": {
+      "entry": "rrk",
+      "always_on": true
+    },
+    "sandcrawler": {
+      "entry": "sandcrawler",
+      "always_on": true,
+      "description": "Queues Sandcrawler web-evidence jobs for external execution (fail-closed)."
+    }
+  }
+}

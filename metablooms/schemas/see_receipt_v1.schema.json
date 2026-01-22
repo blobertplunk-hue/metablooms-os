@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SEE Receipt v1",
+  "type": "object",
+  "required": [
+    "receipt_version",
+    "artifact_id",
+    "iteration",
+    "command",
+    "workdir",
+    "exec",
+    "artifacts",
+    "environment",
+    "evidence_level_claimed"
+  ],
+  "properties": {
+    "receipt_version": { "type": "string", "const": "SEE_RECEIPT_V1" },
+    "artifact_id": { "type": "string", "minLength": 1 },
+    "iteration": { "type": "integer", "minimum": 1 },
+    "command": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "workdir": { "type": "string" },
+    "exec": {
+      "type": "object",
+      "required": ["exit_code", "duration_ms", "timed_out"],
+      "properties": {
+        "exit_code": { "type": "integer" },
+        "duration_ms": { "type": "integer", "minimum": 0 },
+        "timed_out": { "type": "boolean" }
+      },
+      "additionalProperties": true
+    },
+    "artifacts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["path", "sha256"],
+        "properties": {
+          "path": { "type": "string" },
+          "sha256": { "type": "string", "pattern": "^[a-fA-F0-9]{64}$" }
+        },
+        "additionalProperties": true
+      }
+    },
+    "environment": { "type": "object" },
+    "evidence_level_claimed": { "type": "string", "enum": ["E0", "E1", "E2", "E3", "E4"] },
+    "notes": { "type": "string" }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,74 @@
+pipeline_invocation_template:
+  pipeline_id: OS_DEBUG_DIAG_TO_ACTION_V1
+  mode: FULL
+  allowed_phases: [DISCOVER, VALIDATE, CONVERGE, DECIDE, ACT]
+  forbidden_phases: [MONETIZE]
+  governance:
+    fail_closed: true
+    requires_manifest: true
+  outputs_expected:
+    - OS_DEBUG_REPORT.md
+    - FAILURE_RECEIPTS.json
+    - PATCH_PLAN.md
+    - SHIP_ARTIFACT.zip
+
+phase_graph:
+  DISCOVER:
+    purpose: "Enumerate symptoms, gather artifacts, reproduce where possible."
+    segments:
+      - PIPELINE_INVOCATION
+      - PHASE_TRANSITION
+      - AUTHORITY_LABELING
+    outputs:
+      - SYMPTOMS.md
+      - ARTIFACT_INVENTORY.json
+    authority: EXPLORATORY
+
+  VALIDATE:
+    purpose: "Prove/Disprove hypotheses using evidence gates and contract checks."
+    segments:
+      - EVIDENCE_GATE
+      - FAILURE_CLASSIFICATION
+      - CONTRACT_ENFORCEMENT   # Design-by-Contract style invariants on boot/ship/validator behavior
+    outputs:
+      - EVIDENCE_TABLE.json
+      - CONTRACT_CHECKS.json
+    authority: PROVISIONAL|VALIDATED
+
+  CONVERGE:
+    purpose: "Reduce to smallest set of root causes; quarantine contradictions."
+    segments:
+      - AUTHORITY_LABELING
+      - PHASE_TRANSITION
+    outputs:
+      - ROOT_CAUSES.md
+      - UNKNOWN_UNTIL_PROVEN.md
+    authority: VALIDATED
+
+  DECIDE:
+    purpose: "Promote a patch plan into an actionable decision artifact."
+    segments:
+      - PROMOTION_RULES
+      - AUTHORITY_LABELING
+    outputs:
+      - PATCH_PLAN.md
+      - PROMOTION_RECEIPT.json
+    authority: ACTIONABLE
+
+  ACT:
+    purpose: "Apply patch, run boot/ship validators, and produce a full OS artifact."
+    segments:
+      - SHIPPING_ENGINE
+      - HANGING_THREADS_ENGINE
+      - REMINDER_ENGINE
+      - FAILURE_CLASSIFICATION
+    outputs:
+      - PATCH_DIFF.md
+      - SHIPPED_OS.zip
+      - HANGING_THREADS.ndjson
+    authority: ACTIONABLE
+
+stop_conditions:
+  - diminishing_returns: "Last 5 evidence adds no new failure modes"
+  - contradiction_resolution: "All contradictions either resolved or quarantined"
+  - reproduction_confirmed: "At least one failing path reproduced or precisely bounded"

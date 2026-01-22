@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "acceptance_tests": {
+      "type": "array"
+    },
+    "authority": {
+      "type": "object"
+    },
+    "changes": {
+      "type": "object"
+    },
+    "created_utc": {
+      "type": "string"
+    },
+    "delta_id": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "intent": {
+      "type": "object"
+    },
+    "preconditions": {
+      "type": "array"
+    },
+    "reversibility": {
+      "type": "object"
+    },
+    "type": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "delta_id",
+    "type",
+    "created_utc",
+    "authority",
+    "intent",
+    "preconditions",
+    "changes",
+    "acceptance_tests",
+    "reversibility"
+  ],
+  "type": "object"
+}

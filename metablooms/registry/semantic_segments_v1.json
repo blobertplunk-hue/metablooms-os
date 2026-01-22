@@ -1,0 +1,115 @@
+{
+  "version": "1.0",
+  "registry_id": "SEMANTIC_SEGMENTS.V1",
+  "authority": {
+    "ontology": "docs/CANONICAL_ONTOLOGY.md",
+    "architecture": "docs/ARCHITECTURE_LITERAL.md"
+  },
+  "llm_roles": [
+    "CLASSIFY",
+    "MAP",
+    "PROPOSE",
+    "EXPLAIN",
+    "REWRITE_CONTROLLED"
+  ],
+  "segments": [
+    {
+      "segment_id": "seg.pipeline.ingest.v1",
+      "intent": "Ingest raw inputs into canonical workspace with provenance markers.",
+      "required_inputs": [
+        "input_refs"
+      ],
+      "produces": [
+        "workspace_items",
+        "provenance_markers"
+      ],
+      "allowed_ops": [
+        "COPY",
+        "HASH",
+        "TAG_PROVENANCE"
+      ],
+      "forbidden_ops": [
+        "REWRITE_CONTENT",
+        "DELETE_SOURCE"
+      ],
+      "validators": [
+        "VALIDATE.PROVENANCE.MIN3.V1"
+      ],
+      "evidence_requirements": [
+        "hashes",
+        "source_refs",
+        "workspace_manifest"
+      ],
+      "llm_role": "CLASSIFY",
+      "constraints_ref": "docs/INTERPRETATION_CONTRACT.md"
+    },
+    {
+      "segment_id": "seg.governance.hardening.fail_to_fix.v2",
+      "intent": "Detect, classify, and auto-remediate safe hardening violations; re-validate deterministically.",
+      "required_inputs": [
+        "hardening_findings"
+      ],
+      "produces": [
+        "repair_actions",
+        "repair_ledger_entries",
+        "revalidation_results"
+      ],
+      "allowed_ops": [
+        "QUARANTINE",
+        "REWRITE_CONTROLLED",
+        "ANNOTATE",
+        "LEDGER_APPEND",
+        "RESCAN"
+      ],
+      "forbidden_ops": [
+        "ALLOWLIST_WITHOUT_GOV_DELTA",
+        "EDIT_CANONICAL_ONTOLOGY",
+        "SILENT_MUTATION"
+      ],
+      "validators": [
+        "VALIDATE.DOCS.FORBIDDEN_TERMS.V1",
+        "VALIDATE.DELTA.ADAPTATION.REPORT.V1"
+      ],
+      "evidence_requirements": [
+        "before_after_diffs",
+        "repair_ledger",
+        "rescan_report"
+      ],
+      "llm_role": "REWRITE_CONTROLLED",
+      "constraints_ref": "docs/ONTOLOGY_REWRITE_TABLE.json"
+    },
+    {
+      "segment_id": "seg.delta.intake.adapt.v1",
+      "intent": "Classify and adapt an incoming delta against current canonical system; emit adaptation report and patches.",
+      "required_inputs": [
+        "delta_zip_path"
+      ],
+      "produces": [
+        "adapted_delta_zip",
+        "adaptation_report",
+        "patches"
+      ],
+      "allowed_ops": [
+        "EXTRACT",
+        "CLASSIFY",
+        "PATCH_INSERT_BY_ID",
+        "EMIT_REPORT",
+        "HASH"
+      ],
+      "forbidden_ops": [
+        "OVERWRITE_CHAIN_FILE",
+        "UNSCOPED_REWRITE"
+      ],
+      "validators": [
+        "VALIDATE.DELTA.ADAPTATION.REPORT.V1"
+      ],
+      "evidence_requirements": [
+        "delta_hash",
+        "report_hash",
+        "patch_manifest"
+      ],
+      "llm_role": "MAP",
+      "constraints_ref": "docs/DELTA_ADAPTATION_PROTOCOL.md"
+    }
+  ]
+}

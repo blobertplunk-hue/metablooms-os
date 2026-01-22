@@ -1,0 +1,85 @@
+{
+  "ok": false,
+  "results": [
+    {
+      "errors": [
+        "EXCEPTION:AttributeError:'list' object has no attribute 'get'"
+      ],
+      "gate_id": "GATE.CHAIN.SCHEMA.V1",
+      "level": "P0",
+      "pass": false
+    },
+    {
+      "errors": [
+        "EXCEPTION:TypeError:run_gate() takes 1 positional argument but 2 were given"
+      ],
+      "gate_id": "GATE.P0.CANONICAL.ROOT.MANIFEST.V1",
+      "level": "P0",
+      "pass": false
+    },
+    {
+      "errors": [],
+      "gate_id": "GATE.P0.PHASE1.METAGATES.REGISTERED.V1",
+      "level": "P0",
+      "pass": true
+    },
+    {
+      "errors": [],
+      "gate_id": "GATE.P0.BYTE_TRUTH.V2",
+      "level": "P0",
+      "pass": true
+    },
+    {
+      "errors": [],
+      "gate_id": "GATE.P0.DOCS.FAIL_TO_FIX.V1",
+      "level": "P0",
+      "pass": true
+    },
+    {
+      "errors": [],
+      "gate_id": "GATE.P0.DOCS.HARDENING.FAIL_TO_FIX.V1",
+      "level": "P0",
+      "pass": true
+    },
+    {
+      "errors": [
+        "/mnt/data/mb_boot/runtime/workspace.py:2:SILENT_STUB_PASS:class Workspace",
+        "/mnt/data/mb_boot/runtime/tool_facade.py:2:SILENT_STUB_PASS:class ToolFacade"
+      ],
+      "gate_id": "GATE.CODE.NO_PLACEHOLDERS.V1",
+      "level": "P0",
+      "pass": false
+    },
+    {
+      "errors": [],
+      "gate_id": "GATE.AUTOSAVE.KEEP_DROP_WHY.V1",
+      "level": "P0",
+      "pass": true
+    },
+    {
+      "errors": [],
+      "gate_id": "GATE.SUBCAUSAL_SENTRY.V1",
+      "level": "P0",
+      "pass": true
+    },
+    {
+      "errors": [],
+      "gate_id": "GATE.PROVENANCE.MIN3.V1",
+      "level": "P0",
+      "pass": true
+    },
+    {
+      "errors": [],
+      "gate_id": "GATE.DECISION.TRACE.WIRING.V1",
+      "level": "P0",
+      "pass": true
+    },
+    {
+      "errors": [],
+      "gate_id": "GATE.EVIDENCE.SEE.LOOP.V1",
+      "level": "P0",
+      "pass": true
+    }
+  ]
+}
+BOOT_FAILED:RUNNER_EXIT:2

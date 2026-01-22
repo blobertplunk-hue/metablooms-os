@@ -1,0 +1,12 @@
+{
+  "schema": "MB_INVARIANT_PROPOSAL_V1",
+  "version": "1.0.0",
+  "required": [
+    "proposal_id",
+    "source",
+    "statement",
+    "scope",
+    "evidence",
+    "requested_by"
+  ]
+}

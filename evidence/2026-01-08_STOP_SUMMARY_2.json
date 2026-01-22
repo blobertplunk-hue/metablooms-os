@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-01-09T01:46:28.354002Z",
+  "stop_reason": "Frame-by-frame expansion reached verbosity/precision threshold; remaining frames require verbatim TEA text attachment before continuing.",
+  "frames_completed": [
+    "K.3",
+    "K.4"
+  ],
+  "artifacts_written": [
+    "/mnt/data/2026-01-08_K_frame_K3_tree.json",
+    "/mnt/data/2026-01-08_K_frame_K4_tree.json"
+  ],
+  "comparison_note": "See chat summary for throughput comparison."
+}

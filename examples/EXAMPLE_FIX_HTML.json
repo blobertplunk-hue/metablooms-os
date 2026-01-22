@@ -1,0 +1,8 @@
+{
+  "utterance": "Let's start a ROW: FIX_HTML. This iframe is blank in the Canvas app.",
+  "resolved_row": "ROW_FIX_HTML",
+  "expected_artifacts": [
+    "patched_html",
+    "diff"
+  ]
+}

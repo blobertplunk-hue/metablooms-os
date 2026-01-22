@@ -1,0 +1,13 @@
+{
+  "format_version": "1.0",
+  "generated_utc": "2026-01-11T23:34:35Z",
+  "engine_id": "experiential_learning",
+  "display_name": "Experiential Learning Engine",
+  "scope": "learning",
+  "data_store": "data/experiential_learning/cycles.ndjson",
+  "entrypoint": {
+    "type": "callable",
+    "path": "engines/experiential_learning/boot_hook.py",
+    "symbol": "surface_open_cycles"
+  }
+}

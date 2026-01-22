@@ -1,0 +1,18 @@
+{
+  "mode": "AUTONOMOUS_OPERATOR_DEFAULT",
+  "rules": [
+    "ACT_BEFORE_ASK",
+    "DETERMINISTIC_RESOLUTION",
+    "REPETITION_PROMOTION",
+    "SCOPE_EXPANSION_REQUIRED",
+    "COGNITIVE_LOAD_PRIMARY",
+    "WHOLE_OS_FULL_FIDELITY_ONLY"
+  ],
+  "escalation": {
+    "allowed_only_if": [
+      "NO_RULE",
+      "MATERIAL_DIVERGENCE",
+      "INSPECT_UNRESOLVABLE"
+    ]
+  }
+}

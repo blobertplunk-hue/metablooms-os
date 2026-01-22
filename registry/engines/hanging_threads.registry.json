@@ -1,0 +1,13 @@
+{
+  "data_store": "data/hanging_threads/threads.ndjson",
+  "display_name": "Hanging Threads Engine",
+  "engine_id": "hanging_threads",
+  "entrypoint": {
+    "path": "engines/hanging_threads/boot_hook.py",
+    "symbol": "surface_open_threads",
+    "type": "callable"
+  },
+  "format_version": "1.0",
+  "generated_utc": "2026-01-11T23:27:09Z",
+  "scope": "domain_agnostic"
+}

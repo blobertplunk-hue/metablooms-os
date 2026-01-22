@@ -1,0 +1,42 @@
+{
+  "boot_id": "2026-01-21T19:00:18Z",
+  "failed_checks": [
+    {
+      "check_id": "GATE.P0.CANONICAL.ROOT.MANIFEST.V1",
+      "evidence": {
+        "callable": "run_gate",
+        "errors": [
+          "BOOT_ENTRYPOINT_SHA256_MISMATCH"
+        ],
+        "module": "metablooms.preflight.gates.mb_gate_canonical_root_manifest_v1"
+      },
+      "level": "P0",
+      "pass": false,
+      "reason": "BOOT_ENTRYPOINT_SHA256_MISMATCH"
+    },
+    {
+      "check_id": "GATE.CODE.NO_PLACEHOLDERS.V1",
+      "evidence": {
+        "callable": "run_gate",
+        "errors": [
+          "/mnt/data/metablooms_boot_run/metablooms/enforcement/see_sandcrawler.py:5:SILENT_STUB_PASS:class SEEFailClosed",
+          "/mnt/data/metablooms_boot_run/metablooms_runtime/invariants/research_invariant.py:14:SILENT_STUB_PASS:class ResearchFailClosed",
+          "/mnt/data/metablooms_boot_run/metablooms_runtime/invariants/citation_density_invariant.py:27:SILENT_STUB_PASS:class CitationFailClosed",
+          "/mnt/data/metablooms_boot_run/metablooms_runtime/invariants/research_materializer.py:18:SILENT_STUB_PASS:class ResearchMaterializerFailClosed",
+          "/mnt/data/metablooms_boot_run/metablooms_phase2_1/enforcement_hooks/phase2_1_hook_stubs.py:83:FORBIDDEN_TOKEN:TODO",
+          "/mnt/data/metablooms_boot_run/metablooms_phase2_1/enforcement_hooks/phase2_1_hook_stubs.py:87:FORBIDDEN_TOKEN:TODO",
+          "/mnt/data/metablooms_boot_run/metablooms_live/runtime/research_claims.py:12:SILENT_STUB_PASS:class ClaimsFailClosed",
+          "/mnt/data/metablooms_boot_run/metablooms_live/runtime/runtime_entrypoint.py:22:SILENT_STUB_PASS:class RuntimeFailClosed",
+          "/mnt/data/metablooms_boot_run/payload/metablooms_runtime/invariants/research_materializer.py:18:SILENT_STUB_PASS:class ResearchMaterializerFailClosed",
+          "/mnt/data/metablooms_boot_run/payload/metablooms_live/runtime/research_claims.py:12:SILENT_STUB_PASS:class ClaimsFailClosed",
+          "/mnt/data/metablooms_boot_run/payload/metablooms_live/runtime/runtime_entrypoint.py:21:SILENT_STUB_PASS:class RuntimeFailClosed"
+        ],
+        "module": "metablooms.preflight.gates.mb_gate_no_placeholders_v1"
+      },
+      "level": "P0",
+      "pass": false,
+      "reason": "/mnt/data/metablooms_boot_run/metablooms/enforcement/see_sandcrawler.py:5:SILENT_STUB_PASS:class SEEFailClosed; /mnt/data/metablooms_boot_run/metablooms_runtime/invariants/research_invariant.py:14:SILENT_STUB_PASS:class ResearchFailClosed; /mnt/data/metablooms_boot_run/metablooms_runtime/invariants/citation_density_invariant.py:27:SILENT_STUB_PASS:class CitationFailClosed; /mnt/data/metablooms_boot_run/metablooms_runtime/invariants/research_materializer.py:18:SILENT_STUB_PASS:class ResearchMaterializerFailClosed; /mnt/data/metablooms_boot_run/metablooms_phase2_1/enforcement_hooks/phase2_1_hook_stubs.py:83:FORBIDDEN_TOKEN:TODO; /mnt/data/metablooms_boot_run/metablooms_phase2_1/enforcement_hooks/phase2_1_hook_stubs.py:87:FORBIDDEN_TOKEN:TODO; /mnt/data/metablooms_boot_run/metablooms_live/runtime/research_claims.py:12:SILENT_STUB_PASS:class ClaimsFailClosed; /mnt/data/metablooms_boot_run/metablooms_live/runtime/runtime_entrypoint.py:22:SILENT_STUB_PASS:class RuntimeFailClosed; /mnt/data/metablooms_boot_run/payload/metablooms_runtime/invariants/research_materializer.py:18:SILENT_STUB_PASS:class ResearchMaterializerFailClosed; /mnt/data/metablooms_boot_run/payload/metablooms_live/runtime/research_claims.py:12:SILENT_STUB_PASS:class ClaimsFailClosed; /mnt/data/metablooms_boot_run/payload/metablooms_live/runtime/runtime_entrypoint.py:21:SILENT_STUB_PASS:class RuntimeFailClosed"
+    }
+  ],
+  "overall_ok": false
+}

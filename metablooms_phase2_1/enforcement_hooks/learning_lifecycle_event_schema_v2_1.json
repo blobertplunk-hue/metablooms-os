@@ -1,0 +1,19 @@
+{
+  "schema": "MB_LEARNING_LIFECYCLE_EVENT_V2_1",
+  "written": "2026-01-20T18:46:08.159610Z",
+  "version": "2.1.0",
+  "event": {
+    "timestamp": "RFC3339",
+    "run_id": "string",
+    "stage": "SIGNAL_DETECTION|CLASSIFICATION|ELIGIBILITY|ARBITRATION|EXECUTION|OBSERVATION|ENCODING",
+    "signal": {
+      "raw": "string",
+      "classification": "MISTAKE_SINGLE|MISTAKE_REPEATED|PATTERN_EMERGING|PHASE_LEVEL|OBSERVATION_ONLY"
+    },
+    "selected_engine": "ELE|ITLE|NBE|MBE|TDAE|NONE",
+    "blocked_by": "string|null",
+    "artifacts_written": [
+      "string"
+    ]
+  }
+}

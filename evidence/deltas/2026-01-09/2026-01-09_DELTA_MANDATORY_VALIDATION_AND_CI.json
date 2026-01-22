@@ -1,0 +1,31 @@
+{
+  "delta_id": "ce0fbf3a080a4f48",
+  "created_utc": "2026-01-10T03:01:25Z",
+  "from_zip": "MetaBlooms_OS_v1_3_12_FULL_STATEFUL_ENGINE_UI_PARITY_VALIDATORS_WIRED.zip",
+  "to_zip": "MetaBlooms_OS_v1_3_12_FULL_STATEFUL_ENGINE_UI_PARITY_MANDATORY_VALIDATION_AND_CI.zip",
+  "counts": {
+    "added": 5,
+    "removed": 0,
+    "modified": 4
+  },
+  "files": {
+    "added": [
+      "tools/__pycache__/ci_gate_v1.cpython-311.pyc",
+      "tools/ci_gate_v1.py",
+      "validators/__pycache__/unified_state_validator_v1.cpython-311.pyc",
+      "validators/__pycache__/validator_runner_v1.cpython-311.pyc",
+      "validators/unified_state_validator_v1.py"
+    ],
+    "removed": [],
+    "modified": [
+      "BOOT_METABLOOMS.py",
+      "VALIDATOR_REGISTRY.json",
+      "__pycache__/BOOT_METABLOOMS.cpython-311.pyc",
+      "validators/validator_runner_v1.py"
+    ]
+  },
+  "policy_changes": [
+    "Validation is now mandatory and fail-closed: legacy runs without runtime/RUN_CONTEXT.json are disallowed unless MB_ALLOW_LEGACY_VALIDATION=1.",
+    "CI gate is now part of boot: tools/ci_gate_v1.py runs boot+post_boot validators; failure halts boot."
+  ]
+}

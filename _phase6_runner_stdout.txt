@@ -1,0 +1,79 @@
+{
+  "ok": false,
+  "results": [
+    {
+      "errors": [],
+      "gate_id": "GATE.CHAIN.SCHEMA.V1",
+      "level": "P0",
+      "pass": true
+    },
+    {
+      "errors": [
+        "BOOT_ENTRYPOINT_SHA256_MISMATCH"
+      ],
+      "gate_id": "GATE.P0.CANONICAL.ROOT.MANIFEST.V1",
+      "level": "P0",
+      "pass": false
+    },
+    {
+      "errors": [],
+      "gate_id": "GATE.P0.PHASE1.METAGATES.REGISTERED.V1",
+      "level": "P0",
+      "pass": true
+    },
+    {
+      "errors": [],
+      "gate_id": "GATE.P0.BYTE_TRUTH.V2",
+      "level": "P0",
+      "pass": true
+    },
+    {
+      "errors": [],
+      "gate_id": "GATE.P0.DOCS.FAIL_TO_FIX.V1",
+      "level": "P0",
+      "pass": true
+    },
+    {
+      "errors": [],
+      "gate_id": "GATE.P0.DOCS.HARDENING.FAIL_TO_FIX.V1",
+      "level": "P0",
+      "pass": true
+    },
+    {
+      "errors": [],
+      "gate_id": "GATE.CODE.NO_PLACEHOLDERS.V1",
+      "level": "P0",
+      "pass": true
+    },
+    {
+      "errors": [],
+      "gate_id": "GATE.AUTOSAVE.KEEP_DROP_WHY.V1",
+      "level": "P0",
+      "pass": true
+    },
+    {
+      "errors": [],
+      "gate_id": "GATE.SUBCAUSAL_SENTRY.V1",
+      "level": "P0",
+      "pass": true
+    },
+    {
+      "errors": [],
+      "gate_id": "GATE.PROVENANCE.MIN3.V1",
+      "level": "P0",
+      "pass": true
+    },
+    {
+      "errors": [],
+      "gate_id": "GATE.DECISION.TRACE.WIRING.V1",
+      "level": "P0",
+      "pass": true
+    },
+    {
+      "errors": [],
+      "gate_id": "GATE.EVIDENCE.SEE.LOOP.V1",
+      "level": "P0",
+      "pass": true
+    }
+  ]
+}

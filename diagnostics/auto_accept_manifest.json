@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "built_at": "2026-01-14T23:30:37.806338Z",
+  "components": [
+    "runtime/execution/auto_acceptor.py",
+    "runtime/execution/ledger_writer.py",
+    "runtime/preflight/preflight_auto_accept_gate.py"
+  ],
+  "policy": {
+    "auto_accept_threshold": 0.8,
+    "ledger": "ledger/auto_patch_acceptances.jsonl"
+  }
+}

@@ -1,0 +1,14 @@
+id: P0.PROVENANCE.MINIMAL
+version: 1
+priority: P0
+mode: ENFORCE_FAIL_CLOSED
+
+purpose: >
+  Enforce reduced provenance requirements (origin, mutation_reason, supersedes)
+  for P0/P1 changes.
+
+requirements:
+  schema_doc: metablooms/governance/PROVENANCE_SCHEMA_v1.md
+
+fail_closed:
+  if_schema_missing: true

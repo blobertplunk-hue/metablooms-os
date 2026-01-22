@@ -1,0 +1,7 @@
+{
+  "id": "MMT-EXCODE-ECL-COVERAGE",
+  "trigger": "ECL_COVERAGE_BELOW_THRESHOLD",
+  "threshold_percent": 85,
+  "action": "ANNOTATE_NEXT_3_CRITICAL_MODULES",
+  "status": "active"
+}

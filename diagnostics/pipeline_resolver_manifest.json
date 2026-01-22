@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "built_at": "2026-01-14T23:22:31.661138Z",
+  "components": [
+    "runtime/routers/pipeline_resolver.py",
+    "runtime/preflight/preflight_pipeline_gate.py"
+  ],
+  "enforcement": {
+    "rule": "All resolved ROWs must resolve at least one canonical pipeline",
+    "row_to_pipeline_threshold": 0.5
+  }
+}

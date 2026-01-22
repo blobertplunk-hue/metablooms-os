@@ -1,0 +1,18 @@
+{
+  "allowed_paths": [
+    "README.md",
+    "docs/",
+    "schemas/",
+    "tests/"
+  ],
+  "forbidden_markers": [
+    "TODO",
+    "TBD",
+    "PROOF_ONLY",
+    "NOT_IMPLEMENTED",
+    "NotImplementedError",
+    "pass  # stub",
+    "throw new Error(\"not implemented\")"
+  ],
+  "min_executable_statements": 1
+}

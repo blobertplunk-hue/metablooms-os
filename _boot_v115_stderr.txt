@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/mnt/data/_mb_audit_v115/BOOT_METABLOOMS.py", line 9, in <module>
+    main()
+  File "/mnt/data/_mb_audit_v115/BOOT_METABLOOMS.py", line 5, in main
+    os_path = resolve_canonical_os()
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/_mb_audit_v115/metablooms/boot/boot_auto_resolver.py", line 11, in resolve_canonical_os
+    raise RuntimeError("NO_OS_FOUND")
+RuntimeError: NO_OS_FOUND

@@ -1,0 +1,57 @@
+{
+  "pack_id": "DELTA_PACK_REPLAY_V1_2026-01-15",
+  "created_utc": "2026-01-16T00:46:40Z",
+  "governance": {
+    "mode": "fail-closed",
+    "truth_source": "ledger-backed state",
+    "atomicity": "staging + atomic swap",
+    "conflict_policy_default": "fail-closed on collision unless delta declares precedence"
+  },
+  "prerequisites_p0": [
+    "Target OS contains BOOT_METABLOOMS.py at canonical root",
+    "Target OS can be installed into /mnt/data/MetaBlooms/zroot",
+    "Target OS supports preflight/boot invocation from canonical root"
+  ],
+  "apply_order": [
+    {
+      "step": 1,
+      "name": "Canonical tree install model",
+      "source": "files/2026-01-15_metablooms_os_mount_spec_v1.md"
+    },
+    {
+      "step": 2,
+      "name": "Ledger-backed operations discipline",
+      "source": "files/2026-01-15_op_runbook_v1.md"
+    },
+    {
+      "step": 3,
+      "name": "Learning Governance Lock-In delta",
+      "source": "files/DELTA_2026-01-15_LEARNING_GOVERNANCE_LOCKIN.zip"
+    },
+    {
+      "step": 4,
+      "name": "Preflight + boot",
+      "source": "target OS entrypoint"
+    }
+  ],
+  "contents": [
+    {
+      "name": "2026-01-15_metablooms_os_mount_spec_v1.md",
+      "relpath": "files/2026-01-15_metablooms_os_mount_spec_v1.md",
+      "sha256": "35b352939e06845fe181c88b1de7536a0c715229442917b122add892868a8b9d",
+      "bytes": 400
+    },
+    {
+      "name": "2026-01-15_op_runbook_v1.md",
+      "relpath": "files/2026-01-15_op_runbook_v1.md",
+      "sha256": "37f39925d5ef42a0b15b04c2ed2ee6bad72219e405bcfa57781d780624daca73",
+      "bytes": 787
+    },
+    {
+      "name": "DELTA_2026-01-15_LEARNING_GOVERNANCE_LOCKIN.zip",
+      "relpath": "files/DELTA_2026-01-15_LEARNING_GOVERNANCE_LOCKIN.zip",
+      "sha256": "a8473b7774a04b53804e9ab074deb53a0d5eef78e8a5d1cb6cb69f3158ed9aa0",
+      "bytes": 969
+    }
+  ]
+}

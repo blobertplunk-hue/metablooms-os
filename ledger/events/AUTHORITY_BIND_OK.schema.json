@@ -1,0 +1,25 @@
+{
+  "type": "object",
+  "required": [
+    "event_type",
+    "ts",
+    "mode",
+    "context_hash"
+  ],
+  "properties": {
+    "event_type": {
+      "const": "AUTHORITY_BIND_OK"
+    },
+    "ts": {
+      "type": "string"
+    },
+    "mode": {
+      "enum": [
+        "EXECUTED"
+      ]
+    },
+    "context_hash": {
+      "type": "string"
+    }
+  }
+}

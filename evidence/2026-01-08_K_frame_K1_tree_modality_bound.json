@@ -1,0 +1,52 @@
+{
+  "frame_code": "K.1",
+  "frame_text": "Oral Language",
+  "trees": [
+    {
+      "expectation": "K.1A",
+      "leaves": [
+        {
+          "grade": "K",
+          "frame_code": "K.1",
+          "frame_text": "Oral Language",
+          "expectation_code": "K.1A",
+          "expectation_text": "Listen actively and share ideas",
+          "subpart": null,
+          "verb": "listen",
+          "object": "oral language in discussions",
+          "conditions": [
+            "with support",
+            "demonstrates understanding"
+          ],
+          "modality": "listening",
+          "evidence_claim": "Student can listen attentively and respond appropriately in discussion.",
+          "non_substitutability": "Does not substitute for print-based comprehension.",
+          "prerequisites": []
+        }
+      ]
+    },
+    {
+      "expectation": "K.1B",
+      "leaves": [
+        {
+          "grade": "K",
+          "frame_code": "K.1",
+          "frame_text": "Oral Language",
+          "expectation_code": "K.1B",
+          "expectation_text": "Follow agreed-upon rules for discussion",
+          "subpart": null,
+          "verb": "follow",
+          "object": "discussion rules",
+          "conditions": [
+            "in group settings",
+            "demonstrates understanding"
+          ],
+          "modality": "speaking",
+          "evidence_claim": "Student follows turn-taking and discussion norms.",
+          "non_substitutability": "Does not substitute for content comprehension.",
+          "prerequisites": []
+        }
+      ]
+    }
+  ]
+}

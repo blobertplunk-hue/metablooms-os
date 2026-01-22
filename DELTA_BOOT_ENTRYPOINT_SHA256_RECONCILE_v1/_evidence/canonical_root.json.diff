@@ -1,0 +1,11 @@
+--- /mnt/data/_boot/metablooms/runtime/canonical_root.json	2026-01-20 04:00:12.000000000 +0000
++++ /mnt/data/DELTA_BOOT_ENTRYPOINT_SHA256_RECONCILE_v1/metablooms/runtime/canonical_root.json	2026-01-20 04:31:37.875952267 +0000
+@@ -3,7 +3,7 @@
+   "canonical_zip_basename": "2026-01-17_MetaBlooms_OS_PASS3_BYTE_TRUTH_V2_PLUS_PHASE1_OS_BASELINE_V1_PLUS_SEE_LOOP_P0_PLUS_SECURITY_AXIS_P0_PLUS_RESOURCE_CONCURRENCY_SCHEMA_V1_PLUS_PORTABILITY_CONFIG_DEPENDENCY_V1.zip",
+   "canonical_root_required": true,
+   "boot_entrypoint": "BOOT_METABLOOMS.py",
+-  "boot_entrypoint_sha256": "01a229685d08648ec3a424189a77875f64f2acde35e2ecefc5216f774be06a24",
++  "boot_entrypoint_sha256": "1ec0e29d7e959b7c9e4dff79eb172b4a60566aedd77f55b14577cd6e008acf81",
+   "required_paths": [
+     "BOOT_METABLOOMS.py",
+     "RUN_METABLOOMS.py",

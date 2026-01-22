@@ -1,0 +1,54 @@
+{
+  "metablooms_os_version": "v2.0",
+  "export_type": "portable_spec",
+  "created_utc": "2026-01-14T04:03:26.548937Z",
+  "files": [
+    {
+      "name": "META_BLOOMS_BOOT.md",
+      "bytes": 107,
+      "sha256": "cb55407dd8d09e12a4088706d32f6aa622a1c085b6f553bb653a67754a6f1882"
+    },
+    {
+      "name": "METABLOOMS_HEURISTIC_REGISTRY.md",
+      "bytes": 2188,
+      "sha256": "02c15b01f5597cbcfa2a2a63f42c9a7e3ce1d4fba32bb8f73f79ebd087513ba3"
+    },
+    {
+      "name": "METABLOOMS_INVOCATION_TEMPLATES.md",
+      "bytes": 1380,
+      "sha256": "b3fd78d4599a3f7c4828c1c599ee3b45a5a0ea02506da4645d10ad7141f14b1d"
+    },
+    {
+      "name": "METABLOOMS_KERNEL_v2.md",
+      "bytes": 2353,
+      "sha256": "2883567ba3f09bc9c28fcab307e562123d0ab79c9231f9fe9eec1a9df8364098"
+    },
+    {
+      "name": "METABLOOMS_CTOS_MANIFEST.json",
+      "bytes": 494,
+      "sha256": "599fe07da096ed96ed6c10331549f38c05373bf95e3ae7cdfdf1c80a7e17e011"
+    },
+    {
+      "name": "METABLOOMS_P0_INVARIANT_FRAMEWORK.md",
+      "bytes": 2691,
+      "sha256": "976d6cf87b9f8c17e22a18b8bdb77bd05c810ff1dc5e140a7488805167425536"
+    },
+    {
+      "name": "METABLOOMS_PIPELINES.md",
+      "bytes": 2465,
+      "sha256": "d56ee975774ed86c203c003b7fe544ca78ed01d49fd29180c1f51eb1e53cb48c"
+    },
+    {
+      "name": "METABLOOMS_MANIFEST.json",
+      "bytes": 1848,
+      "sha256": "bc672f5841e161a4d964e5839935465e39815706d620c76e9f3cddcb6cd63823"
+    }
+  ],
+  "metablooms_runtime_class": "CTOS",
+  "metablooms_ctos_version": "v2.2",
+  "ctos_manifest": "spec/METABLOOMS_CTOS_MANIFEST.json",
+  "notes": [
+    "CTOS rebase: MetaBlooms is authoritatively classified as CTOS; legacy metablooms_os_version retained for backward compatibility."
+  ],
+  "compat_note": "CTOS rebase: metablooms_os_version retained for backward compatibility; CTOS is authoritative going forward."
+}

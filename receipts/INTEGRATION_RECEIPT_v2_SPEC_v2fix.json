@@ -1,0 +1,8 @@
+{
+  "timestamp_utc": "2026-01-14T04:03:26.680268Z",
+  "source_os_zip": "2026-01-13_MetaBlooms_OS_v1.4.0_PLUS_PHASEC_REPLAY.zip",
+  "scaffold_zip": "MetaBlooms_OS_v2_Integration_Scaffold.zip",
+  "spec_zip": "MetaBlooms_OS_v2_Canonical_Spec_WITH_MANIFEST__v2fix.zip",
+  "operation": "merge_scaffold_and_full_v2_spec_into_os",
+  "note": "Added scaffold under /boot and full v2 spec under /spec; non-destructive to existing OS logic."
+}

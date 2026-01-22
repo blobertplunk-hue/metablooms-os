@@ -1,0 +1,64 @@
+{
+  "run_id": "49cc62db-263d-4d79-8312-9c292c931c6a",
+  "engine_name": "BOOT_METABLOOMS",
+  "engine_version": "1.4.0",
+  "inputs": [
+    {
+      "path": "BOOT.md",
+      "exists": true,
+      "sha256": "200774cfc4c159818be167ed370deccb6dd30fa29768a1f2759796b68257eb4c"
+    },
+    {
+      "path": "boot_manifest.json",
+      "exists": true,
+      "sha256": "96b2b3c69aedbebccac34e0e808d806f9cfd99bd64d8334c68417d542e6b66c2"
+    },
+    {
+      "path": "ledger/zoop_receipt.json",
+      "exists": true,
+      "sha256": "58205d2706c9d39493e873267900fb06881d96d214916c880c9048802a306436"
+    },
+    {
+      "path": "ledger/ledger.ndjson",
+      "exists": true,
+      "sha256": "24d619421c422e45207378651f0d61e76aae09e16953de1318acb4c9e1ec6b90"
+    }
+  ],
+  "state": "DONE",
+  "state_history": [
+    {
+      "state": "IDLE",
+      "ts": "2026-01-14T18:49:33.170648Z",
+      "message": "created"
+    },
+    {
+      "state": "VALIDATING_INPUTS",
+      "ts": "2026-01-14T18:49:33.171220Z",
+      "message": "authority checks + zoop gate"
+    },
+    {
+      "state": "RUNNING",
+      "ts": "2026-01-14T18:49:33.208693Z",
+      "message": "runtime activation"
+    },
+    {
+      "state": "VALIDATING_OUTPUTS",
+      "ts": "2026-01-14T18:49:33.276355Z",
+      "message": "validate outputs and appendability"
+    },
+    {
+      "state": "LEDGERING",
+      "ts": "2026-01-14T18:49:33.277194Z",
+      "message": "emit ENGINE_SUCCESS + tail hash"
+    },
+    {
+      "state": "DONE",
+      "ts": "2026-01-14T18:49:33.278813Z",
+      "message": "boot complete"
+    }
+  ],
+  "outputs": [],
+  "failures": [],
+  "created_utc": "2026-01-14T18:49:33.170685Z",
+  "ledger_tail_sha256": "7fd17f78ac9af1ec837e6cce6511dbacdce5d5f67808d0da6af513209d30547a"
+}

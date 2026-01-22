@@ -1,0 +1,188 @@
+{
+  "version": 2,
+  "generated_at": "2026-01-14T23:01:26.575337Z",
+  "artifact": "Archive 2 (1).zip",
+  "section": "sectionF_046_to_050",
+  "sectioning": "FILTERED_MEMBERS_V2_LIGHT",
+  "members": [
+    "2026-01-12_MetaBrain_batch-046_(30-chats).jsonl",
+    "2026-01-12_MetaBrain_batch-047_(31-chats).jsonl",
+    "2026-01-12_MetaBrain_batch-048_(32-chats).jsonl",
+    "2026-01-12_MetaBrain_batch-049_(33-chats).jsonl",
+    "2026-01-12_MetaBrain_batch-050_(34-chats).jsonl"
+  ],
+  "parse_stats": {
+    "lines_total": 5,
+    "lines_json_ok": 5,
+    "lines_skipped_nonjson": 0
+  },
+  "chats_parsed": 5,
+  "evidence_chunks": 630,
+  "rows": [
+    {
+      "id": "ROW_634768dae147",
+      "name": "row",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-048_(32-chats).jsonl",
+          "chat_id": "6924d19b-b4e8-8330-89b5-1d839e7bcc35",
+          "line": 7502,
+          "chunk_id": "CHUNK_0fd6a3251414"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-048_(32-chats).jsonl",
+          "chat_id": "6924d19b-b4e8-8330-89b5-1d839e7bcc35",
+          "line": 8015,
+          "chunk_id": "CHUNK_1f009650034e"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-050_(34-chats).jsonl",
+          "chat_id": "6925196d-b224-8325-99fa-6b09c1e4fb84",
+          "line": 4940,
+          "chunk_id": "CHUNK_0b2bf691438a"
+        }
+      ]
+    },
+    {
+      "id": "ROW_96e305115008",
+      "name": "row 1",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-048_(32-chats).jsonl",
+          "chat_id": "6924d19b-b4e8-8330-89b5-1d839e7bcc35",
+          "line": 7519,
+          "chunk_id": "CHUNK_80757a35a23b"
+        }
+      ]
+    },
+    {
+      "id": "ROW_e7b8bbd7a66c",
+      "name": "row and auto-resize",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-048_(32-chats).jsonl",
+          "chat_id": "6924d19b-b4e8-8330-89b5-1d839e7bcc35",
+          "line": 7561,
+          "chunk_id": "CHUNK_fa19e3eaa6ef"
+        }
+      ]
+    },
+    {
+      "id": "ROW_00150e91721c",
+      "name": "row index",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-048_(32-chats).jsonl",
+          "chat_id": "6924d19b-b4e8-8330-89b5-1d839e7bcc35",
+          "line": 7592,
+          "chunk_id": "CHUNK_df6ca2c975df"
+        }
+      ]
+    },
+    {
+      "id": "ROW_39f826c6d26f",
+      "name": "row 2",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-048_(32-chats).jsonl",
+          "chat_id": "6924d19b-b4e8-8330-89b5-1d839e7bcc35",
+          "line": 7756,
+          "chunk_id": "CHUNK_60457c1cf0ca"
+        }
+      ]
+    },
+    {
+      "id": "ROW_5aae04c02d8c",
+      "name": "row   newNextRow",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-048_(32-chats).jsonl",
+          "chat_id": "6924d19b-b4e8-8330-89b5-1d839e7bcc35",
+          "line": 7829,
+          "chunk_id": "CHUNK_0a65949496f0"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-048_(32-chats).jsonl",
+          "chat_id": "6924d19b-b4e8-8330-89b5-1d839e7bcc35",
+          "line": 7834,
+          "chunk_id": "CHUNK_0c680458b70b"
+        }
+      ]
+    },
+    {
+      "id": "ROW_b0c041aa4fba",
+      "name": "row came from",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-048_(32-chats).jsonl",
+          "chat_id": "6924d19b-b4e8-8330-89b5-1d839e7bcc35",
+          "line": 7973,
+          "chunk_id": "CHUNK_9d7f19d97663"
+        }
+      ]
+    },
+    {
+      "id": "ROW_d69d4f2c9986",
+      "name": "row 1 metadata",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-048_(32-chats).jsonl",
+          "chat_id": "6924d19b-b4e8-8330-89b5-1d839e7bcc35",
+          "line": 8014,
+          "chunk_id": "CHUNK_66f6ae2a01fe"
+        }
+      ]
+    },
+    {
+      "id": "ROW_46889c554bbd",
+      "name": "row index flags in ScriptProperties or another store citeturn0search1turn0search8",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-048_(32-chats).jsonl",
+          "chat_id": "6924d19b-b4e8-8330-89b5-1d839e7bcc35",
+          "line": 8302,
+          "chunk_id": "CHUNK_bb5b769ae305"
+        }
+      ]
+    },
+    {
+      "id": "ROW_44180013a7be",
+      "name": "row for huge speedups 3k files  16 min  41s 73k files in 20 min citeturn0search8turn0search0",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-048_(32-chats).jsonl",
+          "chat_id": "6924d19b-b4e8-8330-89b5-1d839e7bcc35",
+          "line": 8304,
+          "chunk_id": "CHUNK_202087ad8e35"
+        }
+      ]
+    },
+    {
+      "id": "ROW_7f3006ae5a41",
+      "name": "row citeturn0search8turn0search0",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-048_(32-chats).jsonl",
+          "chat_id": "6924d19b-b4e8-8330-89b5-1d839e7bcc35",
+          "line": 8332,
+          "chunk_id": "CHUNK_104b0eab0787"
+        }
+      ]
+    }
+  ],
+  "pipelines": [
+    {
+      "id": "PIPE_d771262cd2db",
+      "name": "framework design and meta-integration so we can map it back to your OS",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-050_(34-chats).jsonl",
+          "chat_id": "6925196d-b224-8325-99fa-6b09c1e4fb84",
+          "line": 3511,
+          "chunk_id": "CHUNK_b16ac94c2a37"
+        }
+      ]
+    }
+  ],
+  "notes": "LIGHT mode stores up to 5 evidence refs per ROW/pipeline; no excerpts."
+}

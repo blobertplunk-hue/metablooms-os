@@ -1,0 +1,14 @@
+{
+  "snapshot_interval_turns": 25,
+  "delta_keep_last": 50,
+  "hooks": [
+    "snapshot_and_prune_if_due"
+  ],
+  "preflight_gates": [
+    "gate_single_active_turn",
+    "gate_receipt_hash_chain",
+    "gate_snapshot_integrity",
+    "gate_turn_index_continuity"
+  ],
+  "lock_stale_after_s": 900
+}

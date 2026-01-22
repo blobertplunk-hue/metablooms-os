@@ -1,0 +1,7 @@
+{
+  "baseline_invariants": [
+    "TURN_LOCAL_REHYDRATION",
+    "EXECUTION_CLAIMS_ARE_TURN_LOCAL",
+    "CANONICAL_BOOT_DISCOVERY"
+  ]
+}

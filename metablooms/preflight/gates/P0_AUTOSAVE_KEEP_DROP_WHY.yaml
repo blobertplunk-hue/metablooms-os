@@ -1,0 +1,16 @@
+id: P0.AUTOSAVE.KEEP_DROP_WHY
+version: 1
+priority: P0
+mode: ENFORCE_FAIL_CLOSED
+
+purpose: >
+  Ensure every wiring/commit action produces an append-only KEEP/DROP/WHY entry
+  that can be used as training signal and audit trail.
+
+requirements:
+  ledger_path: metablooms/governance/KEEP_DROP_WHY_LOG_APPEND_ONLY.md
+  schema_doc: metablooms/governance/KEEP_DROP_WHY_SCHEMA.md
+
+fail_closed:
+  if_ledger_missing: true
+  if_no_new_entry_on_commit: true

@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "by_scope": {
+      "additionalProperties": {
+        "minimum": 0,
+        "type": "integer"
+      },
+      "type": "object"
+    },
+    "files": {
+      "items": {
+        "properties": {
+          "path": {
+            "type": "string"
+          },
+          "responsibility": {
+            "type": "string"
+          },
+          "scope": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "path",
+          "scope",
+          "responsibility"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "generic_responsibility": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "schema": {
+      "const": "ECL_QUALITY_SCAN_RESULT_V1"
+    },
+    "specific_responsibility": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "totals": {
+      "properties": {
+        "py_files": {
+          "minimum": 0,
+          "type": "integer"
+        }
+      },
+      "required": [
+        "py_files"
+      ],
+      "type": "object"
+    },
+    "ts_utc": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "schema",
+    "ts_utc",
+    "totals",
+    "generic_responsibility",
+    "specific_responsibility",
+    "by_scope",
+    "files"
+  ],
+  "title": "ECL_QUALITY_SCAN_RESULT",
+  "type": "object"
+}

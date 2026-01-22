@@ -1,0 +1,9 @@
+MetaBlooms Reinforced OS v1
+Applied Deltas (locked order):
+1. BOOT_GUARDRAILS
+2. GOVERNANCE_HARDENED
+3. SPEC_AND_REPLAY
+4. PAYLOAD_ARTIFACT2
+5. TOOLCHAINS_OPTIONAL
+
+Materialized artifact for controlled boot verification.

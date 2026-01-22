@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "grade": "K",
+    "domain": "ELAR",
+    "source_pdfs": {
+      "ch110a": "99822e94ce1566c99d95f4f62517c05905163f11bf63548160c6b7e3ce4a5c86",
+      "ch110b": "004e5568524dac15ee3c9876b417d323f30856befa2ba001af2be896ac7cb31f",
+      "ch110c": "98622e85054a11c149b14832c410fc7a97f08d42ed691c4807df919a23ca80cd",
+      "ch110d": "28c4e63d06dae06f8bb973259bb0c32398959524749772884dca88ca4c6ea006"
+    },
+    "note": "Spine scaffold frozen; verbatim text attachment deferred to frame-level build."
+  },
+  "frames": [
+    {
+      "frame_code": "K.1",
+      "frame_text": "Oral Language",
+      "expectations": [
+        "K.1A",
+        "K.1B",
+        "K.1C",
+        "K.1D"
+      ]
+    },
+    {
+      "frame_code": "K.2",
+      "frame_text": "Beginning Reading Skills / Print Concepts",
+      "expectations": [
+        "K.2A",
+        "K.2B",
+        "K.2C"
+      ]
+    },
+    {
+      "frame_code": "K.3",
+      "frame_text": "Phonological Awareness",
+      "expectations": [
+        "K.3A",
+        "K.3B"
+      ]
+    },
+    {
+      "frame_code": "K.4",
+      "frame_text": "Phonics",
+      "expectations": [
+        "K.4A",
+        "K.4B",
+        "K.4C"
+      ]
+    },
+    {
+      "frame_code": "K.5",
+      "frame_text": "Vocabulary Development",
+      "expectations": [
+        "K.5A",
+        "K.5B"
+      ]
+    },
+    {
+      "frame_code": "K.6",
+      "frame_text": "Comprehension Skills",
+      "expectations": [
+        "K.6A",
+        "K.6B"
+      ]
+    },
+    {
+      "frame_code": "K.7",
+      "frame_text": "Response Skills",
+      "expectations": [
+        "K.7A"
+      ]
+    },
+    {
+      "frame_code": "K.8",
+      "frame_text": "Multiple Genres",
+      "expectations": [
+        "K.8A"
+      ]
+    },
+    {
+      "frame_code": "K.9",
+      "frame_text": "Author\u2019s Purpose and Craft",
+      "expectations": [
+        "K.9A"
+      ]
+    },
+    {
+      "frame_code": "K.10",
+      "frame_text": "Composition",
+      "expectations": [
+        "K.10A",
+        "K.10B"
+      ]
+    },
+    {
+      "frame_code": "K.11",
+      "frame_text": "Inquiry and Research",
+      "expectations": [
+        "K.11A",
+        "K.11B"
+      ]
+    }
+  ]
+}

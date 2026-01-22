@@ -1,0 +1,21 @@
+{
+  "schema_version": "SCVAL-1",
+  "generated_utc": "2026-01-08T12:19:03Z",
+  "strict": false,
+  "out_dir": "/tmp/tmphpw2ri3b/os/modules/sandcrawler/out",
+  "jobs_found": 0,
+  "results_found": 0,
+  "matched_pairs": 0,
+  "failures": 0,
+  "warnings": 1,
+  "infos": 0,
+  "findings": [
+    {
+      "severity": "WARN",
+      "code": "OUT_DIR_MISSING",
+      "message": "Sandcrawler out_dir not found: /tmp/tmphpw2ri3b/os/modules/sandcrawler/out",
+      "path": "/tmp/tmphpw2ri3b/os/modules/sandcrawler/out",
+      "job_id": null
+    }
+  ]
+}

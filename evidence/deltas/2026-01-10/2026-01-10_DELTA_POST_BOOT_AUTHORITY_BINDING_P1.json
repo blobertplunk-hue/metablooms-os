@@ -1,0 +1,24 @@
+{
+  "delta_id": "2026-01-10_DELTA_POST_BOOT_AUTHORITY_BINDING_P1",
+  "tier": "P1",
+  "name": "Post-Boot Authority Binding (PBAB)",
+  "adds": [
+    "Mandatory MB_MODE response header after BOOT_OK",
+    "OUT_OF_BOUNDS hard refusal for OS-governed requests",
+    "ENTER_METABLOOMS_RUNTIME re-entry handshake",
+    "Ledger event AUTHORITY_BIND_OK",
+    "Acceptance tests + rollback switch"
+  ],
+  "files_expected": [
+    "docs/PBAB.md",
+    "runtime/authority_binding.json",
+    "validators/pbab_mode_header_v1.py",
+    "validators/pbab_os_claim_guard_v1.py",
+    "ledger/events/AUTHORITY_BIND_OK.schema.json"
+  ],
+  "rollback": {
+    "runtime/authority_binding.json": {
+      "enabled": false
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MetaBlooms MMT Queue v1",
+  "type": "object",
+  "required": ["version", "tickets"],
+  "properties": {
+    "version": {"type": "integer", "const": 1},
+    "tickets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["mmt_id", "phase", "problem", "proposal", "expected_gain", "risk", "status", "evidence_refs"],
+        "properties": {
+          "mmt_id": {"type": "string"},
+          "phase": {"type": "string"},
+          "problem": {"type": "string"},
+          "proposal": {"type": "string"},
+          "expected_gain": {"type": "string"},
+          "risk": {"type": "string"},
+          "status": {"type": "string", "enum": ["Proposed", "Accepted", "Rejected", "Done"]},
+          "evidence_refs": {"type": "array", "items": {"type": "string"}}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

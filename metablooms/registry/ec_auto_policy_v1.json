@@ -1,0 +1,21 @@
+{
+  "policy_id": "EC-AUTO.V1",
+  "title": "Extraordinary Coding Automatic Activation",
+  "default": "AUTO",
+  "activation_triggers": [
+    {"kind": "FILE_WRITE", "match_ext": [".py", ".js", ".ts", ".sh", ".yaml", ".yml", ".json", ".java", ".go", ".rs", ".cpp", ".c", ".cs"]},
+    {"kind": "BUNDLE_PRODUCED", "contains_code": true},
+    {"kind": "INTENT_CLASS", "classes": ["CODE_TOUCH", "OS_MUTATION"]}
+  ],
+  "allowed_bypass": {
+    "intent_class": "DISPOSABLE_SNIPPET",
+    "constraints": {"no_file_writes": true, "no_system_mutation": true}
+  },
+  "required_artifacts": [
+    "DESIGN_FREEZE",
+    "CHANGESET",
+    "VERIFICATION_EVIDENCE",
+    "STS5_FINAL_OUTPUT"
+  ],
+  "fail_closed": true
+}

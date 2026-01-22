@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "built_at": "2026-01-14T23:25:53.748900Z",
+  "components": [
+    "runtime/execution/pipe_section_inferencer.py",
+    "runtime/execution/auto_patch_suggester.py",
+    "runtime/preflight/preflight_auto_patch_gate.py"
+  ],
+  "behavior": {
+    "inference": "keyword-based canonical section inference",
+    "auto_patch": "adds missing required sections and orders canonically"
+  }
+}

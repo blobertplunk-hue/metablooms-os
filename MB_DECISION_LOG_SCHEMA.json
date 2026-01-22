@@ -1,0 +1,104 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MetaBlooms Decision Log Schema",
+  "version": "v1.0.0",
+  "description": "Append-only authoritative record of all decisions that affect build, wiring, validation, or shipping.",
+  "type": "object",
+  "required": [
+    "decision_id",
+    "timestamp_utc",
+    "authority",
+    "scope",
+    "artifact_targets",
+    "action",
+    "decision_text",
+    "constraints",
+    "effects",
+    "reversibility",
+    "recorded_by"
+  ],
+  "properties": {
+    "decision_id": {
+      "type": "string",
+      "pattern": "^MB-D-[0-9]{6}$",
+      "description": "Canonical decision identifier."
+    },
+    "timestamp_utc": {
+      "type": "string",
+      "format": "date-time",
+      "description": "UTC timestamp when the decision was finalized."
+    },
+    "authority": {
+      "type": "string",
+      "enum": ["USER", "META-BLOOMS-GOVERNANCE"],
+      "description": "Who has final authority over this decision."
+    },
+    "scope": {
+      "type": "string",
+      "enum": [
+        "OS",
+        "CORE",
+        "MODULE",
+        "DELTA",
+        "PIPELINE",
+        "GOVERNANCE",
+        "TELEMETRY"
+      ],
+      "description": "System scope affected by this decision."
+    },
+    "artifact_targets": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "description": "IDs or names of artifacts impacted."
+    },
+    "action": {
+      "type": "string",
+      "enum": [
+        "ADD",
+        "MODIFY",
+        "REMOVE",
+        "FREEZE",
+        "DEPRECATE",
+        "BLOCK"
+      ],
+      "description": "Concrete action authorized by the decision."
+    },
+    "decision_text": {
+      "type": "string",
+      "minLength": 20,
+      "description": "Literal decision as stated. No interpretation, no compression."
+    },
+    "constraints": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Explicit constraints imposed by the decision."
+    },
+    "effects": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Expected mechanical effects (files created, paths wired, checks enforced)."
+    },
+    "reversibility": {
+      "type": "string",
+      "enum": ["REVERSIBLE", "IRREVERSIBLE"],
+      "description": "Whether this decision may be undone in the future."
+    },
+    "recorded_by": {
+      "type": "string",
+      "enum": ["LLM", "EXTERNAL_PROCESS"],
+      "description": "Mechanism that recorded the decision (not who made it)."
+    },
+    "notes": {
+      "type": "string",
+      "description": "Optional clarifying notes. Must not reinterpret decision_text."
+    }
+  },
+  "additionalProperties": false
+}

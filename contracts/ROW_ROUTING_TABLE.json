@@ -1,0 +1,227 @@
+{
+  "version": "v1",
+  "pipe_sections_reference": [
+    {
+      "id": "S0",
+      "name": "Intent Parse",
+      "input_types": [
+        "utterance"
+      ],
+      "output_types": [
+        "intent_spec"
+      ],
+      "description": "Normalize operator intent and parameters."
+    },
+    {
+      "id": "S1",
+      "name": "Constraint Bind",
+      "input_types": [
+        "intent_spec",
+        "platform"
+      ],
+      "output_types": [
+        "constraints"
+      ],
+      "description": "Apply platform and policy constraints."
+    },
+    {
+      "id": "S2",
+      "name": "Template Select",
+      "input_types": [
+        "constraints",
+        "teks",
+        "content_type"
+      ],
+      "output_types": [
+        "template_id"
+      ],
+      "description": "Select page kit / scaffold template."
+    },
+    {
+      "id": "S3",
+      "name": "Embed Vet",
+      "input_types": [
+        "embed_candidates"
+      ],
+      "output_types": [
+        "vet_result"
+      ],
+      "description": "Fail-closed vetting of iframes/videos."
+    },
+    {
+      "id": "S4",
+      "name": "Emit Artifact",
+      "input_types": [
+        "template_id",
+        "assets"
+      ],
+      "output_types": [
+        "artifact"
+      ],
+      "description": "Generate paste-ready HTML and manifest."
+    },
+    {
+      "id": "S5",
+      "name": "Index Append (Deferred)",
+      "input_types": [
+        "artifact_manifest",
+        "delta_payload"
+      ],
+      "output_types": [
+        "index_update"
+      ],
+      "description": "Append new pages to TEKS inventory at delta-time."
+    }
+  ],
+  "rows": [
+    {
+      "row_id": "ROW_INTENT_DISCOVERY",
+      "intent": "unknown_or_ambiguous",
+      "pipelines": [
+        {
+          "pipeline_id": "P0",
+          "activation": "AUTO",
+          "notes": "No work performed until intent specified."
+        }
+      ],
+      "fail_closed": [
+        "Do not generate artifacts beyond a short intent menu.",
+        "No execution claims."
+      ]
+    },
+    {
+      "row_id": "ROW_CREATE_HTML",
+      "intent": "create_html_page",
+      "pipelines": [
+        {
+          "pipeline_id": "P7",
+          "activation": "ACTIVE",
+          "pipe_sections": [
+            "S0",
+            "S1",
+            "S2",
+            "S4"
+          ],
+          "notes": "Template-based production"
+        },
+        {
+          "pipeline_id": "P6",
+          "activation": "AUTO",
+          "pipe_sections": [
+            "S1"
+          ],
+          "notes": "Bind platform constraints"
+        },
+        {
+          "pipeline_id": "P2",
+          "activation": "AUTO",
+          "pipe_sections": [
+            "S3"
+          ],
+          "notes": "Vet embeds if present"
+        },
+        {
+          "pipeline_id": "P0",
+          "activation": "AUTO",
+          "notes": "Fail-closed ordering + constraints"
+        },
+        {
+          "pipeline_id": "P8",
+          "activation": "DEFER",
+          "pipe_sections": [
+            "S5"
+          ],
+          "notes": "Index at delta-time"
+        }
+      ],
+      "fail_closed": [
+        "If target platform not specified, default to Google Sites rules or route to discovery.",
+        "If embed fails vetting, replace or remove before shipping."
+      ]
+    },
+    {
+      "row_id": "ROW_FIX_HTML",
+      "intent": "fix_html_or_embed",
+      "pipelines": [
+        {
+          "pipeline_id": "P3",
+          "activation": "ACTIVE",
+          "notes": "Minimal repro + structure fix"
+        },
+        {
+          "pipeline_id": "P4",
+          "activation": "ACTIVE",
+          "notes": "CSS fix only if needed"
+        },
+        {
+          "pipeline_id": "P0",
+          "activation": "AUTO",
+          "notes": "Fail-closed"
+        },
+        {
+          "pipeline_id": "P2",
+          "activation": "AUTO",
+          "notes": "Re-vet embeds after changes"
+        },
+        {
+          "pipeline_id": "P6",
+          "activation": "AUTO",
+          "notes": "Ensure platform compatibility"
+        }
+      ]
+    },
+    {
+      "row_id": "ROW_AUDIT_EMBEDS",
+      "intent": "audit_or_vet_embeds",
+      "pipelines": [
+        {
+          "pipeline_id": "P2",
+          "activation": "ACTIVE",
+          "notes": "Primary"
+        },
+        {
+          "pipeline_id": "P1",
+          "activation": "SLEEP",
+          "notes": "Only if unexplained failures cluster"
+        },
+        {
+          "pipeline_id": "P0",
+          "activation": "AUTO",
+          "notes": "Fail-closed"
+        }
+      ]
+    },
+    {
+      "row_id": "ROW_PRACTICE_KATAS",
+      "intent": "practice_or_assign_katas",
+      "pipelines": [
+        {
+          "pipeline_id": "P5",
+          "activation": "ACTIVE",
+          "notes": "Generate/serve katas"
+        },
+        {
+          "pipeline_id": "P0",
+          "activation": "AUTO",
+          "notes": "Guardrails"
+        }
+      ]
+    },
+    {
+      "row_id": "ROW_INCORPORATE_DELTAS",
+      "intent": "incorporate_delta_payload",
+      "pipelines": [
+        {
+          "pipeline_id": "P8",
+          "activation": "ACTIVE",
+          "notes": "Append-only index update"
+        },
+        {
+          "pipeline_id": "P0",
+          "activation": "AUTO",
+          "notes": "Fail-closed, evidence discipline"
+        }
+      ]
+    }
+  ]
+}

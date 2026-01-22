@@ -1,0 +1,27 @@
+{
+  "delta": "PHASE_2_2_INVARIANT_ENGINE_INTEGRATION",
+  "timestamp": "2026-01-20T18:58:30.719184Z",
+  "includes": [
+    "Phase 2.1.1 Learning Pipeline (hooks + specs)",
+    "Invariant Engine v1.0.0 (IE)"
+  ],
+  "wiring": {
+    "checkpoint_invocation": [
+      "after_macrobloom_eligibility",
+      "phase_boundary"
+    ],
+    "proposal_sources": [
+      "ITLE",
+      "NBE",
+      "MBE",
+      "AUTOPSY",
+      "USER"
+    ],
+    "ratification_authority": "IE"
+  },
+  "ledgers": {
+    "telemetry": "/mnt/data/book_report/telemetry_v2_1.jsonl",
+    "invariants": "/mnt/data/book_report/invariant_ledger.jsonl"
+  },
+  "fail_closed": true
+}

@@ -1,0 +1,15 @@
+{
+  "baseline_v1_os_zip": "MetaBlooms_OS_CUMULATIVE_WITH_ZOOP_LEDGERGATE_v1_3_2.zip",
+  "best_os_zip": null,
+  "latest_os_zip": "MetaBlooms_OS_v1_3_14_MANDATORY_VALIDATION_AND_CI_PLUS_MANIFEST.zip",
+  "selection_evidence": [],
+  "selector_version": "1.0",
+  "updated_utc": "2026-01-10T21:26:30Z",
+  "version": "v1.3.16",
+  "bundle": "MetaBlooms_OS_v1_3_16_WITH_PBAB_PLUS_SDI02.zip",
+  "updated_at": "2026-01-10T21:26:30.859855Z",
+  "modules": [
+    "threads",
+    "ship"
+  ]
+}

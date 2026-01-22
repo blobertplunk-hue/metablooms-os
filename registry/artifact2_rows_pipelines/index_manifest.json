@@ -1,0 +1,25 @@
+{
+  "schema": "MB_ARTIFACT2_ROW_PIPE_INDEX_MANIFEST",
+  "version": "v1",
+  "sections": [
+    {
+      "id": "section_001_to_005",
+      "registry_path": "sections/section_001_to_005.registry.json",
+      "registry_sha256": "142671bd791cf2e1344c42a4c90c69a5e2101590c17e54cea1bee6b400e98b23",
+      "evidence_path": "sections/section_001_to_005.evidence.slim.jsonl",
+      "evidence_sha256": "449166b9045237a1bfee8481722c2a2087115c9f8e467a8843c87b28d26fb326",
+      "improvement_queue_path": "sections/section_001_to_005.improvement_queue.json",
+      "improvement_queue_sha256": "500f2844f5d52f8e13e8900e240fb7fc2beb247bd9f1f38473956445689d756b"
+    }
+  ],
+  "contracts": {
+    "PIPELINE_REGISTRY": "contracts/PIPELINE_REGISTRY.json",
+    "ROW_ROUTING_TABLE": "contracts/ROW_ROUTING_TABLE.json",
+    "ROW_CONTRACT_SCHEMA": "contracts/ROW_CONTRACT_SCHEMA.json",
+    "PIPE_SECTION_SCHEMA": "contracts/PIPE_SECTION_SCHEMA.json"
+  },
+  "notes": [
+    "Evidence is slim excerpts only; full evidence remains external in index pack zip.",
+    "Append-only: additional sections can be added without mutating prior sections."
+  ]
+}

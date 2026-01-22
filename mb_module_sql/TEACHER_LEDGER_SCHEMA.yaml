@@ -1,0 +1,10 @@
+
+student_id:
+date:
+language:
+segment:
+task_assigned:
+task_completed: true/false
+confidence: 1-5
+stuck_flag: true/false
+teacher_notes:

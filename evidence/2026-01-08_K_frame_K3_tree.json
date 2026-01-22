@@ -1,0 +1,50 @@
+{
+  "frame_code": "K.3",
+  "frame_text": "Phonological Awareness",
+  "trees": [
+    {
+      "expectation": "K.3A",
+      "leaves": [
+        {
+          "grade": "K",
+          "frame_code": "K.3",
+          "frame_text": "Phonological Awareness",
+          "expectation_code": "K.3A",
+          "expectation_text": "Identify and produce rhyming words",
+          "subpart": null,
+          "verb": "identify",
+          "object": "rhyming words",
+          "conditions": [
+            "orally",
+            "with support"
+          ],
+          "modality": "listening",
+          "evidence_claim": "Student identifies rhyming words when heard.",
+          "non_substitutability": "Does not substitute for decoding print.",
+          "prerequisites": [
+            "K.1A"
+          ]
+        },
+        {
+          "grade": "K",
+          "frame_code": "K.3",
+          "frame_text": "Phonological Awareness",
+          "expectation_code": "K.3A",
+          "expectation_text": "Identify and produce rhyming words",
+          "subpart": null,
+          "verb": "produce",
+          "object": "rhyming words",
+          "conditions": [
+            "orally"
+          ],
+          "modality": "speaking",
+          "evidence_claim": "Student produces a rhyming word orally.",
+          "non_substitutability": "Does not substitute for identifying onset-rime.",
+          "prerequisites": [
+            "K.1A"
+          ]
+        }
+      ]
+    }
+  ]
+}

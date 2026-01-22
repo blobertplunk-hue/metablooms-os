@@ -1,0 +1,17 @@
+{
+  "timestamp_utc": "2026-01-14T04:37:55.908814Z",
+  "operation": "integrate_ctos_q0_v2_1_bundle_into_bootable_os",
+  "source_os_zip": "MetaBlooms_OS_v1.4.0_PLUS_PHASEC_REPLAY__WITH_v2_SPEC_FULL__v2fix.zip",
+  "ctos_bundle_zip": "MetaBlooms_CTOS_v2_1_Q0_WIRED.zip",
+  "target_path_in_os": "spec/ctos/",
+  "boot_update": [
+    {
+      "file": "BOOT.md",
+      "change": "appended Gate 2 reference"
+    }
+  ],
+  "notes": [
+    "Merged CTOS spec bundle into /spec/ctos non-destructively.",
+    "Appended Gate 2 reference into primary boot doc when found."
+  ]
+}

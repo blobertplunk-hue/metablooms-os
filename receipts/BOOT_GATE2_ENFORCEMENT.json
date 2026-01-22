@@ -1,0 +1,9 @@
+{
+  "timestamp_utc": "2026-01-14T11:05:28.917003Z",
+  "change": "Runtime enforcement of Gate 2 (Q0 Quality Gate)",
+  "entrypoint": "BOOT_METABLOOMS.py",
+  "failure_codes": [
+    "BOOT_FAILED: QUALITY_GATE_FAILED",
+    "BOOT_FAILED: QUALITY_GATE_BLOCKED"
+  ]
+}

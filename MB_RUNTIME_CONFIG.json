@@ -1,0 +1,19 @@
+{
+  "schema_version": "MBRC-1",
+  "strict_sandcrawler_validation": false,
+  "validate_sandcrawler_on_boot": true,
+  "modules": {
+    "claude_skills_factory": {
+      "enabled": false,
+      "mode": "DISABLED"
+    },
+    "delta_intake_forwardport": {
+      "enabled": false,
+      "mode": "DISABLED"
+    },
+    "rows_pipelines_index": {
+      "enabled": true,
+      "mode": "ENABLED"
+    }
+  }
+}

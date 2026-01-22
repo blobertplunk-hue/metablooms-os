@@ -1,0 +1,6 @@
+{
+  "schema": "zroot_sentinel_v1",
+  "ts": "ISO-8601",
+  "source_zip_sha256": "UNKNOWN",
+  "zroot_path": "/mnt/data/_mb_zroot"
+}

@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "date": "2026-01-08",
+    "timestamp": "2026-01-09T02:03:04.798242Z"
+  },
+  "module": "RIDIE",
+  "placement": "kernel/near-core (sealed control-plane module)",
+  "hooks": [
+    {
+      "name": "on_stage_start",
+      "args": [
+        "stage_id",
+        "context"
+      ],
+      "must_call": true
+    },
+    {
+      "name": "on_stage_end",
+      "args": [
+        "stage_id",
+        "artifacts",
+        "metrics"
+      ],
+      "must_call": true
+    },
+    {
+      "name": "on_stage_fail",
+      "args": [
+        "stage_id",
+        "error",
+        "signals"
+      ],
+      "must_call": true
+    },
+    {
+      "name": "on_invariant_result",
+      "args": [
+        "stage_id",
+        "invariant_id",
+        "pass_fail",
+        "evidence"
+      ],
+      "must_call": true
+    },
+    {
+      "name": "decide_next",
+      "args": [
+        "stage_id",
+        "signals"
+      ],
+      "returns": [
+        "decision",
+        "next_stage_id"
+      ],
+      "must_call": true
+    },
+    {
+      "name": "emit_ridie_event",
+      "args": [
+        "event"
+      ],
+      "must_call": true
+    }
+  ],
+  "events": [
+    {
+      "type": "RIDIE_STAGE_START",
+      "fields": [
+        "stage_id",
+        "context_hash",
+        "ts"
+      ]
+    },
+    {
+      "type": "RIDIE_STAGE_END",
+      "fields": [
+        "stage_id",
+        "artifacts",
+        "metrics",
+        "ts"
+      ]
+    },
+    {
+      "type": "RIDIE_INVARIANT_FAIL",
+      "fields": [
+        "stage_id",
+        "invariant_id",
+        "evidence",
+        "ts"
+      ]
+    },
+    {
+      "type": "RIDIE_STOP",
+      "fields": [
+        "stage_id",
+        "stop_reason",
+        "resume_point",
+        "signals",
+        "ts"
+      ]
+    }
+  ],
+  "hard_constraints": [
+    "No mutation of canonical artifacts",
+    "No early collapse/merge",
+    "All decisions ledgered",
+    "Fail-closed on ambiguity"
+  ]
+}

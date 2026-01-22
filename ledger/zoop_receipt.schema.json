@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MetaBlooms ZOOP Receipt",
+  "type": "object",
+  "required": [
+    "zoop_event_id",
+    "ts",
+    "artifact_name"
+  ],
+  "properties": {
+    "zoop_event_id": {
+      "type": "string",
+      "pattern": "^[0-9a-fA-F-]{36}$"
+    },
+    "ts": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "artifact_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "artifact_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "root_path": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}

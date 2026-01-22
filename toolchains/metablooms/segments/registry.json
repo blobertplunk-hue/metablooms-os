@@ -1,0 +1,338 @@
+{
+  "registry_version": "1.0",
+  "created": "2026-01-14",
+  "notes": [
+    "This pack defines segments for currently available sandbox tools plus vendored pandoc. pdfcpu/ffmpeg/whisper-cli are deferred.",
+    "All segments are designed for fail-closed execution with explicit fallback chains."
+  ],
+  "sections": {
+    "DISCOVERY": {
+      "capabilities": [
+        "env.tools.discover"
+      ],
+      "default_chain": [
+        "seg.env.toolchain_discover"
+      ]
+    },
+    "DOC_CONVERT": {
+      "capabilities": [
+        "doc.convert.docx_to_md",
+        "doc.convert.docx_to_html",
+        "doc.convert.md_to_pdf"
+      ],
+      "chains": {
+        "doc.convert.docx_to_md": [
+          "seg.docx_to_md.pandoc",
+          "seg.docx_to_md.python_docx_fallback"
+        ],
+        "doc.convert.docx_to_html": [
+          "seg.docx_to_html.pandoc",
+          "seg.docx_to_html.python_docx_fallback"
+        ],
+        "doc.convert.md_to_pdf": [
+          "seg.md_to_pdf.pandoc",
+          "seg.md_to_pdf.platypus_basic"
+        ]
+      }
+    },
+    "OFFICE_CONVERT": {
+      "capabilities": [
+        "office.convert.to_pdf",
+        "office.convert.xlsx_to_csv"
+      ],
+      "chains": {
+        "office.convert.to_pdf": [
+          "seg.office_to_pdf.libreoffice",
+          "seg.office_to_pdf.attach_original"
+        ],
+        "office.convert.xlsx_to_csv": [
+          "seg.xlsx_to_csv.libreoffice",
+          "seg.xlsx_to_csv.openpyxl"
+        ]
+      }
+    },
+    "RENDER": {
+      "capabilities": [
+        "pdf.render.page_to_png",
+        "svg.rasterize.to_png",
+        "image.normalize.png"
+      ],
+      "chains": {
+        "pdf.render.page_to_png": [
+          "seg.pdf_to_png.imagemagick_whitebg"
+        ],
+        "svg.rasterize.to_png": [
+          "seg.svg_to_png.imagemagick"
+        ],
+        "image.normalize.png": [
+          "seg.image_normalize.imagemagick"
+        ]
+      }
+    },
+    "STT": {
+      "capabilities": [
+        "stt.transcribe.offline"
+      ],
+      "chains": {
+        "stt.transcribe.offline": [
+          "seg.stt_transcribe.whispercpp_BLOCKED",
+          "seg.stt_unavailable"
+        ]
+      }
+    }
+  },
+  "segments": [
+    {
+      "id": "seg.env.toolchain_discover",
+      "type": "python",
+      "capability": "env.tools.discover",
+      "p_level": "P1",
+      "evidence_tier": "E1_required",
+      "inputs": [
+        "path.dir"
+      ],
+      "outputs": [
+        "json.toolchain_manifest"
+      ],
+      "requires": []
+    },
+    {
+      "id": "seg.docx_to_md.pandoc",
+      "type": "binary",
+      "capability": "doc.convert.docx_to_md",
+      "p_level": "P3",
+      "evidence_tier": "E2_candidate",
+      "inputs": [
+        "file.docx"
+      ],
+      "outputs": [
+        "file.md"
+      ],
+      "requires": [
+        "vendor.bin.pandoc"
+      ]
+    },
+    {
+      "id": "seg.docx_to_html.pandoc",
+      "type": "binary",
+      "capability": "doc.convert.docx_to_html",
+      "p_level": "P3",
+      "evidence_tier": "E2_candidate",
+      "inputs": [
+        "file.docx"
+      ],
+      "outputs": [
+        "file.html"
+      ],
+      "requires": [
+        "vendor.bin.pandoc"
+      ]
+    },
+    {
+      "id": "seg.md_to_pdf.pandoc",
+      "type": "binary",
+      "capability": "doc.convert.md_to_pdf",
+      "p_level": "P3",
+      "evidence_tier": "E2_candidate",
+      "inputs": [
+        "file.md"
+      ],
+      "outputs": [
+        "file.pdf"
+      ],
+      "requires": [
+        "vendor.bin.pandoc"
+      ]
+    },
+    {
+      "id": "seg.docx_to_md.python_docx_fallback",
+      "type": "python",
+      "capability": "doc.convert.docx_to_md",
+      "p_level": "P2",
+      "evidence_tier": "E1",
+      "inputs": [
+        "file.docx"
+      ],
+      "outputs": [
+        "file.md"
+      ],
+      "requires": [
+        "python.docx"
+      ]
+    },
+    {
+      "id": "seg.docx_to_html.python_docx_fallback",
+      "type": "python",
+      "capability": "doc.convert.docx_to_html",
+      "p_level": "P2",
+      "evidence_tier": "E1",
+      "inputs": [
+        "file.docx"
+      ],
+      "outputs": [
+        "file.html"
+      ],
+      "requires": [
+        "python.docx"
+      ]
+    },
+    {
+      "id": "seg.md_to_pdf.platypus_basic",
+      "type": "python",
+      "capability": "doc.convert.md_to_pdf",
+      "p_level": "P2",
+      "evidence_tier": "E1",
+      "inputs": [
+        "file.md"
+      ],
+      "outputs": [
+        "file.pdf"
+      ],
+      "requires": [
+        "python.reportlab"
+      ]
+    },
+    {
+      "id": "seg.office_to_pdf.libreoffice",
+      "type": "binary",
+      "capability": "office.convert.to_pdf",
+      "p_level": "P3",
+      "evidence_tier": "E1_in_this_sandbox",
+      "inputs": [
+        "file.office"
+      ],
+      "outputs": [
+        "file.pdf"
+      ],
+      "requires": [
+        "bin.soffice"
+      ]
+    },
+    {
+      "id": "seg.office_to_pdf.attach_original",
+      "type": "python",
+      "capability": "office.convert.to_pdf",
+      "p_level": "P1",
+      "evidence_tier": "E1",
+      "inputs": [
+        "file.office"
+      ],
+      "outputs": [
+        "file.office"
+      ],
+      "requires": []
+    },
+    {
+      "id": "seg.xlsx_to_csv.libreoffice",
+      "type": "binary",
+      "capability": "office.convert.xlsx_to_csv",
+      "p_level": "P3",
+      "evidence_tier": "E1_in_this_sandbox",
+      "inputs": [
+        "file.xlsx"
+      ],
+      "outputs": [
+        "file.csv"
+      ],
+      "requires": [
+        "bin.soffice"
+      ]
+    },
+    {
+      "id": "seg.xlsx_to_csv.openpyxl",
+      "type": "python",
+      "capability": "office.convert.xlsx_to_csv",
+      "p_level": "P2",
+      "evidence_tier": "E1",
+      "inputs": [
+        "file.xlsx"
+      ],
+      "outputs": [
+        "file.csv"
+      ],
+      "requires": [
+        "python.openpyxl"
+      ]
+    },
+    {
+      "id": "seg.pdf_to_png.imagemagick_whitebg",
+      "type": "binary",
+      "capability": "pdf.render.page_to_png",
+      "p_level": "P2",
+      "evidence_tier": "E1_in_this_sandbox",
+      "inputs": [
+        "file.pdf",
+        "param.page_index"
+      ],
+      "outputs": [
+        "file.png"
+      ],
+      "requires": [
+        "bin.magick"
+      ]
+    },
+    {
+      "id": "seg.svg_to_png.imagemagick",
+      "type": "binary",
+      "capability": "svg.rasterize.to_png",
+      "p_level": "P2",
+      "evidence_tier": "E1_in_this_sandbox",
+      "inputs": [
+        "file.svg"
+      ],
+      "outputs": [
+        "file.png"
+      ],
+      "requires": [
+        "bin.magick"
+      ]
+    },
+    {
+      "id": "seg.image_normalize.imagemagick",
+      "type": "binary",
+      "capability": "image.normalize.png",
+      "p_level": "P2",
+      "evidence_tier": "E1_in_this_sandbox",
+      "inputs": [
+        "file.image"
+      ],
+      "outputs": [
+        "file.png"
+      ],
+      "requires": [
+        "bin.magick"
+      ]
+    },
+    {
+      "id": "seg.stt_transcribe.whispercpp_BLOCKED",
+      "type": "binary",
+      "capability": "stt.transcribe.offline",
+      "p_level": "P3",
+      "evidence_tier": "E4",
+      "inputs": [
+        "file.audio"
+      ],
+      "outputs": [
+        "file.txt"
+      ],
+      "requires": [
+        "vendor.bin.whisper-cli",
+        "vendor.model.ggml-base.en-q5_1"
+      ]
+    },
+    {
+      "id": "seg.stt_unavailable",
+      "type": "python",
+      "capability": "stt.transcribe.offline",
+      "p_level": "P1",
+      "evidence_tier": "E1",
+      "inputs": [
+        "file.audio"
+      ],
+      "outputs": [
+        "json.unavailable_notice"
+      ],
+      "requires": []
+    }
+  ]
+}

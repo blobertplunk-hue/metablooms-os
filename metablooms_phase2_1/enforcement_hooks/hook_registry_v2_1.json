@@ -1,0 +1,65 @@
+{
+  "written": "2026-01-20T18:46:08.159610Z",
+  "version": "2.1.0",
+  "hooks": [
+    {
+      "hook_id": "TASK_START_HEADER",
+      "enforces": [
+        "INV_EXPLICIT_ENGINE_DECLARATION_V1_5",
+        "PHASE2_1_ULC_START"
+      ],
+      "required": true
+    },
+    {
+      "hook_id": "SIGNAL_CLASSIFIER",
+      "enforces": [
+        "PHASE2_1_SIGNAL_CLASSIFICATION"
+      ],
+      "required": true
+    },
+    {
+      "hook_id": "ENGINE_ELIGIBILITY_EVALUATOR",
+      "enforces": [
+        "PHASE2_1_ENGINE_ELIGIBILITY"
+      ],
+      "required": true
+    },
+    {
+      "hook_id": "ARBITRATOR",
+      "enforces": [
+        "INV_STACKED_REQUIREMENT_ARBITRATION_V1_5",
+        "PHASE2_1_ARBITRATION_PRIORITY"
+      ],
+      "required": true
+    },
+    {
+      "hook_id": "MUTATION_APPLIER",
+      "enforces": [
+        "PHASE2_1_SINGLE_ENGINE_MUTATION"
+      ],
+      "required": true
+    },
+    {
+      "hook_id": "TELEMETRY_EMITTER",
+      "enforces": [
+        "INV_PROMOTION_TELEMETRY_REQUIRED_V1_5",
+        "PHASE2_1_TELEMETRY"
+      ],
+      "required": true
+    },
+    {
+      "hook_id": "NANO_TO_MACRO_EVALUATOR",
+      "enforces": [
+        "PHASE2_1_NANO_MACRO_THRESHOLDS"
+      ],
+      "required": false
+    },
+    {
+      "hook_id": "POST_TASK_PERSISTENCE_CHECK",
+      "enforces": [
+        "INV_DURABLE_ARTIFACT_PERSISTENCE_V1_5"
+      ],
+      "required": true
+    }
+  ]
+}

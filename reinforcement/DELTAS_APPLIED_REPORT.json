@@ -1,0 +1,683 @@
+{
+  "deltas": [
+    {
+      "delta_id": "DELTA_GOVERNANCE_HARDENED_v1",
+      "applied": [
+        {
+          "rel": "MB_ARTIFACT_TYPES.md",
+          "action": "already_identical"
+        },
+        {
+          "rel": "MB_ARTIFACT_TYPES_CANONICAL.md",
+          "action": "already_identical"
+        },
+        {
+          "rel": "MB_BOOT_CONTRACT.md",
+          "action": "already_identical"
+        },
+        {
+          "rel": "MB_CORE_RUNTIME_AUTHORITY.md",
+          "action": "already_identical"
+        },
+        {
+          "rel": "MB_DECISION_LOG_SCHEMA.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "MB_DELTA_PROTOCOL.md",
+          "action": "already_identical"
+        },
+        {
+          "rel": "MB_INVARIANTS.md",
+          "action": "already_identical"
+        },
+        {
+          "rel": "MB_LEDGER.md",
+          "action": "already_identical"
+        },
+        {
+          "rel": "MB_MODULE_REGISTRY.md",
+          "action": "already_identical"
+        },
+        {
+          "rel": "MB_RUNTIME_CONFIG.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "MB_SHIP_INVARIANTS.md",
+          "action": "already_identical"
+        },
+        {
+          "rel": "VALIDATOR_REGISTRY.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/README_registry_v1.md",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/artifact2_rows_pipelines_index_v1.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/segment_pipeline_registry_v1.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/artifact2_rows_pipelines/index_manifest.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/artifact2_rows_pipelines/contracts/PIPELINE_REGISTRY.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/artifact2_rows_pipelines/contracts/PIPE_SECTION_SCHEMA.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/artifact2_rows_pipelines/contracts/ROW_CONTRACT_SCHEMA.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/artifact2_rows_pipelines/contracts/ROW_ROUTING_TABLE.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/artifact2_rows_pipelines/sections/section_001_to_005.evidence.slim.jsonl",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/artifact2_rows_pipelines/sections/section_001_to_005.improvement_queue.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/artifact2_rows_pipelines/sections/section_001_to_005.registry.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/artifact2_rows_pipelines/sections/sectionF_001_to_005.registry.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/artifact2_rows_pipelines/sections/sectionF_006_to_010.registry.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/artifact2_rows_pipelines/sections/sectionF_011_to_015.registry.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/artifact2_rows_pipelines/sections/sectionF_016_to_020.registry.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/artifact2_rows_pipelines/sections/sectionF_026_to_030.registry.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/artifact2_rows_pipelines/sections/sectionF_031_to_035.registry.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/artifact2_rows_pipelines/sections/sectionF_036_to_040.registry.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/artifact2_rows_pipelines/sections/sectionF_041_to_045.registry.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/artifact2_rows_pipelines/sections/sectionF_046_to_050.registry.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/artifact2_rows_pipelines/sections/sectionF_051_to_054.registry.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/artifact2_rows_pipelines/consolidated/artifact2_rows_pipelines_master_v1.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/artifact2_rows_pipelines/consolidated/artifact2_rows_pipelines_master_v1.md",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/engines/experiential_learning.registry.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/engines/hanging_threads.registry.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/rows_pipelines/README_rows_pipelines_v1.md",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/rows_pipelines/index_manifest.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/rows_pipelines/canonical/aliases.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/rows_pipelines/canonical/pipelines_canonical.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/rows_pipelines/canonical/rows_canonical.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/rows_pipelines/canonical/supersedes.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/rows_pipelines/contracts/PIPELINE_REGISTRY.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/rows_pipelines/contracts/PIPE_SECTION_SCHEMA.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/rows_pipelines/contracts/ROW_CONTRACT_SCHEMA.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/rows_pipelines/contracts/ROW_ROUTING_TABLE.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "runtime/tools/artifact2_preflight.py",
+          "action": "already_identical"
+        },
+        {
+          "rel": "schemas/delta_manifest.schema.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "schemas/ledger_event.schema.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "schemas/module_registry.schema.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "schemas/no_stub_no_placeholder.policy.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "diagnostics/artifact2_build_manifest_v1.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "diagnostics/row_resolver_manifest.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "diagnostics/pipeline_resolver_manifest.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "diagnostics/pipe_sections_manifest.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "diagnostics/pipe_inference_manifest.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "diagnostics/auto_accept_manifest.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "diagnostics/auto_promote_manifest.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "diagnostics/promotion_replay_manifest.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "diagnostics/final_build_manifest.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "diagnostics/artifact2_preflight/artifact2_preflight_manifest_v2.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "diagnostics/artifact2_preflight/artifact2_preflight_report_v2.md",
+          "action": "already_identical"
+        }
+      ],
+      "conflicts": [],
+      "skipped_boot_protected": [
+        "BOOT_CONSTITUTION.md",
+        "BOOT_GATE_ENV.py",
+        "BOOT_GATE_HASH.py",
+        "BOOT_GATE_INTUITION_RUNTIME.py",
+        "BOOT_GATE_LEDGER.py",
+        "BOOT_GATE_NETWORK.py",
+        "BOOT_GATE_PROVENANCE.py",
+        "BOOT_GATE_RETRY.py",
+        "BOOT_GATE_SANDBOX.py",
+        "BOOT_GATE_SANDCRAWLER.py",
+        "BOOT_HASHES.json",
+        "BOOT_METABLOOMS.py",
+        "ZOOP_METABLOOMS.py",
+        "boot_manifest.json",
+        "BOOT_SPEC.md",
+        "BOOT_EVIDENCE_SCHEMA.json",
+        "__pycache__/BOOT_GATE_ENV.cpython-311.pyc",
+        "__pycache__/BOOT_GATE_HASH.cpython-311.pyc",
+        "__pycache__/BOOT_GATE_LEDGER.cpython-311.pyc",
+        "__pycache__/BOOT_GATE_NETWORK.cpython-311.pyc",
+        "__pycache__/BOOT_GATE_PROVENANCE.cpython-311.pyc",
+        "__pycache__/BOOT_GATE_RETRY.cpython-311.pyc",
+        "__pycache__/BOOT_GATE_SANDBOX.cpython-311.pyc",
+        "__pycache__/BOOT_GATE_SANDCRAWLER.cpython-311.pyc",
+        "__pycache__/BOOT_METABLOOMS.cpython-311.pyc",
+        "doctrine/BOOT_CONSTITUTION.md",
+        "evidence/ctos_rebase/BOOT_STDOUT_2026-01-14.txt",
+        "modules/Claude_Skills_Factory/BOOT_INTEGRATION_SPEC_CLAUDE_SKILLS_FACTORY_v1.md",
+        "receipts/BOOT_GATE2_ENFORCEMENT.json",
+        "spec/ctos/BOOT_COMPLIANCE_CHECKLIST_CTOS_v2_1.md"
+      ]
+    },
+    {
+      "delta_id": "DELTA_SPEC_AND_REPLAY_v1",
+      "applied": [
+        {
+          "rel": "modules/replay/REPLAY_MODE.py",
+          "action": "already_identical"
+        },
+        {
+          "rel": "modules/replay/README.md",
+          "action": "already_identical"
+        },
+        {
+          "rel": "spec/METABLOOMS_PIPELINES.md",
+          "action": "already_identical"
+        },
+        {
+          "rel": "spec/METABLOOMS_HEURISTIC_REGISTRY.md",
+          "action": "already_identical"
+        },
+        {
+          "rel": "spec/METABLOOMS_INVOCATION_TEMPLATES.md",
+          "action": "already_identical"
+        },
+        {
+          "rel": "spec/METABLOOMS_V2_COMPLIANCE_CHECKLIST.md",
+          "action": "already_identical"
+        },
+        {
+          "rel": "spec/META_BLOOMS_BOOT.md",
+          "action": "already_identical"
+        },
+        {
+          "rel": "spec/METABLOOMS_P0_INVARIANT_FRAMEWORK.md",
+          "action": "already_identical"
+        },
+        {
+          "rel": "spec/ctos/CTOS_SPEC_INDEX_v2_1.md",
+          "action": "already_identical"
+        },
+        {
+          "rel": "spec/ctos/METABLOOMS_CTOS_CODE_QUALITY_INVARIANT_v1_1.md",
+          "action": "already_identical"
+        },
+        {
+          "rel": "spec/ctos/metablooms_rubrics.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "spec/ctos/metablooms_quality_gate_v1_1.py",
+          "action": "already_identical"
+        }
+      ],
+      "conflicts": [
+        {
+          "rel": "spec/METABLOOMS_MANIFEST.json",
+          "action": "stored_override",
+          "dest": "reinforcement/deltas/DELTA_SPEC_AND_REPLAY_v1/overrides/spec/METABLOOMS_MANIFEST.json"
+        },
+        {
+          "rel": "spec/METABLOOMS_KERNEL_v2.md",
+          "action": "stored_override",
+          "dest": "reinforcement/deltas/DELTA_SPEC_AND_REPLAY_v1/overrides/spec/METABLOOMS_KERNEL_v2.md"
+        }
+      ],
+      "skipped_boot_protected": [
+        "BOOT_METABLOOMS.py",
+        "ZOOP_METABLOOMS.py",
+        "boot_manifest.json",
+        "BOOT_CONSTITUTION.md",
+        "BOOT_GATE_RETRY.py",
+        "BOOT_GATE_LEDGER.py",
+        "BOOT_GATE_PROVENANCE.py",
+        "BOOT_GATE_SANDBOX.py",
+        "BOOT_GATE_NETWORK.py",
+        "BOOT_GATE_SANDCRAWLER.py",
+        "BOOT_GATE_HASH.py",
+        "BOOT_GATE_ENV.py",
+        "BOOT_HASHES.json",
+        "BOOT_GATE_INTUITION_RUNTIME.py",
+        "__pycache__/BOOT_METABLOOMS.cpython-311.pyc",
+        "__pycache__/BOOT_GATE_RETRY.cpython-311.pyc",
+        "__pycache__/BOOT_GATE_PROVENANCE.cpython-311.pyc",
+        "__pycache__/BOOT_GATE_SANDBOX.cpython-311.pyc",
+        "__pycache__/BOOT_GATE_NETWORK.cpython-311.pyc",
+        "__pycache__/BOOT_GATE_SANDCRAWLER.cpython-311.pyc",
+        "__pycache__/BOOT_GATE_HASH.cpython-311.pyc",
+        "__pycache__/BOOT_GATE_ENV.cpython-311.pyc",
+        "__pycache__/BOOT_GATE_LEDGER.cpython-311.pyc",
+        "modules/Claude_Skills_Factory/BOOT_INTEGRATION_SPEC_CLAUDE_SKILLS_FACTORY_v1.md",
+        "doctrine/BOOT_CONSTITUTION.md",
+        "spec/ctos/BOOT_COMPLIANCE_CHECKLIST_CTOS_v2_1.md"
+      ]
+    },
+    {
+      "delta_id": "DELTA_PAYLOAD_ARTIFACT2_v1",
+      "applied": [
+        {
+          "rel": "registry/README_registry_v1.md",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/artifact2_rows_pipelines_index_v1.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/segment_pipeline_registry_v1.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/artifact2_rows_pipelines/index_manifest.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/artifact2_rows_pipelines/contracts/PIPELINE_REGISTRY.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/artifact2_rows_pipelines/contracts/PIPE_SECTION_SCHEMA.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/artifact2_rows_pipelines/contracts/ROW_CONTRACT_SCHEMA.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/artifact2_rows_pipelines/contracts/ROW_ROUTING_TABLE.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/artifact2_rows_pipelines/sections/section_001_to_005.evidence.slim.jsonl",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/artifact2_rows_pipelines/sections/section_001_to_005.improvement_queue.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/artifact2_rows_pipelines/sections/section_001_to_005.registry.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/artifact2_rows_pipelines/sections/sectionF_001_to_005.registry.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/artifact2_rows_pipelines/sections/sectionF_006_to_010.registry.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/artifact2_rows_pipelines/sections/sectionF_011_to_015.registry.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/artifact2_rows_pipelines/sections/sectionF_016_to_020.registry.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/artifact2_rows_pipelines/sections/sectionF_026_to_030.registry.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/artifact2_rows_pipelines/sections/sectionF_031_to_035.registry.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/artifact2_rows_pipelines/sections/sectionF_036_to_040.registry.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/artifact2_rows_pipelines/sections/sectionF_041_to_045.registry.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/artifact2_rows_pipelines/sections/sectionF_046_to_050.registry.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/artifact2_rows_pipelines/sections/sectionF_051_to_054.registry.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/artifact2_rows_pipelines/consolidated/artifact2_rows_pipelines_master_v1.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/artifact2_rows_pipelines/consolidated/artifact2_rows_pipelines_master_v1.md",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/engines/experiential_learning.registry.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/engines/hanging_threads.registry.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/rows_pipelines/README_rows_pipelines_v1.md",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/rows_pipelines/index_manifest.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/rows_pipelines/canonical/aliases.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/rows_pipelines/canonical/pipelines_canonical.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/rows_pipelines/canonical/rows_canonical.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/rows_pipelines/canonical/supersedes.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/rows_pipelines/contracts/PIPELINE_REGISTRY.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/rows_pipelines/contracts/PIPE_SECTION_SCHEMA.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/rows_pipelines/contracts/ROW_CONTRACT_SCHEMA.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "registry/rows_pipelines/contracts/ROW_ROUTING_TABLE.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "runtime/tools/artifact2_preflight.py",
+          "action": "already_identical"
+        },
+        {
+          "rel": "diagnostics/artifact2_build_manifest_v1.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "diagnostics/artifact2_preflight/artifact2_preflight_manifest_v2.json",
+          "action": "already_identical"
+        },
+        {
+          "rel": "diagnostics/artifact2_preflight/artifact2_preflight_report_v2.md",
+          "action": "already_identical"
+        }
+      ],
+      "conflicts": [],
+      "skipped_boot_protected": [
+        "BOOT_CONSTITUTION.md",
+        "BOOT_GATE_ENV.py",
+        "BOOT_GATE_HASH.py",
+        "BOOT_GATE_INTUITION_RUNTIME.py",
+        "BOOT_GATE_LEDGER.py",
+        "BOOT_GATE_NETWORK.py",
+        "BOOT_GATE_PROVENANCE.py",
+        "BOOT_GATE_RETRY.py",
+        "BOOT_GATE_SANDBOX.py",
+        "BOOT_GATE_SANDCRAWLER.py",
+        "BOOT_HASHES.json",
+        "BOOT_METABLOOMS.py",
+        "ZOOP_METABLOOMS.py",
+        "boot_manifest.json",
+        "__pycache__/BOOT_GATE_ENV.cpython-311.pyc",
+        "__pycache__/BOOT_GATE_HASH.cpython-311.pyc",
+        "__pycache__/BOOT_GATE_LEDGER.cpython-311.pyc",
+        "__pycache__/BOOT_GATE_NETWORK.cpython-311.pyc",
+        "__pycache__/BOOT_GATE_PROVENANCE.cpython-311.pyc",
+        "__pycache__/BOOT_GATE_RETRY.cpython-311.pyc",
+        "__pycache__/BOOT_GATE_SANDBOX.cpython-311.pyc",
+        "__pycache__/BOOT_GATE_SANDCRAWLER.cpython-311.pyc",
+        "__pycache__/BOOT_METABLOOMS.cpython-311.pyc",
+        "doctrine/BOOT_CONSTITUTION.md",
+        "evidence/ctos_rebase/BOOT_STDOUT_2026-01-14.txt",
+        "modules/Claude_Skills_Factory/BOOT_INTEGRATION_SPEC_CLAUDE_SKILLS_FACTORY_v1.md",
+        "receipts/BOOT_GATE2_ENFORCEMENT.json",
+        "spec/ctos/BOOT_COMPLIANCE_CHECKLIST_CTOS_v2_1.md"
+      ]
+    },
+    {
+      "delta_id": "DELTA_TOOLCHAINS_OPTIONAL_v1",
+      "applied": [
+        {
+          "rel": "toolchains/metablooms/segments/registry.json",
+          "action": "copied"
+        },
+        {
+          "rel": "toolchains/metablooms/segments/adapters/seg.env.toolchain_discover.py",
+          "action": "copied"
+        },
+        {
+          "rel": "toolchains/metablooms/segments/adapters/seg.docx_to_md.pandoc.py",
+          "action": "copied"
+        },
+        {
+          "rel": "toolchains/metablooms/segments/adapters/seg.docx_to_html.pandoc.py",
+          "action": "copied"
+        },
+        {
+          "rel": "toolchains/metablooms/segments/adapters/seg.md_to_pdf.pandoc.py",
+          "action": "copied"
+        },
+        {
+          "rel": "toolchains/metablooms/segments/adapters/seg.pdf_to_png.imagemagick_whitebg.py",
+          "action": "copied"
+        },
+        {
+          "rel": "toolchains/metablooms/segments/adapters/seg.office_to_pdf.libreoffice.py",
+          "action": "copied"
+        },
+        {
+          "rel": "toolchains/metablooms/segments/adapters/seg.xlsx_to_csv.openpyxl.py",
+          "action": "copied"
+        },
+        {
+          "rel": "toolchains/metablooms/segments/adapters/seg.stt_unavailable.py",
+          "action": "copied"
+        },
+        {
+          "rel": "toolchains/metablooms/vendor/vendor_manifest.json",
+          "action": "copied"
+        },
+        {
+          "rel": "toolchains/metablooms/vendor/bin/pandoc",
+          "action": "copied"
+        },
+        {
+          "rel": "toolchains/metablooms/vendor/models/whisper/ggml-base.en-q5_1.bin",
+          "action": "copied"
+        },
+        {
+          "rel": "toolchains/metablooms/vendor/specs/vendor_acquisition_specs.json",
+          "action": "copied"
+        },
+        {
+          "rel": "toolchains/metablooms/runtime/preflight.py",
+          "action": "copied"
+        },
+        {
+          "rel": "toolchains/metablooms/runtime/resolver.py",
+          "action": "copied"
+        },
+        {
+          "rel": "toolchains/metablooms/runtime/runner.py",
+          "action": "copied"
+        },
+        {
+          "rel": "toolchains/metablooms/runtime/row_resolver.py",
+          "action": "copied"
+        },
+        {
+          "rel": "toolchains/metablooms/runtime/audit/boot_import_audit.py",
+          "action": "copied"
+        },
+        {
+          "rel": "toolchains/metablooms/runtime/audit/language_audit.py",
+          "action": "copied"
+        },
+        {
+          "rel": "toolchains/metablooms/invariants/boot_import_allowlist.json",
+          "action": "copied"
+        },
+        {
+          "rel": "toolchains/metablooms/docs/BOOT_ALLOWLIST_LANGUAGE_AUDIT.md",
+          "action": "copied"
+        }
+      ],
+      "conflicts": [],
+      "skipped_boot_protected": []
+    }
+  ],
+  "boot_spine_hashes": {
+    "BOOT_METABLOOMS.py": "4c95dc7c7659e8c0abbf867f7000e8b9f08eedd9c75c160df567d815d612446c",
+    "BOOT_GATE_RETRY.py": "a550d2b643b96dce275ffeaf4132e8c2bb2cec7515ac7c96514063c3000df51b",
+    "BOOT_GATE_LEDGER.py": "2ef20f9d8fa4fa352586888b12f467920ebfc9bc7d6b453518243ec968cf7e5a",
+    "BOOT_GATE_INTUITION_RUNTIME.py": "b9209912f90ec437c0f515c5aec2825e5732d7a53ac957d9381c4ee179c3018f",
+    "BOOT_GATE_PROVENANCE.py": "933cd132b8786efeb1857564de9fe7949e132521e42ed49772fd416782d4429c",
+    "BOOT_GATE_SANDBOX.py": "61f540230b031045183cb65bf80a8f9fed47acd9eaa356d929bc97e92aaee8b8",
+    "BOOT_GATE_NETWORK.py": "285328be653397e2b4b02d6e7e92921808c9f703896749e90a97da05842dcad7",
+    "BOOT_GATE_SANDCRAWLER.py": "a3b8496c82916f4eb4eed582f53b50227049f8986d344e6f570e68d55e72f2a9",
+    "BOOT_GATE_HASH.py": "3ea593055f04f11e21d7ad36f1d2307230a7fb20f30add3760b1d2a6a75d191b",
+    "BOOT_GATE_ENV.py": "4edea22687cabd0e4a427e7cc4ac9c7375cfd614b39f3b1222a37a530b28bbab",
+    "boot_manifest.json": "8487f6a57ea2036ddc39ce5bb9281f00e77267504bb68feb198cf0fa0239b6ee"
+  }
+}

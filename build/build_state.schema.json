@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MetaBlooms build_state",
+  "type": "object",
+  "required": [
+    "os_version",
+    "canonical_root",
+    "applied_deltas",
+    "last_mutation_ts",
+    "integrity_hash"
+  ],
+  "properties": {
+    "os_version": {
+      "type": "string"
+    },
+    "canonical_root": {
+      "type": "string"
+    },
+    "applied_deltas": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "last_mutation_ts": {
+      "type": "string"
+    },
+    "integrity_hash": {
+      "type": "string"
+    }
+  }
+}

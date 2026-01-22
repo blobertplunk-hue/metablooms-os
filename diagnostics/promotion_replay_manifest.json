@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "built_at": "2026-01-14T23:35:05.391266Z",
+  "components": [
+    "runtime/execution/promotion_replayer.py",
+    "runtime/boot/boot_promotion_replay.py"
+  ],
+  "behavior": {
+    "trigger": "on_boot",
+    "idempotent": true,
+    "fail_closed": true
+  },
+  "artifacts": [
+    "ledger/registry_promotions.jsonl",
+    "diagnostics/promotion_replay.log"
+  ]
+}

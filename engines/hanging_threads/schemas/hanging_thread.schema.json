@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "additionalProperties": true,
+  "properties": {
+    "evidence": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "references": {
+      "items": {
+        "type": "object"
+      },
+      "type": [
+        "array",
+        "null"
+      ]
+    },
+    "source": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "open",
+        "resolved",
+        "superseded"
+      ],
+      "type": "string"
+    },
+    "thread_id": {
+      "minLength": 6,
+      "type": "string"
+    },
+    "trigger_text": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "ts_utc": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "thread_id",
+    "status",
+    "trigger_text",
+    "ts_utc",
+    "source"
+  ],
+  "title": "MetaBlooms Hanging Thread Record v1",
+  "type": "object"
+}

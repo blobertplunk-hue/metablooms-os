@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/mnt/data/_os_fix_p0/BOOT_METABLOOMS.py", line 85, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/mnt/data/_os_fix_p0/BOOT_METABLOOMS.py", line 51, in main
+    _enforce_p0(trigger="boot", os_root_hint=root)
+TypeError: enforce() got an unexpected keyword argument 'os_root_hint'

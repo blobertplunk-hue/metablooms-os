@@ -1,0 +1,6 @@
+{
+  "gate": "GATE.CTOS.ALM.V1",
+  "mode": "ENFORCE",
+  "effective": "QUEUE3",
+  "note": "Supersedes WARN in preflight_gate_chain_append.json (additive override policy)."
+}

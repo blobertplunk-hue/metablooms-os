@@ -1,0 +1,13 @@
+{
+  "intent": "BOOT_OR_OPERATOR_COMMANDS",
+  "banned_phrases": [
+    "which os",
+    "which file",
+    "please specify",
+    "can you tell me which",
+    "i need you to choose",
+    "which bundle"
+  ],
+  "action": "FAIL_PREFLIGHT",
+  "severity": "P0"
+}

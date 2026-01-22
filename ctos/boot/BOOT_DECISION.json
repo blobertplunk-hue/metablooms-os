@@ -1,0 +1,9 @@
+{
+  "rule": "DETERMINISTIC_ELECTION",
+  "fields": [
+    "filename",
+    "byte_size",
+    "selection_reason",
+    "timestamp"
+  ]
+}

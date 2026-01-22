@@ -1,0 +1,137 @@
+{
+  "checks": [
+    {
+      "check_id": "GATE.CHAIN.SCHEMA.V1",
+      "evidence": {
+        "callable": "run_gate",
+        "errors": [],
+        "module": "metablooms.preflight.gates.mb_gate_preflight_chain_schema_v1"
+      },
+      "level": "P0",
+      "pass": true,
+      "reason": null
+    },
+    {
+      "check_id": "GATE.P0.CANONICAL.ROOT.MANIFEST.V1",
+      "evidence": {
+        "callable": "run_gate",
+        "errors": [],
+        "module": "metablooms.preflight.gates.mb_gate_canonical_root_manifest_v1"
+      },
+      "level": "P0",
+      "pass": true,
+      "reason": null
+    },
+    {
+      "check_id": "GATE.P0.PHASE1.METAGATES.REGISTERED.V1",
+      "evidence": {
+        "callable": "run_gate",
+        "errors": [],
+        "module": "metablooms.preflight.gates.mb_gate_phase1_metagates_registered_v1"
+      },
+      "level": "P0",
+      "pass": true,
+      "reason": null
+    },
+    {
+      "check_id": "GATE.P0.BYTE_TRUTH.V2",
+      "evidence": {
+        "callable": "run_gate",
+        "errors": [],
+        "module": "metablooms.preflight.gates.mb_gate_byte_truth_v2"
+      },
+      "level": "P0",
+      "pass": true,
+      "reason": null
+    },
+    {
+      "check_id": "GATE.P0.DOCS.FAIL_TO_FIX.V1",
+      "evidence": {
+        "callable": "run_gate",
+        "errors": [],
+        "module": "metablooms.preflight.gates.mb_gate_docs_fail_to_fix_v1"
+      },
+      "level": "P0",
+      "pass": true,
+      "reason": null
+    },
+    {
+      "check_id": "GATE.P0.DOCS.HARDENING.FAIL_TO_FIX.V1",
+      "evidence": {
+        "callable": "run_gate",
+        "errors": [],
+        "module": "metablooms.preflight.gates.mb_gate_docs_hardening_fail_to_fix_v1"
+      },
+      "level": "P0",
+      "pass": true,
+      "reason": null
+    },
+    {
+      "check_id": "GATE.CODE.NO_PLACEHOLDERS.V1",
+      "evidence": {
+        "callable": "run_gate",
+        "errors": [],
+        "module": "metablooms.preflight.gates.mb_gate_no_placeholders_v1"
+      },
+      "level": "P0",
+      "pass": true,
+      "reason": null
+    },
+    {
+      "check_id": "GATE.AUTOSAVE.KEEP_DROP_WHY.V1",
+      "evidence": {
+        "callable": "run_gate",
+        "errors": [],
+        "module": "metablooms.preflight.gates.mb_gate_autosave_keep_drop_why_v1"
+      },
+      "level": "P0",
+      "pass": true,
+      "reason": null
+    },
+    {
+      "check_id": "GATE.SUBCAUSAL_SENTRY.V1",
+      "evidence": {
+        "callable": "run_gate",
+        "errors": [],
+        "module": "metablooms.preflight.gates.mb_gate_subcausal_sentry_v1"
+      },
+      "level": "P0",
+      "pass": true,
+      "reason": null
+    },
+    {
+      "check_id": "GATE.PROVENANCE.MIN3.V1",
+      "evidence": {
+        "callable": "run_gate",
+        "errors": [],
+        "module": "metablooms.preflight.gates.mb_gate_provenance_minimal_v1"
+      },
+      "level": "P0",
+      "pass": true,
+      "reason": null
+    },
+    {
+      "check_id": "GATE.DECISION.TRACE.WIRING.V1",
+      "evidence": {
+        "callable": "run_gate",
+        "errors": [],
+        "module": "metablooms.preflight.gates.mb_gate_decision_trace_wiring_v1"
+      },
+      "level": "P0",
+      "pass": true,
+      "reason": null
+    },
+    {
+      "check_id": "GATE.EVIDENCE.SEE.LOOP.V1",
+      "evidence": {
+        "callable": "run_gate",
+        "errors": [],
+        "module": "metablooms.preflight.gates.mb_gate_evidence_see_loop_v1"
+      },
+      "level": "P0",
+      "pass": true,
+      "reason": null
+    }
+  ],
+  "ok": true
+}

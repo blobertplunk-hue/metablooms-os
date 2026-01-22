@@ -1,0 +1,22 @@
+segments:
+  foundations:
+    books: [Think Python]
+    exercises: foundations_exercises.md
+  fluency:
+    books: [A Byte of Python]
+    exercises: fluency_exercises.md
+  agency:
+    books: [Automate the Boring Stuff, Invent With Python]
+    exercises: agency_exercises.md
+  semantics:
+    books: [Dive Into Python]
+    exercises: semantics_exercises.md
+  algorithms:
+    books: [Algorithms, Open Data Structures]
+    exercises: algorithms_exercises.md
+  uncertainty:
+    books: [Think Stats, Think Bayes]
+    exercises: uncertainty_exercises.md
+  integration:
+    books: [Elements of Data Science]
+    exercises: integration_exercises.md

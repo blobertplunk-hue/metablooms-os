@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Missing Middle Finding v1",
+  "type": "object",
+  "required": ["finding_id", "severity", "category", "message"],
+  "properties": {
+    "finding_id": { "type": "string" },
+    "severity": { "type": "string", "enum": ["WARN", "BLOCK"] },
+    "category": {
+      "type": "string",
+      "enum": [
+        "PLAN_CODE",
+        "CODE_EVIDENCE",
+        "EVIDENCE_GATE",
+        "LOOP",
+        "SECURITY_VALIDATION",
+        "CAPABILITY_COMPLETENESS",
+        "RESOURCE_MANAGEMENT",
+        "CONCURRENCY_SAFETY",
+        "ERROR_HANDLING",
+        "SCHEMA_ENFORCEMENT",
+        "ENVIRONMENT_PORTABILITY",
+        "CONFIGURATION_MANAGEMENT",
+        "DEPENDENCY_MANAGEMENT",
+        "OBSERVABILITY"
+      ]
+    },
+    "message": { "type": "string" },
+    "claim_reference": { "type": "string" },
+    "expected_artifacts": { "type": "array", "items": { "type": "string" } },
+    "missing_artifacts": { "type": "array", "items": { "type": "string" } },
+    "recommended_fix": { "type": "string" },
+    "evidence_level_at_risk": { "type": "string", "enum": ["E1", "E2", "E3", "E4"] }
+  },
+  "additionalProperties": true
+}

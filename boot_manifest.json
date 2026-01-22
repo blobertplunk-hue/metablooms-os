@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "canonical_entrypoint": "BOOT_METABLOOMS.py",
+  "runner": "RUN_METABLOOMS.py",
+  "notes": "Immutable entrypoint is BOOT_METABLOOMS.py. Runner may evolve but path remains stable via this manifest."
+}

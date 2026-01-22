@@ -1,0 +1,19 @@
+{
+  "module": "mb_module_javascript",
+  "language": "javascript",
+  "version": "1.0.0",
+  "segments": [
+    "foundations",
+    "fluency",
+    "dom",
+    "async",
+    "algorithms"
+  ],
+  "created": "2026-01-21",
+  "routing": "state-driven",
+  "meta": {
+    "supports_stuck_detection": true,
+    "supports_teacher_view": true,
+    "supports_scheduler": true
+  }
+}

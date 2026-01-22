@@ -1,0 +1,16 @@
+{
+  "blast_radius": "GATE.P0.CANONICAL.ROOT.MANIFEST.V1",
+  "gate_id": "GATE.P0.CANONICAL.ROOT.MANIFEST.V1",
+  "justification": "Derived directly from failing gate evidence",
+  "problem": "BOOT_ENTRYPOINT_SHA256_MISMATCH",
+  "proposed_change": {
+    "action": "FIELD_LEVEL_FIX",
+    "evidence": {
+      "callable": "run_gate",
+      "errors": [
+        "BOOT_ENTRYPOINT_SHA256_MISMATCH"
+      ],
+      "module": "metablooms.preflight.gates.mb_gate_canonical_root_manifest_v1"
+    }
+  }
+}

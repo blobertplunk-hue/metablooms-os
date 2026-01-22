@@ -1,0 +1,101 @@
+id: P0.SUBCAUSAL_SENTRY
+version: 1
+priority: P0
+mode: ENFORCE_FAIL_CLOSED
+
+purpose: >
+  Detect leading-indicator (sub-causal) signals that predict non-convergence, drift, or wasted effort.
+  Prefer early, lightweight corrective actions (reflect/clarify/rename/record) and only escalate to
+  LOGIC_GAP_SENTRY when indicators persist.
+
+scope:
+  applies_to:
+    - metablooms_objectives
+    - causal_reasoning
+    - creative_interactions
+    - exploratory_dialogue
+    - casual_conversation
+
+# Depth & Complexity (D&C) mapping provides interpretability for humans.
+dc_mappings:
+  Patterns:
+    machine_interpretation: repeated_structure_without_stabilization
+  Over_Time:
+    machine_interpretation: regression_or_reappearance_after_resolution_claim
+  Rules:
+    machine_interpretation: invariant_missing_or_violated
+  Unanswered_Questions:
+    machine_interpretation: growing_output_without_decision_or_state_binding
+  Ethics:
+    machine_interpretation: user_effort_waste_risk_detected
+  Multiple_Perspectives:
+    machine_interpretation: single_lens_lock_in_under_ambiguity
+
+subcausal_signals:
+  - id: SC.PHANTOM_FIX_ACCEPTANCE
+    dc_icons: [Rules, Over_Time]
+    description: "A fix is treated as done without an external state change."
+    detectors:
+      - pattern: "(should fix|that fixes|done now|we fixed|resolved)"
+        requires_absence_of: ["file_path", "hash", "export", "changelog", "diff"]
+    response:
+      tier: LIGHT
+      actions:
+        - REQUIRE_OBSERVATION_VS_TRANSITION_PROOF
+        - PROMPT: "What changed externally (file/path/hash/export)? If nothing, we are not done."
+
+  - id: SC.ENTRYPOINT_AMBIGUITY
+    dc_icons: [Rules, Patterns]
+    description: "Ambiguity about which OS/bundle/entrypoint is canonical."
+    detectors:
+      - pattern: "(which.*OS|which.*bundle|which.*boot|don\x27t know.*boot|entrypoint)"
+    response:
+      tier: LIGHT
+      actions:
+        - REQUIRE_STATE_IDENTITY_LOCK
+        - PROMPT: "Name the canonical bundle + entrypoint path. If unknown, halt and resolve."
+
+  - id: SC.NAMESPACE_COLLISION
+    dc_icons: [Rules, Patterns]
+    description: "A symbol repeatedly resolves to the wrong referent (public vs internal)."
+    detectors:
+      - pattern: "(keeps.*calling|keeps.*thinking|wrong reference|Star Wars)"
+    response:
+      tier: MEDIUM
+      actions:
+        - REQUIRE_RENAME_OR_NAMESPACE_LOCK
+        - PROMPT: "This is a namespace collision. Propose collision-free rename and deprecate old symbol."
+
+  - id: SC.EXPLANATION_INFLATION
+    dc_icons: [Unanswered_Questions, Over_Time]
+    description: "Explanations grow while outcomes do not converge."
+    detectors:
+      - pattern: "(again|still|keeps happening|why does this keep|we already)"
+      - heuristic: verbosity_growth_without_state_change
+    response:
+      tier: MEDIUM
+      actions:
+        - ENTER_REFLECT_CONFIRM
+        - PROMPT: "Do you mean X? If yes, lock state. If no, correct. Then propose one constraint/gate change."
+
+  - id: SC.CERTAINTY_ANCHOR_MISMATCH
+    dc_icons: [Rules, Ethics]
+    description: "High certainty language without anchors (state binding, evidence, or artifacts)."
+    detectors:
+      - pattern: "(obviously|clearly|you know|for sure|no doubt)"
+        requires_absence_of: ["state:", "hash", "export", "citation"]
+    response:
+      tier: LIGHT
+      actions:
+        - ENTER_REFLECT_CONFIRM
+        - PROMPT: "I may not share your referent. Do you mean ___? Provide anchor (state/evidence) to proceed."
+
+escalation:
+  to_logic_gap_sentry:
+    if_same_objective_key_persists:
+      occurrences_min: 2
+    action: ENTER_LOGIC_GAP_SENTRY
+
+fail_closed:
+  if_state_identity_missing: true
+  if_response_action_unavailable: true

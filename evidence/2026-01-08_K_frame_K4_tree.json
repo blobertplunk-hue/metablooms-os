@@ -1,0 +1,31 @@
+{
+  "frame_code": "K.4",
+  "frame_text": "Phonics",
+  "trees": [
+    {
+      "expectation": "K.4A",
+      "leaves": [
+        {
+          "grade": "K",
+          "frame_code": "K.4",
+          "frame_text": "Phonics",
+          "expectation_code": "K.4A",
+          "expectation_text": "Identify the common sounds that letters represent",
+          "subpart": null,
+          "verb": "identify",
+          "object": "letter sounds",
+          "conditions": [
+            "in isolation",
+            "in context"
+          ],
+          "modality": "word_study",
+          "evidence_claim": "Student identifies common sounds for letters.",
+          "non_substitutability": "Does not substitute for blending sounds.",
+          "prerequisites": [
+            "K.3A"
+          ]
+        }
+      ]
+    }
+  ]
+}

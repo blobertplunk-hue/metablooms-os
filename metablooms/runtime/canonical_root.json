@@ -1,0 +1,12 @@
+{
+  "boot_entrypoint": "BOOT_METABLOOMS.py",
+  "boot_entrypoint_sha256": "f62bdf32b8f19518fbc8054c965f1b5dcae0f1b4bd164d9978cd8dc655a32d69",
+  "canonical_root_required": true,
+  "canonical_zip_basename": "2026-01-17_MetaBlooms_OS_PASS3_BYTE_TRUTH_V2_PLUS_PHASE1_OS_BASELINE_V1_PLUS_SEE_LOOP_P0_PLUS_SECURITY_AXIS_P0_PLUS_RESOURCE_CONCURRENCY_SCHEMA_V1_PLUS_PORTABILITY_CONFIG_DEPENDENCY_V1.zip",
+  "required_paths": [
+    "BOOT_METABLOOMS.py",
+    "RUN_METABLOOMS.py",
+    "metablooms/preflight/preflight_gate_chain_v1.json"
+  ],
+  "schema": "metablooms.runtime.canonical_root.v1"
+}

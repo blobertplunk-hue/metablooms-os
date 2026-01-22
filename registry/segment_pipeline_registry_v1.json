@@ -1,0 +1,294 @@
+{
+  "schema": {
+    "name": "MB_SEGMENT_PIPELINE_REGISTRY",
+    "version": "v1"
+  },
+  "authoritative_root": "/mnt/data",
+  "runtime_reality": {
+    "P0": true,
+    "statement": "MetaBlooms operates exclusively within the ChatGPT sandbox filesystem at /mnt/data. External devices are inputs/exports/tools only.",
+    "enforcement_segment": "seg.governance.runtime_scope_guard.v1"
+  },
+  "naming": {
+    "segment_id_format": "seg.<domain>.<n>.v<major>",
+    "pipeline_id_format": "pipe.<domain>.<n>.v<major>",
+    "stage_id_format": "stage.<n>",
+    "artifact_id_format": "art.<kind>.<n>.v<major>"
+  },
+  "stages": [
+    {
+      "id": "stage.intake",
+      "order": 10,
+      "purpose": "Capture/normalize input into structured task signals"
+    },
+    {
+      "id": "stage.classify",
+      "order": 20,
+      "purpose": "Classify domain/risk/priority and choose pipeline"
+    },
+    {
+      "id": "stage.plan",
+      "order": 30,
+      "purpose": "Assemble segment graph into a deterministic plan"
+    },
+    {
+      "id": "stage.validate",
+      "order": 40,
+      "purpose": "Fail-closed validation of invariants, schemas, completeness"
+    },
+    {
+      "id": "stage.execute",
+      "order": 50,
+      "purpose": "Perform allowed actions (in-sandbox artifact generation)"
+    },
+    {
+      "id": "stage.ledger",
+      "order": 60,
+      "purpose": "Append receipts, evidence, lineage (append-only)"
+    },
+    {
+      "id": "stage.evolve",
+      "order": 70,
+      "purpose": "Evolution Seam: selection/adaptation; cannot override governance"
+    },
+    {
+      "id": "stage.publish",
+      "order": 80,
+      "purpose": "Export bundles for transport; no external execution assumed"
+    }
+  ],
+  "segments": [
+    {
+      "id": "seg.input.path_trigger.v1",
+      "stage": "stage.intake",
+      "type": "sensing",
+      "description": "Detect triggers/keywords in input",
+      "inputs": [
+        "raw_text"
+      ],
+      "outputs": [
+        "signals.trigger_hits"
+      ]
+    },
+    {
+      "id": "seg.normalize.requirements.v1",
+      "stage": "stage.intake",
+      "type": "normalization",
+      "description": "Extract objectives/constraints/success criteria",
+      "inputs": [
+        "raw_text"
+      ],
+      "outputs": [
+        "task.normalized"
+      ]
+    },
+    {
+      "id": "seg.classify.domain_risk.v1",
+      "stage": "stage.classify",
+      "type": "classification",
+      "description": "Classify domain/risk/priority",
+      "inputs": [
+        "task.normalized"
+      ],
+      "outputs": [
+        "task.classification"
+      ]
+    },
+    {
+      "id": "seg.validate.p0_invariants.v1",
+      "stage": "stage.validate",
+      "type": "validation",
+      "description": "Validate P0 invariants incl. /mnt/data runtime reality",
+      "inputs": [
+        "task",
+        "context"
+      ],
+      "outputs": [
+        "validation.report"
+      ],
+      "fail_closed": true
+    },
+    {
+      "id": "seg.governance.runtime_scope_guard.v1",
+      "stage": "stage.validate",
+      "type": "control",
+      "description": "Block any plan/output implying external runtime execution",
+      "inputs": [
+        "plan.text",
+        "output.text"
+      ],
+      "outputs": [
+        "validation.block_or_ok"
+      ],
+      "fail_closed": true,
+      "block_if_mentions": [
+        "termux",
+        "chmod",
+        "/storage/emulated",
+        "pkg install",
+        "run this script on your phone",
+        "execute on android",
+        "install it",
+        "cd /storage"
+      ],
+      "allow_if_contains": [
+        "/mnt/data"
+      ]
+    },
+    {
+      "id": "seg.memory.receipt_emit.v1",
+      "stage": "stage.ledger",
+      "type": "trace",
+      "description": "Emit receipt entries and append to ledger.ndjson",
+      "inputs": [
+        "execution.events"
+      ],
+      "outputs": [
+        "ledger.append"
+      ],
+      "append_only": true
+    },
+    {
+      "id": "seg.evolution.observe_methodology.v1",
+      "stage": "stage.evolve",
+      "type": "governance-learning",
+      "description": "Observe methodology failures (loops, tool mismatch) and append fitness events",
+      "inputs": [
+        "methodology.signals"
+      ],
+      "outputs": [
+        "fitness.events"
+      ],
+      "constraints": [
+        "read_only_inputs",
+        "cannot_override_governance"
+      ]
+    },
+    {
+      "id": "seg.evolution.select_variant.v1",
+      "stage": "stage.evolve",
+      "type": "routing",
+      "description": "Select variant under constraints; cannot override governance",
+      "inputs": [
+        "available_variants",
+        "fitness.state",
+        "constraints"
+      ],
+      "outputs": [
+        "selection.binding"
+      ]
+    }
+  ],
+  "pipelines": [
+    {
+      "id": "pipe.core.segment_registry_bootstrap.v1",
+      "domain": "core",
+      "goal": "Maintain authoritative segment/pipeline registry; prevent duplication",
+      "stages": [
+        "stage.validate",
+        "stage.ledger",
+        "stage.publish"
+      ],
+      "segment_sequence": [
+        "seg.validate.p0_invariants.v1",
+        "seg.governance.runtime_scope_guard.v1",
+        "seg.memory.receipt_emit.v1"
+      ],
+      "artifacts": [
+        "art.registry.registry_json.v1",
+        "art.report.registry_readme_md.v1"
+      ]
+    },
+    {
+      "id": "pipe.core.mandatory_intake.v1",
+      "domain": "core",
+      "goal": "Mandatory chat intake \u2192 normalized task \u2192 ledgered receipts",
+      "stages": [
+        "stage.intake",
+        "stage.classify",
+        "stage.plan",
+        "stage.validate",
+        "stage.execute",
+        "stage.ledger"
+      ],
+      "segment_sequence": [
+        "seg.input.path_trigger.v1",
+        "seg.normalize.requirements.v1",
+        "seg.classify.domain_risk.v1",
+        "seg.validate.p0_invariants.v1",
+        "seg.memory.receipt_emit.v1"
+      ],
+      "artifacts": [
+        "art.ledger.ledger_ndjson.v1",
+        "art.report.intake_summary_md.v1"
+      ]
+    },
+    {
+      "id": "pipe.evolution.methodology_wiring.v1",
+      "domain": "evolution",
+      "goal": "Wire methodology governance signals into Evolution Seam selection + fitness",
+      "stages": [
+        "stage.plan",
+        "stage.validate",
+        "stage.evolve",
+        "stage.ledger"
+      ],
+      "segment_sequence": [
+        "seg.validate.p0_invariants.v1",
+        "seg.evolution.observe_methodology.v1",
+        "seg.evolution.select_variant.v1",
+        "seg.memory.receipt_emit.v1"
+      ],
+      "artifacts": [
+        "art.ledger.fitness_ledger_ndjson.v1",
+        "art.report.evolution_wiring_md.v1"
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "art.registry.registry_json.v1",
+      "path": "/mnt/data/MetaBlooms_OS/registry/segment_pipeline_registry_v1.json",
+      "kind": "json"
+    },
+    {
+      "id": "art.report.registry_readme_md.v1",
+      "path": "/mnt/data/MetaBlooms_OS/registry/README_registry_v1.md",
+      "kind": "md"
+    },
+    {
+      "id": "art.ledger.ledger_ndjson.v1",
+      "path": "/mnt/data/MetaBlooms_OS/evidence/ledger.ndjson",
+      "kind": "ndjson"
+    },
+    {
+      "id": "art.ledger.fitness_ledger_ndjson.v1",
+      "path": "/mnt/data/MetaBlooms_OS/evidence/fitness_ledger.ndjson",
+      "kind": "ndjson"
+    },
+    {
+      "id": "art.report.intake_summary_md.v1",
+      "path": "/mnt/data/MetaBlooms_OS/pipelines/intake_summary_template_v1.md",
+      "kind": "md"
+    },
+    {
+      "id": "art.report.evolution_wiring_md.v1",
+      "path": "/mnt/data/MetaBlooms_OS/pipelines/evolution_wiring_spec_v1.md",
+      "kind": "md"
+    },
+    {
+      "id": "art.test.validate_registry_py.v1",
+      "path": "/mnt/data/MetaBlooms_OS/tests/validate_registry_v1.py",
+      "kind": "py"
+    }
+  ],
+  "artifact_path_hint": "/mnt/data/MetaBlooms_OS/registry/segment_pipeline_registry_v1.json",
+  "semantic_segments": {
+    "registry_path": "metablooms/registry/semantic_segments_v1.json",
+    "schema_path": "metablooms/registry/semantic_segments_v1.schema.json",
+    "enforcement_gate": "GATE.SEMANTIC.SEGMENTS.REQUIRED.V1",
+    "note": "Segments type LLM work and bind allowed ops; this prevents ad-hoc LLM usage.",
+    "gate_required": "GATE.SEMANTIC.SEGMENTS.REQUIRED.V1",
+    "gate_coverage": "GATE.SEMANTIC.SEGMENTS.COVERAGE.V1"
+  }
+}

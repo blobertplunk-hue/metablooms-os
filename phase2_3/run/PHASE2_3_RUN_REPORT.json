@@ -1,0 +1,76 @@
+{
+  "run_at": "2026-01-20T20:51:40.964549Z",
+  "result": "PASS",
+  "tests": [
+    {
+      "test_case": "TC-INV-ARCHIVE-CONTEXT-SEPARATION-NEG",
+      "invariant_id": "INV-ARCHIVE-CONTEXT-SEPARATION",
+      "pass": false,
+      "halted": true,
+      "timestamp": "2026-01-20T20:51:40.964193Z"
+    },
+    {
+      "test_case": "TC-INV-ARCHIVE-CONTEXT-SEPARATION-POS",
+      "invariant_id": "INV-ARCHIVE-CONTEXT-SEPARATION",
+      "pass": true,
+      "halted": false,
+      "timestamp": "2026-01-20T20:51:40.964206Z"
+    },
+    {
+      "test_case": "TC-INV-AUDIT-BEFORE-SHIP-NEG",
+      "invariant_id": "INV-AUDIT-BEFORE-SHIP",
+      "pass": false,
+      "halted": true,
+      "timestamp": "2026-01-20T20:51:40.964215Z"
+    },
+    {
+      "test_case": "TC-INV-AUDIT-BEFORE-SHIP-POS",
+      "invariant_id": "INV-AUDIT-BEFORE-SHIP",
+      "pass": true,
+      "halted": false,
+      "timestamp": "2026-01-20T20:51:40.964218Z"
+    },
+    {
+      "test_case": "TC-INV-FAIL-CLOSED-ON-MISSING-EVIDENCE-NEG",
+      "invariant_id": "INV-FAIL-CLOSED-ON-MISSING-EVIDENCE",
+      "pass": false,
+      "halted": true,
+      "timestamp": "2026-01-20T20:51:40.964222Z"
+    },
+    {
+      "test_case": "TC-INV-FAIL-CLOSED-ON-MISSING-EVIDENCE-POS",
+      "invariant_id": "INV-FAIL-CLOSED-ON-MISSING-EVIDENCE",
+      "pass": true,
+      "halted": false,
+      "timestamp": "2026-01-20T20:51:40.964225Z"
+    },
+    {
+      "test_case": "TC-INV-NO-REPEAT-POST-CORRECTION-NEG",
+      "invariant_id": "INV-NO-REPEAT-POST-CORRECTION",
+      "pass": false,
+      "halted": true,
+      "timestamp": "2026-01-20T20:51:40.964228Z"
+    },
+    {
+      "test_case": "TC-INV-NO-REPEAT-POST-CORRECTION-POS",
+      "invariant_id": "INV-NO-REPEAT-POST-CORRECTION",
+      "pass": true,
+      "halted": false,
+      "timestamp": "2026-01-20T20:51:40.964234Z"
+    },
+    {
+      "test_case": "TC-INV-MANDATORY-INSTRUCTIONS-OVERRIDE-FLOW-NEG",
+      "invariant_id": "INV-MANDATORY-INSTRUCTIONS-OVERRIDE-FLOW",
+      "pass": false,
+      "halted": true,
+      "timestamp": "2026-01-20T20:51:40.964239Z"
+    },
+    {
+      "test_case": "TC-INV-MANDATORY-INSTRUCTIONS-OVERRIDE-FLOW-POS",
+      "invariant_id": "INV-MANDATORY-INSTRUCTIONS-OVERRIDE-FLOW",
+      "pass": true,
+      "halted": false,
+      "timestamp": "2026-01-20T20:51:40.964243Z"
+    }
+  ]
+}

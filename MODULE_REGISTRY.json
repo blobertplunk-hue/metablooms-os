@@ -1,0 +1,189 @@
+{
+  "format_version": "1.0",
+  "generated_utc": "2026-01-11T23:34:47Z",
+  "modules": [
+    {
+      "activation": {
+        "conditions": [],
+        "default": "always_on"
+      },
+      "cost_profile": {
+        "cognitive_budget": "low",
+        "external_io": "none",
+        "nondeterminism_risk": "low",
+        "runtime_seconds_budget": 5
+      },
+      "dependencies": {
+        "hard": [],
+        "soft": []
+      },
+      "entrypoint": {
+        "path": "modules/governance_runtime/enforcement.py",
+        "symbol": null,
+        "type": "file"
+      },
+      "legacy": {
+        "legacy_always_on": true,
+        "legacy_entry": "enforcement"
+      },
+      "module_id": "governance_runtime",
+      "purpose": "governance_runtime module (purpose to be specified).",
+      "telemetry": {
+        "enabled": true,
+        "events": []
+      }
+    },
+    {
+      "activation": {
+        "conditions": [],
+        "default": "always_on"
+      },
+      "cost_profile": {
+        "cognitive_budget": "low",
+        "external_io": "none",
+        "nondeterminism_risk": "low",
+        "runtime_seconds_budget": 5
+      },
+      "dependencies": {
+        "hard": [],
+        "soft": []
+      },
+      "entrypoint": {
+        "path": "modules/rrk/rrk.py",
+        "symbol": null,
+        "type": "file"
+      },
+      "legacy": {
+        "legacy_always_on": true,
+        "legacy_entry": "rrk"
+      },
+      "module_id": "rrk",
+      "purpose": "rrk module (purpose to be specified).",
+      "telemetry": {
+        "enabled": true,
+        "events": []
+      }
+    },
+    {
+      "activation": {
+        "conditions": [],
+        "default": "always_on"
+      },
+      "cost_profile": {
+        "cognitive_budget": "low",
+        "external_io": "none",
+        "nondeterminism_risk": "low",
+        "runtime_seconds_budget": 5
+      },
+      "dependencies": {
+        "hard": [],
+        "soft": []
+      },
+      "entrypoint": {
+        "path": "modules/sandcrawler",
+        "symbol": null,
+        "type": "package"
+      },
+      "legacy": {
+        "legacy_always_on": true,
+        "legacy_entry": "sandcrawler"
+      },
+      "module_id": "sandcrawler",
+      "purpose": "Queues Sandcrawler web-evidence jobs for external execution (fail-closed).",
+      "telemetry": {
+        "enabled": true,
+        "events": []
+      }
+    },
+    {
+      "activation": {
+        "conditions": [],
+        "default": "always_on"
+      },
+      "cost_profile": {
+        "cognitive_budget": "low",
+        "external_io": "none",
+        "nondeterminism_risk": "low",
+        "runtime_seconds_budget": 5
+      },
+      "dependencies": {
+        "hard": [],
+        "soft": []
+      },
+      "entrypoint": {
+        "path": "modules/telemetry/telemetry.py",
+        "symbol": null,
+        "type": "file"
+      },
+      "legacy": {
+        "legacy_always_on": true,
+        "legacy_entry": "telemetry"
+      },
+      "module_id": "telemetry",
+      "purpose": "telemetry module (purpose to be specified).",
+      "telemetry": {
+        "enabled": true,
+        "events": []
+      }
+    },
+    {
+      "description": "MetaBlooms-native skills substrate (progressive disclosure + validation).",
+      "enabled_by_default": false,
+      "id": "claude_skills_factory",
+      "name": "Claude Skills Factory",
+      "path": "modules/Claude_Skills_Factory"
+    },
+    {
+      "description": "Ingest deltas from older OS lines and forward-port intent safely.",
+      "enabled_by_default": false,
+      "id": "delta_intake_forwardport",
+      "name": "Delta Intake & Forward-Port",
+      "path": "modules/Delta_Intake_ForwardPort"
+    },
+    {
+      "activation": {
+        "conditions": [],
+        "default": "always_on"
+      },
+      "cost_profile": {
+        "cognitive_budget": "low",
+        "external_io": "none",
+        "nondeterminism_risk": "low",
+        "runtime_seconds_budget": 2
+      },
+      "dependencies": {
+        "hard": [],
+        "soft": []
+      },
+      "entrypoint": {
+        "path": "engines/hanging_threads/boot_hook.py",
+        "symbol": "surface_open_threads",
+        "type": "callable"
+      },
+      "legacy": {
+        "legacy_always_on": true,
+        "legacy_entry": "hanging_threads"
+      },
+      "module_id": "hanging_threads_engine",
+      "purpose": "Domain-agnostic hanging threads engine: detect/persist/surface unresolved work.",
+      "telemetry": {
+        "enabled": true,
+        "events": [
+          "HANGING_THREADS_SURFACED"
+        ]
+      }
+    },
+    {
+      "id": "experiential_learning_engine",
+      "name": "Experiential Learning Engine",
+      "description": "Governed experiential learning cycles (prompt\u2192obs\u2192hyp\u2192act\u2192res), append-only with boot surfacing; domain: learning.",
+      "enabled_by_default": true,
+      "path": "engines/experiential_learning"
+    }
+  ],
+  "registry_meta": {
+    "behavior_preserving": true,
+    "delta_id": "DELTA_MODULE_REGISTRY_SCHEMA_V1",
+    "source": "migration from legacy MODULE_REGISTRY.json"
+  }
+}

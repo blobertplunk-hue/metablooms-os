@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "postrun_modules": [
+    {
+      "id": "PRR.RUNNER.V1",
+      "module": "metablooms.postrun.prr_runner_v1",
+      "callable": "write_outputs",
+      "outputs": [
+        "postrun/prr_report_v1.json",
+        "postrun/mmt_queue_v1.json",
+        "postrun/prr_summary_v1.md"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "schema": "materialization_breadcrumb_v1",
+  "ts": "ISO-8601",
+  "source": {"kind": "project_file", "name": "UNKNOWN"},
+  "target": {"workspace_root": "/mnt/data/_mb_zroot", "extracted_tree": "/mnt/data/_mb_zroot"},
+  "outcome": "PENDING",
+  "reason": ""
+}

@@ -1,0 +1,7 @@
+{
+  "ready": true,
+  "created_utc": "2026-01-08T12:19:03.853356+00:00",
+  "module": "sandcrawler",
+  "mode": "queue-only",
+  "note": "This module queues Sandcrawler jobs; an external runner must execute them."
+}

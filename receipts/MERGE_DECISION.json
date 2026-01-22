@@ -1,0 +1,13 @@
+{
+  "schema": "MB-MERGE-DECISION-1",
+  "decision": "PROMOTED",
+  "reason": "Delta intent already present in current OS line; receipts added; no conflicts detected.",
+  "conflicts": [],
+  "applied_overlays": [
+    "receipts/DELTA_INTAKE_RECEIPT.json",
+    "receipts/FORWARDPORT_PLAN.md",
+    "receipts/FORWARDPORT_DIFF.md",
+    "receipts/FORWARDPORT_MAPPING_NOTE.md"
+  ],
+  "authority_label": "ACTIONABLE"
+}

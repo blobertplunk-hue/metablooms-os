@@ -1,0 +1,18 @@
+[
+  {
+    "name": "pandoc",
+    "path": "metablooms/vendor/bin/pandoc",
+    "sha256": "447e00d909d1c47e99727f3d41891b2c1a3fac54b8bb4443d8c8025882c31c0d",
+    "source_asset": "pandoc-3.8.3-linux-amd64.tar.gz",
+    "version_hint": "3.8.3",
+    "arch": "linux-amd64"
+  },
+  {
+    "name": "whisper_model_ggml_base_en_q5_1",
+    "path": "metablooms/vendor/models/whisper/ggml-base.en-q5_1.bin",
+    "sha256": "4baf70dd0d7c4247ba2b81fafd9c01005ac77c2f9ef064e00dcf195d0e2fdd2f",
+    "source_asset": "ggml-base.en-q5_1.bin",
+    "format": "ggml",
+    "size_bytes": 59721011
+  }
+]

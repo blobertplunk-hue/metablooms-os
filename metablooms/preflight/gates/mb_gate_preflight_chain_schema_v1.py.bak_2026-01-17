@@ -1,0 +1,86 @@
+# ECL_VERSION: 1
+# ECL_SCOPE: PREFLIGHT.GATES
+# ECL_RESPONSIBILITY: Deterministic, truthful behavior; no hidden side effects; evidence-first.
+
+"""MetaBlooms Gate: CHAIN.SCHEMA (v1)
+
+P0 preflight gate.
+
+Validates that `preflight_gate_chain_v1.json` uses a single gate id key (`id`).
+"""
+
+from __future__ import annotations
+
+import json
+import os
+
+GATE_ID = "GATE.CHAIN.SCHEMA.V1"
+P0 = True
+
+
+def _chain_path(root: str) -> str:
+    return os.path.join(root, "metablooms", "preflight", "preflight_gate_chain_v1.json")
+
+
+def _checks(root: str):
+    path = _chain_path(root)
+    if not os.path.exists(path):
+        return [f"missing gate chain: {path}"]
+
+    try:
+        obj = json.loads(open(path, "r", encoding="utf-8").read())
+    except Exception as e:  # noqa: BLE001
+        return [f"failed to parse gate chain json: {e}"]
+
+    gates = obj.get("gates", [])
+    if not isinstance(gates, list):
+        return ["gate chain: `gates` is not a list"]
+
+    has_id = any(isinstance(g, dict) and "id" in g for g in gates)
+    has_gate_id = any(isinstance(g, dict) and "gate_id" in g for g in gates)
+    if has_id and has_gate_id:
+        return ["mixed schema: both `id` and `gate_id` present in gate entries"]
+
+    errors = []
+    for i, g in enumerate(gates):
+        if not isinstance(g, dict):
+            errors.append(f"gate[{i}] is not an object")
+            continue
+        if "id" not in g:
+            errors.append(f"gate[{i}] missing required key `id`")
+    return errors
+
+
+def run_gate(context, ledger_writer=None):
+    """Run CHAIN.SCHEMA gate.
+
+    Expects `context` to include `os_root` (absolute path). If absent, uses CWD.
+    Returns a structured result dict.
+    """
+
+    os_root = context.get("os_root") or os.getcwd()
+    errors = _checks(os_root)
+    ok = (len(errors) == 0)
+
+    out = {
+        "gate_id": GATE_ID,
+        "p0": True,
+        "ok": bool(ok),
+        "errors": list(errors),
+        "mode_active": True,
+        "bypass_used": False,
+    }
+
+    if ledger_writer is not None:
+        ledger_writer({
+            "event_type": "GATE_RESULT",
+            "gate_id": GATE_ID,
+            "ok": bool(ok),
+            "errors": list(errors),
+        })
+
+    return out
+
+
+if __name__ == "__main__":
+    raise SystemExit(0 if run_gate({"os_root": os.getcwd()})["ok"] else 2)

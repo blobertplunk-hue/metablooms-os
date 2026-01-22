@@ -1,0 +1,6 @@
+{
+  "mode": "INITIAL_BOOT_EXCEPTION",
+  "requires_env_flag": "MB_ALLOW_INITIAL_BOOT=1",
+  "genesis_receipt_path": "ledgers/genesis/GENESIS_BOOT_RECEIPT.json",
+  "rule": "Initial boot is permitted only when explicitly flagged; genesis receipt must be written once and never modified."
+}

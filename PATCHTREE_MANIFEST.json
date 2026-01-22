@@ -1,0 +1,13 @@
+{
+  "name": "AUTO_MMD_CONTRACT_AUDIT_V1",
+  "created_at": "2026-01-18T01:52:23Z",
+  "append_only": true,
+  "description": "OS-ready patch tree mounting Auto-MMD intake, Contract Audit, and P0 persistence gates.",
+  "paths": [
+    "metablooms/mmd/intake/auto_mmd_pipeline_v1.md",
+    "metablooms/mmd/policies/auto_mmd_invariant_v1.md",
+    "metablooms/mmd/ledger/mmd_intake_ledger.jsonl",
+    "metablooms/gates/mb_gate_contract_audit_v1.md",
+    "metablooms/gates/mb_gate_auto_mmd_persistence_v1.md"
+  ]
+}

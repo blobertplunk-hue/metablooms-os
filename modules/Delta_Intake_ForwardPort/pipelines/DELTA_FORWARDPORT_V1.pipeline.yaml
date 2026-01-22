@@ -1,0 +1,44 @@
+pipeline_invocation_template:
+  pipeline_id: DELTA_FORWARDPORT_V1
+  mode: FULL
+  allowed_phases: [DISCOVER, VALIDATE, CONVERGE, DECIDE, ACT]
+  forbidden_phases: []
+  governance:
+    fail_closed: true
+    requires_manifest: true
+  outputs_expected:
+    - DELTA_INTAKE_RECEIPT.json
+    - FORWARDPORT_PLAN.md
+    - FORWARDPORT_DIFF.md
+    - SHIPPED_OS.zip
+
+phase_graph:
+  DISCOVER:
+    purpose: "Parse delta artifact(s), extract intents, targets, and constraints."
+    segments: [PIPELINE_INVOCATION, PHASE_TRANSITION, AUTHORITY_LABELING]
+    outputs: [DELTA_INTAKE_RECEIPT.json]
+    authority: EXPLORATORY
+
+  VALIDATE:
+    purpose: "Validate delta fields; detect conflicts; classify risks."
+    segments: [EVIDENCE_GATE, FAILURE_CLASSIFICATION, CONTRACT_ENFORCEMENT]
+    outputs: [FORWARDPORT_PLAN.md]
+    authority: PROVISIONAL|VALIDATED
+
+  CONVERGE:
+    purpose: "Select target segments/modules in current OS; map intent -> concrete overlays."
+    segments: [AUTHORITY_LABELING, PHASE_TRANSITION]
+    outputs: [FORWARDPORT_DIFF.md]
+    authority: VALIDATED
+
+  DECIDE:
+    purpose: "Promote forward-port into an actionable merge decision with receipts."
+    segments: [PROMOTION_RULES, AUTHORITY_LABELING]
+    outputs: [MERGE_DECISION.json]
+    authority: ACTIONABLE
+
+  ACT:
+    purpose: "Apply overlays, refresh inventory, ship new OS bundle."
+    segments: [SHIPPING_ENGINE, HANGING_THREADS_ENGINE, REMINDER_ENGINE, FAILURE_CLASSIFICATION]
+    outputs: [SHIPPED_OS.zip]
+    authority: ACTIONABLE

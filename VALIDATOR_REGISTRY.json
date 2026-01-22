@@ -1,0 +1,167 @@
+{
+  "format_version": "1.0",
+  "generated_utc": "2026-01-11T23:34:41Z",
+  "validators": [
+    {
+      "enabled": true,
+      "fail_closed": true,
+      "file": "validators/validate_canonical_root_v1.py",
+      "name": "P0_CANONICAL_ROOT_ENFORCEMENT_V1",
+      "order": 10,
+      "required": true,
+      "stage": "boot"
+    },
+    {
+      "enabled": true,
+      "fail_closed": true,
+      "file": "validators/validate_registry_v1.py",
+      "name": "SEGMENT_PIPELINE_REGISTRY_V1",
+      "order": 15,
+      "required": true,
+      "stage": "boot"
+    },
+    {
+      "name": "THREAD_TIERING_GATE_V1",
+      "file": "validators/validate_thread_tiering_gate_v1.py",
+      "entrypoint": "run",
+      "stage": "boot",
+      "order": 15,
+      "enabled": true,
+      "required": true,
+      "fail_closed": true,
+      "description": "Blocks boot if any Tier-3 hanging thread is unresolved; validates thread tiering schema."
+    },
+    {
+      "enabled": true,
+      "fail_closed": true,
+      "file": "validators/zoop_required_for_boot_proof_v1.py",
+      "name": "ZOOP_REQUIRED_FOR_BOOT_PROOF_V1",
+      "order": 15,
+      "required": true,
+      "stage": "boot"
+    },
+    {
+      "enabled": true,
+      "fail_closed": true,
+      "file": "validators/zoop_boot_symmetry.py",
+      "name": "ZOOP_BOOT_SYMMETRY",
+      "order": 20,
+      "required": true,
+      "stage": "boot"
+    },
+    {
+      "enabled": true,
+      "fail_closed": true,
+      "file": "validators/module_registry_schema_v1.py",
+      "name": "MODULE_REGISTRY_SCHEMA_V1",
+      "order": 30,
+      "required": true,
+      "stage": "boot"
+    },
+    {
+      "enabled": true,
+      "fail_closed": true,
+      "file": "validators/ledger_ndjson_integrity_v1.py",
+      "name": "LEDGER_NDJSON_INTEGRITY_V1",
+      "order": 40,
+      "required": true,
+      "stage": "boot"
+    },
+    {
+      "enabled": true,
+      "fail_closed": true,
+      "file": "validators/delta_protocol_validity_v1.py",
+      "name": "DELTA_PROTOCOL_VALIDITY_V1",
+      "order": 50,
+      "required": true,
+      "stage": "boot"
+    },
+    {
+      "enabled": true,
+      "fail_closed": true,
+      "file": "validators/validate_experiential_learning_engine_v1.py",
+      "name": "EXPERIENTIAL_LEARNING_ENGINE_V1",
+      "order": 56,
+      "required": true,
+      "stage": "boot"
+    },
+    {
+      "enabled": true,
+      "fail_closed": true,
+      "file": "validators/validate_experiential_learning_schema_v1.py",
+      "name": "EXPERIENTIAL_LEARNING_SCHEMA_V1",
+      "order": 57,
+      "required": true,
+      "stage": "boot"
+    },
+    {
+      "enabled": true,
+      "fail_closed": true,
+      "file": "validators/no_stub_no_placeholder_v1.py",
+      "name": "NO_STUB_NO_PLACEHOLDER_V1",
+      "order": 60,
+      "required": true,
+      "stage": "boot"
+    },
+    {
+      "enabled": true,
+      "fail_closed": true,
+      "file": "validators/validate_hanging_threads_engine_v1.py",
+      "name": "ENGINE_HANGING_THREADS_PRESENT_V1",
+      "order": 70,
+      "required": true,
+      "stage": "boot"
+    },
+    {
+      "enabled": true,
+      "fail_closed": true,
+      "file": "validators/boot_ledger_required.py",
+      "name": "BOOT_LEDGER_REQUIRED",
+      "order": 5,
+      "required": true,
+      "stage": "post_boot"
+    },
+    {
+      "enabled": true,
+      "fail_closed": true,
+      "file": "validators/unified_state_validator_v1.py",
+      "name": "UNIFIED_STATE_VALIDATOR_V1",
+      "order": 10,
+      "required": true,
+      "stage": "post_boot"
+    },
+    {
+      "enabled": true,
+      "fail_closed": true,
+      "file": "validators/validate_intake_surfaces_v1.py",
+      "name": "MANDATORY_INTAKE_SURFACES_V1",
+      "order": 40,
+      "required": true,
+      "stage": "post_boot"
+    },
+    {
+      "enabled": true,
+      "fail_closed": true,
+      "file": "validators/validate_evolution_seam_v1.py",
+      "name": "EVOLUTION_SEAM_V1",
+      "order": 45,
+      "required": true,
+      "stage": "post_boot"
+    },
+    {
+      "enabled": true,
+      "fail_closed": true,
+      "file": "validators/validate_hanging_threads_schema_v1.py",
+      "name": "HANGING_THREADS_SCHEMA_V1",
+      "order": 80,
+      "required": true,
+      "stage": "post_boot"
+    },
+    {
+      "id": "VALIDATOR.P0.BYTE_TRUTH.V2",
+      "module": "metablooms.validators.mb_validate_byte_truth_v2",
+      "callable": "validate_byte_truth_v2",
+      "notes": "Fail-closed byte-presence + non-stub checks"
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "version": "v1",
+  "definitions": {
+    "pipeline_mode": [
+      "ALWAYS_ON",
+      "AS_NEEDED",
+      "PRACTICE",
+      "DEFERRED"
+    ],
+    "activation": [
+      "AUTO",
+      "ACTIVE",
+      "SLEEP",
+      "DEFER"
+    ]
+  },
+  "pipelines": [
+    {
+      "id": "P0",
+      "name": "Meta-Governance",
+      "mode": "ALWAYS_ON",
+      "purpose": "Fail-closed reasoning, correct ordering, no speculative execution claims.",
+      "interfaces": {
+        "inputs": [
+          "intent"
+        ],
+        "outputs": [
+          "routing_decisions",
+          "gates"
+        ]
+      },
+      "notes": "Governs assistant behavior; user never operates it directly."
+    },
+    {
+      "id": "P1",
+      "name": "Read-Aloud Embed Reliability Analysis",
+      "mode": "AS_NEEDED",
+      "purpose": "Compare working vs broken embeds; extract factors and constraints.",
+      "interfaces": {
+        "inputs": [
+          "working_examples",
+          "broken_examples"
+        ],
+        "outputs": [
+          "embed_rules",
+          "risk_flags"
+        ]
+      }
+    },
+    {
+      "id": "P2",
+      "name": "Embed Vetting (Fail-Closed Preflight)",
+      "mode": "ALWAYS_ON",
+      "purpose": "Prevent broken/unsafe embeds from shipping.",
+      "interfaces": {
+        "inputs": [
+          "embed_candidates"
+        ],
+        "outputs": [
+          "PASS|WARN|FAIL",
+          "reasons",
+          "fix_ladder"
+        ]
+      }
+    },
+    {
+      "id": "P3",
+      "name": "HTML Debugging",
+      "mode": "AS_NEEDED",
+      "purpose": "Minimal repro, structure-first repair, accessibility-first.",
+      "interfaces": {
+        "inputs": [
+          "html",
+          "context",
+          "symptoms"
+        ],
+        "outputs": [
+          "patched_html",
+          "diff",
+          "explanations"
+        ]
+      }
+    },
+    {
+      "id": "P4",
+      "name": "CSS Debugging",
+      "mode": "AS_NEEDED",
+      "purpose": "Cascade/layout diagnosis and minimal patching.",
+      "interfaces": {
+        "inputs": [
+          "css",
+          "html",
+          "context",
+          "symptoms"
+        ],
+        "outputs": [
+          "patched_css",
+          "diff",
+          "notes"
+        ]
+      }
+    },
+    {
+      "id": "P5",
+      "name": "Debugging Katas (Practice)",
+      "mode": "PRACTICE",
+      "purpose": "Single-bug exercises to build pattern recognition.",
+      "interfaces": {
+        "inputs": [
+          "kata_set_spec"
+        ],
+        "outputs": [
+          "katas",
+          "answer_keys",
+          "teacher_notes"
+        ]
+      }
+    },
+    {
+      "id": "P6",
+      "name": "Platform Constraint Encoding",
+      "mode": "ALWAYS_ON",
+      "purpose": "Encode Canvas/Google Sites constraints (no JS, safe iframe patterns).",
+      "interfaces": {
+        "inputs": [
+          "target_platform",
+          "draft_html"
+        ],
+        "outputs": [
+          "constraints",
+          "safe_patterns",
+          "blocked_patterns"
+        ]
+      }
+    },
+    {
+      "id": "P7",
+      "name": "Instructional Page Production (Page Kits)",
+      "mode": "AS_NEEDED",
+      "purpose": "Emit one-paste instructional pages using templates + embeds + thinking blocks.",
+      "interfaces": {
+        "inputs": [
+          "intent_spec",
+          "teks",
+          "assets"
+        ],
+        "outputs": [
+          "paste_ready_html",
+          "manifest"
+        ]
+      }
+    },
+    {
+      "id": "P8",
+      "name": "TEKS \u2192 Page Indexing (Institutional Memory)",
+      "mode": "DEFERRED",
+      "purpose": "Append-only index of what pages exist to prevent duplication.",
+      "interfaces": {
+        "inputs": [
+          "artifact_manifest",
+          "delta_payload"
+        ],
+        "outputs": [
+          "updated_index",
+          "duplication_flags"
+        ]
+      },
+      "notes": "Runs at delta-merge/commit time."
+    },
+    {
+      "id": "P9",
+      "name": "Coder/Debugger System (Multi-language)",
+      "mode": "AS_NEEDED",
+      "purpose": "Repro\u2192test\u2192patch\u2192ship loops for Python/JS/HTML/CSS.",
+      "interfaces": {
+        "inputs": [
+          "repo_or_snippet",
+          "failure_report"
+        ],
+        "outputs": [
+          "repro",
+          "tests",
+          "patch",
+          "evidence_bundle"
+        ]
+      }
+    }
+  ]
+}

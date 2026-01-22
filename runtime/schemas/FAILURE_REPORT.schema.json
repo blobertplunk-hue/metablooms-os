@@ -1,0 +1,42 @@
+{
+  "type": "object",
+  "required": [
+    "failure_code",
+    "message",
+    "engine_name",
+    "run_id",
+    "state",
+    "evidence_paths",
+    "suggested_fix",
+    "created_utc"
+  ],
+  "properties": {
+    "failure_code": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    },
+    "engine_name": {
+      "type": "string"
+    },
+    "run_id": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "evidence_paths": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "suggested_fix": {
+      "type": "string"
+    },
+    "created_utc": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,2369 @@
+{
+  "system": "MetaBlooms",
+  "index_version": "1.0",
+  "generated_utc": "2026-01-14T20:24:17.691641Z",
+  "root": "/mnt/data/_ctos_work",
+  "file_count": 333,
+  "paths": [
+    {
+      "path": "BOOT.md",
+      "sha256": "200774cfc4c159818be167ed370deccb6dd30fa29768a1f2759796b68257eb4c",
+      "bytes": 1096,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "BOOT_CONSTITUTION.md",
+      "sha256": "1aef5da9e51d466dafacf94abc964a00d6a3ff3c7938943291300b036fbbd778",
+      "bytes": 776,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "BOOT_GATE_ENV.py",
+      "sha256": "4edea22687cabd0e4a427e7cc4ac9c7375cfd614b39f3b1222a37a530b28bbab",
+      "bytes": 823,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "BOOT_GATE_HASH.py",
+      "sha256": "3ea593055f04f11e21d7ad36f1d2307230a7fb20f30add3760b1d2a6a75d191b",
+      "bytes": 1989,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "BOOT_GATE_INTUITION_RUNTIME.py",
+      "sha256": "b9209912f90ec437c0f515c5aec2825e5732d7a53ac957d9381c4ee179c3018f",
+      "bytes": 660,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "BOOT_GATE_LEDGER.py",
+      "sha256": "2ef20f9d8fa4fa352586888b12f467920ebfc9bc7d6b453518243ec968cf7e5a",
+      "bytes": 1061,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "BOOT_GATE_NETWORK.py",
+      "sha256": "285328be653397e2b4b02d6e7e92921808c9f703896749e90a97da05842dcad7",
+      "bytes": 151,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "BOOT_GATE_PROVENANCE.py",
+      "sha256": "933cd132b8786efeb1857564de9fe7949e132521e42ed49772fd416782d4429c",
+      "bytes": 146,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "BOOT_GATE_RETRY.py",
+      "sha256": "a550d2b643b96dce275ffeaf4132e8c2bb2cec7515ac7c96514063c3000df51b",
+      "bytes": 144,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "BOOT_GATE_SANDBOX.py",
+      "sha256": "61f540230b031045183cb65bf80a8f9fed47acd9eaa356d929bc97e92aaee8b8",
+      "bytes": 125,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "BOOT_GATE_SANDCRAWLER.py",
+      "sha256": "a3b8496c82916f4eb4eed582f53b50227049f8986d344e6f570e68d55e72f2a9",
+      "bytes": 158,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "BOOT_HASHES.json",
+      "sha256": "6523d5bf12b79765d76eab29cbcfe326567276b7d0b9481b2ebde5c3051ddf56",
+      "bytes": 2240,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "BOOT_METABLOOMS.py",
+      "sha256": "4c95dc7c7659e8c0abbf867f7000e8b9f08eedd9c75c160df567d815d612446c",
+      "bytes": 16444,
+      "ext": ".py",
+      "kind": "entrypoint"
+    },
+    {
+      "path": "CLIP_05_REMINDER_ESCALATION.md",
+      "sha256": "18374c19b00e2d5dc0cd75aeae8c4d4a7f7d4f01dd2c04a4af21ab2ef5ec68ee",
+      "bytes": 888,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "CLIP_06_AUTHORITY_LABELING.md",
+      "sha256": "322e18bd54415b7a705fdf307bdf9d93af00bc61ddbd5026bd2087a44e459889",
+      "bytes": 517,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "CLIP_07_FAILURE_CLASSIFICATION.md",
+      "sha256": "86ccee9c2f6caff0d08494cd18ada0df50f742e2ab81996888b6cccf5c06607e",
+      "bytes": 384,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "CONTENT_TRUTHFULNESS_REPORT.md",
+      "sha256": "75d7df31ff4ebbf185b37e929f0c123ad779ee2a6384b2cda8ff311ff3c9d1c7",
+      "bytes": 687,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "DELTA.md",
+      "sha256": "e1c3dbfba5aeab0e24df94c62038c8df48de15ccd411b597e6b0b5e4fba56325",
+      "bytes": 1395,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "EXPORT_POLICY.md",
+      "sha256": "d28544a11b68b9fe4584d341a4de9f420c5d328e870e1fab40f7330ef17ad7c6",
+      "bytes": 1082,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "INTEGRATION_NOTES.md",
+      "sha256": "33a3c0471831a27d31b34c5e78b69559c25e705039b2ed6353c5e268232fa361",
+      "bytes": 301,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "INVENTORY_SHA256.json",
+      "sha256": "900ea189fc8685a3d23ad3e8316f349c4b46db49ac1d531341e2bd8c67393aa2",
+      "bytes": 16977,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "LATEST.json",
+      "sha256": "5ae23a93d01341792f8f2edfb0d2e4ca70c758308035dc6ba9adc9274f9b748d",
+      "bytes": 476,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "MB_ARTIFACT_TYPES.md",
+      "sha256": "adc4ed51df9f34a8b121df94cded9d85c1b2c0650a9764b8a04450582f4542eb",
+      "bytes": 4273,
+      "ext": ".md",
+      "kind": "governance_doctrine"
+    },
+    {
+      "path": "MB_ARTIFACT_TYPES_CANONICAL.md",
+      "sha256": "b6b97f3ff9aeee3d6f1f13ffd9b1ea0a42e576dcd6e39ac9db640e4ed9ae0b91",
+      "bytes": 3579,
+      "ext": ".md",
+      "kind": "governance_doctrine"
+    },
+    {
+      "path": "MB_BOOT_CONTRACT.md",
+      "sha256": "b12555b345fe8683ca77730da66c13af0d291f2e1a690a6e115a814b0cb5ef5f",
+      "bytes": 849,
+      "ext": ".md",
+      "kind": "governance_doctrine"
+    },
+    {
+      "path": "MB_CORE_RUNTIME_AUTHORITY.md",
+      "sha256": "5e1f4f79a29f73abfee57e9663c7d1865aa9e7b1bfa2ade26fefa82198c8d0a7",
+      "bytes": 3200,
+      "ext": ".md",
+      "kind": "governance_doctrine"
+    },
+    {
+      "path": "MB_DECISION_LOG_SCHEMA.json",
+      "sha256": "ab545e2e28417a04b69a52b9435f6d07ec798ea032b86fbd13cbb6fb2bf6f9bd",
+      "bytes": 2712,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "MB_DELTA_PROTOCOL.md",
+      "sha256": "4892446944ede7da52c3144b2089adaf0e0e510c2fd9fb125a233670db14bd26",
+      "bytes": 1783,
+      "ext": ".md",
+      "kind": "governance_doctrine"
+    },
+    {
+      "path": "MB_INVARIANTS.md",
+      "sha256": "bcd7c6a33d3123b41e602ab90c48f24a1468e00f97c766ecaa24391f778dd8e7",
+      "bytes": 3914,
+      "ext": ".md",
+      "kind": "governance_doctrine"
+    },
+    {
+      "path": "MB_LEDGER.md",
+      "sha256": "a5831ab26f7deeb840db115434755276fd22004c98bf41f6cf6ac0a3fafbd3fd",
+      "bytes": 1204,
+      "ext": ".md",
+      "kind": "governance_doctrine"
+    },
+    {
+      "path": "MB_MODULE_REGISTRY.md",
+      "sha256": "a368207b3f1cf3411a6637e89cb9ef9b61d6bfc3453ac657272a32b4538c4f17",
+      "bytes": 3058,
+      "ext": ".md",
+      "kind": "governance_doctrine"
+    },
+    {
+      "path": "MB_RUNTIME_CONFIG.json",
+      "sha256": "bee7b7b34eb70e92a64682cf7ca9029ebbfd6a1037f46479a34e09530fcdc1b7",
+      "bytes": 395,
+      "ext": ".json",
+      "kind": "runtime_config"
+    },
+    {
+      "path": "MB_SHIP_INVARIANTS.md",
+      "sha256": "0a3c264cade23e1cfdfe8009353044c5d21374015722289e66d277ac6ff62968",
+      "bytes": 3132,
+      "ext": ".md",
+      "kind": "governance_doctrine"
+    },
+    {
+      "path": "METABLOOMS_CTOS_REBASE_DIFF__2026-01-14.md",
+      "sha256": "c62e62c99e2e90c20a969e8d7130eb5b3124a97051446290a96c396ec5ce68b0",
+      "bytes": 504,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "MODULE_REGISTRY.json",
+      "sha256": "c2a280fde98e3a4097b42811b6655f32a91bb94eb64157db79dd86a961429dc5",
+      "bytes": 5009,
+      "ext": ".json",
+      "kind": "runtime_config"
+    },
+    {
+      "path": "MODULE_REGISTRY.json.bak.20260108T182611Z",
+      "sha256": "93582189e2e37cfe7ce6497e335b4046e2cd61fe95038858dc50b3fb426091f5",
+      "bytes": 435,
+      "ext": ".20260108t182611z",
+      "kind": "other"
+    },
+    {
+      "path": "README_SANDCRAWLER.md",
+      "sha256": "06fbfbdbf92ee7d6339bd0c6b2a4a184f07e946a19014c00f2a0605f91726163",
+      "bytes": 418,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "REHYDRATION_PROOF.json",
+      "sha256": "4485074dd7ac09a5c4f2d3fd9d408daf5ec067578cf226f7fafd7c1ba66a8c7e",
+      "bytes": 1529,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "RELEASE_ACCEPTANCE_CHECKLIST.md",
+      "sha256": "2007147f1d1f80d0c5e8b989e16938c04c5af8148263014a717dc7b44cadd1d5",
+      "bytes": 1460,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "sha256": "f7616b10c45fe950f6e1e9a0dd2e2f664cec36b38c84465ed1606aa2ffd82b3b",
+      "bytes": 811,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "RELEASE_NOTES_v1.4.0_FULL.md",
+      "sha256": "e0c7c50ae20bf05443eec6769575e9c653603cc2515552f1934ad102cce322f1",
+      "bytes": 535,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "RETRY_DOCTRINE.md",
+      "sha256": "9e95d53e819a0e497124caaaf7ca15aa4c11d3e6f0e711f529981d1b7fb5132a",
+      "bytes": 950,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "SANDCRAWLER_RETRY_MAPPING.md",
+      "sha256": "0f62afacab21bcf0c1054e915a71581905dc4a29cc00f44dd3367fefa119363c",
+      "bytes": 258,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "SEGMENT_INDEX.json",
+      "sha256": "404cc78a607b815be4932c8b27cc01e805ea4d040384512aa662f36d895332d8",
+      "bytes": 778,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "SHIP_MANIFEST.json",
+      "sha256": "4038aad7b1f92e904697cbb27dbf2ba3dc71908509400fc2d9f95fa489cbf2b0",
+      "bytes": 3492,
+      "ext": ".json",
+      "kind": "runtime_config"
+    },
+    {
+      "path": "SHIP_SCOPE_AND_INVARIANTS.md",
+      "sha256": "d828e97997bb26032a6e4dbb4fc543c647a41f39f9d320fdf10d5760c76e2243",
+      "bytes": 960,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "SYSTEM_INDEX.json",
+      "sha256": "01b2290a64953e27990ffd2d413c7cd2bfd140917a2fba2713516dda226b6712",
+      "bytes": 10673,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "VALIDATOR_REGISTRY.json",
+      "sha256": "afb9e23d6186447728297b319ad5e177e578fb4b658674a0a82f8745a58d355e",
+      "bytes": 4204,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "ZOOP_METABLOOMS.py",
+      "sha256": "d57c2d8e3310949018c2bfb4bdbe2163a0abde83aa8e2570c3966d5226dda232",
+      "bytes": 2571,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "__pycache__/BOOT_GATE_ENV.cpython-311.pyc",
+      "sha256": "e2015c72db4e319a0d3be218b1f328ab5b25bd419ffff2ae2e53210ff2ab2fa1",
+      "bytes": 1740,
+      "ext": ".pyc",
+      "kind": "build_artifact"
+    },
+    {
+      "path": "__pycache__/BOOT_GATE_HASH.cpython-311.pyc",
+      "sha256": "6a6a1081ae996ee505fc8b64dc77228410bbf65ebb633feb56becc054b35c20d",
+      "bytes": 3323,
+      "ext": ".pyc",
+      "kind": "build_artifact"
+    },
+    {
+      "path": "__pycache__/BOOT_GATE_LEDGER.cpython-311.pyc",
+      "sha256": "9cea5aa940f48ba200922ac3a626652f828782e0554846e534e13351bf43d01e",
+      "bytes": 2082,
+      "ext": ".pyc",
+      "kind": "build_artifact"
+    },
+    {
+      "path": "__pycache__/BOOT_GATE_NETWORK.cpython-311.pyc",
+      "sha256": "f2237422cba24ae5b4f6bae481458af85b14f720447ac22b2b8f78d271afa18a",
+      "bytes": 429,
+      "ext": ".pyc",
+      "kind": "build_artifact"
+    },
+    {
+      "path": "__pycache__/BOOT_GATE_PROVENANCE.cpython-311.pyc",
+      "sha256": "d65878b2a5fdb64ee144265aa692f31a1b3ee9472050eecb03bd7fbd04b05824",
+      "bytes": 431,
+      "ext": ".pyc",
+      "kind": "build_artifact"
+    },
+    {
+      "path": "__pycache__/BOOT_GATE_RETRY.cpython-311.pyc",
+      "sha256": "8572effaf74a892a47be7c853227a4103f2b91a7af79d6243ba838e84d3a73bb",
+      "bytes": 409,
+      "ext": ".pyc",
+      "kind": "build_artifact"
+    },
+    {
+      "path": "__pycache__/BOOT_GATE_SANDBOX.cpython-311.pyc",
+      "sha256": "3ee3082eb77c33d705ee88e98cd3058cf165b9bd8931dc8b13a6a151da3a31b1",
+      "bytes": 412,
+      "ext": ".pyc",
+      "kind": "build_artifact"
+    },
+    {
+      "path": "__pycache__/BOOT_GATE_SANDCRAWLER.cpython-311.pyc",
+      "sha256": "9fae2d9b9506c78e3069b18d11217949f3a8246c04a3794dbd939244ce123101",
+      "bytes": 438,
+      "ext": ".pyc",
+      "kind": "build_artifact"
+    },
+    {
+      "path": "__pycache__/BOOT_METABLOOMS.cpython-311.pyc",
+      "sha256": "483d0589e98ae746a40bc2d25d5174b2914bced9a0a38613b915032a39be0469",
+      "bytes": 22940,
+      "ext": ".pyc",
+      "kind": "build_artifact"
+    },
+    {
+      "path": "__pycache__/retry_policy.cpython-311.pyc",
+      "sha256": "e7d466fe76b098da62479abcfac8a3d9b56d616af394e65cd2e4b8841ee0d1d5",
+      "bytes": 1532,
+      "ext": ".pyc",
+      "kind": "build_artifact"
+    },
+    {
+      "path": "_boot2_stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "ext": ".txt",
+      "kind": "other"
+    },
+    {
+      "path": "_boot2_stdout.txt",
+      "sha256": "9068ad6df5bdd37ec66cb4fce0086dd27a4e2949b14b2161ed74f9e6ba96cf3b",
+      "bytes": 531,
+      "ext": ".txt",
+      "kind": "other"
+    },
+    {
+      "path": "_boot_stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "ext": ".txt",
+      "kind": "other"
+    },
+    {
+      "path": "_boot_stdout.txt",
+      "sha256": "d86c9fba8d502f86e0f9aedc21cc4ec83650e453e68a3a3862710b6bb6a24861",
+      "bytes": 69,
+      "ext": ".txt",
+      "kind": "other"
+    },
+    {
+      "path": "_clean2_stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "ext": ".txt",
+      "kind": "other"
+    },
+    {
+      "path": "_clean2_stdout.txt",
+      "sha256": "20699ff81f468e239c209c10fc428ac726c49ab291fd4dfb9c1969cca8a79853",
+      "bytes": 262,
+      "ext": ".txt",
+      "kind": "other"
+    },
+    {
+      "path": "_clean3_stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "ext": ".txt",
+      "kind": "other"
+    },
+    {
+      "path": "_clean3_stdout.txt",
+      "sha256": "9068ad6df5bdd37ec66cb4fce0086dd27a4e2949b14b2161ed74f9e6ba96cf3b",
+      "bytes": 531,
+      "ext": ".txt",
+      "kind": "other"
+    },
+    {
+      "path": "_clean_stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "ext": ".txt",
+      "kind": "other"
+    },
+    {
+      "path": "_clean_stdout.txt",
+      "sha256": "e3665b493eccc4d5bfdd045a2c19e4a0aa1f2f363f7c78e0fa6bf7d3eb4a4065",
+      "bytes": 165,
+      "ext": ".txt",
+      "kind": "other"
+    },
+    {
+      "path": "_ctos_rebase_hashes.txt",
+      "sha256": "211488ec8dc289451751de9bc548ddfc9ac177500774a29a8f26c2ca8b7b0cb0",
+      "bytes": 703,
+      "ext": ".txt",
+      "kind": "other"
+    },
+    {
+      "path": "_fixed_stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "ext": ".txt",
+      "kind": "other"
+    },
+    {
+      "path": "_fixed_stdout.txt",
+      "sha256": "20699ff81f468e239c209c10fc428ac726c49ab291fd4dfb9c1969cca8a79853",
+      "bytes": 262,
+      "ext": ".txt",
+      "kind": "other"
+    },
+    {
+      "path": "boot/README_COMPLIANCE.md",
+      "sha256": "8c9971efc1a065466a1822faef6f71c9808cd05ddd5ac91d5915f85b45fc953a",
+      "bytes": 350,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "boot/boot_compliance_hook.txt",
+      "sha256": "d5f968dff72c23e94993df93f7d5ca0584bc1e7ef2c6101457a61c9f0a7ae306",
+      "bytes": 198,
+      "ext": ".txt",
+      "kind": "other"
+    },
+    {
+      "path": "boot_manifest.json",
+      "sha256": "96b2b3c69aedbebccac34e0e808d806f9cfd99bd64d8334c68417d542e6b66c2",
+      "bytes": 1085,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "build/build_state.schema.json",
+      "sha256": "abc3fd5140ce9a853e27bb259f7ce49e9001dcc87c7a9923419c68f25a944b5e",
+      "bytes": 588,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "build_state.json",
+      "sha256": "4289b0f6010017a9d5501c8ab25e49076ad3b515dd95820af17102d55b9adc6a",
+      "bytes": 419,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "contracts/PIPELINE_REGISTRY.json",
+      "sha256": "26d701ae7157cb55284d4b992567529d41f27d8340157d1a9b0a85fc4f673573",
+      "bytes": 4319,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "contracts/PIPE_SECTION_SCHEMA.json",
+      "sha256": "7c834b611527ae46c849d97dd67ecd16eae0e01d78bc7b43bda2f04576971d52",
+      "bytes": 637,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "contracts/ROW_CONTRACT_SCHEMA.json",
+      "sha256": "2758dcfb5851a716c210756a482a02784270367d7eda161931373e350e932e75",
+      "bytes": 1105,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "contracts/ROW_ROUTING_TABLE.json",
+      "sha256": "c08c4b3eda9294249b2b0b743153d9d68e326ff2184472e136e2b7099be77f48",
+      "bytes": 5273,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "data/experiential_learning/cycles.ndjson",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "ext": ".ndjson",
+      "kind": "other"
+    },
+    {
+      "path": "deltas/intake/2026-01-10_OS_PATCH_DELTA_CLAUDE_SKILLS_FACTORY_v1.md",
+      "sha256": "e4eb4a57b650362b7e4e53ecc9e5177a2673723b4207e3373ae507b3e759743b",
+      "bytes": 10688,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "docs/ARTIFACT_REGISTRY_LATEST_BEST_SPEC.md",
+      "sha256": "260b6ad0406db4cae2da7cebd0b367f8af2243e60c886df95f5ec4c1e8ddc4fc",
+      "bytes": 3654,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "docs/CTOS_REBASE_NOTE__2026-01-14.md",
+      "sha256": "b29e1379f5afe5f7343f5575dd806c0d2e9687290c6f5bd9894255510ba1a854",
+      "bytes": 551,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "docs/INVARIANTS_MANIFEST__2026-01-10.md",
+      "sha256": "00b86fe907d16e6024daa04da7762056a1ed4f46ca4509a98fd6fc81262df1d1",
+      "bytes": 2092,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "docs/PBAB.md",
+      "sha256": "abddb28249a9be6c53d4f685d5f31420fd051b1c214e8b76cd1235b44e0e9048",
+      "bytes": 334,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "docs/ROWS_PIPELINES_INDEXING_OFFICIAL.md",
+      "sha256": "077bd16b7bbc693b3e9dfbff5d581f9aa613a6268cd878cbdb63e1e6b32df394",
+      "bytes": 936,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "doctrine/BOOT_CONSTITUTION.md",
+      "sha256": "1aef5da9e51d466dafacf94abc964a00d6a3ff3c7938943291300b036fbbd778",
+      "bytes": 776,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "doctrine/P0_CANONICAL_ROOT.md",
+      "sha256": "93918c2df7bb12735ea4ee71104bfc1f9e78f3b37f56232032e3a1f2fcde8794",
+      "bytes": 756,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "doctrine/RETRY_DOCTRINE.md",
+      "sha256": "9e95d53e819a0e497124caaaf7ca15aa4c11d3e6f0e711f529981d1b7fb5132a",
+      "bytes": 950,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "doctrine/SANDCRAWLER_RETRY_MAPPING.md",
+      "sha256": "0f62afacab21bcf0c1054e915a71581905dc4a29cc00f44dd3367fefa119363c",
+      "bytes": 258,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "engines/__init__.py",
+      "sha256": "c8b38e2737d4df9293c8d45eaaa33a30bbf291867fb022b7bb87e4e6a1472982",
+      "bytes": 31,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "engines/__pycache__/__init__.cpython-311.pyc",
+      "sha256": "3f56c26e9e217132eb6ee96cdf1e5ccac7674c423a7066a20b9cdd4777fc92d5",
+      "bytes": 154,
+      "ext": ".pyc",
+      "kind": "build_artifact"
+    },
+    {
+      "path": "engines/experiential_learning/README_ENGINE_EXPERIENTIAL_LEARNING.md",
+      "sha256": "3bfa109974cc0a605e6f8ede1555c10c887e58f4b4e948324ab7bf7b228e011b",
+      "bytes": 631,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "engines/experiential_learning/__init__.py",
+      "sha256": "b7b04c48fd28c928becb5aeabb4eb363e6987d95a3e93a5b90f8fab14acc3521",
+      "bytes": 64,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "engines/experiential_learning/__pycache__/__init__.cpython-311.pyc",
+      "sha256": "54c3327670a7355ad8da1c37a42e63dacee99e08f815f0d14bd0aa8743e4af50",
+      "bytes": 294,
+      "ext": ".pyc",
+      "kind": "build_artifact"
+    },
+    {
+      "path": "engines/experiential_learning/__pycache__/boot_hook.cpython-311.pyc",
+      "sha256": "86fdc136f1b74ebc698c99091ac20fa9d922db06d5d0d21ede2536316602b555",
+      "bytes": 729,
+      "ext": ".pyc",
+      "kind": "build_artifact"
+    },
+    {
+      "path": "engines/experiential_learning/__pycache__/engine.cpython-311.pyc",
+      "sha256": "c6de7c6ddbd2be032f3618cf6ea812137e4e4ce6c79aff8de64de93371ac4c5e",
+      "bytes": 1635,
+      "ext": ".pyc",
+      "kind": "build_artifact"
+    },
+    {
+      "path": "engines/experiential_learning/__pycache__/persistence.cpython-311.pyc",
+      "sha256": "c843854ed022e308ce3e5215ab7870965a1a948412effe148ee48cbfbbc393de",
+      "bytes": 5077,
+      "ext": ".pyc",
+      "kind": "build_artifact"
+    },
+    {
+      "path": "engines/experiential_learning/boot_hook.py",
+      "sha256": "db201534842fd7803bf3b4010759d4db1228e70d94a3b009aa6783a215ec4873",
+      "bytes": 303,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "engines/experiential_learning/engine.py",
+      "sha256": "776071caba3391e1a8c0e15f067eb44fbce53e2fe797c504367e03187c960de0",
+      "bytes": 760,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "engines/experiential_learning/persistence.py",
+      "sha256": "5cf5749fcd37348945ab99347b6e2a015ee9f3f486bcb0bdf2f5beaca308b813",
+      "bytes": 2443,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "engines/experiential_learning/schemas/experiential_learning_cycle.schema.json",
+      "sha256": "7210ed3df8515d7aa55dd336c43246867e04215016950edd7212c6eb560ea0e3",
+      "bytes": 1246,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "engines/hanging_threads/README_ENGINE_HANGING_THREADS.md",
+      "sha256": "0a35b88c2d51be226e5422e54ccf809f5dbbe6adf7f6ef3704038061af55212e",
+      "bytes": 543,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "engines/hanging_threads/__init__.py",
+      "sha256": "8f5cb3729107cf7931a4b5cf5a9b6ce0aac3c6c30df5949e86d216926e13ccba",
+      "bytes": 49,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "engines/hanging_threads/__pycache__/__init__.cpython-311.pyc",
+      "sha256": "5dd0425773f21d2ee4ffbdce8e1acdfed78600808826430a27d83bdc29ad663c",
+      "bytes": 234,
+      "ext": ".pyc",
+      "kind": "build_artifact"
+    },
+    {
+      "path": "engines/hanging_threads/__pycache__/boot_hook.cpython-311.pyc",
+      "sha256": "779abac804914f948e1a7609a8c31a5b94404bf6b8d531bff79f990b1fe79aa7",
+      "bytes": 1495,
+      "ext": ".pyc",
+      "kind": "build_artifact"
+    },
+    {
+      "path": "engines/hanging_threads/__pycache__/persistence.cpython-311.pyc",
+      "sha256": "959ac36c5404b053286eebe73c1e2cc19c80c8ffb333c9de6020f7a4e6a8111a",
+      "bytes": 4127,
+      "ext": ".pyc",
+      "kind": "build_artifact"
+    },
+    {
+      "path": "engines/hanging_threads/adapters/__pycache__/experiential_learning.cpython-311.pyc",
+      "sha256": "59f792bdda5d17204776adb2ad5074ffeca1dd66e2441ae06c2afac46304eabe",
+      "bytes": 2343,
+      "ext": ".pyc",
+      "kind": "build_artifact"
+    },
+    {
+      "path": "engines/hanging_threads/adapters/experiential_learning.py",
+      "sha256": "0782c9a6c67127184e65e0385962d1f793387deea09f5ff7412cdec265ca4c8e",
+      "bytes": 1360,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "engines/hanging_threads/boot_hook.py",
+      "sha256": "70a97efab1108801581fa1ddca2bca140214d803c63265347a868e080e729e3c",
+      "bytes": 685,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "engines/hanging_threads/detector.py",
+      "sha256": "21eafc916d73011a12cb472e34f48ff1b55b71fa611fb1e09efcf9fb5e70f047",
+      "bytes": 1201,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "engines/hanging_threads/persistence.py",
+      "sha256": "01ac79936512a017f5a7213356710233b32c06f205a1cd5be865849ae1787ba4",
+      "bytes": 1853,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "engines/hanging_threads/schemas/hanging_thread.schema.json",
+      "sha256": "c9ca285b0450a9278506b8e7844616df3357154b48693efed2edd28dc804d00c",
+      "bytes": 862,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "evidence/2026-01-08_K_ELAR_spine.json",
+      "sha256": "f6a96edba9a31901105361d45a5dd75250b319f4b368d87d6ab8ceee3e06ce06",
+      "bytes": 2169,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "evidence/2026-01-08_K_frame_K1_tree_modality_bound.json",
+      "sha256": "1ab1b16e06fc3007a2e41ec9108a8da25eaf9c68307463063cdd5209d3c1944a",
+      "bytes": 1565,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "evidence/2026-01-08_K_frame_K2_tree_modality_bound.json",
+      "sha256": "bc140c8f523c94fefbf274238777739d301cef1953ed6cad620a139544558c95",
+      "bytes": 2440,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "evidence/2026-01-08_K_frame_K3_tree.json",
+      "sha256": "bbfb625112047374868f2c58915abd2e6cabdcfa8b954ac692a7d153f58e34de",
+      "bytes": 1448,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "evidence/2026-01-08_K_frame_K4_tree.json",
+      "sha256": "05c0892bc40e8a34e6737d68522126f00271a5479623667808dfb02acc82ce2a",
+      "bytes": 805,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "evidence/2026-01-08_RIDIE_kernel_hooks_spec.json",
+      "sha256": "175f01d3ee33b14bba8ccad386fa9454d71268abc97ff065ae46d97e2b36b22e",
+      "bytes": 1899,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "evidence/2026-01-08_RIDIE_kernel_integration_plan.md",
+      "sha256": "cd6f193a3ed0a43f1b4f5102c83961839a15923bc9cab0e74a6dee6877f37cd9",
+      "bytes": 2536,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "evidence/2026-01-08_RIDIE_persistence_explainer.md",
+      "sha256": "c2be321f304eaead4a04972f49945d273638377cc7287bc651d15779fbbf0932",
+      "bytes": 1485,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "evidence/2026-01-08_STOP_SUMMARY.json",
+      "sha256": "68ec86ac36b2e871c7c0cca16fcfc554fc98a2eff6e836597e499557b3a50582",
+      "bytes": 714,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "evidence/2026-01-08_STOP_SUMMARY_2.json",
+      "sha256": "7656556675005f46f6e7143a0ec720e87a9271dce073ae0049b2a55f0f46a01e",
+      "bytes": 450,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "evidence/2026-01-08_bootproof_v1_3_12_LEDGERVERIFYFIX.md",
+      "sha256": "d95ce19cb8a89c00ac1fdecf021ec22a15eca6a5e7fba12e6aeb1582e11233e1",
+      "bytes": 1529,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "evidence/2026-01-08_canonical_engine_spec.json",
+      "sha256": "3384d6da3e96ade911562e6412fd5eb621ca4f21c12444f2dd4f59d65ca7148d",
+      "bytes": 1215,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "evidence/2026-01-08_kernel_enforcement_loop.md",
+      "sha256": "36bc3778f2b257ac4a96776de177ab693b003ce4bd6cd8ad8af9de4a65485463",
+      "bytes": 328,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "evidence/2026-01-08_metablooms_delta_RIDIE_persistence_v1_1.json",
+      "sha256": "4614c394c16728f9ebdf35dcb2c5eb723bf1e18092a7079ba4ac38022e969b31",
+      "bytes": 5035,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "evidence/2026-01-08_pre_ship_os_bundle_gatechecklist.md",
+      "sha256": "a78608c3e2d64761ccd268f7143f74d3e493cc1c386eacfe3de6ab1196db0693",
+      "bytes": 3784,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "evidence/2026-01-08_process_rule_promotion_gate.md",
+      "sha256": "767bf6c026ae6fd01fd4f70d35e6aeb42652149b2e1223269e99cdafda72023d",
+      "bytes": 510,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "evidence/2026-01-08_process_rule_registry.json",
+      "sha256": "424ea5e14663772bf008c691ffd28d5b01d0727d0e1287b5a02a89c29f92d95e",
+      "bytes": 1055,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "evidence/2026-01-08_ridie_promotion_autowire.json",
+      "sha256": "f0ffc67819d2c255e630ce46ded1ff1ec24999be503d8f903ad884a422be83e9",
+      "bytes": 555,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "evidence/2026-01-08_system_telemetry_spec.json",
+      "sha256": "8ecc140194d17197603efe7b2cccd1171de93f3f44717db2cac7dff76de26252",
+      "bytes": 1136,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "evidence/2026-01-09_DELTA_MANDATORY_VALIDATION_AND_CI.json",
+      "sha256": "4538422d34d44d0010e10129ecd09fd8f5c0d12056eb499194dac5ae1c701b17",
+      "bytes": 1137,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "evidence/2026-01-09_DELTA_MANDATORY_VALIDATION_AND_CI.md",
+      "sha256": "c7c3569e376a1a0743335a8e6fbe6c9e25ead3cd9b2349bf37c2a08073dfa2cf",
+      "bytes": 4969,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "evidence/ctos_rebase/BOOT_STDOUT_2026-01-14.txt",
+      "sha256": "9068ad6df5bdd37ec66cb4fce0086dd27a4e2949b14b2161ed74f9e6ba96cf3b",
+      "bytes": 531,
+      "ext": ".txt",
+      "kind": "other"
+    },
+    {
+      "path": "evidence/ctos_rebase/METABLOOMS_CTOS_REBASE_DIFF.md",
+      "sha256": "cd477e60320a01a7185910ccdfff1c1ed1b96cee76d07e14aa8e3ca1b108da34",
+      "bytes": 1728,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "evidence/ctos_rebase/REBASE_HASHES_2026-01-14.txt",
+      "sha256": "211488ec8dc289451751de9bc548ddfc9ac177500774a29a8f26c2ca8b7b0cb0",
+      "bytes": 703,
+      "ext": ".txt",
+      "kind": "other"
+    },
+    {
+      "path": "evidence/deltas/2026-01-09/2026-01-09_DELTA_MANDATORY_VALIDATION_AND_CI.json",
+      "sha256": "4538422d34d44d0010e10129ecd09fd8f5c0d12056eb499194dac5ae1c701b17",
+      "bytes": 1137,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "evidence/deltas/2026-01-09/2026-01-09_DELTA_MANDATORY_VALIDATION_AND_CI.md",
+      "sha256": "c7c3569e376a1a0743335a8e6fbe6c9e25ead3cd9b2349bf37c2a08073dfa2cf",
+      "bytes": 4969,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "evidence/deltas/2026-01-10/2026-01-10_DELTA_POST_BOOT_AUTHORITY_BINDING_P1.json",
+      "sha256": "837086cb2a1e8ac08c8fea4b45aa53722ed3b55eb6a932c2e98a7b38e2e585df",
+      "bytes": 702,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "evidence/deltas/2026-01-10/2026-01-10_DELTA_POST_BOOT_AUTHORITY_BINDING_P1.md",
+      "sha256": "f38a475c07747695a06c6a42478d0a7108d22d7d4c4693e8b0a02b4c183776b8",
+      "bytes": 2301,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "examples/EXAMPLE_AUDIT_EMBED.json",
+      "sha256": "1bef1a98c461be2bde7e54491cb2eeab04009e961887788811ef470cf54e137a",
+      "bytes": 205,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "examples/EXAMPLE_CREATE_HTML.json",
+      "sha256": "c68958cc31970d3099837d50d343a8e76d0632bae9816625f4a6b46dbef782fd",
+      "bytes": 205,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "examples/EXAMPLE_FIX_HTML.json",
+      "sha256": "fbddd2a7b599cc145460592c13cb219e6f4aa1ba1f0b30302f50a70d6965ac6c",
+      "bytes": 185,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "install/INSTALL.md",
+      "sha256": "38c77da8f3ff667217cfee6054ec5307b1e4c5d159d4f07a670f0eb09e235337",
+      "bytes": 459,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "ledger/boot_event.json",
+      "sha256": "d324f39d6f503b2c36c72f72f5746d5b10e9d99d4d6b6a19e062f7902268bbbd",
+      "bytes": 99,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "ledger/events/AUTHORITY_BIND_OK.schema.json",
+      "sha256": "0d0f7acfb1ce138fd835e5576a1d56546c59b48f2003c31cd92730c2e976704d",
+      "bytes": 344,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "ledger/ledger.ndjson",
+      "sha256": "300a2aedbe7616efa03723616d2329c51117829a6b225a746f9f71a2743bd947",
+      "bytes": 141853,
+      "ext": ".ndjson",
+      "kind": "other"
+    },
+    {
+      "path": "ledger/ledger_event.schema.json",
+      "sha256": "581feab425baffd6b49a156497cdaf264a2f5f5f74b209feeaa24e19ed95a36f",
+      "bytes": 1166,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "ledger/metablooms_ledger.py",
+      "sha256": "25e625a4035d4fa9f8749d13bc69fb4fbe73814f951224d1663a1b66720604a4",
+      "bytes": 4826,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "ledger/selection_record.jsonl",
+      "sha256": "932a2f57ea4ab8dc0c45de358c69a41d43c47f72605aec7b04481d8d3ba93a00",
+      "bytes": 4136,
+      "ext": ".jsonl",
+      "kind": "other"
+    },
+    {
+      "path": "ledger/zoop_receipt.json",
+      "sha256": "58205d2706c9d39493e873267900fb06881d96d214916c880c9048802a306436",
+      "bytes": 85,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "ledger/zoop_receipt.schema.json",
+      "sha256": "334ca4e9085c2241c5a7e04b8105d9945f629270ccebb3a8ed6bacfd1b45f1c2",
+      "bytes": 669,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "metablooms_core.py",
+      "sha256": "52c193727e9b1dd1387cb4661b5385c5d7c2d984bc37872f3ffc5554e760928f",
+      "bytes": 12973,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "modules/Claude_Skills_Factory/BOOT_INTEGRATION_SPEC_CLAUDE_SKILLS_FACTORY_v1.md",
+      "sha256": "0528c0b482eb4d8955d8f1c4867bf56891ae2e2c8eb4db5a43648d10344e52d9",
+      "bytes": 275,
+      "ext": ".md",
+      "kind": "module_code"
+    },
+    {
+      "path": "modules/Claude_Skills_Factory/DOCTRINE_SKILL_CLAUDE_v1.md",
+      "sha256": "1b40749338f7cbb7c600315d97733fab018b7bfa13737e95b9f30b73ab3a64d6",
+      "bytes": 272,
+      "ext": ".md",
+      "kind": "module_code"
+    },
+    {
+      "path": "modules/Claude_Skills_Factory/METABLOOMS_SKILL_RUNTIME.md",
+      "sha256": "eeaf625f14c1964c42c6ac43e35f15df39c9a7f4f560666331748941dce4a08b",
+      "bytes": 517,
+      "ext": ".md",
+      "kind": "module_code"
+    },
+    {
+      "path": "modules/Claude_Skills_Factory/MODULE_MANIFEST_CLAUDE_SKILLS_FACTORY_v1.md",
+      "sha256": "51d50342946da73a4a8eb6d63690aafb904c09296aab426b46d58bac3f4e6946",
+      "bytes": 691,
+      "ext": ".md",
+      "kind": "module_code"
+    },
+    {
+      "path": "modules/Claude_Skills_Factory/PIPELINE_SKILL_FOUNDRY_CLAUDE_v1.md",
+      "sha256": "0a77268f46129067779e5226419a23547a78255c6fb0a533e525c4dd698757f4",
+      "bytes": 212,
+      "ext": ".md",
+      "kind": "module_code"
+    },
+    {
+      "path": "modules/Claude_Skills_Factory/SKILL_VALIDATOR.md",
+      "sha256": "ef1f649239c8d363817057e3dc1790abf378a0a63335930998a979b641b476f3",
+      "bytes": 150,
+      "ext": ".md",
+      "kind": "module_code"
+    },
+    {
+      "path": "modules/Claude_Skills_Factory/__init__.py",
+      "sha256": "b91ac3b21114af5549ba8972fb0abd320bc9113f661a3ae76a193ca7f9bf8297",
+      "bytes": 57,
+      "ext": ".py",
+      "kind": "module_code"
+    },
+    {
+      "path": "modules/Claude_Skills_Factory/csf_runtime.py",
+      "sha256": "c0347c6fa99da7612d0b4ba1911f1c03550729b41acabf1572fb3462cd5f4bb6",
+      "bytes": 1054,
+      "ext": ".py",
+      "kind": "module_code"
+    },
+    {
+      "path": "modules/Claude_Skills_Factory/skills/context-degradation-diagnostic/SKILL.md",
+      "sha256": "cc03b363adcaf8c172a868bc87e2b5a6c35c97d45f79145fcfceb1e57d7d96b5",
+      "bytes": 615,
+      "ext": ".md",
+      "kind": "module_code"
+    },
+    {
+      "path": "modules/Claude_Skills_Factory/skills/context-degradation-diagnostic/metadata.json",
+      "sha256": "3c18f376a22ca3b94dfaed533f9a36ab430e69b5b358644dec63c060969711ff",
+      "bytes": 446,
+      "ext": ".json",
+      "kind": "module_code"
+    },
+    {
+      "path": "modules/Claude_Skills_Factory/skills/enforce-contract/SKILL.md",
+      "sha256": "7bb81f00d69c0b246ae252c31dbf5922a16caccf67beb648806743b502c19de4",
+      "bytes": 615,
+      "ext": ".md",
+      "kind": "module_code"
+    },
+    {
+      "path": "modules/Claude_Skills_Factory/skills/enforce-contract/metadata.json",
+      "sha256": "3f592d5f2f3a4f30464f7e02e3b38f17dcb028ec275896c25c1b7bf09a0b46ae",
+      "bytes": 475,
+      "ext": ".json",
+      "kind": "module_code"
+    },
+    {
+      "path": "modules/Claude_Skills_Factory/skills/reasoning-validation-checklist/SKILL.md",
+      "sha256": "179f3896a914ae6d273966a9d08ec5d6cc21bb15121bd3439df4425de001a398",
+      "bytes": 555,
+      "ext": ".md",
+      "kind": "module_code"
+    },
+    {
+      "path": "modules/Claude_Skills_Factory/skills/reasoning-validation-checklist/metadata.json",
+      "sha256": "d7e7ed27ea4187109be7896a898460e86ad5275a337b268606e42b9be496f132",
+      "bytes": 381,
+      "ext": ".json",
+      "kind": "module_code"
+    },
+    {
+      "path": "modules/Claude_Skills_Factory/skills/web-automation-executor/SKILL.md",
+      "sha256": "79c4859673e7c276803af70e3785633c3ed28c684e3f606f142e814d0dfc667c",
+      "bytes": 571,
+      "ext": ".md",
+      "kind": "module_code"
+    },
+    {
+      "path": "modules/Claude_Skills_Factory/skills/web-automation-executor/metadata.json",
+      "sha256": "0c1cbe4b923f88c2d2a95e1b95e87f2b77044e6dae6bb415bcb707810070ff60",
+      "bytes": 403,
+      "ext": ".json",
+      "kind": "module_code"
+    },
+    {
+      "path": "modules/Delta_Intake_ForwardPort/MODULE_MANIFEST_DELTA_INTAKE_FORWARDPORT_v1.md",
+      "sha256": "adaad1b4a96fac04ad28b19e8da10a24ed8f9c900c4088fb6f33a48d85eed9a8",
+      "bytes": 769,
+      "ext": ".md",
+      "kind": "module_code"
+    },
+    {
+      "path": "modules/Delta_Intake_ForwardPort/doctrine/DELTA_AS_INTENT_DOCTRINE.md",
+      "sha256": "8da508707faf48198ae6646af6811dd3ff3ff1685c163fdb18942b794db8e97f",
+      "bytes": 451,
+      "ext": ".md",
+      "kind": "module_code"
+    },
+    {
+      "path": "modules/Delta_Intake_ForwardPort/pipelines/DELTA_FORWARDPORT_V1.pipeline.yaml",
+      "sha256": "11d3fca803372b75eb988d368d32074b2788230b3277603d893383620675228a",
+      "bytes": 1497,
+      "ext": ".yaml",
+      "kind": "module_code"
+    },
+    {
+      "path": "modules/Delta_Intake_ForwardPort/tools/delta_intake_parser.py",
+      "sha256": "e08de8dea77066b33c88bd56a7a3d60fb6fafdbaff97c0909f66ae54d209cc60",
+      "bytes": 1125,
+      "ext": ".py",
+      "kind": "module_code"
+    },
+    {
+      "path": "modules/__init__.py",
+      "sha256": "b911148da48ca71d9a47d5f6a2153e2eef96984ca8637f4d8fcfa3daf15dd5a5",
+      "bytes": 156,
+      "ext": ".py",
+      "kind": "module_code"
+    },
+    {
+      "path": "modules/__pycache__/__init__.cpython-311.pyc",
+      "sha256": "ce99cb6b5e1a4800324a5ec7ad1b5e6742adb0d804e179dcdfd897a56265c288",
+      "bytes": 325,
+      "ext": ".pyc",
+      "kind": "module_code"
+    },
+    {
+      "path": "modules/governance_runtime/enforcement.py",
+      "sha256": "c1725ad78df0e3fcec76d81a2d5bb521e2a041d9ca2b041a4cb8415246eda498",
+      "bytes": 48,
+      "ext": ".py",
+      "kind": "module_code"
+    },
+    {
+      "path": "modules/intuition_finch_runtime/doctrine/INTUITION_RUNTIME_DOCTRINE_v0.md",
+      "sha256": "c43601b85ee832a57649b7093075340732a18e0fd16cb07eab49785b81816b2e",
+      "bytes": 346,
+      "ext": ".md",
+      "kind": "module_code"
+    },
+    {
+      "path": "modules/intuition_finch_runtime/runtime/__pycache__/env_sense.cpython-311.pyc",
+      "sha256": "555bd3c206efdc4ab86ff15ca1231f68e4550c429097bba4176bcd03aefd8b98",
+      "bytes": 475,
+      "ext": ".pyc",
+      "kind": "module_code"
+    },
+    {
+      "path": "modules/intuition_finch_runtime/runtime/__pycache__/finch_select.cpython-311.pyc",
+      "sha256": "0c3700f21a1a0d291b25f49625c6bd255de99f16b23b0d545152c8e5fe88f128",
+      "bytes": 636,
+      "ext": ".pyc",
+      "kind": "module_code"
+    },
+    {
+      "path": "modules/intuition_finch_runtime/runtime/__pycache__/selection_record.cpython-311.pyc",
+      "sha256": "22533a3364166caa3ab4988ac8cfa1eb81355ec2d03769e32243d9aa757d94ff",
+      "bytes": 1685,
+      "ext": ".pyc",
+      "kind": "module_code"
+    },
+    {
+      "path": "modules/intuition_finch_runtime/runtime/env_sense.py",
+      "sha256": "9ef84e6539c0af324796001699b65ba43db16b51a3d743e9b5f456c922587fec",
+      "bytes": 322,
+      "ext": ".py",
+      "kind": "module_code"
+    },
+    {
+      "path": "modules/intuition_finch_runtime/runtime/finch_select.py",
+      "sha256": "31b777e07f7383c8a2cc88d7ec052490e9c2a8d795f713887035af9859c38952",
+      "bytes": 396,
+      "ext": ".py",
+      "kind": "module_code"
+    },
+    {
+      "path": "modules/intuition_finch_runtime/runtime/selection_record.py",
+      "sha256": "e7eb5cf92a1ed900304458245c3abd1c4ae3ce860c8785ffdec1aca655ccbbf3",
+      "bytes": 621,
+      "ext": ".py",
+      "kind": "module_code"
+    },
+    {
+      "path": "modules/replay/README.md",
+      "sha256": "37ae0a536cfad02df53809da1240c587952861ccf2fcba43f0ed1c6ee56140cd",
+      "bytes": 200,
+      "ext": ".md",
+      "kind": "module_code"
+    },
+    {
+      "path": "modules/replay/REPLAY_MODE.py",
+      "sha256": "5f65e27e6daa776493eac61503a6daf95f750fe0e5c05064dc01eb46c131b512",
+      "bytes": 358,
+      "ext": ".py",
+      "kind": "module_code"
+    },
+    {
+      "path": "modules/rrk/rrk.py",
+      "sha256": "56b2aeee09998b16a04476117274c90dac80c94604f7759d86d2a0129ac7d5f0",
+      "bytes": 41,
+      "ext": ".py",
+      "kind": "module_code"
+    },
+    {
+      "path": "modules/sandcrawler/__init__.py",
+      "sha256": "50404e1a0ab2bae9eacc399dd134b01f329688db0d631f3821eaf174d0462825",
+      "bytes": 34,
+      "ext": ".py",
+      "kind": "module_code"
+    },
+    {
+      "path": "modules/sandcrawler/out/sandcrawler_validation_report.json",
+      "sha256": "3f4bdd53c91135a3b02eb3342a7ed6e92b4e4badfeab32b2fd12ef7c9d6063c3",
+      "bytes": 535,
+      "ext": ".json",
+      "kind": "module_code"
+    },
+    {
+      "path": "modules/sandcrawler/out/sandcrawler_validation_report.md",
+      "sha256": "d4a4a2b0644472a59a584942eedbe72cdd3fc0d9fd3b240272a572b95b2a3eb8",
+      "bytes": 415,
+      "ext": ".md",
+      "kind": "module_code"
+    },
+    {
+      "path": "modules/sandcrawler/sandcrawler.py",
+      "sha256": "c90fe3e2a11b04d762ec4b1f72367a27b3d6421b24c2b030e4ed6978a0f1b05a",
+      "bytes": 3326,
+      "ext": ".py",
+      "kind": "module_code"
+    },
+    {
+      "path": "modules/sandcrawler/validate_results.py",
+      "sha256": "5cb2cf4e43a11cfeb6034da464090f6f97dce18f8e8a097c27cf4958ac5e2216",
+      "bytes": 10803,
+      "ext": ".py",
+      "kind": "module_code"
+    },
+    {
+      "path": "modules/sdi02/SDI-02-VAL_v1.0.md",
+      "sha256": "c7832a04ab79ae6b91673549c135f7e865f5216236fda6012425045f53c37ff1",
+      "bytes": 3347,
+      "ext": ".md",
+      "kind": "module_code"
+    },
+    {
+      "path": "modules/sdi02/SDI-02_INVOCATION.txt",
+      "sha256": "cd940d99b9b8be7f1523d721577a8275682ebdb70a1fc3aeada5cd557db2ccb3",
+      "bytes": 451,
+      "ext": ".txt",
+      "kind": "module_code"
+    },
+    {
+      "path": "modules/sdi02/SDI-02_Run_Manifest.schema.json",
+      "sha256": "7ef6feee9fff87093835915900c07a46e292de1e6fedbeb7cde2922ecbd7949c",
+      "bytes": 5645,
+      "ext": ".json",
+      "kind": "module_code"
+    },
+    {
+      "path": "modules/sdi02/SDI-02_v1.1_MODULE_VALIDATOR_WIRED.md",
+      "sha256": "06c69eb307e23b29852bee25cbf54b1fd72ccde007d1f0d3b8280f19022995d7",
+      "bytes": 5628,
+      "ext": ".md",
+      "kind": "module_code"
+    },
+    {
+      "path": "modules/sdi02/__init__.py",
+      "sha256": "2bc7034be2ebac46857ce15e46f86a926b033aac1a23a4b833b74dd19c3e690c",
+      "bytes": 55,
+      "ext": ".py",
+      "kind": "module_code"
+    },
+    {
+      "path": "modules/sdi02/run_validator.py",
+      "sha256": "25d027d2e849ef13f68874ed1b668b347bc25235512824943286c4d1eec13db9",
+      "bytes": 1962,
+      "ext": ".py",
+      "kind": "module_code"
+    },
+    {
+      "path": "modules/telemetry/telemetry.py",
+      "sha256": "7b84acd39d8586498e8485eb7180515377767f542ddc8fa1e77401eb4e9f4f44",
+      "bytes": 47,
+      "ext": ".py",
+      "kind": "module_code"
+    },
+    {
+      "path": "operator/HANDOFF_PROMPT_OTHER_CHAT.md",
+      "sha256": "781e8ffb91b84fe61554ac4b4d5261858d7b4bf70efccbe5f5fd94662f6e8ba6",
+      "bytes": 549,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "operator/ROW_OPERATOR_GUIDE.md",
+      "sha256": "23ca41bf57f21b8429dea335d44b3e40c3bb209dd9cac0434a4d306d421cc4f9",
+      "bytes": 558,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "pipelines/OS_DEBUG_DIAG_TO_ACTION_V1.pipeline.yaml",
+      "sha256": "d703b8be9ae7ba4de06a446814f6a20c46f549275fc1be4a1458fbc88c8f9e6b",
+      "bytes": 2106,
+      "ext": ".yaml",
+      "kind": "other"
+    },
+    {
+      "path": "pipelines/evolution_wiring_spec_v1.md",
+      "sha256": "4328b1baa26afae9b4a5b4a627b3caf2aab120b63a9c0e5c8970e685439fb5db",
+      "bytes": 780,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "pipelines/intake_summary_template_v1.md",
+      "sha256": "ef29f7c6a9e34a2504ab397f20ec796b1e7b69b250d71ec7b5084d5f0ce76820",
+      "bytes": 350,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "receipts/2026-01-13_finalization_change_manifest.json",
+      "sha256": "03082849c1c5a6967fd363cf0c24439850626cdc0a3b2c459d9526e0948115f2",
+      "bytes": 634,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "receipts/2026-01-13_metablooms_boot_failure_full_detail.md",
+      "sha256": "03f9256b2423c71d8e0a97daaf5b8bf107714e78d14a247073e2f7e5af4bee70",
+      "bytes": 13574,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "receipts/BOOT_GATE2_ENFORCEMENT.json",
+      "sha256": "19f52db23e1a54bdf9535abc65b395e41a6031c7ff8ba0ce448f051c0d9b3c8e",
+      "bytes": 259,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "receipts/DELTA_INTAKE_RECEIPT.json",
+      "sha256": "55abd0964a9d251c98d6a71020fa03cc418538ad9a09d2bc719e7ee09817bde4",
+      "bytes": 5965,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "receipts/FORWARDPORT_DIFF.md",
+      "sha256": "5f95baaf52ea57e458fe2f8649bf87f78091c36938ded216a76786fcd81b3c26",
+      "bytes": 368,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "receipts/FORWARDPORT_MAPPING_NOTE.md",
+      "sha256": "0c6547a43bf95e59ed7a7fbd3f743a839efe80bac9c1430e3b13d48445aefed9",
+      "bytes": 577,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "receipts/FORWARDPORT_PLAN.md",
+      "sha256": "1ea46959394932336ffeb4620c223fb4c25506241359958f6106bcf52ffdab57",
+      "bytes": 660,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "receipts/INTEGRATION_RECEIPT_CTOS_Q0_v2_1.json",
+      "sha256": "87c9839c01837a023c241a76f9148383083f3bebaa2821acefe959bb7dd67f63",
+      "bytes": 559,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "receipts/INTEGRATION_RECEIPT_v2_SPEC_v2fix.json",
+      "sha256": "6d8f26d0a7fec5316c4d3458fa631f1f96aa0e5535eb6dfb3e4f4f498d085a36",
+      "bytes": 432,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "receipts/MERGE_DECISION.json",
+      "sha256": "6fb266054608dc86adfa1d610d79755127c74b4d220b569f81123091339f918c",
+      "bytes": 406,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "registry/README_registry_v1.md",
+      "sha256": "67aadd971c8a4bd7c664b52a601c4a80a5bc486ad510105c1ba2967b3ea4662b",
+      "bytes": 781,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "registry/artifact2_rows_pipelines/contracts/PIPELINE_REGISTRY.json",
+      "sha256": "26d701ae7157cb55284d4b992567529d41f27d8340157d1a9b0a85fc4f673573",
+      "bytes": 4319,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "registry/artifact2_rows_pipelines/contracts/PIPE_SECTION_SCHEMA.json",
+      "sha256": "7c834b611527ae46c849d97dd67ecd16eae0e01d78bc7b43bda2f04576971d52",
+      "bytes": 637,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "registry/artifact2_rows_pipelines/contracts/ROW_CONTRACT_SCHEMA.json",
+      "sha256": "2758dcfb5851a716c210756a482a02784270367d7eda161931373e350e932e75",
+      "bytes": 1105,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "registry/artifact2_rows_pipelines/contracts/ROW_ROUTING_TABLE.json",
+      "sha256": "c08c4b3eda9294249b2b0b743153d9d68e326ff2184472e136e2b7099be77f48",
+      "bytes": 5273,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "registry/artifact2_rows_pipelines/index_manifest.json",
+      "sha256": "d4e540f09d2b9fd36a57504cd56ede950db61411d3beaa6838343ecf4214d568",
+      "bytes": 1120,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "registry/artifact2_rows_pipelines/sections/section_001_to_005.evidence.slim.jsonl",
+      "sha256": "449166b9045237a1bfee8481722c2a2087115c9f8e467a8843c87b28d26fb326",
+      "bytes": 11872371,
+      "ext": ".jsonl",
+      "kind": "other"
+    },
+    {
+      "path": "registry/artifact2_rows_pipelines/sections/section_001_to_005.improvement_queue.json",
+      "sha256": "500f2844f5d52f8e13e8900e240fb7fc2beb247bd9f1f38473956445689d756b",
+      "bytes": 963879,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "registry/artifact2_rows_pipelines/sections/section_001_to_005.registry.json",
+      "sha256": "142671bd791cf2e1344c42a4c90c69a5e2101590c17e54cea1bee6b400e98b23",
+      "bytes": 2885711,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "registry/artifact2_rows_pipelines_index_v1.json",
+      "sha256": "21dfb91dfbd57a9727b675b1a8d640f47b23ec5f11051ef3060dd93fe947a5cc",
+      "bytes": 297,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "registry/engines/experiential_learning.registry.json",
+      "sha256": "0e446d8fa827b35ad82d44ede12f87a0be26c9febe9f747d2e91faaf6cd8d9cd",
+      "bytes": 386,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "registry/engines/hanging_threads.registry.json",
+      "sha256": "585480a1a83db8bceb68dde117d504e54dcfaa775ea06acc7e5071d5d80ccdc7",
+      "bytes": 371,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "registry/rows_pipelines/README_rows_pipelines_v1.md",
+      "sha256": "b65447827735ace80f0bc87f59c465dfb6678715ef9fe5c787089e217a16389e",
+      "bytes": 1539,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "registry/rows_pipelines/canonical/aliases.json",
+      "sha256": "afda4e316d6fd4f303434926e479c0100fef20bba30af0cd1c781f3b717ccb69",
+      "bytes": 36,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "registry/rows_pipelines/canonical/pipelines_canonical.json",
+      "sha256": "54bfd8b679a47f13eb3fae82fb2b9d4028a9c1752636bb896fc1886691b1cb67",
+      "bytes": 63,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "registry/rows_pipelines/canonical/rows_canonical.json",
+      "sha256": "19192d30b2730fa22b44ee0a91e1ea0f84711bf5a82c80f9fa3113281240725f",
+      "bytes": 58,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "registry/rows_pipelines/canonical/supersedes.json",
+      "sha256": "1b65f858a9710636de9504ccfe23fc8e45b2f1ecfbf4b5c2529bfbf58270c2a1",
+      "bytes": 39,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "registry/rows_pipelines/contracts/PIPELINE_REGISTRY.json",
+      "sha256": "26d701ae7157cb55284d4b992567529d41f27d8340157d1a9b0a85fc4f673573",
+      "bytes": 4319,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "registry/rows_pipelines/contracts/PIPE_SECTION_SCHEMA.json",
+      "sha256": "7c834b611527ae46c849d97dd67ecd16eae0e01d78bc7b43bda2f04576971d52",
+      "bytes": 637,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "registry/rows_pipelines/contracts/ROW_CONTRACT_SCHEMA.json",
+      "sha256": "2758dcfb5851a716c210756a482a02784270367d7eda161931373e350e932e75",
+      "bytes": 1105,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "registry/rows_pipelines/contracts/ROW_ROUTING_TABLE.json",
+      "sha256": "c08c4b3eda9294249b2b0b743153d9d68e326ff2184472e136e2b7099be77f48",
+      "bytes": 5273,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "registry/rows_pipelines/index_manifest.json",
+      "sha256": "95a0af26cd7c78c339ddee5c48b5b8ffd42865ee6277ae3e320539571ca1f69a",
+      "bytes": 826,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "registry/segment_pipeline_registry_v1.json",
+      "sha256": "6c0896664a831ad4cb0ef9343863887c5f157d0da9e3556cd634cfcdc9fefde2",
+      "bytes": 7784,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "retry_policy.py",
+      "sha256": "356f1c2c085c587371e644ade0735ab611468a3bf05c950fec4557468c20364d",
+      "bytes": 744,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "runtime/.run/RUN_CONTEXT.json",
+      "sha256": "960f6b6fce58292412f287a6f2e3e915d07a4baa6d554464b9b8045712fac061",
+      "bytes": 1730,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "runtime/MB_RUNTIME_GOVERNANCE_GATE.md",
+      "sha256": "4d72d1a655185ff3084f19f3df2302ac97e0e5e7c7b5ddfd025b1c9985a49d53",
+      "bytes": 271,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "runtime/RUN_CONTEXT.json",
+      "sha256": "bc5e7e4a867e9d5ac6c640424814b8608d8387b3d61dd4ad51211abd895d6612",
+      "bytes": 1730,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "runtime/WIRING.md",
+      "sha256": "37b5b1fb714d44f954b78a7fc5b324d07458eb066bac5107ca598325cdd48344",
+      "bytes": 283,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "runtime/__pycache__/canonical_root.cpython-311.pyc",
+      "sha256": "328c21aa7df1d11b51b9b3fc54f761d8a3224c3d7484b8a725ac796ba8d2338e",
+      "bytes": 4017,
+      "ext": ".pyc",
+      "kind": "build_artifact"
+    },
+    {
+      "path": "runtime/__pycache__/evolution_seam.cpython-311.pyc",
+      "sha256": "2c1d85fdfa40e4ded8721fc987e60722a4e3b0fdf622693c9b34ac210e3a2ca2",
+      "bytes": 2956,
+      "ext": ".pyc",
+      "kind": "build_artifact"
+    },
+    {
+      "path": "runtime/authority_binding.json",
+      "sha256": "4ff2e94bf06745a8a6ce4471fb23106627c1aa2cbd0986e96d222592c408f162",
+      "bytes": 201,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "runtime/boot_surfaces/README.md",
+      "sha256": "c00cdf128b6896cd478ba635a6778a5dd2ed733e0ef72edccb048b83fa2f8977",
+      "bytes": 224,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "runtime/canonical_root.py",
+      "sha256": "3fc33cb864b350e644664f8a6b1e0036057429b21c1144175b88430881aeba91",
+      "bytes": 2562,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "runtime/evolution_seam.py",
+      "sha256": "82561ade0e10947c93f088532db97b08921eb982327a99cbe5722a17eb4e2be9",
+      "bytes": 2063,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "runtime/lib/__pycache__/ledger_hooks.cpython-311.pyc",
+      "sha256": "91f3e7c3bdd8d4c5c8fc9a3d7f6169be07f50abb390cc6adff73fa777be0866f",
+      "bytes": 2857,
+      "ext": ".pyc",
+      "kind": "build_artifact"
+    },
+    {
+      "path": "runtime/lib/__pycache__/run_context.cpython-311.pyc",
+      "sha256": "ce2dda1a5aa1fcb7c3a1b4802b7117fe0230d4fcd08317bf73b46c5bea0a5cb6",
+      "bytes": 6113,
+      "ext": ".pyc",
+      "kind": "build_artifact"
+    },
+    {
+      "path": "runtime/lib/ledger_hooks.py",
+      "sha256": "347358e575b7dacfaf7b4f59d7aa62a4fff44e5c243a0883f688d6bdd5882894",
+      "bytes": 967,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "runtime/lib/retry_policy.py",
+      "sha256": "356f1c2c085c587371e644ade0735ab611468a3bf05c950fec4557468c20364d",
+      "bytes": 744,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "runtime/lib/rows_pipelines_registry.py",
+      "sha256": "4b9d974b2fd08e235fd7d8575a4c6f6264515a5d72af1fd26ea1ed2cf91be2f5",
+      "bytes": 3263,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "runtime/lib/run_context.py",
+      "sha256": "d6a31a6d5f07e448239c6b3ab1de23d01468669527d78af8ed3f7ffa96f9a76a",
+      "bytes": 3329,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "runtime/runs/run_context.ready",
+      "sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "bytes": 2,
+      "ext": ".ready",
+      "kind": "other"
+    },
+    {
+      "path": "runtime/schemas/FAILURE_REPORT.schema.json",
+      "sha256": "94c4ea6fab73911f5f997167f8c6cfaedd74d57d1551f78eda652c7e9b44ad69",
+      "bytes": 656,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "runtime/schemas/RUN_CONTEXT.schema.json",
+      "sha256": "a25fee03a44b7aaf293875cc79ee0c8d2edccd01bf23a6d72824e1f95a3b3060",
+      "bytes": 654,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "sandcrawler_state/SANDCRAWLER_READY.json",
+      "sha256": "07de9ad8b26b1286a5d1b3f25b51e2bcc855860da4ecaed62b4d0db39c183b5d",
+      "bytes": 211,
+      "ext": ".json",
+      "kind": "runtime_config"
+    },
+    {
+      "path": "schemas/delta_manifest.schema.json",
+      "sha256": "153ecd1851469120a7be1f431748a2831085d7d4f59d9b02c143bc13feea3b48",
+      "bytes": 752,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "schemas/ledger_event.schema.json",
+      "sha256": "5665eb626503ff3e2ff9a20abfcd5e5583c2c5424b66889401dd2f89381064a2",
+      "bytes": 419,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "schemas/module_registry.schema.json",
+      "sha256": "3b69189bc58ba5d8c9b4c610c665946c46727b4ffa1283e0c778bd1ccae1f443",
+      "bytes": 4153,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "schemas/no_stub_no_placeholder.policy.json",
+      "sha256": "b6479c6272badd118340c90db1cd85ad8035a58235c88ec38ef38657ac23f313",
+      "bytes": 306,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "segments/runtime/CONTRACT_ENFORCEMENT.md",
+      "sha256": "04db5b2d1a3bd3f8112e712ce5f7e4a9e0fb73c1a4b59002e046e2315816b203",
+      "bytes": 1069,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "ship/MB_SHIP_OS.md",
+      "sha256": "2e215681e13dae11f87bf475c9c853bbdd4356c013956f48a17cc451e1dedd5f",
+      "bytes": 605,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "ship/MB_SHIP_OS.py",
+      "sha256": "b3d5131371d6d4e9007dd109bbbcdf8fcfcfc0df0c0a55fda20d993c792f7e00",
+      "bytes": 3696,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "spec/METABLOOMS_CTOS_MANIFEST.json",
+      "sha256": "599fe07da096ed96ed6c10331549f38c05373bf95e3ae7cdfdf1c80a7e17e011",
+      "bytes": 494,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "spec/METABLOOMS_HEURISTIC_REGISTRY.md",
+      "sha256": "02c15b01f5597cbcfa2a2a63f42c9a7e3ce1d4fba32bb8f73f79ebd087513ba3",
+      "bytes": 2188,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "spec/METABLOOMS_INVOCATION_TEMPLATES.md",
+      "sha256": "b3fd78d4599a3f7c4828c1c599ee3b45a5a0ea02506da4645d10ad7141f14b1d",
+      "bytes": 1380,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "spec/METABLOOMS_KERNEL_v2.md",
+      "sha256": "2883567ba3f09bc9c28fcab307e562123d0ab79c9231f9fe9eec1a9df8364098",
+      "bytes": 2353,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "spec/METABLOOMS_MANIFEST.json",
+      "sha256": "ec54ac0b316af255ab437c8489b0dae8ac3178b52ddbcdf252d53339c4208b13",
+      "bytes": 1849,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "spec/METABLOOMS_P0_INVARIANT_FRAMEWORK.md",
+      "sha256": "976d6cf87b9f8c17e22a18b8bdb77bd05c810ff1dc5e140a7488805167425536",
+      "bytes": 2691,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "spec/METABLOOMS_PIPELINES.md",
+      "sha256": "d56ee975774ed86c203c003b7fe544ca78ed01d49fd29180c1f51eb1e53cb48c",
+      "bytes": 2465,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "spec/METABLOOMS_V2_COMPLIANCE_CHECKLIST.md",
+      "sha256": "987d96a83c9b004caaa270bf9362e9b6c2608e8b4589eb088c2a13df52260b6f",
+      "bytes": 2327,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "spec/META_BLOOMS_BOOT.md",
+      "sha256": "cb55407dd8d09e12a4088706d32f6aa622a1c085b6f553bb653a67754a6f1882",
+      "bytes": 107,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "spec/ctos/BOOT_COMPLIANCE_CHECKLIST_CTOS_v2_1.md",
+      "sha256": "b74fe0390fb7f0a1d3d1c5c16c73198eb9dead0362483ef64ea5c591d4ca9892",
+      "bytes": 1453,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "spec/ctos/CTOS_SPEC_INDEX_v2_1.md",
+      "sha256": "eb0a8c3a80ecf5174f5f4ccf4555eae950e6b3fc895d738b2321f95157b0cf17",
+      "bytes": 465,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "spec/ctos/METABLOOMS_CTOS_CODE_QUALITY_INVARIANT_v1_1.md",
+      "sha256": "a5adc19aa83bb96031811db777402d7a51d32c7c7b99f747d0c7d67fe6a3d85c",
+      "bytes": 4692,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "spec/ctos/THREAD_TIERING_GATE_SPEC_v1.md",
+      "sha256": "ae0169f9b6a582158ecee9edbf665fc4716ef683317a8e94566a630a59d29965",
+      "bytes": 1458,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "spec/ctos/metablooms_quality_gate_v1_1.py",
+      "sha256": "6f3cfb91840f36fe298228b1a41819ade1a45322d3a2e91fdb1079b0d16bb4b8",
+      "bytes": 8054,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "spec/ctos/metablooms_rubrics.json",
+      "sha256": "f081188687583ff0f1d452c58b13fb9ab641666223d63e11fc12bc82df5d6237",
+      "bytes": 1300,
+      "ext": ".json",
+      "kind": "other"
+    },
+    {
+      "path": "threads/MB_HANGING_THREADS.md",
+      "sha256": "c8fa0e68948ed67a1003057a9670bde69ad2e754af15e58ab92d158bdb2c7275",
+      "bytes": 788,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "threads/README.md",
+      "sha256": "a2385a8e5736cad24b8054b394fd97d45a6cfca06e01e09de0e60f298038da57",
+      "bytes": 296,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "threads/REMINDERS.md",
+      "sha256": "dce50c4921ae88f99222745364fb3de85c8230992eb76003f57a94e2b771a8c8",
+      "bytes": 348,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "threads/X_CONSULTANT_PLAN.thread.md",
+      "sha256": "f6a50a81d8be1654f75cc4be49e8b7bf121a6143d23fdc9388961b698d336db5",
+      "bytes": 979,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "threads/threads.ndjson",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "ext": ".ndjson",
+      "kind": "other"
+    },
+    {
+      "path": "tools/__pycache__/ci_gate_v1.cpython-311.pyc",
+      "sha256": "e9e31a0515e063d85ef7b4d9ca7f72e056a1bd355370181bca63a491f7fbff65",
+      "bytes": 938,
+      "ext": ".pyc",
+      "kind": "build_artifact"
+    },
+    {
+      "path": "tools/artifact_resolver_latest_best.py",
+      "sha256": "bdb1ec2d9fe0d2654ac380351a20ec9fcb4ea9dae234bd042f3deefdae3fc0ed",
+      "bytes": 5506,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "tools/ci_gate_v1.py",
+      "sha256": "60a826444e5d1323c0146833beb079ff770f41483904b47c359ee484293b95b3",
+      "bytes": 536,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "tools/indexer/README.md",
+      "sha256": "3a35a11147f4e958ce8d6f97884d1980fbac67028ac9dc525b5cc84104c580ea",
+      "bytes": 585,
+      "ext": ".md",
+      "kind": "other"
+    },
+    {
+      "path": "tools/indexer/build_system_index.py",
+      "sha256": "dfda2b36c90111ed6562345404e103aa0e61ced920146c8f7c9eaa91f3459c6e",
+      "bytes": 3079,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "validators/__pycache__/boot_ledger_required.cpython-311.pyc",
+      "sha256": "8ec087d798cf5ec7246f29dfe25983f871369b2512b3c290ab5dcb2c50ead2f9",
+      "bytes": 1870,
+      "ext": ".pyc",
+      "kind": "build_artifact"
+    },
+    {
+      "path": "validators/__pycache__/delta_protocol_validity_v1.cpython-311.pyc",
+      "sha256": "343f4bdc09ecd9428da68699de8b3446109f712ed9e24f7231916da2e4f4f42f",
+      "bytes": 1804,
+      "ext": ".pyc",
+      "kind": "build_artifact"
+    },
+    {
+      "path": "validators/__pycache__/ledger_ndjson_integrity_v1.cpython-311.pyc",
+      "sha256": "576d2391719ca850cacf6dfcf745a94647d68af822da5482935ed8c727f8dd8a",
+      "bytes": 3557,
+      "ext": ".pyc",
+      "kind": "build_artifact"
+    },
+    {
+      "path": "validators/__pycache__/module_registry_schema_v1.cpython-311.pyc",
+      "sha256": "3f2e95527f2f89b629bbb890d64be9fb13939fa12d552fd4bddf1079d0f9e668",
+      "bytes": 4834,
+      "ext": ".pyc",
+      "kind": "build_artifact"
+    },
+    {
+      "path": "validators/__pycache__/no_stub_no_placeholder_v1.cpython-311.pyc",
+      "sha256": "651caab5f26138deecfd6cc4fbc71a9494698717fce6d97ae6e5804a1ce9017d",
+      "bytes": 3724,
+      "ext": ".pyc",
+      "kind": "build_artifact"
+    },
+    {
+      "path": "validators/__pycache__/unified_state_validator_v1.cpython-311.pyc",
+      "sha256": "87a692c0635c59c70154ba7922f0068bb6df5fd370717def8cf4b005f2baada0",
+      "bytes": 2754,
+      "ext": ".pyc",
+      "kind": "build_artifact"
+    },
+    {
+      "path": "validators/__pycache__/validate_canonical_root_v1.cpython-311.pyc",
+      "sha256": "766ed560dd6355b513bdbc0c8b10dc83282ca749d6dcd448b963e1d11589de74",
+      "bytes": 3098,
+      "ext": ".pyc",
+      "kind": "build_artifact"
+    },
+    {
+      "path": "validators/__pycache__/validate_evolution_seam_v1.cpython-311.pyc",
+      "sha256": "6d4f99d06584edbba6e604182c38a64a095a5601d87f8da327223841434b3465",
+      "bytes": 1527,
+      "ext": ".pyc",
+      "kind": "build_artifact"
+    },
+    {
+      "path": "validators/__pycache__/validate_experiential_learning_engine_v1.cpython-311.pyc",
+      "sha256": "264e78343642d5e3059c499d44fb97d71416cc7408d177afba4a529e12792a7f",
+      "bytes": 2291,
+      "ext": ".pyc",
+      "kind": "build_artifact"
+    },
+    {
+      "path": "validators/__pycache__/validate_experiential_learning_schema_v1.cpython-311.pyc",
+      "sha256": "1cf6e92e8615f9a168a2a79d86b4b8298a691495fd1e52f6a267af745ed511be",
+      "bytes": 2076,
+      "ext": ".pyc",
+      "kind": "build_artifact"
+    },
+    {
+      "path": "validators/__pycache__/validate_hanging_threads_engine_v1.cpython-311.pyc",
+      "sha256": "4b3dbe2339f8d5f3fc3529a1558e4c942e9529faf2fa664fbd699588eba31b54",
+      "bytes": 1133,
+      "ext": ".pyc",
+      "kind": "build_artifact"
+    },
+    {
+      "path": "validators/__pycache__/validate_hanging_threads_schema_v1.cpython-311.pyc",
+      "sha256": "3f97063029f4d7f88c43a8e0057e1605a2dd842e1874e36c8583a105e071c78a",
+      "bytes": 1596,
+      "ext": ".pyc",
+      "kind": "build_artifact"
+    },
+    {
+      "path": "validators/__pycache__/validate_intake_surfaces_v1.cpython-311.pyc",
+      "sha256": "896b233fe43b3c6c00d36a053c63bfa854e5a542287c57da90dbae5df65bd6bd",
+      "bytes": 1939,
+      "ext": ".pyc",
+      "kind": "build_artifact"
+    },
+    {
+      "path": "validators/__pycache__/validate_registry_v1.cpython-311.pyc",
+      "sha256": "71528315b52aa559ed7fb7bf18d8e5fb719a14c8b9bb263d69075534af363454",
+      "bytes": 3142,
+      "ext": ".pyc",
+      "kind": "build_artifact"
+    },
+    {
+      "path": "validators/__pycache__/validate_thread_tiering_gate_v1.cpython-311.pyc",
+      "sha256": "fc77e3d077f4c559d59922bf1ab72fa66f184b65c9a1bb91c384c6c32ce3a87e",
+      "bytes": 7952,
+      "ext": ".pyc",
+      "kind": "build_artifact"
+    },
+    {
+      "path": "validators/__pycache__/validator_runner_v1.cpython-311.pyc",
+      "sha256": "7621a20565645ca7af0b988252d72121a138d5ce6c099cfe125a3da3bf2b667b",
+      "bytes": 4647,
+      "ext": ".pyc",
+      "kind": "build_artifact"
+    },
+    {
+      "path": "validators/__pycache__/zoop_boot_symmetry.cpython-311.pyc",
+      "sha256": "bd1b7fd42aacb6e641948d5979888c1f02bfccabfdd8f6b194e3a997241f09e7",
+      "bytes": 2069,
+      "ext": ".pyc",
+      "kind": "build_artifact"
+    },
+    {
+      "path": "validators/__pycache__/zoop_required_for_boot_proof_v1.cpython-311.pyc",
+      "sha256": "67da3d2083514c1889a3512fbb7f78719353a83617e7f2e9e76adb39ef33055f",
+      "bytes": 1913,
+      "ext": ".pyc",
+      "kind": "build_artifact"
+    },
+    {
+      "path": "validators/boot_ledger_required.py",
+      "sha256": "40207fca807d6e2d5294bd1f97eb3082db768796489541d3ec7395ac643a50aa",
+      "bytes": 678,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "validators/delta_protocol_validity_v1.py",
+      "sha256": "0bd492c4024469a3950edd042cd93ab9851cf8311d36c1ddf8cfd89193840b7f",
+      "bytes": 994,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "validators/ledger_ndjson_integrity_v1.py",
+      "sha256": "3f7d353a0899cdd19a111ad1093cd66fcf30c3ade6ac2a4ba15b56c4feed60d7",
+      "bytes": 1595,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "validators/module_registry_schema_v1.py",
+      "sha256": "219e298c3ddbc86bdfdb96765289f2115fd3554e8588bb43254da6f67c48e9b6",
+      "bytes": 2751,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "validators/no_stub_no_placeholder_v1.py",
+      "sha256": "5f406bed5ea1d00a1e7921fa3f484f808517b11b2c3e999b902ab7028ccd197d",
+      "bytes": 1362,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "validators/pbab_mode_header_v1.py",
+      "sha256": "1afb8ab8b6ac5f0d59ed73dcd699783ea89241ef35dcaa5c628d032579935ecd",
+      "bytes": 232,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "validators/pbab_os_claim_guard_v1.py",
+      "sha256": "4f9c88d8b7219113104ad810e431cbe5830629ec3f6084d59e44c1eeab0bd181",
+      "bytes": 238,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "validators/unified_state_validator_v1.py",
+      "sha256": "3eafda6d7fcce8a0aadd74d61a8fdc91ad61f55d8ed2e371f0056f76389eb6e7",
+      "bytes": 1598,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "validators/validate_canonical_root_v1.py",
+      "sha256": "218655c390bb4fb9fc5fa68bbfe4bff520769a35017920defc816df11166f91b",
+      "bytes": 1670,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "validators/validate_evolution_seam_v1.py",
+      "sha256": "b8268700842ceea5c2553f2e715c368066d5b5ebd5551bc50c5991d0908271af",
+      "bytes": 672,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "validators/validate_experiential_learning_engine_v1.py",
+      "sha256": "5524902a56445faa802467a03e2ac9f3af8e42faf11450291de052df29df75f4",
+      "bytes": 1261,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "validators/validate_experiential_learning_schema_v1.py",
+      "sha256": "8e8f4413612ca0dfbf277a6b1835aa0918fdf181c210ac69e6048f925c10a91c",
+      "bytes": 979,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "validators/validate_hanging_threads_engine_v1.py",
+      "sha256": "7d3e00b5395539ffaf8ebdb7a629ffc9c61f94fb35dd322be253a7ac8adccee8",
+      "bytes": 663,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "validators/validate_hanging_threads_schema_v1.py",
+      "sha256": "a33cdf6e2edd2d91a57fe3d6beed16a82bf144d4d8d9a995769fe12ff5c8886b",
+      "bytes": 938,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "validators/validate_intake_surfaces_v1.py",
+      "sha256": "ae9a34da9c173c23260a3801de0ad11088d77d112d7181c5056d9f184246f20d",
+      "bytes": 792,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "validators/validate_phase_graph.py",
+      "sha256": "0835bcc5d68c0b5465f81221874260528522aeb3a2fd6822d437a14a071c183f",
+      "bytes": 337,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "validators/validate_registry_v1.py",
+      "sha256": "1e57d13de4d08f25d3fd65b01b0fab5062678408a17635ab0516532e357e90f5",
+      "bytes": 1301,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "validators/validate_sandcrawler_invariants.py",
+      "sha256": "6968584774d57365f1896ba677c94848c329b07b0f77f516726225cae8544204",
+      "bytes": 475,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "validators/validate_shipping_invariants.py",
+      "sha256": "ef2b2c9344a6404f041943412229a6f0e244621b02c8833f48c0f7455835ca6a",
+      "bytes": 526,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "validators/validate_thread_tiering_gate_v1.py",
+      "sha256": "8c838053c7d0fb982faf8283f2376c9241543a4c16b133281380792eb338f51a",
+      "bytes": 4663,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "validators/validator_runner_v1.py",
+      "sha256": "4218597db93214b873cdf1f1e984dcafdb7b82d388d4ed07e5a15dfe9451b38e",
+      "bytes": 2047,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "validators/zoop_boot_symmetry.py",
+      "sha256": "6f3e16e55d34b30433fafb7b8ec2a0ac62f7344b9dfcf5b2444de529ff331fc7",
+      "bytes": 769,
+      "ext": ".py",
+      "kind": "other"
+    },
+    {
+      "path": "validators/zoop_required_for_boot_proof_v1.py",
+      "sha256": "430b092b12d7087ba2fb5718c49d3352bfb65e1cb67ff54d7ccf1cb985366d91",
+      "bytes": 926,
+      "ext": ".py",
+      "kind": "other"
+    }
+  ],
+  "lookup": {
+    "entrypoint": "BOOT_METABLOOMS.py",
+    "ship_manifest": "SHIP_MANIFEST.json",
+    "module_registry": "MODULE_REGISTRY.json",
+    "governance_docs": [
+      "MB_ARTIFACT_TYPES.md",
+      "MB_ARTIFACT_TYPES_CANONICAL.md",
+      "MB_BOOT_CONTRACT.md",
+      "MB_CORE_RUNTIME_AUTHORITY.md",
+      "MB_DELTA_PROTOCOL.md",
+      "MB_INVARIANTS.md",
+      "MB_LEDGER.md",
+      "MB_MODULE_REGISTRY.md",
+      "MB_SHIP_INVARIANTS.md"
+    ],
+    "modules": [
+      "Claude_Skills_Factory",
+      "Delta_Intake_ForwardPort",
+      "__init__.py",
+      "__pycache__",
+      "governance_runtime",
+      "intuition_finch_runtime",
+      "replay",
+      "rrk",
+      "sandcrawler",
+      "sdi02",
+      "telemetry"
+    ]
+  }
+}

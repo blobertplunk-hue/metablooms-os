@@ -1,0 +1,43 @@
+{
+  "type": "object",
+  "required": [
+    "run_id",
+    "engine_name",
+    "engine_version",
+    "inputs",
+    "state",
+    "state_history",
+    "outputs",
+    "failures",
+    "created_utc"
+  ],
+  "properties": {
+    "run_id": {
+      "type": "string"
+    },
+    "engine_name": {
+      "type": "string"
+    },
+    "engine_version": {
+      "type": "string"
+    },
+    "inputs": {
+      "type": "array"
+    },
+    "state": {
+      "type": "string"
+    },
+    "state_history": {
+      "type": "array"
+    },
+    "outputs": {
+      "type": "array"
+    },
+    "failures": {
+      "type": "array"
+    },
+    "created_utc": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,269 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SDI-02 Run Manifest",
+  "type": "object",
+  "required": [
+    "module",
+    "validator",
+    "run",
+    "inputs",
+    "roster",
+    "outputs",
+    "rules",
+    "attestations",
+    "gates"
+  ],
+  "properties": {
+    "module": {
+      "type": "object",
+      "required": [
+        "id",
+        "version"
+      ],
+      "properties": {
+        "id": {
+          "const": "SDI-02"
+        },
+        "version": {
+          "type": "string"
+        }
+      }
+    },
+    "validator": {
+      "type": "object",
+      "required": [
+        "id",
+        "version"
+      ],
+      "properties": {
+        "id": {
+          "const": "SDI-02-VAL"
+        },
+        "version": {
+          "type": "string"
+        }
+      }
+    },
+    "run": {
+      "type": "object",
+      "required": [
+        "run_id",
+        "timestamp_utc"
+      ],
+      "properties": {
+        "run_id": {
+          "type": "string"
+        },
+        "timestamp_utc": {
+          "type": "string"
+        }
+      }
+    },
+    "inputs": {
+      "type": "object",
+      "required": [
+        "diagnostic_pdfs",
+        "growth_pdfs",
+        "csvs"
+      ],
+      "properties": {
+        "diagnostic_pdfs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "growth_pdfs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "csvs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "authority_map": {
+          "type": "object",
+          "properties": {
+            "scores_placements_source": {
+              "type": "string"
+            },
+            "typical_growth_source": {
+              "type": "string"
+            },
+            "skill_descriptors_source": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "scores_placements_source",
+            "typical_growth_source",
+            "skill_descriptors_source"
+          ]
+        },
+        "conflicts": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "roster": {
+      "type": "object",
+      "required": [
+        "student_count",
+        "student_names_first_only"
+      ],
+      "properties": {
+        "student_count": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "student_names_first_only": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "outputs": {
+      "type": "object",
+      "required": [
+        "workbook_path",
+        "communication_pack"
+      ],
+      "properties": {
+        "workbook_path": {
+          "type": "string"
+        },
+        "communication_pack": {
+          "type": "object",
+          "required": [
+            "class_narrative",
+            "student_talking_points",
+            "exclusions"
+          ],
+          "properties": {
+            "class_narrative": {
+              "type": "string"
+            },
+            "student_talking_points": {
+              "type": "object",
+              "additionalProperties": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "exclusions": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "rules": {
+      "type": "object",
+      "required": [
+        "growth_thresholds",
+        "lane_priority"
+      ],
+      "properties": {
+        "growth_thresholds": {
+          "type": "object",
+          "required": [
+            "green_if_delta_ge_typical_plus",
+            "yellow_if_abs_delta_minus_typical_le",
+            "red_if_delta_lt_typical_minus"
+          ],
+          "properties": {
+            "green_if_delta_ge_typical_plus": {
+              "type": "integer",
+              "const": 3
+            },
+            "yellow_if_abs_delta_minus_typical_le": {
+              "type": "integer",
+              "const": 2
+            },
+            "red_if_delta_lt_typical_minus": {
+              "type": "integer",
+              "const": 2
+            }
+          }
+        },
+        "lane_priority": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 5
+        }
+      }
+    },
+    "attestations": {
+      "type": "object",
+      "required": [
+        "no_inference_attestation",
+        "blank_cell_policy",
+        "manual_visual_checks_complete"
+      ],
+      "properties": {
+        "no_inference_attestation": {
+          "type": "boolean",
+          "const": true
+        },
+        "blank_cell_policy": {
+          "type": "string",
+          "const": "prefer_blank_over_guess"
+        },
+        "manual_visual_checks_complete": {
+          "type": "boolean"
+        }
+      }
+    },
+    "gates": {
+      "type": "object",
+      "required": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6"
+      ],
+      "properties": {
+        "G0": {
+          "type": "string"
+        },
+        "G1": {
+          "type": "string"
+        },
+        "G2": {
+          "type": "string"
+        },
+        "G3": {
+          "type": "string"
+        },
+        "G4": {
+          "type": "string"
+        },
+        "G5": {
+          "type": "string"
+        },
+        "G6": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

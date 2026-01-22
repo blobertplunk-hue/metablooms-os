@@ -1,0 +1,43 @@
+{
+  "policy_version": "1.0",
+  "purpose": "Constrain what BOOT_METABLOOMS.py is allowed to import to prevent authority drift.",
+  "enforcement": {
+    "mode": "FAIL_CLOSED",
+    "deny_by_default": true,
+    "import_types": [
+      "python_module",
+      "python_file_path"
+    ]
+  },
+  "allow": {
+    "python_modules": [
+      "json",
+      "os",
+      "sys",
+      "pathlib",
+      "hashlib",
+      "zipfile",
+      "tarfile",
+      "re",
+      "subprocess",
+      "datetime"
+    ],
+    "metablooms_modules": [
+      "metablooms.runtime.preflight",
+      "metablooms.runtime.audit.language_audit",
+      "metablooms.runtime.audit.boot_import_audit"
+    ]
+  },
+  "deny": {
+    "metablooms_modules_prefixes": [
+      "metablooms.runtime.row",
+      "metablooms.nl",
+      "metablooms.segments.adapters"
+    ],
+    "rationale": {
+      "metablooms.runtime.row": "ROW is execution plumbing; BOOT must not execute pipelines.",
+      "metablooms.nl": "Natural language mapping is UI-layer; BOOT must remain governance-only.",
+      "metablooms.segments.adapters": "Adapters may call subprocesses; BOOT must not run segments."
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "built_at": "2026-01-14T23:24:21.719353Z",
+  "components": [
+    "runtime/execution/pipe_sections.py",
+    "runtime/execution/pipe_section_enforcer.py",
+    "runtime/preflight/preflight_pipe_sections_gate.py"
+  ],
+  "canonical_sections": [
+    "INGEST",
+    "NORMALIZE",
+    "VALIDATE",
+    "MAP",
+    "EXECUTE",
+    "VERIFY",
+    "LEDGER",
+    "EMIT"
+  ],
+  "rules": {
+    "ordering": "must follow canonical order",
+    "required": [
+      "INGEST",
+      "NORMALIZE",
+      "VALIDATE",
+      "MAP",
+      "EXECUTE",
+      "VERIFY",
+      "LEDGER"
+    ]
+  }
+}

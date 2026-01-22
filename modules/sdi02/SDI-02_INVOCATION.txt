@@ -1,0 +1,11 @@
+SDI-02 v1.0.1 — Deterministic Invocation (copy/paste)
+
+1) Upload:
+- MetaBlooms_SDI-02_v1.0.1_MODULE_INVOCATION_EMBEDDED.md
+- SDI-02-VAL_v1.0.md
+- SDI-02_Run_Manifest.schema.json
+- i-Ready PDFs + CSVs
+
+2) Say EXACTLY:
+Load MetaBlooms modules SDI-02 v1.0.1 and SDI-02-VAL v1.0. Obey them exactly. Execute SDI-02 through all stages, then run SDI-02-VAL and do not stop until all gates G0–G6 are PASS. Output the workbook plus the Run Manifest JSON.
+

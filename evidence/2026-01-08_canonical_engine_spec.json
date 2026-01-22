@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "date": "2026-01-08",
+    "timestamp": "2026-01-09T01:44:54.473516Z",
+    "invariants": [
+      "Frames do not nest; frames are parallel and ordered",
+      "Expectations (A, B, C...) are compliance-bearing units",
+      "Roman numerals are component parts bound to their expectation",
+      "Leaves are diagnostic; expectations are reporting units",
+      "No compression; no substitution; preserve verbatim frame text",
+      "Canonical engine immutable; derived views reversible"
+    ]
+  },
+  "schema": {
+    "frame": [
+      "frame_code",
+      "frame_text",
+      "grade",
+      "domain",
+      "source_pdf_sha256"
+    ],
+    "expectation": [
+      "expectation_code",
+      "expectation_text",
+      "parent_frame_code"
+    ],
+    "leaf": [
+      "grade",
+      "frame_code",
+      "frame_text",
+      "expectation_code",
+      "expectation_text",
+      "subpart",
+      "verb",
+      "object",
+      "conditions",
+      "modality",
+      "evidence_claim",
+      "non_substitutability",
+      "prerequisites"
+    ]
+  },
+  "modalities": [
+    "reading",
+    "writing",
+    "word_study",
+    "speaking",
+    "listening",
+    "thinking"
+  ],
+  "dependency_model": "reference_only_not_nesting"
+}

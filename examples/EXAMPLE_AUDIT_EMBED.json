@@ -1,0 +1,8 @@
+{
+  "utterance": "Let's start a ROW: AUDIT_EMBEDS for these 20 YouTube links.",
+  "resolved_row": "ROW_AUDIT_EMBEDS",
+  "expected_artifacts": [
+    "embed_audit_report.json",
+    "recommendations.md"
+  ]
+}

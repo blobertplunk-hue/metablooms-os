@@ -1,0 +1,163 @@
+{
+  "boot_ok": true,
+  "applied": [
+    {
+      "stage": "PATCH1",
+      "path": "metablooms/preflight/gates/mb_gate_p0_os_state_truth_v1.py"
+    },
+    {
+      "stage": "FINAL_REFRESH",
+      "path": "BOOT.py"
+    },
+    {
+      "stage": "FINAL_REFRESH",
+      "path": "BOOT_GATE/BOOT_P0_ENFORCER.py"
+    },
+    {
+      "stage": "FINAL_REFRESH",
+      "path": "BOOT_GATE/BOOT_P0_INVARIANT_REGISTRY.py"
+    },
+    {
+      "stage": "FINAL_REFRESH",
+      "path": "BOOT_GATE/__init__.py"
+    },
+    {
+      "stage": "FINAL_REFRESH",
+      "path": "BOOT_GATE/invariants/INV_BOOT_P0_01.py"
+    },
+    {
+      "stage": "FINAL_REFRESH",
+      "path": "BOOT_GATE/invariants/INV_BOOT_P0_02.py"
+    },
+    {
+      "stage": "FINAL_REFRESH",
+      "path": "BOOT_GATE/invariants/INV_BOOT_P0_03.py"
+    },
+    {
+      "stage": "FINAL_REFRESH",
+      "path": "BOOT_GATE/invariants/INV_BOOT_P0_04.py"
+    },
+    {
+      "stage": "FINAL_REFRESH",
+      "path": "BOOT_GATE/invariants/INV_BOOT_P0_05.py"
+    },
+    {
+      "stage": "FINAL_REFRESH",
+      "path": "BOOT_GATE/invariants/INV_BOOT_P0_06.py"
+    },
+    {
+      "stage": "FINAL_REFRESH",
+      "path": "BOOT_GATE/invariants/INV_BOOT_P0_07.py"
+    },
+    {
+      "stage": "FINAL_REFRESH",
+      "path": "BOOT_GATE/invariants/INV_BOOT_P0_08.py"
+    },
+    {
+      "stage": "FINAL_REFRESH",
+      "path": "BOOT_GATE/invariants/INV_BOOT_P0_09.py"
+    },
+    {
+      "stage": "FINAL_REFRESH",
+      "path": "BOOT_GATE/invariants/INV_BOOT_P0_10.py"
+    },
+    {
+      "stage": "FINAL_REFRESH",
+      "path": "BOOT_GATE/invariants/__init__.py"
+    },
+    {
+      "stage": "FINAL_REFRESH",
+      "path": "BOOT_GATE/invariants/common.py"
+    },
+    {
+      "stage": "FINAL_REFRESH",
+      "path": "_bootfix2_exitcode.txt"
+    },
+    {
+      "stage": "FINAL_REFRESH",
+      "path": "_bootfix2_stderr.txt"
+    },
+    {
+      "stage": "FINAL_REFRESH",
+      "path": "_bootfix2_stdout.txt"
+    },
+    {
+      "stage": "FINAL_REFRESH",
+      "path": "_bootfix3_exitcode.txt"
+    },
+    {
+      "stage": "FINAL_REFRESH",
+      "path": "_bootfix3_stderr.txt"
+    },
+    {
+      "stage": "FINAL_REFRESH",
+      "path": "_bootfix3_stdout.txt"
+    },
+    {
+      "stage": "FINAL_REFRESH",
+      "path": "_bootfix4_exitcode.txt"
+    },
+    {
+      "stage": "FINAL_REFRESH",
+      "path": "_bootfix4_stderr.txt"
+    },
+    {
+      "stage": "FINAL_REFRESH",
+      "path": "_bootfix4_stdout.txt"
+    },
+    {
+      "stage": "FINAL_REFRESH",
+      "path": "_bootfix_test_exitcode.txt"
+    },
+    {
+      "stage": "FINAL_REFRESH",
+      "path": "_bootfix_test_stderr.txt"
+    },
+    {
+      "stage": "FINAL_REFRESH",
+      "path": "_bootfix_test_stdout.txt"
+    },
+    {
+      "stage": "FINAL_REFRESH",
+      "path": "bootgates/p0_segment_resolution_truth.py"
+    }
+  ],
+  "blocked_p0": [
+    {
+      "stage": "PATCH1",
+      "path": "BOOT_METABLOOMS.py"
+    },
+    {
+      "stage": "FINAL_REFRESH",
+      "path": "BOOT_METABLOOMS.py"
+    }
+  ],
+  "conflicts": [
+    {
+      "stage": "PATCH1",
+      "path": "RUN_METABLOOMS.py",
+      "resolution": "KEPT_CANONICAL"
+    },
+    {
+      "stage": "PATCH1",
+      "path": "metablooms/preflight/preflight_gate_chain_v1.json",
+      "resolution": "KEPT_CANONICAL"
+    },
+    {
+      "stage": "FINAL_REFRESH",
+      "path": "RUN_METABLOOMS.py",
+      "resolution": "KEPT_CANONICAL"
+    },
+    {
+      "stage": "FINAL_REFRESH",
+      "path": "metablooms/preflight/gates/mb_gate_canonical_root_manifest_v1.py",
+      "resolution": "KEPT_CANONICAL"
+    },
+    {
+      "stage": "FINAL_REFRESH",
+      "path": "metablooms/runtime/canonical_root.json",
+      "resolution": "KEPT_CANONICAL"
+    }
+  ],
+  "removed": []
+}

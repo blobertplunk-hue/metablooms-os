@@ -1,0 +1,177 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "format_version": {
+      "type": "string"
+    },
+    "generated_utc": {
+      "type": "string"
+    },
+    "modules": {
+      "items": {
+        "properties": {
+          "activation": {
+            "properties": {
+              "conditions": {
+                "type": "array"
+              },
+              "default": {
+                "enum": [
+                  "always_on",
+                  "manual",
+                  "conditional"
+                ],
+                "type": "string"
+              }
+            },
+            "required": [
+              "default",
+              "conditions"
+            ],
+            "type": "object"
+          },
+          "cost_profile": {
+            "properties": {
+              "cognitive_budget": {
+                "enum": [
+                  "low",
+                  "medium",
+                  "high"
+                ],
+                "type": "string"
+              },
+              "external_io": {
+                "enum": [
+                  "none",
+                  "limited",
+                  "high"
+                ],
+                "type": "string"
+              },
+              "nondeterminism_risk": {
+                "enum": [
+                  "low",
+                  "medium",
+                  "high"
+                ],
+                "type": "string"
+              },
+              "runtime_seconds_budget": {
+                "minimum": 0,
+                "type": "integer"
+              }
+            },
+            "required": [
+              "cognitive_budget",
+              "nondeterminism_risk",
+              "external_io",
+              "runtime_seconds_budget"
+            ],
+            "type": "object"
+          },
+          "dependencies": {
+            "properties": {
+              "hard": {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "soft": {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              }
+            },
+            "required": [
+              "hard",
+              "soft"
+            ],
+            "type": "object"
+          },
+          "entrypoint": {
+            "properties": {
+              "path": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "symbol": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "type": {
+                "enum": [
+                  "package",
+                  "file",
+                  "script"
+                ],
+                "type": "string"
+              }
+            },
+            "required": [
+              "path",
+              "type",
+              "symbol"
+            ],
+            "type": "object"
+          },
+          "legacy": {
+            "type": "object"
+          },
+          "module_id": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "purpose": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "telemetry": {
+            "properties": {
+              "enabled": {
+                "type": "boolean"
+              },
+              "events": {
+                "type": "array"
+              }
+            },
+            "required": [
+              "enabled",
+              "events"
+            ],
+            "type": "object"
+          }
+        },
+        "required": [
+          "module_id",
+          "purpose",
+          "entrypoint",
+          "activation",
+          "dependencies",
+          "cost_profile",
+          "telemetry"
+        ],
+        "type": "object"
+      },
+      "minItems": 1,
+      "type": "array"
+    },
+    "registry_meta": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "format_version",
+    "generated_utc",
+    "modules"
+  ],
+  "title": "MetaBlooms Module Registry Schema",
+  "type": "object"
+}

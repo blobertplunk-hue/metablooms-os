@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "built_at": "2026-01-14T23:33:10.864193Z",
+  "components": [
+    "runtime/execution/registry_promoter.py",
+    "runtime/routers/pipeline_resolver.py (patched)",
+    "runtime/preflight/preflight_auto_accept_gate.py (patched)"
+  ],
+  "behavior": {
+    "promotion": "On auto-accept, promote suggested pipe sections into canonical registry",
+    "safety": [
+      "backup registry before mutation",
+      "append-only promotions ledger",
+      "fail-closed on unknown pipeline_id"
+    ]
+  },
+  "files_written_at_runtime": [
+    "diagnostics/registry_backups/*.bak.json",
+    "ledger/registry_promotions.jsonl"
+  ]
+}

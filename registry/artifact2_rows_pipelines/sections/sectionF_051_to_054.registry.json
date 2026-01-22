@@ -1,0 +1,3457 @@
+{
+  "version": 2,
+  "generated_at": "2026-01-14T23:01:30.867295Z",
+  "artifact": "Archive 2 (1).zip",
+  "section": "sectionF_051_to_054",
+  "sectioning": "FILTERED_MEMBERS_V2_LIGHT",
+  "members": [
+    "2026-01-12_MetaBrain_batch-051_(35-chats).jsonl",
+    "2026-01-12_MetaBrain_batch-052_(36-chats).jsonl",
+    "2026-01-12_MetaBrain_batch-053_(37-chats).jsonl",
+    "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl"
+  ],
+  "parse_stats": {
+    "lines_total": 27,
+    "lines_json_ok": 27,
+    "lines_skipped_nonjson": 0
+  },
+  "chats_parsed": 27,
+  "evidence_chunks": 3126,
+  "rows": [
+    {
+      "id": "ROW_edfeeceb6bba",
+      "name": "row-by-row and only the core deltas",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-052_(36-chats).jsonl",
+          "chat_id": "69238a10-ed74-832c-b975-b560465145a2",
+          "line": 21605,
+          "chunk_id": "CHUNK_ffbe8dcc6c9d"
+        }
+      ]
+    },
+    {
+      "id": "ROW_c0d954ef9793",
+      "name": "row and a color band that visually",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69226c22-37e4-8331-a0f6-febe92aa9d56",
+          "line": 2812,
+          "chunk_id": "CHUNK_01c92a2029d8"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69226c22-37e4-8331-a0f6-febe92aa9d56",
+          "line": 2812,
+          "chunk_id": "CHUNK_01c92a2029d8"
+        }
+      ]
+    },
+    {
+      "id": "ROW_507a435c4a65",
+      "name": "row and the teacher can update checkboxes or counters as the week",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69226c22-37e4-8331-a0f6-febe92aa9d56",
+          "line": 2816,
+          "chunk_id": "CHUNK_c2e8627bb58a"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69226c22-37e4-8331-a0f6-febe92aa9d56",
+          "line": 2816,
+          "chunk_id": "CHUNK_c2e8627bb58a"
+        }
+      ]
+    },
+    {
+      "id": "ROW_385602f3becc",
+      "name": "row treat column 1 as row labels interpret",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69226c22-37e4-8331-a0f6-febe92aa9d56",
+          "line": 2900,
+          "chunk_id": "CHUNK_c9159ce989c9"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69226c22-37e4-8331-a0f6-febe92aa9d56",
+          "line": 2900,
+          "chunk_id": "CHUNK_c9159ce989c9"
+        }
+      ]
+    },
+    {
+      "id": "ROW_00502272beec",
+      "name": "row file-only scrape  which you never intended",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69226c22-37e4-8331-a0f6-febe92aa9d56",
+          "line": 8570,
+          "chunk_id": "CHUNK_19b667534b06"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69226c22-37e4-8331-a0f6-febe92aa9d56",
+          "line": 8570,
+          "chunk_id": "CHUNK_19b667534b06"
+        }
+      ]
+    },
+    {
+      "id": "ROW_34b406523dfe",
+      "name": "row ",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69226c22-37e4-8331-a0f6-febe92aa9d56",
+          "line": 11014,
+          "chunk_id": "CHUNK_43e618281b8b"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69226c22-37e4-8331-a0f6-febe92aa9d56",
+          "line": 11108,
+          "chunk_id": "CHUNK_d41d0614e924"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69226c22-37e4-8331-a0f6-febe92aa9d56",
+          "line": 11369,
+          "chunk_id": "CHUNK_fe80ddc324f1"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69226c22-37e4-8331-a0f6-febe92aa9d56",
+          "line": 11463,
+          "chunk_id": "CHUNK_709b46c4bfc1"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69226c22-37e4-8331-a0f6-febe92aa9d56",
+          "line": 11014,
+          "chunk_id": "CHUNK_43e618281b8b"
+        }
+      ]
+    },
+    {
+      "id": "ROW_634768dae147",
+      "name": "row",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69226c22-37e4-8331-a0f6-febe92aa9d56",
+          "line": 11236,
+          "chunk_id": "CHUNK_b1c4e3f9d79c"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69226c22-37e4-8331-a0f6-febe92aa9d56",
+          "line": 11263,
+          "chunk_id": "CHUNK_bf180bec6f72"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69226c22-37e4-8331-a0f6-febe92aa9d56",
+          "line": 11285,
+          "chunk_id": "CHUNK_ccb052affd9e"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69226c22-37e4-8331-a0f6-febe92aa9d56",
+          "line": 11289,
+          "chunk_id": "CHUNK_7de3207cb77d"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69226c22-37e4-8331-a0f6-febe92aa9d56",
+          "line": 11591,
+          "chunk_id": "CHUNK_c1dcea31f16d"
+        }
+      ]
+    },
+    {
+      "id": "ROW_d44ae6464a03",
+      "name": "rowtreturn tr",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69226c22-37e4-8331-a0f6-febe92aa9d56",
+          "line": 12157,
+          "chunk_id": "CHUNK_b0a3a9f1ec26"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69226c22-37e4-8331-a0f6-febe92aa9d56",
+          "line": 12157,
+          "chunk_id": "CHUNK_b0a3a9f1ec26"
+        }
+      ]
+    },
+    {
+      "id": "ROW_b964524a5511",
+      "name": "rowjoin",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69226c22-37e4-8331-a0f6-febe92aa9d56",
+          "line": 12175,
+          "chunk_id": "CHUNK_9e4a386b6920"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69226c22-37e4-8331-a0f6-febe92aa9d56",
+          "line": 12175,
+          "chunk_id": "CHUNK_9e4a386b6920"
+        }
+      ]
+    },
+    {
+      "id": "ROW_91f9afcf9d5b",
+      "name": "rowdisplayflexflex-directioncolumngap8px",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69226c22-37e4-8331-a0f6-febe92aa9d56",
+          "line": 12223,
+          "chunk_id": "CHUNK_177a13a018ac"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69226c22-37e4-8331-a0f6-febe92aa9d56",
+          "line": 12223,
+          "chunk_id": "CHUNK_177a13a018ac"
+        }
+      ]
+    },
+    {
+      "id": "ROW_44831cf771e4",
+      "name": "rowdisplaygridgrid-template-columns1frgap12px mediamin-width900pxrowgrid-template-columns1fr 1fr",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69226c22-37e4-8331-a0f6-febe92aa9d56",
+          "line": 12462,
+          "chunk_id": "CHUNK_512fa8e365a5"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69226c22-37e4-8331-a0f6-febe92aa9d56",
+          "line": 12462,
+          "chunk_id": "CHUNK_512fa8e365a5"
+        }
+      ]
+    },
+    {
+      "id": "ROW_584c9e7bcc72",
+      "name": "row drops after 2 misses/p",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69226c22-37e4-8331-a0f6-febe92aa9d56",
+          "line": 12512,
+          "chunk_id": "CHUNK_fa17a001e526"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69226c22-37e4-8331-a0f6-febe92aa9d56",
+          "line": 12512,
+          "chunk_id": "CHUNK_fa17a001e526"
+        }
+      ]
+    },
+    {
+      "id": "ROW_6a1129fbcb57",
+      "name": "rowdisplayflexgap12pxflex-wrapwrap",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69226c22-37e4-8331-a0f6-febe92aa9d56",
+          "line": 13208,
+          "chunk_id": "CHUNK_93d24819dedc"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69226c22-37e4-8331-a0f6-febe92aa9d56",
+          "line": 13471,
+          "chunk_id": "CHUNK_ddcaed47a109"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69226c22-37e4-8331-a0f6-febe92aa9d56",
+          "line": 13208,
+          "chunk_id": "CHUNK_93d24819dedc"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69226c22-37e4-8331-a0f6-febe92aa9d56",
+          "line": 13471,
+          "chunk_id": "CHUNK_ddcaed47a109"
+        }
+      ]
+    },
+    {
+      "id": "ROW_827b47ca57f4",
+      "name": "rowdisplayflexflex-wrapwrapgap8pxalign-itemscenter",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69226c22-37e4-8331-a0f6-febe92aa9d56",
+          "line": 13947,
+          "chunk_id": "CHUNK_896df6a8d1ab"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69226c22-37e4-8331-a0f6-febe92aa9d56",
+          "line": 13947,
+          "chunk_id": "CHUNK_896df6a8d1ab"
+        }
+      ]
+    },
+    {
+      "id": "ROW_fd26d8a8c37f",
+      "name": "rowdisplayflexgap5remflex-wrapwrapalign-itemscenter",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69226c22-37e4-8331-a0f6-febe92aa9d56",
+          "line": 14305,
+          "chunk_id": "CHUNK_6b5537b0efef"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69226c22-37e4-8331-a0f6-febe92aa9d56",
+          "line": 14305,
+          "chunk_id": "CHUNK_6b5537b0efef"
+        }
+      ]
+    },
+    {
+      "id": "ROW_7cf39f67adad",
+      "name": "rowdisplayflexgap6remflex-wrapwrapalign-itemscenter",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69226c22-37e4-8331-a0f6-febe92aa9d56",
+          "line": 14530,
+          "chunk_id": "CHUNK_5832fe7f39bf"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69226c22-37e4-8331-a0f6-febe92aa9d56",
+          "line": 14530,
+          "chunk_id": "CHUNK_5832fe7f39bf"
+        }
+      ]
+    },
+    {
+      "id": "ROW_093474af6cdc",
+      "name": "Row/Column SpacesUnderstanding constraintsR3_constraint_binding",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69220fe3-57ac-8333-b824-d8009f46b8c6",
+          "line": 711,
+          "chunk_id": "CHUNK_27e3251b0b1c"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69220fe3-57ac-8333-b824-d8009f46b8c6",
+          "line": 711,
+          "chunk_id": "CHUNK_27e3251b0b1c"
+        }
+      ]
+    },
+    {
+      "id": "ROW_148ebe151f21",
+      "name": "Row Space  Constraints",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69220fe3-57ac-8333-b824-d8009f46b8c6",
+          "line": 1525,
+          "chunk_id": "CHUNK_209550e84fe4"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69220fe3-57ac-8333-b824-d8009f46b8c6",
+          "line": 1525,
+          "chunk_id": "CHUNK_209550e84fe4"
+        }
+      ]
+    },
+    {
+      "id": "ROW_3c04db29fbb5",
+      "name": "Row space describes the constraints the transformation imposes",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69220fe3-57ac-8333-b824-d8009f46b8c6",
+          "line": 1526,
+          "chunk_id": "CHUNK_03f6eac20659"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69220fe3-57ac-8333-b824-d8009f46b8c6",
+          "line": 1526,
+          "chunk_id": "CHUNK_03f6eac20659"
+        }
+      ]
+    },
+    {
+      "id": "ROW_c48d607638c9",
+      "name": "row-space form Prevent drift where constraints are implied but not represented",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69220fe3-57ac-8333-b824-d8009f46b8c6",
+          "line": 1528,
+          "chunk_id": "CHUNK_d22ae34e3b0d"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69220fe3-57ac-8333-b824-d8009f46b8c6",
+          "line": 1528,
+          "chunk_id": "CHUNK_d22ae34e3b0d"
+        }
+      ]
+    },
+    {
+      "id": "ROW_4e0343f7a6a6",
+      "name": "row-space mismatch  now fixed",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69220fe3-57ac-8333-b824-d8009f46b8c6",
+          "line": 1596,
+          "chunk_id": "CHUNK_6e3162186a1d"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69220fe3-57ac-8333-b824-d8009f46b8c6",
+          "line": 1596,
+          "chunk_id": "CHUNK_6e3162186a1d"
+        }
+      ]
+    },
+    {
+      "id": "ROW_b3dd582944da",
+      "name": "Row-space binds constraints",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69220fe3-57ac-8333-b824-d8009f46b8c6",
+          "line": 2432,
+          "chunk_id": "CHUNK_9ab726bcb25f"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69220fe3-57ac-8333-b824-d8009f46b8c6",
+          "line": 2432,
+          "chunk_id": "CHUNK_9ab726bcb25f"
+        }
+      ]
+    },
+    {
+      "id": "ROW_62d91c6aa70f",
+      "name": "Row-Level Security SQL policies",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920eed2-84b4-832a-a661-669907e410a5",
+          "line": 17828,
+          "chunk_id": "CHUNK_b964def87901"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920eed2-84b4-832a-a661-669907e410a5",
+          "line": 17828,
+          "chunk_id": "CHUNK_b964def87901"
+        }
+      ]
+    },
+    {
+      "id": "ROW_5841201dab05",
+      "name": "row in each image by manual y",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 2412,
+          "chunk_id": "CHUNK_9679374dd1c2"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 2412,
+          "chunk_id": "CHUNK_9679374dd1c2"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 2412,
+          "chunk_id": "CHUNK_9679374dd1c2"
+        }
+      ]
+    },
+    {
+      "id": "ROW_0d5ffee0db0a",
+      "name": "row in table",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 5789,
+          "chunk_id": "CHUNK_7b1019e671b8"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 5918,
+          "chunk_id": "CHUNK_09f0cd855406"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 13598,
+          "chunk_id": "CHUNK_e3a2b1305f7b"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 13691,
+          "chunk_id": "CHUNK_e7e844b31e6e"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 5789,
+          "chunk_id": "CHUNK_7b1019e671b8"
+        }
+      ]
+    },
+    {
+      "id": "ROW_641fc8f2df22",
+      "name": "row in t0",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 5815,
+          "chunk_id": "CHUNK_1661ee1139cd"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 13614,
+          "chunk_id": "CHUNK_8b86a4dbacec"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 5815,
+          "chunk_id": "CHUNK_1661ee1139cd"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 13614,
+          "chunk_id": "CHUNK_8b86a4dbacec"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 5815,
+          "chunk_id": "CHUNK_1661ee1139cd"
+        }
+      ]
+    },
+    {
+      "id": "ROW_23dab5a3a404",
+      "name": "row in t",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 5868,
+          "chunk_id": "CHUNK_209d21ab2e03"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 5868,
+          "chunk_id": "CHUNK_209d21ab2e03"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 5868,
+          "chunk_id": "CHUNK_209d21ab2e03"
+        }
+      ]
+    },
+    {
+      "id": "ROW_797c28a0e80e",
+      "name": "row in t1",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 5902,
+          "chunk_id": "CHUNK_a69de8406c5f"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 5902,
+          "chunk_id": "CHUNK_a69de8406c5f"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 5902,
+          "chunk_id": "CHUNK_a69de8406c5f"
+        }
+      ]
+    },
+    {
+      "id": "ROW_d1d8d01b505d",
+      "name": "row  7 and row2 not in None Student and row3 not in None Lesson Time-non-Task",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 5920,
+          "chunk_id": "CHUNK_1889bafdc76c"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 5920,
+          "chunk_id": "CHUNK_1889bafdc76c"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 5920,
+          "chunk_id": "CHUNK_1889bafdc76c"
+        }
+      ]
+    },
+    {
+      "id": "ROW_ab091670167e",
+      "name": "row2replacen strip",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 5921,
+          "chunk_id": "CHUNK_48d3aacf2fa3"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 13694,
+          "chunk_id": "CHUNK_5e73db5f5a20"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 5921,
+          "chunk_id": "CHUNK_48d3aacf2fa3"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 13694,
+          "chunk_id": "CHUNK_5e73db5f5a20"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 5921,
+          "chunk_id": "CHUNK_48d3aacf2fa3"
+        }
+      ]
+    },
+    {
+      "id": "ROW_eb0544b38798",
+      "name": "row6",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 5922,
+          "chunk_id": "CHUNK_5ec9c585ef66"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 5922,
+          "chunk_id": "CHUNK_5ec9c585ef66"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 5922,
+          "chunk_id": "CHUNK_5ec9c585ef66"
+        }
+      ]
+    },
+    {
+      "id": "ROW_36ac4105cbdf",
+      "name": "row  background e8ffea ",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 7199,
+          "chunk_id": "CHUNK_03b7b05f7436"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 8597,
+          "chunk_id": "CHUNK_01f29060e450"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 8753,
+          "chunk_id": "CHUNK_05baa98a9051"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 7199,
+          "chunk_id": "CHUNK_03b7b05f7436"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 8597,
+          "chunk_id": "CHUNK_01f29060e450"
+        }
+      ]
+    },
+    {
+      "id": "ROW_d7e26d02c6b0",
+      "name": "rowquerySelectorAllinputdata-typereading",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 7277,
+          "chunk_id": "CHUNK_e7b3455b3635"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 7277,
+          "chunk_id": "CHUNK_e7b3455b3635"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 7277,
+          "chunk_id": "CHUNK_e7b3455b3635"
+        }
+      ]
+    },
+    {
+      "id": "ROW_9a3b8b53d79e",
+      "name": "rowquerySelectorAllinputdata-typemath",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 7278,
+          "chunk_id": "CHUNK_2901ddd02437"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 7278,
+          "chunk_id": "CHUNK_2901ddd02437"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 7278,
+          "chunk_id": "CHUNK_2901ddd02437"
+        }
+      ]
+    },
+    {
+      "id": "ROW_714146c09e02",
+      "name": "rowquerySelectorstatus",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 7281,
+          "chunk_id": "CHUNK_e8fc97f2fda3"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 7281,
+          "chunk_id": "CHUNK_e8fc97f2fda3"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 7281,
+          "chunk_id": "CHUNK_e8fc97f2fda3"
+        }
+      ]
+    },
+    {
+      "id": "ROW_34008fb537e2",
+      "name": "rowclassListaddgoal-met-row",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 7284,
+          "chunk_id": "CHUNK_a04f27aa5f61"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 8678,
+          "chunk_id": "CHUNK_3f61c99cbe63"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 8834,
+          "chunk_id": "CHUNK_ca7a10e42034"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 7284,
+          "chunk_id": "CHUNK_a04f27aa5f61"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 8678,
+          "chunk_id": "CHUNK_3f61c99cbe63"
+        }
+      ]
+    },
+    {
+      "id": "ROW_ca17b5e02137",
+      "name": "rowclassListremovegoal-met-row",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 7291,
+          "chunk_id": "CHUNK_1128637cde52"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 8680,
+          "chunk_id": "CHUNK_c4d24dcfff5c"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 8836,
+          "chunk_id": "CHUNK_70b9caecdb25"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 7291,
+          "chunk_id": "CHUNK_1128637cde52"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 8680,
+          "chunk_id": "CHUNK_c4d24dcfff5c"
+        }
+      ]
+    },
+    {
+      "id": "ROW_ec93b67d9fd5",
+      "name": "row  ",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 7302,
+          "chunk_id": "CHUNK_b1b9e0a7d245"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 8686,
+          "chunk_id": "CHUNK_c0d57dedf454"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 8842,
+          "chunk_id": "CHUNK_ad84fbea530d"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 7302,
+          "chunk_id": "CHUNK_b1b9e0a7d245"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 8686,
+          "chunk_id": "CHUNK_c0d57dedf454"
+        }
+      ]
+    },
+    {
+      "id": "ROW_fcd416d5ce3c",
+      "name": "rowquerySelectorAllinputtypecheckbox",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 7303,
+          "chunk_id": "CHUNK_0e7fdaae4674"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 8675,
+          "chunk_id": "CHUNK_27d0e9956489"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 8687,
+          "chunk_id": "CHUNK_afc6468470e3"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 8831,
+          "chunk_id": "CHUNK_4957f9836937"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 8843,
+          "chunk_id": "CHUNK_682f471a265a"
+        }
+      ]
+    },
+    {
+      "id": "ROW_858b4e54ba6c",
+      "name": "row turns green and the status says Goal met",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 7321,
+          "chunk_id": "CHUNK_2add3a005c25"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 7321,
+          "chunk_id": "CHUNK_2add3a005c25"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 7321,
+          "chunk_id": "CHUNK_2add3a005c25"
+        }
+      ]
+    },
+    {
+      "id": "ROW_3f821080fb05",
+      "name": "row  f tr data-student-idstud_id",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 8553,
+          "chunk_id": "CHUNK_1e8c870cc124"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 8553,
+          "chunk_id": "CHUNK_1e8c870cc124"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 8553,
+          "chunk_id": "CHUNK_1e8c870cc124"
+        }
+      ]
+    },
+    {
+      "id": "ROW_6ad726b30a68",
+      "name": "row with headers that label everything in those columns colomn 1 is almost always headers that label everthing in each row it works like a multiplication table do sandcrawler and AA to make sure you k",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9213,
+          "chunk_id": "CHUNK_ca3d81f2d110"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9213,
+          "chunk_id": "CHUNK_ca3d81f2d110"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9213,
+          "chunk_id": "CHUNK_ca3d81f2d110"
+        }
+      ]
+    },
+    {
+      "id": "ROW_91e94845082f",
+      "name": "row first column labelsrecency365qrelational table interpretation rows as records columns as fields header rowrecency365",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9215,
+          "chunk_id": "CHUNK_8dbbc535a4ac"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9215,
+          "chunk_id": "CHUNK_8dbbc535a4ac"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9215,
+          "chunk_id": "CHUNK_8dbbc535a4ac"
+        }
+      ]
+    },
+    {
+      "id": "ROW_1f1efb80638f",
+      "name": "row names columns first column names each row like a multiplication table is exactly how databases and accessibility guidelines treat data tables columns  attributes rows  records header row  first co",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9224,
+          "chunk_id": "CHUNK_e5ddf8c2afc2"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9224,
+          "chunk_id": "CHUNK_e5ddf8c2afc2"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9224,
+          "chunk_id": "CHUNK_e5ddf8c2afc2"
+        }
+      ]
+    },
+    {
+      "id": "ROW_b0f65d261d56",
+      "name": "rows even multi-line 2 associate every cell with both a column header and if present row header 3 normalize special tokens   0 100  100 etc 4 keep extraction and rendering separate citeturn0search22tu",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9225,
+          "chunk_id": "CHUNK_055a40df381d"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9225,
+          "chunk_id": "CHUNK_055a40df381d"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9225,
+          "chunk_id": "CHUNK_055a40df381d"
+        }
+      ]
+    },
+    {
+      "id": "ROW_4196248f47e5",
+      "name": "row header Passed is the measure you care about Completed /  Passed / Passed/Completed are extra context not the primary logic",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9240,
+          "chunk_id": "CHUNK_fdf452fbb33f"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9240,
+          "chunk_id": "CHUNK_fdf452fbb33f"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9240,
+          "chunk_id": "CHUNK_fdf452fbb33f"
+        }
+      ]
+    },
+    {
+      "id": "ROW_c8ef2b1410f2",
+      "name": "row write an encouraging message add 4 checkboxes wire IDs for TTS",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9252,
+          "chunk_id": "CHUNK_3770f09762dc"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9252,
+          "chunk_id": "CHUNK_3770f09762dc"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9252,
+          "chunk_id": "CHUNK_3770f09762dc"
+        }
+      ]
+    },
+    {
+      "id": "ROW_e6972ca715bd",
+      "name": "row highlighting for goal met rows",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9253,
+          "chunk_id": "CHUNK_83b453fa1655"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9253,
+          "chunk_id": "CHUNK_83b453fa1655"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9253,
+          "chunk_id": "CHUNK_83b453fa1655"
+        }
+      ]
+    },
+    {
+      "id": "ROW_383daadeefd7",
+      "name": "row that clearly contains column labels Student Lesson Time-on-Task In Progress Passed",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9271,
+          "chunk_id": "CHUNK_f0e550da4671"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9271,
+          "chunk_id": "CHUNK_f0e550da4671"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9271,
+          "chunk_id": "CHUNK_f0e550da4671"
+        }
+      ]
+    },
+    {
+      "id": "ROW_6dd592a02f5e",
+      "name": "row header student name skill name etc",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9273,
+          "chunk_id": "CHUNK_041ab1b7ab28"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9273,
+          "chunk_id": "CHUNK_041ab1b7ab28"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9273,
+          "chunk_id": "CHUNK_041ab1b7ab28"
+        }
+      ]
+    },
+    {
+      "id": "ROW_72a5851b90c7",
+      "name": "row  the mapping from position to meaning",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9274,
+          "chunk_id": "CHUNK_7846504155de"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9274,
+          "chunk_id": "CHUNK_7846504155de"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9274,
+          "chunk_id": "CHUNK_7846504155de"
+        }
+      ]
+    },
+    {
+      "id": "ROW_46455422c82b",
+      "name": "row is one thing one student one order etc citeturn0search2turn0search28turn0search16turn0search20turn0search32",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9325,
+          "chunk_id": "CHUNK_77a65e779e48"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9325,
+          "chunk_id": "CHUNK_77a65e779e48"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9325,
+          "chunk_id": "CHUNK_77a65e779e48"
+        }
+      ]
+    },
+    {
+      "id": "ROW_c2ab46a2804e",
+      "name": "row  column names first row tells you what each vertical slice means and should be visually/semantically distinct citeturn0search11turn0search23",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9327,
+          "chunk_id": "CHUNK_54898d0db7b4"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9327,
+          "chunk_id": "CHUNK_54898d0db7b4"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9327,
+          "chunk_id": "CHUNK_54898d0db7b4"
+        }
+      ]
+    },
+    {
+      "id": "ROW_dec523c73f60",
+      "name": "row header so assistive tech can say Student  Kimberly Passed  7 citeturn0search9",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9331,
+          "chunk_id": "CHUNK_88a943bf8133"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9331,
+          "chunk_id": "CHUNK_88a943bf8133"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9331,
+          "chunk_id": "CHUNK_88a943bf8133"
+        }
+      ]
+    },
+    {
+      "id": "ROW_a0c85eae9f65",
+      "name": "row labels columns first column labels each row and each cell is the intersection of a row label and a column label",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9333,
+          "chunk_id": "CHUNK_dda8c2832143"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9333,
+          "chunk_id": "CHUNK_dda8c2832143"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9333,
+          "chunk_id": "CHUNK_dda8c2832143"
+        }
+      ]
+    },
+    {
+      "id": "ROW_b9cbb04e58f9",
+      "name": "row usually theadtrth or first tr with th cells",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9340,
+          "chunk_id": "CHUNK_53aeadc86cc7"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9340,
+          "chunk_id": "CHUNK_53aeadc86cc7"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9340,
+          "chunk_id": "CHUNK_53aeadc86cc7"
+        }
+      ]
+    },
+    {
+      "id": "ROW_318132943f64",
+      "name": "row key Student",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9343,
+          "chunk_id": "CHUNK_69023fff2b84"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9343,
+          "chunk_id": "CHUNK_69023fff2b84"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9343,
+          "chunk_id": "CHUNK_69023fff2b84"
+        }
+      ]
+    },
+    {
+      "id": "ROW_c3a151e01579",
+      "name": "rows sometimes spanning multiple lines combine them into single column names programmatically if needed citeturn0search22",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9352,
+          "chunk_id": "CHUNK_d095eb3cc448"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9352,
+          "chunk_id": "CHUNK_d095eb3cc448"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9352,
+          "chunk_id": "CHUNK_d095eb3cc448"
+        }
+      ]
+    },
+    {
+      "id": "ROW_e12da937f267",
+      "name": "row and treat everything under it as data",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9356,
+          "chunk_id": "CHUNK_5a50ae0106b5"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9356,
+          "chunk_id": "CHUNK_5a50ae0106b5"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9356,
+          "chunk_id": "CHUNK_5a50ae0106b5"
+        }
+      ]
+    },
+    {
+      "id": "ROW_53e33bf556b7",
+      "name": "row where most cells look like labels not values eg Student Passed Completed  Passed",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9367,
+          "chunk_id": "CHUNK_9a86712bcef2"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9367,
+          "chunk_id": "CHUNK_9a86712bcef2"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9367,
+          "chunk_id": "CHUNK_9a86712bcef2"
+        }
+      ]
+    },
+    {
+      "id": "ROW_230677b83bf3",
+      "name": "row with th cells or distinctive formatting citeturn0search6turn0search9turn0search11",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9368,
+          "chunk_id": "CHUNK_8aeb17e890a2"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9368,
+          "chunk_id": "CHUNK_8aeb17e890a2"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9368,
+          "chunk_id": "CHUNK_8aeb17e890a2"
+        }
+      ]
+    },
+    {
+      "id": "ROW_42243b689eb7",
+      "name": "row with bold/centered text and no obvious numeric patterns",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9369,
+          "chunk_id": "CHUNK_28d9324d5026"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9369,
+          "chunk_id": "CHUNK_28d9324d5026"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9369,
+          "chunk_id": "CHUNK_28d9324d5026"
+        }
+      ]
+    },
+    {
+      "id": "ROW_de7ac65b77f5",
+      "name": "row  column headers",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9371,
+          "chunk_id": "CHUNK_7eb75853dd29"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9371,
+          "chunk_id": "CHUNK_7eb75853dd29"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9371,
+          "chunk_id": "CHUNK_7eb75853dd29"
+        }
+      ]
+    },
+    {
+      "id": "ROW_472d7ad48a0a",
+      "name": "row header unless evidence says otherwise",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9375,
+          "chunk_id": "CHUNK_8a9a2ca154d1"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9375,
+          "chunk_id": "CHUNK_8a9a2ca154d1"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9375,
+          "chunk_id": "CHUNK_8a9a2ca154d1"
+        }
+      ]
+    },
+    {
+      "id": "ROW_a7a76e5cd5fa",
+      "name": "row Student Skill Date etc",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9376,
+          "chunk_id": "CHUNK_c127ca02a9de"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9376,
+          "chunk_id": "CHUNK_c127ca02a9de"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9376,
+          "chunk_id": "CHUNK_c127ca02a9de"
+        }
+      ]
+    },
+    {
+      "id": "ROW_ce3383988376",
+      "name": "row under the header row",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9380,
+          "chunk_id": "CHUNK_e7aa7228bc55"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9380,
+          "chunk_id": "CHUNK_e7aa7228bc55"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9380,
+          "chunk_id": "CHUNK_e7aa7228bc55"
+        }
+      ]
+    },
+    {
+      "id": "ROW_4af715c3ca33",
+      "name": "rowcolumn headers to every value",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9402,
+          "chunk_id": "CHUNK_e750617da7b2"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9402,
+          "chunk_id": "CHUNK_e750617da7b2"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9402,
+          "chunk_id": "CHUNK_e750617da7b2"
+        }
+      ]
+    },
+    {
+      "id": "ROW_4537ff8d725e",
+      "name": "row with headers that label everything in those columns Column 1 is almost always headers that label everything in each row It works like a multiplication table",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9413,
+          "chunk_id": "CHUNK_6c96a327abcf"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9413,
+          "chunk_id": "CHUNK_6c96a327abcf"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9413,
+          "chunk_id": "CHUNK_6c96a327abcf"
+        }
+      ]
+    },
+    {
+      "id": "ROW_a5cf514d13e9",
+      "name": "row in messy sources",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9417,
+          "chunk_id": "CHUNK_ba75dcde4352"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9417,
+          "chunk_id": "CHUNK_ba75dcde4352"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9417,
+          "chunk_id": "CHUNK_ba75dcde4352"
+        }
+      ]
+    },
+    {
+      "id": "ROW_1c3df65e1b4d",
+      "name": "row  column meanings back to you in 12 lines or just show the reconstructed header list",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9433,
+          "chunk_id": "CHUNK_526955f923aa"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9433,
+          "chunk_id": "CHUNK_526955f923aa"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9433,
+          "chunk_id": "CHUNK_526955f923aa"
+        }
+      ]
+    },
+    {
+      "id": "ROW_5ff1ebac5f89",
+      "name": "row  status",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9503,
+          "chunk_id": "CHUNK_4cc20429cfd7"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9503,
+          "chunk_id": "CHUNK_4cc20429cfd7"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9503,
+          "chunk_id": "CHUNK_4cc20429cfd7"
+        }
+      ]
+    },
+    {
+      "id": "ROW_f181fab3e88b",
+      "name": "Row Status ",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9521,
+          "chunk_id": "CHUNK_94fe5bcb8cd2"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9521,
+          "chunk_id": "CHUNK_94fe5bcb8cd2"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9521,
+          "chunk_id": "CHUNK_94fe5bcb8cd2"
+        }
+      ]
+    },
+    {
+      "id": "ROW_bf817896ebdd",
+      "name": "row  Goal met 2 reading  2 math ",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9523,
+          "chunk_id": "CHUNK_52e5a7fe3e46"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9523,
+          "chunk_id": "CHUNK_52e5a7fe3e46"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9523,
+          "chunk_id": "CHUNK_52e5a7fe3e46"
+        }
+      ]
+    },
+    {
+      "id": "ROW_a3df56c69233",
+      "name": "row and lock the column meanings as a hard rule not a suggestion No more half-guessing what a column is",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9563,
+          "chunk_id": "CHUNK_f63b89a7eafa"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9563,
+          "chunk_id": "CHUNK_f63b89a7eafa"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9563,
+          "chunk_id": "CHUNK_f63b89a7eafa"
+        }
+      ]
+    },
+    {
+      "id": "ROW_162208b0bdb9",
+      "name": "row key by default",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9565,
+          "chunk_id": "CHUNK_44247bb41288"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9565,
+          "chunk_id": "CHUNK_44247bb41288"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9565,
+          "chunk_id": "CHUNK_44247bb41288"
+        }
+      ]
+    },
+    {
+      "id": "ROW_527e4ceb4254",
+      "name": "row student/skill/etc unless theres strong evidence otherwise",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9566,
+          "chunk_id": "CHUNK_cd8104cd552e"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9566,
+          "chunk_id": "CHUNK_cd8104cd552e"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9566,
+          "chunk_id": "CHUNK_cd8104cd552e"
+        }
+      ]
+    },
+    {
+      "id": "ROW_ea90e4dae564",
+      "name": "row block top band with labels",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9604,
+          "chunk_id": "CHUNK_a219f10f9359"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9604,
+          "chunk_id": "CHUNK_a219f10f9359"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9604,
+          "chunk_id": "CHUNK_a219f10f9359"
+        }
+      ]
+    },
+    {
+      "id": "ROW_5a4a33c1a091",
+      "name": "row-header column student/skill/etc",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9605,
+          "chunk_id": "CHUNK_16f1e23da9a3"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9605,
+          "chunk_id": "CHUNK_16f1e23da9a3"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9605,
+          "chunk_id": "CHUNK_16f1e23da9a3"
+        }
+      ]
+    },
+    {
+      "id": "ROW_5ca0154d734c",
+      "name": "row sample and ask which is right",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9615,
+          "chunk_id": "CHUNK_3baaf8173c29"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9615,
+          "chunk_id": "CHUNK_3baaf8173c29"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9615,
+          "chunk_id": "CHUNK_3baaf8173c29"
+        }
+      ]
+    },
+    {
+      "id": "ROW_721dd8cc21ac",
+      "name": "row per entity student skill  parse",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9627,
+          "chunk_id": "CHUNK_c4b1cd92dfd9"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9627,
+          "chunk_id": "CHUNK_c4b1cd92dfd9"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9627,
+          "chunk_id": "CHUNK_c4b1cd92dfd9"
+        }
+      ]
+    },
+    {
+      "id": "ROW_64f21d118d80",
+      "name": "row  column headers data in the middle like your multiplication tables  parse but differently",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9628,
+          "chunk_id": "CHUNK_679f22f138c4"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9628,
+          "chunk_id": "CHUNK_679f22f138c4"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9628,
+          "chunk_id": "CHUNK_679f22f138c4"
+        }
+      ]
+    },
+    {
+      "id": "ROW_d66954da3aba",
+      "name": "row first column  row labels becomes the default hypothesis but the LLM is allowed to override it when theres strong evidence eg first column is just row numbers",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9647,
+          "chunk_id": "CHUNK_23c4edf2eb40"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9647,
+          "chunk_id": "CHUNK_23c4edf2eb40"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9647,
+          "chunk_id": "CHUNK_23c4edf2eb40"
+        }
+      ]
+    },
+    {
+      "id": "ROW_70597a21227c",
+      "name": "row we re-score schemas",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9699,
+          "chunk_id": "CHUNK_99911750a81f"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9699,
+          "chunk_id": "CHUNK_99911750a81f"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9699,
+          "chunk_id": "CHUNK_99911750a81f"
+        }
+      ]
+    },
+    {
+      "id": "ROW_69e30b6307f0",
+      "name": "row will absolutely give you more bang for your buck than me just trying harder each time",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9744,
+          "chunk_id": "CHUNK_e42a20c62a7c"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9744,
+          "chunk_id": "CHUNK_e42a20c62a7c"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9744,
+          "chunk_id": "CHUNK_e42a20c62a7c"
+        }
+      ]
+    },
+    {
+      "id": "ROW_ef89d13d9da3",
+      "name": "row headers column headers and normalized values",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9763,
+          "chunk_id": "CHUNK_3839b11e8c6b"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9763,
+          "chunk_id": "CHUNK_3839b11e8c6b"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9763,
+          "chunk_id": "CHUNK_3839b11e8c6b"
+        }
+      ]
+    },
+    {
+      "id": "ROW_fe160b529852",
+      "name": "row first",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9767,
+          "chunk_id": "CHUNK_0ffaebf7f525"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9767,
+          "chunk_id": "CHUNK_0ffaebf7f525"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9767,
+          "chunk_id": "CHUNK_0ffaebf7f525"
+        }
+      ]
+    },
+    {
+      "id": "ROW_fbc81864a54e",
+      "name": "row-header unless evidence proves otherwise",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9768,
+          "chunk_id": "CHUNK_6582384eafa8"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9768,
+          "chunk_id": "CHUNK_6582384eafa8"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9768,
+          "chunk_id": "CHUNK_6582384eafa8"
+        }
+      ]
+    },
+    {
+      "id": "ROW_90b12ee7b60c",
+      "name": "row only when strictly necessary",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9771,
+          "chunk_id": "CHUNK_2427eda873c8"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9771,
+          "chunk_id": "CHUNK_2427eda873c8"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9771,
+          "chunk_id": "CHUNK_2427eda873c8"
+        }
+      ]
+    },
+    {
+      "id": "ROW_bc51e9e65d79",
+      "name": "rows",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9798,
+          "chunk_id": "CHUNK_0b96ef7f4cea"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9798,
+          "chunk_id": "CHUNK_0b96ef7f4cea"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9798,
+          "chunk_id": "CHUNK_0b96ef7f4cea"
+        }
+      ]
+    },
+    {
+      "id": "ROW_e2ae92d05773",
+      "name": "row where majority of cells are LABEL-LIKE not numeric",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9799,
+          "chunk_id": "CHUNK_2bcabed686a2"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9799,
+          "chunk_id": "CHUNK_2bcabed686a2"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9799,
+          "chunk_id": "CHUNK_2bcabed686a2"
+        }
+      ]
+    },
+    {
+      "id": "ROW_bafb1e0a8068",
+      "name": "row index  entity name",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9814,
+          "chunk_id": "CHUNK_2bf62f86e945"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9814,
+          "chunk_id": "CHUNK_2bf62f86e945"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9814,
+          "chunk_id": "CHUNK_2bf62f86e945"
+        }
+      ]
+    },
+    {
+      "id": "ROW_2ac8f5f413fb",
+      "name": "Row header contains names not numbers",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9833,
+          "chunk_id": "CHUNK_059ef109ac2a"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9833,
+          "chunk_id": "CHUNK_059ef109ac2a"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9833,
+          "chunk_id": "CHUNK_059ef109ac2a"
+        }
+      ]
+    },
+    {
+      "id": "ROW_1156347e051c",
+      "name": "row and the parser self-corrects",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9919,
+          "chunk_id": "CHUNK_dd184d2ab568"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9919,
+          "chunk_id": "CHUNK_dd184d2ab568"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9919,
+          "chunk_id": "CHUNK_dd184d2ab568"
+        }
+      ]
+    },
+    {
+      "id": "ROW_2d520a38a70c",
+      "name": "row AND first column appear label-like",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9997,
+          "chunk_id": "CHUNK_82137e8a4c36"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9997,
+          "chunk_id": "CHUNK_82137e8a4c36"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 9997,
+          "chunk_id": "CHUNK_82137e8a4c36"
+        }
+      ]
+    },
+    {
+      "id": "ROW_42868178cc33",
+      "name": "row-by-row",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 12407,
+          "chunk_id": "CHUNK_b5151736d3e3"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 12407,
+          "chunk_id": "CHUNK_b5151736d3e3"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 12407,
+          "chunk_id": "CHUNK_b5151736d3e3"
+        }
+      ]
+    },
+    {
+      "id": "ROW_bd23c04a3730",
+      "name": "row still doesnt match what you see on your screen especially San Juana / Luna / Jose tell me which kid and Ill adjust that specific line",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 13434,
+          "chunk_id": "CHUNK_a71f0df244d9"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 13434,
+          "chunk_id": "CHUNK_a71f0df244d9"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 13434,
+          "chunk_id": "CHUNK_a71f0df244d9"
+        }
+      ]
+    },
+    {
+      "id": "ROW_8844848d377e",
+      "name": "row in t5",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 13481,
+          "chunk_id": "CHUNK_ea03aeb2fc34"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 13481,
+          "chunk_id": "CHUNK_ea03aeb2fc34"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 13481,
+          "chunk_id": "CHUNK_ea03aeb2fc34"
+        }
+      ]
+    },
+    {
+      "id": "ROW_ea6b062f0203",
+      "name": "row in t8",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 13636,
+          "chunk_id": "CHUNK_786ec02064e9"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 13636,
+          "chunk_id": "CHUNK_786ec02064e9"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 13636,
+          "chunk_id": "CHUNK_786ec02064e9"
+        }
+      ]
+    },
+    {
+      "id": "ROW_1d555f9e264b",
+      "name": "row in t06",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 13664,
+          "chunk_id": "CHUNK_4ce7f6d901be"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 13664,
+          "chunk_id": "CHUNK_4ce7f6d901be"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 13664,
+          "chunk_id": "CHUNK_4ce7f6d901be"
+        }
+      ]
+    },
+    {
+      "id": "ROW_56ba4046eae8",
+      "name": "row in t12",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 13667,
+          "chunk_id": "CHUNK_a38217822d0a"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 13667,
+          "chunk_id": "CHUNK_a38217822d0a"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 13667,
+          "chunk_id": "CHUNK_a38217822d0a"
+        }
+      ]
+    },
+    {
+      "id": "ROW_e38bf5180bfa",
+      "name": "row or row2 in None Student or Subject in row0 or ",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 13692,
+          "chunk_id": "CHUNK_13dfcd8345a0"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 13692,
+          "chunk_id": "CHUNK_13dfcd8345a0"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 13692,
+          "chunk_id": "CHUNK_13dfcd8345a0"
+        }
+      ]
+    },
+    {
+      "id": "ROW_232816909b5d",
+      "name": "row5",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 13697,
+          "chunk_id": "CHUNK_03823b0e1b1a"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 13697,
+          "chunk_id": "CHUNK_03823b0e1b1a"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 13697,
+          "chunk_id": "CHUNK_03823b0e1b1a"
+        }
+      ]
+    },
+    {
+      "id": "ROW_f9f72705ac76",
+      "name": "row IDs",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 14781,
+          "chunk_id": "CHUNK_52a5da97be93"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 14781,
+          "chunk_id": "CHUNK_52a5da97be93"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 14781,
+          "chunk_id": "CHUNK_52a5da97be93"
+        }
+      ]
+    },
+    {
+      "id": "ROW_694bbb95d210",
+      "name": "row per student Index in IDs must match position in students array 0-based --",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 15001,
+          "chunk_id": "CHUNK_4bd6b2b54c64"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 15001,
+          "chunk_id": "CHUNK_4bd6b2b54c64"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 15001,
+          "chunk_id": "CHUNK_4bd6b2b54c64"
+        }
+      ]
+    },
+    {
+      "id": "ROW_f5792fe8159f",
+      "name": "row at the bottom like how many kids reached goal this week",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 15556,
+          "chunk_id": "CHUNK_1db585f9dcd4"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 15556,
+          "chunk_id": "CHUNK_1db585f9dcd4"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 15556,
+          "chunk_id": "CHUNK_1db585f9dcd4"
+        }
+      ]
+    },
+    {
+      "id": "ROW_faad8787ce19",
+      "name": "row And add minutes OK Because theyre supposed to also get 30 minutes 30 minutes is the success Two lessons in a week is the success And they need to be passing at least 70 of their lessons So maybe w",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 15559,
+          "chunk_id": "CHUNK_ded08ebecba1"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 15559,
+          "chunk_id": "CHUNK_ded08ebecba1"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 15559,
+          "chunk_id": "CHUNK_ded08ebecba1"
+        }
+      ]
+    },
+    {
+      "id": "ROW_564200109ddf",
+      "name": "row-i",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 15582,
+          "chunk_id": "CHUNK_700981335b99"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 15662,
+          "chunk_id": "CHUNK_c5fb249a2764"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 15740,
+          "chunk_id": "CHUNK_6bd3d77cb8b7"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 15582,
+          "chunk_id": "CHUNK_700981335b99"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 15662,
+          "chunk_id": "CHUNK_c5fb249a2764"
+        }
+      ]
+    },
+    {
+      "id": "ROW_0250bcc3ddf5",
+      "name": "row-0n tdARELLANO MARTINEZ ALLYSON/tdn td classstatusspan idstatus-0 classstatus-tag/span/tdn td classmessagen p idmsg-0/pn button classtts onclickspeakFromElementmsg-0en Read aloud/buttonn /tdn td cl",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 15717,
+          "chunk_id": "CHUNK_39cfe5b05560"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 15717,
+          "chunk_id": "CHUNK_39cfe5b05560"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 15717,
+          "chunk_id": "CHUNK_39cfe5b05560"
+        }
+      ]
+    },
+    {
+      "id": "ROW_ab7b71228a7f",
+      "name": "row 04 goal boxes",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 15748,
+          "chunk_id": "CHUNK_9e9cf398c380"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 15748,
+          "chunk_id": "CHUNK_9e9cf398c380"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 15748,
+          "chunk_id": "CHUNK_9e9cf398c380"
+        }
+      ]
+    },
+    {
+      "id": "ROW_63a80f87949f",
+      "name": "row at the bottom",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 15749,
+          "chunk_id": "CHUNK_d464bbb370e0"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 15749,
+          "chunk_id": "CHUNK_d464bbb370e0"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 15749,
+          "chunk_id": "CHUNK_d464bbb370e0"
+        }
+      ]
+    },
+    {
+      "id": "ROW_7c3f0cdea98c",
+      "name": "row  documentgetElementByIdrow-index",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16088,
+          "chunk_id": "CHUNK_1f32fb01bdde"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16088,
+          "chunk_id": "CHUNK_1f32fb01bdde"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16088,
+          "chunk_id": "CHUNK_1f32fb01bdde"
+        }
+      ]
+    },
+    {
+      "id": "ROW_aa88a35c4242",
+      "name": "rowclassName  band-totalGoalBoxes  fullSuccess   full-success  ",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16132,
+          "chunk_id": "CHUNK_7e2d15538af0"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16132,
+          "chunk_id": "CHUNK_7e2d15538af0"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16132,
+          "chunk_id": "CHUNK_7e2d15538af0"
+        }
+      ]
+    },
+    {
+      "id": "ROW_ff7cc41df674",
+      "name": "row ---",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16138,
+          "chunk_id": "CHUNK_96e543cd08e1"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16138,
+          "chunk_id": "CHUNK_96e543cd08e1"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16138,
+          "chunk_id": "CHUNK_96e543cd08e1"
+        }
+      ]
+    },
+    {
+      "id": "ROW_3c831eb5a239",
+      "name": "row-0",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16215,
+          "chunk_id": "CHUNK_e418d6b4823b"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16215,
+          "chunk_id": "CHUNK_e418d6b4823b"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16215,
+          "chunk_id": "CHUNK_e418d6b4823b"
+        }
+      ]
+    },
+    {
+      "id": "ROW_0f719b1f3a42",
+      "name": "row-1",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16269,
+          "chunk_id": "CHUNK_72903df86538"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16269,
+          "chunk_id": "CHUNK_72903df86538"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16269,
+          "chunk_id": "CHUNK_72903df86538"
+        }
+      ]
+    },
+    {
+      "id": "ROW_4568437f50f4",
+      "name": "row-2",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16323,
+          "chunk_id": "CHUNK_f12076b4bf2d"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16323,
+          "chunk_id": "CHUNK_f12076b4bf2d"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16323,
+          "chunk_id": "CHUNK_f12076b4bf2d"
+        }
+      ]
+    },
+    {
+      "id": "ROW_766c7c97fa4a",
+      "name": "row-3",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16377,
+          "chunk_id": "CHUNK_13460a02c12d"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16377,
+          "chunk_id": "CHUNK_13460a02c12d"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16377,
+          "chunk_id": "CHUNK_13460a02c12d"
+        }
+      ]
+    },
+    {
+      "id": "ROW_06a209481b65",
+      "name": "row-4",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16431,
+          "chunk_id": "CHUNK_e5d261a3a3f8"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16431,
+          "chunk_id": "CHUNK_e5d261a3a3f8"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16431,
+          "chunk_id": "CHUNK_e5d261a3a3f8"
+        }
+      ]
+    },
+    {
+      "id": "ROW_5a9dd7f3379c",
+      "name": "row-5",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16485,
+          "chunk_id": "CHUNK_1c94c68ed22c"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16485,
+          "chunk_id": "CHUNK_1c94c68ed22c"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16485,
+          "chunk_id": "CHUNK_1c94c68ed22c"
+        }
+      ]
+    },
+    {
+      "id": "ROW_a19bc50957e1",
+      "name": "row-6",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16539,
+          "chunk_id": "CHUNK_381c02d3e52a"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16539,
+          "chunk_id": "CHUNK_381c02d3e52a"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16539,
+          "chunk_id": "CHUNK_381c02d3e52a"
+        }
+      ]
+    },
+    {
+      "id": "ROW_5259b5ef73c1",
+      "name": "row-7",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16593,
+          "chunk_id": "CHUNK_16d371fa9698"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16593,
+          "chunk_id": "CHUNK_16d371fa9698"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16593,
+          "chunk_id": "CHUNK_16d371fa9698"
+        }
+      ]
+    },
+    {
+      "id": "ROW_8522817090d2",
+      "name": "row-8",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16647,
+          "chunk_id": "CHUNK_62a13dd4b181"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16647,
+          "chunk_id": "CHUNK_62a13dd4b181"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16647,
+          "chunk_id": "CHUNK_62a13dd4b181"
+        }
+      ]
+    },
+    {
+      "id": "ROW_eee830397354",
+      "name": "row-9",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16701,
+          "chunk_id": "CHUNK_13a1752980d1"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16701,
+          "chunk_id": "CHUNK_13a1752980d1"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16701,
+          "chunk_id": "CHUNK_13a1752980d1"
+        }
+      ]
+    },
+    {
+      "id": "ROW_14e93713d6c9",
+      "name": "row-10",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16755,
+          "chunk_id": "CHUNK_957a2054b784"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16755,
+          "chunk_id": "CHUNK_957a2054b784"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16755,
+          "chunk_id": "CHUNK_957a2054b784"
+        }
+      ]
+    },
+    {
+      "id": "ROW_2fc3a00a8dd2",
+      "name": "row-11",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16809,
+          "chunk_id": "CHUNK_789920dd0739"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16809,
+          "chunk_id": "CHUNK_789920dd0739"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16809,
+          "chunk_id": "CHUNK_789920dd0739"
+        }
+      ]
+    },
+    {
+      "id": "ROW_fa26f0d9e0ec",
+      "name": "row-12",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16863,
+          "chunk_id": "CHUNK_03fd739ea79b"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16863,
+          "chunk_id": "CHUNK_03fd739ea79b"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16863,
+          "chunk_id": "CHUNK_03fd739ea79b"
+        }
+      ]
+    },
+    {
+      "id": "ROW_e7ae3782e8a2",
+      "name": "row-13",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16917,
+          "chunk_id": "CHUNK_135fbfbb3840"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16917,
+          "chunk_id": "CHUNK_135fbfbb3840"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16917,
+          "chunk_id": "CHUNK_135fbfbb3840"
+        }
+      ]
+    },
+    {
+      "id": "ROW_085239380172",
+      "name": "row-14",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16971,
+          "chunk_id": "CHUNK_eb63ef5a997c"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16971,
+          "chunk_id": "CHUNK_eb63ef5a997c"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 16971,
+          "chunk_id": "CHUNK_eb63ef5a997c"
+        }
+      ]
+    },
+    {
+      "id": "ROW_6ce3f6e1c9d7",
+      "name": "row-15",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 17025,
+          "chunk_id": "CHUNK_76c6ae633ace"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 17025,
+          "chunk_id": "CHUNK_76c6ae633ace"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 17025,
+          "chunk_id": "CHUNK_76c6ae633ace"
+        }
+      ]
+    },
+    {
+      "id": "ROW_4494f6550753",
+      "name": "row and a color band that visually indicates progress and highlights key metrics",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 17567,
+          "chunk_id": "CHUNK_44434b9427d6"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 17567,
+          "chunk_id": "CHUNK_44434b9427d6"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 17567,
+          "chunk_id": "CHUNK_44434b9427d6"
+        }
+      ]
+    },
+    {
+      "id": "ROW_30b38c01e6f0",
+      "name": "row and the teacher can update checkboxes or counters as the week progresses",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 17571,
+          "chunk_id": "CHUNK_fba80ac094bb"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 17571,
+          "chunk_id": "CHUNK_fba80ac094bb"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 17571,
+          "chunk_id": "CHUNK_fba80ac094bb"
+        }
+      ]
+    },
+    {
+      "id": "ROW_c3f0cb1b7cb5",
+      "name": "row treat column 1 as row labels interpret numeric columns like Passed carefully and unify data from multiple subject-specific tables by student name",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 17656,
+          "chunk_id": "CHUNK_e59bc83f3ff7"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 17656,
+          "chunk_id": "CHUNK_e59bc83f3ff7"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 17656,
+          "chunk_id": "CHUNK_e59bc83f3ff7"
+        }
+      ]
+    },
+    {
+      "id": "ROW_61a0f7186232",
+      "name": "row and map each subsequent row using column names as keys treat column 1 as the row label unless evidence suggests otherwise",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 17772,
+          "chunk_id": "CHUNK_a80a094d06fa"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 17772,
+          "chunk_id": "CHUNK_a80a094d06fa"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 17772,
+          "chunk_id": "CHUNK_a80a094d06fa"
+        }
+      ]
+    },
+    {
+      "id": "ROW_dc672960b7a7",
+      "name": "row that aggregates all relevant metrics reading lessons math lessons minutes pass rate for the week",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 17784,
+          "chunk_id": "CHUNK_b0e8513aca21"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 17784,
+          "chunk_id": "CHUNK_b0e8513aca21"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "6920a76d-4c74-8333-a835-d455baedf01e",
+          "line": 17784,
+          "chunk_id": "CHUNK_b0e8513aca21"
+        }
+      ]
+    }
+  ],
+  "pipelines": [
+    {
+      "id": "PIPE_712e550e1122",
+      "name": "shared across SFT DPO and RL",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-052_(36-chats).jsonl",
+          "chat_id": "69238a10-ed74-832c-b975-b560465145a2",
+          "line": 13915,
+          "chunk_id": "CHUNK_bd2565613d0b"
+        }
+      ]
+    },
+    {
+      "id": "PIPE_17fcbec5262c",
+      "name": "1 problem rewriting 2 solution generation and 3 test case generation After generating",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-052_(36-chats).jsonl",
+          "chat_id": "69238a10-ed74-832c-b975-b560465145a2",
+          "line": 14358,
+          "chunk_id": "CHUNK_0b710e439f18"
+        }
+      ]
+    },
+    {
+      "id": "PIPE_667ed3dbd944",
+      "name": "Based Identity",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-052_(36-chats).jsonl",
+          "chat_id": "69238a10-ed74-832c-b975-b560465145a2",
+          "line": 17750,
+          "chunk_id": "CHUNK_d977bac14ced"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-052_(36-chats).jsonl",
+          "chat_id": "69238a10-ed74-832c-b975-b560465145a2",
+          "line": 17780,
+          "chunk_id": "CHUNK_50dfe0cf2b96"
+        }
+      ]
+    },
+    {
+      "id": "PIPE_2f11bc6184c1",
+      "name": "Over-Parameters Optimization",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-052_(36-chats).jsonl",
+          "chat_id": "69238a10-ed74-832c-b975-b560465145a2",
+          "line": 19609,
+          "chunk_id": "CHUNK_ea16c98c236d"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-052_(36-chats).jsonl",
+          "chat_id": "69238a10-ed74-832c-b975-b560465145a2",
+          "line": 19633,
+          "chunk_id": "CHUNK_be009f30b1cc"
+        }
+      ]
+    },
+    {
+      "id": "PIPE_b53a4f6e8460",
+      "name": "Dolma  Dolmino  Longmino equivalents  staged learning ",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-052_(36-chats).jsonl",
+          "chat_id": "69238a10-ed74-832c-b975-b560465145a2",
+          "line": 21636,
+          "chunk_id": "CHUNK_52c8ec71d41a"
+        }
+      ]
+    },
+    {
+      "id": "PIPE_d0d8a603b489",
+      "name": "Pipeline (unnamed)",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69226c22-37e4-8331-a0f6-febe92aa9d56",
+          "line": 20452,
+          "chunk_id": "CHUNK_3678c21a197b"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69226c22-37e4-8331-a0f6-febe92aa9d56",
+          "line": 20452,
+          "chunk_id": "CHUNK_3678c21a197b"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69220fe3-57ac-8333-b824-d8009f46b8c6",
+          "line": 343,
+          "chunk_id": "CHUNK_19cf4c5a3701"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69220fe3-57ac-8333-b824-d8009f46b8c6",
+          "line": 343,
+          "chunk_id": "CHUNK_19cf4c5a3701"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "691ffb54-9c1c-8327-925c-7ed062eaf71c",
+          "line": 2969,
+          "chunk_id": "CHUNK_4ffb221fab39"
+        }
+      ]
+    },
+    {
+      "id": "PIPE_314030239930",
+      "name": " with R55 FileOutputGuard between Execute and OutputEvaluator",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69220001-7058-8327-abaf-48bf2bfb6dbe",
+          "line": 2140,
+          "chunk_id": "CHUNK_62061774e1aa"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69220001-7058-8327-abaf-48bf2bfb6dbe",
+          "line": 2140,
+          "chunk_id": "CHUNK_62061774e1aa"
+        }
+      ]
+    },
+    {
+      "id": "PIPE_8bf9fd4be091",
+      "name": "aware",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69220001-7058-8327-abaf-48bf2bfb6dbe",
+          "line": 3189,
+          "chunk_id": "CHUNK_c3f4504f168d"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69220001-7058-8327-abaf-48bf2bfb6dbe",
+          "line": 3189,
+          "chunk_id": "CHUNK_c3f4504f168d"
+        }
+      ]
+    },
+    {
+      "id": "PIPE_37eff7830bc4",
+      "name": "convert into structured data tag embed  aa_samplemd ",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69220fe3-57ac-8333-b824-d8009f46b8c6",
+          "line": 485,
+          "chunk_id": "CHUNK_ca44b5bd2069"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69220fe3-57ac-8333-b824-d8009f46b8c6",
+          "line": 485,
+          "chunk_id": "CHUNK_ca44b5bd2069"
+        }
+      ]
+    },
+    {
+      "id": "PIPE_36662fab8eb6",
+      "name": "R3  R4",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69220fe3-57ac-8333-b824-d8009f46b8c6",
+          "line": 2664,
+          "chunk_id": "CHUNK_bb3407009746"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "69220fe3-57ac-8333-b824-d8009f46b8c6",
+          "line": 2664,
+          "chunk_id": "CHUNK_bb3407009746"
+        }
+      ]
+    },
+    {
+      "id": "PIPE_1307d15f6710",
+      "name": "specific clarity",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "691ffb54-9c1c-8327-925c-7ed062eaf71c",
+          "line": 3749,
+          "chunk_id": "CHUNK_f8f4770bd6dc"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "691ffb54-9c1c-8327-925c-7ed062eaf71c",
+          "line": 3749,
+          "chunk_id": "CHUNK_f8f4770bd6dc"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-054_(11-chats).jsonl",
+          "chat_id": "691ffb54-9c1c-8327-925c-7ed062eaf71c",
+          "line": 3749,
+          "chunk_id": "CHUNK_f8f4770bd6dc"
+        }
+      ]
+    }
+  ],
+  "notes": "LIGHT mode stores up to 5 evidence refs per ROW/pipeline; no excerpts."
+}

@@ -1,0 +1,160 @@
+{
+  "phase": "2.3",
+  "generated_at": "2026-01-20T20:48:57Z",
+  "inputs": {
+    "whoelos_zip": "/mnt/data/MetaBlooms_OS_WHOLEOS_P0_PHASE2_2_AUDITED_20260120_191902.zip",
+    "registry_path": "/mnt/data/_phase2_3_harness_work/metablooms/core/invariants/REGISTRY.json",
+    "ratified_invariants_source": "/mnt/data/invariant_ledger/INVARIANT_LEDGER.jsonl"
+  },
+  "gates": {
+    "p0_fail_closed": true,
+    "telemetry_required": true
+  },
+  "test_case_schema": {
+    "id": "string",
+    "invariant_id": "string",
+    "mode": "boot|ship|replay|live_learning",
+    "setup": "string",
+    "stimulus": "string",
+    "expected": {
+      "pass": "bool",
+      "halt": "bool",
+      "telemetry_event": "string"
+    },
+    "evidence_paths": [
+      "string"
+    ]
+  },
+  "planned_test_cases": [
+    {
+      "id": "TC-INV-ARCHIVE-CONTEXT-SEPARATION-NEG",
+      "invariant_id": "INV-ARCHIVE-CONTEXT-SEPARATION",
+      "mode": "replay",
+      "setup": "Construct minimal archive replay context",
+      "stimulus": "Deliberately violate INV-ARCHIVE-CONTEXT-SEPARATION",
+      "expected": {
+        "pass": false,
+        "halt": true,
+        "telemetry_event": "VIOLATION::INV-ARCHIVE-CONTEXT-SEPARATION"
+      },
+      "evidence_paths": []
+    },
+    {
+      "id": "TC-INV-ARCHIVE-CONTEXT-SEPARATION-POS",
+      "invariant_id": "INV-ARCHIVE-CONTEXT-SEPARATION",
+      "mode": "replay",
+      "setup": "Construct minimal archive replay context",
+      "stimulus": "Comply with INV-ARCHIVE-CONTEXT-SEPARATION",
+      "expected": {
+        "pass": true,
+        "halt": false,
+        "telemetry_event": "PASS::INV-ARCHIVE-CONTEXT-SEPARATION"
+      },
+      "evidence_paths": []
+    },
+    {
+      "id": "TC-INV-AUDIT-BEFORE-SHIP-NEG",
+      "invariant_id": "INV-AUDIT-BEFORE-SHIP",
+      "mode": "replay",
+      "setup": "Construct minimal archive replay context",
+      "stimulus": "Deliberately violate INV-AUDIT-BEFORE-SHIP",
+      "expected": {
+        "pass": false,
+        "halt": true,
+        "telemetry_event": "VIOLATION::INV-AUDIT-BEFORE-SHIP"
+      },
+      "evidence_paths": []
+    },
+    {
+      "id": "TC-INV-AUDIT-BEFORE-SHIP-POS",
+      "invariant_id": "INV-AUDIT-BEFORE-SHIP",
+      "mode": "replay",
+      "setup": "Construct minimal archive replay context",
+      "stimulus": "Comply with INV-AUDIT-BEFORE-SHIP",
+      "expected": {
+        "pass": true,
+        "halt": false,
+        "telemetry_event": "PASS::INV-AUDIT-BEFORE-SHIP"
+      },
+      "evidence_paths": []
+    },
+    {
+      "id": "TC-INV-FAIL-CLOSED-ON-MISSING-EVIDENCE-NEG",
+      "invariant_id": "INV-FAIL-CLOSED-ON-MISSING-EVIDENCE",
+      "mode": "replay",
+      "setup": "Construct minimal archive replay context",
+      "stimulus": "Deliberately violate INV-FAIL-CLOSED-ON-MISSING-EVIDENCE",
+      "expected": {
+        "pass": false,
+        "halt": true,
+        "telemetry_event": "VIOLATION::INV-FAIL-CLOSED-ON-MISSING-EVIDENCE"
+      },
+      "evidence_paths": []
+    },
+    {
+      "id": "TC-INV-FAIL-CLOSED-ON-MISSING-EVIDENCE-POS",
+      "invariant_id": "INV-FAIL-CLOSED-ON-MISSING-EVIDENCE",
+      "mode": "replay",
+      "setup": "Construct minimal archive replay context",
+      "stimulus": "Comply with INV-FAIL-CLOSED-ON-MISSING-EVIDENCE",
+      "expected": {
+        "pass": true,
+        "halt": false,
+        "telemetry_event": "PASS::INV-FAIL-CLOSED-ON-MISSING-EVIDENCE"
+      },
+      "evidence_paths": []
+    },
+    {
+      "id": "TC-INV-NO-REPEAT-POST-CORRECTION-NEG",
+      "invariant_id": "INV-NO-REPEAT-POST-CORRECTION",
+      "mode": "replay",
+      "setup": "Construct minimal archive replay context",
+      "stimulus": "Deliberately violate INV-NO-REPEAT-POST-CORRECTION",
+      "expected": {
+        "pass": false,
+        "halt": true,
+        "telemetry_event": "VIOLATION::INV-NO-REPEAT-POST-CORRECTION"
+      },
+      "evidence_paths": []
+    },
+    {
+      "id": "TC-INV-NO-REPEAT-POST-CORRECTION-POS",
+      "invariant_id": "INV-NO-REPEAT-POST-CORRECTION",
+      "mode": "replay",
+      "setup": "Construct minimal archive replay context",
+      "stimulus": "Comply with INV-NO-REPEAT-POST-CORRECTION",
+      "expected": {
+        "pass": true,
+        "halt": false,
+        "telemetry_event": "PASS::INV-NO-REPEAT-POST-CORRECTION"
+      },
+      "evidence_paths": []
+    },
+    {
+      "id": "TC-INV-MANDATORY-INSTRUCTIONS-OVERRIDE-FLOW-NEG",
+      "invariant_id": "INV-MANDATORY-INSTRUCTIONS-OVERRIDE-FLOW",
+      "mode": "replay",
+      "setup": "Construct minimal archive replay context",
+      "stimulus": "Deliberately violate INV-MANDATORY-INSTRUCTIONS-OVERRIDE-FLOW",
+      "expected": {
+        "pass": false,
+        "halt": true,
+        "telemetry_event": "VIOLATION::INV-MANDATORY-INSTRUCTIONS-OVERRIDE-FLOW"
+      },
+      "evidence_paths": []
+    },
+    {
+      "id": "TC-INV-MANDATORY-INSTRUCTIONS-OVERRIDE-FLOW-POS",
+      "invariant_id": "INV-MANDATORY-INSTRUCTIONS-OVERRIDE-FLOW",
+      "mode": "replay",
+      "setup": "Construct minimal archive replay context",
+      "stimulus": "Comply with INV-MANDATORY-INSTRUCTIONS-OVERRIDE-FLOW",
+      "expected": {
+        "pass": true,
+        "halt": false,
+        "telemetry_event": "PASS::INV-MANDATORY-INSTRUCTIONS-OVERRIDE-FLOW"
+      },
+      "evidence_paths": []
+    }
+  ]
+}

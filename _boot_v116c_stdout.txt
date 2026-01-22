@@ -1,0 +1,44 @@
+{
+  "ok": false,
+  "results": [
+    {
+      "errors": [
+        "EXCEPTION:TypeError:run_gate() takes 1 positional argument but 2 were given"
+      ],
+      "gate_id": "GATE.CHAIN.SCHEMA.V1",
+      "level": "P0",
+      "pass": false
+    },
+    {
+      "errors": [],
+      "gate_id": "GATE.AUTOSAVE.KEEP_DROP_WHY.V1",
+      "level": "P0",
+      "pass": true
+    },
+    {
+      "errors": [],
+      "gate_id": "GATE.SUBCAUSAL_SENTRY.V1",
+      "level": "P0",
+      "pass": true
+    },
+    {
+      "errors": [],
+      "gate_id": "GATE.PROVENANCE.MIN3.V1",
+      "level": "P0",
+      "pass": true
+    },
+    {
+      "errors": [],
+      "gate_id": "GATE.DECISION.TRACE.WIRING.V1",
+      "level": "P0",
+      "pass": true
+    },
+    {
+      "errors": [],
+      "gate_id": "GATE.DECISION.TRACE.SCHEMA.VALIDATE.V1",
+      "level": "P0",
+      "pass": true
+    }
+  ]
+}
+BOOT_FAILED:RUNNER_EXIT:2

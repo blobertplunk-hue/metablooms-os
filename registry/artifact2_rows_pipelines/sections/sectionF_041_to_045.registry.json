@@ -1,0 +1,4124 @@
+{
+  "version": 2,
+  "generated_at": "2026-01-14T23:01:26.151772Z",
+  "artifact": "Archive 2 (1).zip",
+  "section": "sectionF_041_to_045",
+  "sectioning": "FILTERED_MEMBERS_V2_LIGHT",
+  "members": [
+    "2026-01-12_MetaBrain_batch-041_(25-chats).jsonl",
+    "2026-01-12_MetaBrain_batch-042_(26-chats).jsonl",
+    "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+    "2026-01-12_MetaBrain_batch-044_(28-chats).jsonl",
+    "2026-01-12_MetaBrain_batch-045_(29-chats).jsonl"
+  ],
+  "parse_stats": {
+    "lines_total": 5,
+    "lines_json_ok": 5,
+    "lines_skipped_nonjson": 0
+  },
+  "chats_parsed": 5,
+  "evidence_chunks": 1176,
+  "rows": [
+    {
+      "id": "ROW_3660483b6568",
+      "name": "row/column flips",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-042_(26-chats).jsonl",
+          "chat_id": "6927de21-8b28-8327-95e6-a0a3cf81d3cf",
+          "line": 3351,
+          "chunk_id": "CHUNK_ccca741c92d0"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 40013,
+          "chunk_id": "CHUNK_ee5e2f928ff3"
+        }
+      ]
+    },
+    {
+      "id": "ROW_634768dae147",
+      "name": "row",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-042_(26-chats).jsonl",
+          "chat_id": "6927de21-8b28-8327-95e6-a0a3cf81d3cf",
+          "line": 3567,
+          "chunk_id": "CHUNK_70cda45c4526"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 3251,
+          "chunk_id": "CHUNK_9bf4aaf526dd"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 6337,
+          "chunk_id": "CHUNK_5b0477b7b1cf"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 6501,
+          "chunk_id": "CHUNK_dd198ffe3033"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 6504,
+          "chunk_id": "CHUNK_e6dd826ce627"
+        }
+      ]
+    },
+    {
+      "id": "ROW_229555c9a99f",
+      "name": "row columns",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-042_(26-chats).jsonl",
+          "chat_id": "6927de21-8b28-8327-95e6-a0a3cf81d3cf",
+          "line": 3800,
+          "chunk_id": "CHUNK_2064b416f7a2"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 36718,
+          "chunk_id": "CHUNK_e28db9bd9aa6"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 37198,
+          "chunk_id": "CHUNK_833ba65b12a3"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 37275,
+          "chunk_id": "CHUNK_de6d6035c0ff"
+        }
+      ]
+    },
+    {
+      "id": "ROW_886f4c92e389",
+      "name": "row  0 row  COL_COUNT row ",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-042_(26-chats).jsonl",
+          "chat_id": "6927de21-8b28-8327-95e6-a0a3cf81d3cf",
+          "line": 3837,
+          "chunk_id": "CHUNK_99d4853866ed"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 36755,
+          "chunk_id": "CHUNK_ceda3cc083a4"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 37235,
+          "chunk_id": "CHUNK_653676a001ae"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 37316,
+          "chunk_id": "CHUNK_2a9cc7cb4b5b"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 37611,
+          "chunk_id": "CHUNK_9cc233a44160"
+        }
+      ]
+    },
+    {
+      "id": "ROW_2eb5e754d97f",
+      "name": "row  05",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-042_(26-chats).jsonl",
+          "chat_id": "6927de21-8b28-8327-95e6-a0a3cf81d3cf",
+          "line": 3840,
+          "chunk_id": "CHUNK_3d6f7321b9bc"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 30296,
+          "chunk_id": "CHUNK_c775f0f3fd86"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 31252,
+          "chunk_id": "CHUNK_6b0d1f99e039"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 36758,
+          "chunk_id": "CHUNK_ae71a726bce9"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 37238,
+          "chunk_id": "CHUNK_4d8131abf011"
+        }
+      ]
+    },
+    {
+      "id": "ROW_349a0c6ea8f9",
+      "name": "row you mix subtraction addition and word problems",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 3940,
+          "chunk_id": "CHUNK_b1eb2c1a56eb"
+        }
+      ]
+    },
+    {
+      "id": "ROW_b13f58919793",
+      "name": "Row/column structures",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 4921,
+          "chunk_id": "CHUNK_e4b64aa135c0"
+        }
+      ]
+    },
+    {
+      "id": "ROW_5861eda8e8a2",
+      "name": "row/column structure",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 5162,
+          "chunk_id": "CHUNK_9ad0e0056304"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 5195,
+          "chunk_id": "CHUNK_7d311cfccb84"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 5243,
+          "chunk_id": "CHUNK_98714c034609"
+        }
+      ]
+    },
+    {
+      "id": "ROW_f83b04c93637",
+      "name": "row table",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 5171,
+          "chunk_id": "CHUNK_099f4b0217d6"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 14546,
+          "chunk_id": "CHUNK_0fb8467ca133"
+        }
+      ]
+    },
+    {
+      "id": "ROW_59c1f969039d",
+      "name": "row count",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 5371,
+          "chunk_id": "CHUNK_8300fc6a13cd"
+        }
+      ]
+    },
+    {
+      "id": "ROW_2ee4b94af2c8",
+      "name": "row table showing 16 on top row and 61218243036 on bottom row 6 Number Line show a 036 number line with six equal jumps of 6 labeled 061218243036 Connect each outer representation to the center using ",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 5916,
+          "chunk_id": "CHUNK_8bf314814089"
+        }
+      ]
+    },
+    {
+      "id": "ROW_bd9c07e36289",
+      "name": "row of 6 is conceptually identical to a strip diagram with 6 partitions",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 6306,
+          "chunk_id": "CHUNK_740c2a51a876"
+        }
+      ]
+    },
+    {
+      "id": "ROW_09c27c851dbc",
+      "name": "Row full width",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 6507,
+          "chunk_id": "CHUNK_6ddb25459f56"
+        }
+      ]
+    },
+    {
+      "id": "ROW_c062b5134f90",
+      "name": "Row Comparison Strip  Combine  Compare ",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 6612,
+          "chunk_id": "CHUNK_cb53ef246f79"
+        }
+      ]
+    },
+    {
+      "id": "ROW_58bdea74cc42",
+      "name": "row  counter bottom row  multiples",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 13663,
+          "chunk_id": "CHUNK_df91f1a1fd30"
+        }
+      ]
+    },
+    {
+      "id": "ROW_99b7dc738e5e",
+      "name": "row 1 2 3 4 5 6",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 14547,
+          "chunk_id": "CHUNK_8618b630db79"
+        }
+      ]
+    },
+    {
+      "id": "ROW_6be723888814",
+      "name": "row 6 12 18 24 30 36",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 14548,
+          "chunk_id": "CHUNK_0396f5d9a439"
+        }
+      ]
+    },
+    {
+      "id": "ROW_9990fd09c6b4",
+      "name": "row becomes a partition in a strip diagram",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 14643,
+          "chunk_id": "CHUNK_c1ea37ddca37"
+        }
+      ]
+    },
+    {
+      "id": "ROW_c707152127e0",
+      "name": "row appears underneath labeled Rebecca",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 14660,
+          "chunk_id": "CHUNK_d69c215168a5"
+        }
+      ]
+    },
+    {
+      "id": "ROW_2c041aaed364",
+      "name": "row-wise",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 14669,
+          "chunk_id": "CHUNK_b83a9cfd1489"
+        }
+      ]
+    },
+    {
+      "id": "ROW_34b406523dfe",
+      "name": "row ",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 14895,
+          "chunk_id": "CHUNK_2dd5b6faeb2e"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 15704,
+          "chunk_id": "CHUNK_5205ece01df9"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 21535,
+          "chunk_id": "CHUNK_b60ecd450d9f"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 21552,
+          "chunk_id": "CHUNK_799176706f37"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 22493,
+          "chunk_id": "CHUNK_4286567d836b"
+        }
+      ]
+    },
+    {
+      "id": "ROW_a50560767340",
+      "name": "row table top  16 bottom  6 12 18 24 30 36",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 15081,
+          "chunk_id": "CHUNK_c701b5fd1f8e"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 15966,
+          "chunk_id": "CHUNK_9652efa92b6d"
+        }
+      ]
+    },
+    {
+      "id": "ROW_d9ad726df5d7",
+      "name": "row or column with 6 objects With 6 groups you get 6 rows of 6 dots a 66 array",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 15126,
+          "chunk_id": "CHUNK_842291eed6de"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 16010,
+          "chunk_id": "CHUNK_0e9d432442cc"
+        }
+      ]
+    },
+    {
+      "id": "ROW_2e62e4e467f6",
+      "name": "row of the table",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 15138,
+          "chunk_id": "CHUNK_cc9649ff9c45"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 16022,
+          "chunk_id": "CHUNK_f6b845e59068"
+        }
+      ]
+    },
+    {
+      "id": "ROW_d95ffd4cac82",
+      "name": "row or column Six addends become six rows each of length 6",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 15142,
+          "chunk_id": "CHUNK_6b2c3678e01a"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 16026,
+          "chunk_id": "CHUNK_139b0b3f93b1"
+        }
+      ]
+    },
+    {
+      "id": "ROW_5791cba7c2b0",
+      "name": "row of the area",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 15144,
+          "chunk_id": "CHUNK_7564101948e1"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 16028,
+          "chunk_id": "CHUNK_71dd148afe75"
+        }
+      ]
+    },
+    {
+      "id": "ROW_9e6317f45c32",
+      "name": "row for 3 times as many",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 15148,
+          "chunk_id": "CHUNK_185ccb788a8d"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 16032,
+          "chunk_id": "CHUNK_cff919fbb3b8"
+        }
+      ]
+    },
+    {
+      "id": "ROW_ee37730f9778",
+      "name": "row numbers 6 12 18 24 30 36 onto the number line and connect them with equal jumps",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 15156,
+          "chunk_id": "CHUNK_eccbe518c1ed"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 16040,
+          "chunk_id": "CHUNK_a03d4f25eb1e"
+        }
+      ]
+    },
+    {
+      "id": "ROW_f26bc366d859",
+      "name": "row in an array after 1 skip you have 1 row of 6 after 2 skips 2 rows of 6 up to 6 rows",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 15158,
+          "chunk_id": "CHUNK_65dd8054ba8c"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 16042,
+          "chunk_id": "CHUNK_16339f213aa9"
+        }
+      ]
+    },
+    {
+      "id": "ROW_310e359baeaa",
+      "name": "row  documentcreateElementdiv",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 15188,
+          "chunk_id": "CHUNK_3af555336ce4"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 15264,
+          "chunk_id": "CHUNK_29bd566fbfd8"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 15277,
+          "chunk_id": "CHUNK_47f2ba2a42e5"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 16072,
+          "chunk_id": "CHUNK_a7a6bfe6d440"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 16148,
+          "chunk_id": "CHUNK_579dc90e5e67"
+        }
+      ]
+    },
+    {
+      "id": "ROW_c0a8eff39da8",
+      "name": "rowclassName  row",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 15189,
+          "chunk_id": "CHUNK_19498f98a715"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 15265,
+          "chunk_id": "CHUNK_27778d11beae"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 15278,
+          "chunk_id": "CHUNK_6f2edba6af08"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 16073,
+          "chunk_id": "CHUNK_14d7a0d7c675"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 16149,
+          "chunk_id": "CHUNK_fc9801403123"
+        }
+      ]
+    },
+    {
+      "id": "ROW_a39e8321b707",
+      "name": "rowappendChildgroup",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 15194,
+          "chunk_id": "CHUNK_eb925f433900"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 16078,
+          "chunk_id": "CHUNK_28fca6f39eef"
+        }
+      ]
+    },
+    {
+      "id": "ROW_dd933497e9fb",
+      "name": "rowappendChilddot",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 15269,
+          "chunk_id": "CHUNK_95be3bb0f686"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 16153,
+          "chunk_id": "CHUNK_cea2a7707ea0"
+        }
+      ]
+    },
+    {
+      "id": "ROW_2f955b0f0b93",
+      "name": "rowappendChildgrid",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 15293,
+          "chunk_id": "CHUNK_075e1339721a"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 16177,
+          "chunk_id": "CHUNK_e41d1e1d45c5"
+        }
+      ]
+    },
+    {
+      "id": "ROW_c42379c393eb",
+      "name": "row 6  6  6",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 16799,
+          "chunk_id": "CHUNK_c29614d72058"
+        }
+      ]
+    },
+    {
+      "id": "ROW_d601c184df19",
+      "name": "row by row",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 16812,
+          "chunk_id": "CHUNK_d20747c40429"
+        }
+      ]
+    },
+    {
+      "id": "ROW_809e0f912da1",
+      "name": "row Each group becomes one row all rows the same length",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 17337,
+          "chunk_id": "CHUNK_2dbd3aa6e3a1"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 18035,
+          "chunk_id": "CHUNK_2f6f18f65a9e"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 18748,
+          "chunk_id": "CHUNK_eb2a007b654c"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 19436,
+          "chunk_id": "CHUNK_8a7c68afb8ba"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 20147,
+          "chunk_id": "CHUNK_5bd98aa5fb4a"
+        }
+      ]
+    },
+    {
+      "id": "ROW_75bc02e6bd88",
+      "name": "row at a time Each row is 6 and you add 6 for every row you see",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 17343,
+          "chunk_id": "CHUNK_d9af6ee425bc"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 18041,
+          "chunk_id": "CHUNK_641bb5965d35"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 18754,
+          "chunk_id": "CHUNK_e4b4ff386b31"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 19442,
+          "chunk_id": "CHUNK_ba3baec4cb28"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 20153,
+          "chunk_id": "CHUNK_9ff7a60aa8a0"
+        }
+      ]
+    },
+    {
+      "id": "ROW_767cc63eaf01",
+      "name": "row apart so it becomes its own little cluster again",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 17344,
+          "chunk_id": "CHUNK_9eee66e81743"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 18042,
+          "chunk_id": "CHUNK_d939ebbb3c01"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 18755,
+          "chunk_id": "CHUNK_d89223ca4406"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 19443,
+          "chunk_id": "CHUNK_48bbe377073b"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 20154,
+          "chunk_id": "CHUNK_4e5f39f4bcb1"
+        }
+      ]
+    },
+    {
+      "id": "ROW_3720915c4966",
+      "name": "row fall into its own group",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 17356,
+          "chunk_id": "CHUNK_97f842510893"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 18054,
+          "chunk_id": "CHUNK_6066715f55eb"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 18767,
+          "chunk_id": "CHUNK_842cc2131c05"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 19455,
+          "chunk_id": "CHUNK_20acb95cc8ba"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 20166,
+          "chunk_id": "CHUNK_63a44a119d11"
+        }
+      ]
+    },
+    {
+      "id": "ROW_957fc0b80a39",
+      "name": "row so that they will not line up with the number line Right The equal groups should switch from being an array of equal groups to a row of equal groups that lines up with the number line Do you under",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 21221,
+          "chunk_id": "CHUNK_cb2173ab9715"
+        }
+      ]
+    },
+    {
+      "id": "ROW_4da456b164e4",
+      "name": "row group-circle ",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 21540,
+          "chunk_id": "CHUNK_484667f48daa"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 22499,
+          "chunk_id": "CHUNK_419246111e7a"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 23437,
+          "chunk_id": "CHUNK_6f967e524181"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 23480,
+          "chunk_id": "CHUNK_854a720a6113"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 24430,
+          "chunk_id": "CHUNK_be42d62870da"
+        }
+      ]
+    },
+    {
+      "id": "ROW_d115b136aee8",
+      "name": "row span ",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 21560,
+          "chunk_id": "CHUNK_4ccb3f98c01e"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 22520,
+          "chunk_id": "CHUNK_35397bcbf4e4"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 23458,
+          "chunk_id": "CHUNK_9a3e24d075f0"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 24451,
+          "chunk_id": "CHUNK_b6e490fd0cb6"
+        }
+      ]
+    },
+    {
+      "id": "ROW_b0235852f369",
+      "name": "row Each group sits over one jump on the number line",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 21784,
+          "chunk_id": "CHUNK_a57e1419d475"
+        }
+      ]
+    },
+    {
+      "id": "ROW_d9f448efcf0a",
+      "name": "row aligned to jumps",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 21949,
+          "chunk_id": "CHUNK_4e16b14c66cd"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 22908,
+          "chunk_id": "CHUNK_a6f3f91fb895"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 23870,
+          "chunk_id": "CHUNK_1b69876fce4b"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 24881,
+          "chunk_id": "CHUNK_8145644f4fe9"
+        }
+      ]
+    },
+    {
+      "id": "ROW_4fbc91138f6b",
+      "name": "RowclassName  groups-row",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 21951,
+          "chunk_id": "CHUNK_5d19c4dd8fea"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 22910,
+          "chunk_id": "CHUNK_dc77f04f4e84"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 23872,
+          "chunk_id": "CHUNK_3faf7d8b4cb9"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 23954,
+          "chunk_id": "CHUNK_8eb43b8cd767"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 24883,
+          "chunk_id": "CHUNK_c14f12831d71"
+        }
+      ]
+    },
+    {
+      "id": "ROW_64da470d4971",
+      "name": "RowclassName  skip-row",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 22010,
+          "chunk_id": "CHUNK_020a1c3d9c4d"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 22967,
+          "chunk_id": "CHUNK_e080cdf3a1aa"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 23929,
+          "chunk_id": "CHUNK_5aeab916beba"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 24940,
+          "chunk_id": "CHUNK_ed0b7a802377"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 25911,
+          "chunk_id": "CHUNK_10aa84126514"
+        }
+      ]
+    },
+    {
+      "id": "ROW_afb2b4527070",
+      "name": "row so they line up with the number line jumps",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 22147,
+          "chunk_id": "CHUNK_2781b0052113"
+        }
+      ]
+    },
+    {
+      "id": "ROW_ae11f27378c3",
+      "name": "row over the line one group per jump",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 22168,
+          "chunk_id": "CHUNK_22cc9499d3c4"
+        }
+      ]
+    },
+    {
+      "id": "ROW_a31e737edff6",
+      "name": "row and have them on top of the number line so that they can see that each jump is one of those groups of six All right and then youre changing everything vertical right now It needs to be horizontal ",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 22179,
+          "chunk_id": "CHUNK_2bae44d96fbf"
+        }
+      ]
+    },
+    {
+      "id": "ROW_9ee336f54b11",
+      "name": "row Each group sits right above one jump on the number line",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 22744,
+          "chunk_id": "CHUNK_76910d18675c"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 23706,
+          "chunk_id": "CHUNK_f10d097ef263"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 24717,
+          "chunk_id": "CHUNK_b09a6c096bac"
+        }
+      ]
+    },
+    {
+      "id": "ROW_97b3a66d4d82",
+      "name": "row directly above the number line Each circle of 6 now sits over exactly one jump  no overlay mashup",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 23103,
+          "chunk_id": "CHUNK_ba6a6d15d0dd"
+        }
+      ]
+    },
+    {
+      "id": "ROW_c1bcc1e20eae",
+      "name": "row on top of the number line one group per jump",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 23116,
+          "chunk_id": "CHUNK_b665945d8e0d"
+        }
+      ]
+    },
+    {
+      "id": "ROW_9077f8e2f99e",
+      "name": "row of  like its in a table  on a row above the 6 groups of 6",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 23117,
+          "chunk_id": "CHUNK_0fe4945c042b"
+        }
+      ]
+    },
+    {
+      "id": "ROW_28d970afeb0d",
+      "name": "row and replace each one with the number 6 in a matching row of sums",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 23707,
+          "chunk_id": "CHUNK_71cabe7b0fc9"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 24718,
+          "chunk_id": "CHUNK_b0f116083bb5"
+        }
+      ]
+    },
+    {
+      "id": "ROW_23ad67481b1e",
+      "name": "row repeated addition horizontally",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 23946,
+          "chunk_id": "CHUNK_c2fdb4da40de"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 24957,
+          "chunk_id": "CHUNK_88b065d26017"
+        }
+      ]
+    },
+    {
+      "id": "ROW_1d6a9709396d",
+      "name": "RowclassName  addition-row",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 23948,
+          "chunk_id": "CHUNK_5c35e3e2bbd6"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 24959,
+          "chunk_id": "CHUNK_cc3f36f1c8a5"
+        }
+      ]
+    },
+    {
+      "id": "ROW_2ef78d09cc1e",
+      "name": "row groups laid out in one horizontal row",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 23952,
+          "chunk_id": "CHUNK_25d080b0d62a"
+        }
+      ]
+    },
+    {
+      "id": "ROW_b25658864501",
+      "name": "row 6  6  6  6  6  6  36 in one clean horizontal line",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 24093,
+          "chunk_id": "CHUNK_ba5019381017"
+        }
+      ]
+    },
+    {
+      "id": "ROW_4cd40ed295f2",
+      "name": "row 6 equal groups of 6 in one horizontal row lined up like a table right under the sum",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 24094,
+          "chunk_id": "CHUNK_ddc0dfa18a99"
+        }
+      ]
+    },
+    {
+      "id": "ROW_159fcbd38af7",
+      "name": "row of circles is the same as this row of 6s being added",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 24098,
+          "chunk_id": "CHUNK_55e10b17532b"
+        }
+      ]
+    },
+    {
+      "id": "ROW_cc8991142224",
+      "name": "row-inner ",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 24485,
+          "chunk_id": "CHUNK_00236e9c38b9"
+        }
+      ]
+    },
+    {
+      "id": "ROW_84581d82901a",
+      "name": "row label ",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 24492,
+          "chunk_id": "CHUNK_54b45159c9d6"
+        }
+      ]
+    },
+    {
+      "id": "ROW_f685bf938389",
+      "name": "row groups laid out in one horizontal row with circles",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 24963,
+          "chunk_id": "CHUNK_a4a0f854a229"
+        }
+      ]
+    },
+    {
+      "id": "ROW_c63724f146d1",
+      "name": "row-inner",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 24988,
+          "chunk_id": "CHUNK_d734f1798db9"
+        }
+      ]
+    },
+    {
+      "id": "ROW_982e24f5b3d7",
+      "name": "row 6  6  6  6  6  6  36",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 25106,
+          "chunk_id": "CHUNK_3596c05ae0b8"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 36187,
+          "chunk_id": "CHUNK_a9695bc30231"
+        }
+      ]
+    },
+    {
+      "id": "ROW_7a17e18a2e58",
+      "name": "row 6 circle groups of 6 in one horizontal row exactly lined up under each term",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 25107,
+          "chunk_id": "CHUNK_d78aeb69ec71"
+        }
+      ]
+    },
+    {
+      "id": "ROW_f0bf6b0d993e",
+      "name": "Row of circles on top one circle-group per jump all in a straight table-like row",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 25109,
+          "chunk_id": "CHUNK_05722bbc7097"
+        }
+      ]
+    },
+    {
+      "id": "ROW_d8b8669df319",
+      "name": "row directly over the landing points on the number line",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 25111,
+          "chunk_id": "CHUNK_f040b8d63937"
+        }
+      ]
+    },
+    {
+      "id": "ROW_cfe56fdff063",
+      "name": "row left  right like your image",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 25151,
+          "chunk_id": "CHUNK_95ad5648b078"
+        }
+      ]
+    },
+    {
+      "id": "ROW_b5ba89dc9540",
+      "name": "row contains paired positions",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 25153,
+          "chunk_id": "CHUNK_c6c3d5820d29"
+        }
+      ]
+    },
+    {
+      "id": "ROW_ec93b67d9fd5",
+      "name": "row  ",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 25556,
+          "chunk_id": "CHUNK_440d83c23bbe"
+        }
+      ]
+    },
+    {
+      "id": "ROW_0010e0814c53",
+      "name": "row spanhighlight ",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 25700,
+          "chunk_id": "CHUNK_ca739c758d27"
+        }
+      ]
+    },
+    {
+      "id": "ROW_ec644ac13743",
+      "name": "row spanafter ",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 25800,
+          "chunk_id": "CHUNK_dc671b872ae8"
+        }
+      ]
+    },
+    {
+      "id": "ROW_54da04a8c5f4",
+      "name": "row spanlast-childafter ",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 25803,
+          "chunk_id": "CHUNK_ea0bb8125fcf"
+        }
+      ]
+    },
+    {
+      "id": "ROW_6d60cd114295",
+      "name": "row under the line",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 25908,
+          "chunk_id": "CHUNK_3c116c4fd0b8"
+        }
+      ]
+    },
+    {
+      "id": "ROW_915920c76f6c",
+      "name": "row is one group of 6 too  commutative property hiding in the same picture",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 25960,
+          "chunk_id": "CHUNK_4a4fa09c6f7f"
+        }
+      ]
+    },
+    {
+      "id": "ROW_3f8c65eff93c",
+      "name": "row-label ",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26024,
+          "chunk_id": "CHUNK_c5d6308f6f8b"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26426,
+          "chunk_id": "CHUNK_bcfaacf1bde0"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26879,
+          "chunk_id": "CHUNK_1986f3c0e2da"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27489,
+          "chunk_id": "CHUNK_8e50a8c5de4e"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 28191,
+          "chunk_id": "CHUNK_980a13f9d9c2"
+        }
+      ]
+    },
+    {
+      "id": "ROW_3f4b38985c2f",
+      "name": "row-grid ",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26032,
+          "chunk_id": "CHUNK_f6b8340d8438"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26434,
+          "chunk_id": "CHUNK_c0867dcc2ea5"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26887,
+          "chunk_id": "CHUNK_01b8e5d8ebbd"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27497,
+          "chunk_id": "CHUNK_946f64f435cd"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 28199,
+          "chunk_id": "CHUNK_ac570d946d12"
+        }
+      ]
+    },
+    {
+      "id": "ROW_90be897d4427",
+      "name": "Row 1  repeated addition /",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26039,
+          "chunk_id": "CHUNK_5b5a35777675"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26441,
+          "chunk_id": "CHUNK_598551ccb672"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26903,
+          "chunk_id": "CHUNK_11bb5fb43827"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27536,
+          "chunk_id": "CHUNK_1dd89cd87a07"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 28238,
+          "chunk_id": "CHUNK_90f9ea3acffa"
+        }
+      ]
+    },
+    {
+      "id": "ROW_258e922f59b4",
+      "name": "Row 2  equal groups circles /",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26054,
+          "chunk_id": "CHUNK_88750c756294"
+        }
+      ]
+    },
+    {
+      "id": "ROW_f4d698d76f3d",
+      "name": "Row 3  array columns each col is 6 stacked squares /",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26090,
+          "chunk_id": "CHUNK_71e13e4e94fa"
+        }
+      ]
+    },
+    {
+      "id": "ROW_71845977f142",
+      "name": "Row 4  strip diagram bar cut into 6 equal parts /",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26108,
+          "chunk_id": "CHUNK_426cbfbe44bf"
+        }
+      ]
+    },
+    {
+      "id": "ROW_f6f4f4c653b7",
+      "name": "Row 5  number line  skip count /",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26139,
+          "chunk_id": "CHUNK_7fff46cc8505"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26554,
+          "chunk_id": "CHUNK_4fc9edf28b7d"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27040,
+          "chunk_id": "CHUNK_117628b4e30d"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27704,
+          "chunk_id": "CHUNK_522da775bd21"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 28417,
+          "chunk_id": "CHUNK_5af39f4cf9de"
+        }
+      ]
+    },
+    {
+      "id": "ROW_97c9d3427dfb",
+      "name": "row shares the bsame 6 columns/b so each position is one group of 6/div",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26200,
+          "chunk_id": "CHUNK_09190c53f1a9"
+        }
+      ]
+    },
+    {
+      "id": "ROW_dd3eae1265a1",
+      "name": "Row 1 repeated addition --",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26203,
+          "chunk_id": "CHUNK_e8bb7d141626"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26619,
+          "chunk_id": "CHUNK_9fa8664e7594"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27175,
+          "chunk_id": "CHUNK_02241f4215d8"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27801,
+          "chunk_id": "CHUNK_f2f798dd01cc"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 28514,
+          "chunk_id": "CHUNK_5f34ca434c67"
+        }
+      ]
+    },
+    {
+      "id": "ROW_35623561e0c6",
+      "name": "row-labelRepeatedbr/Addition/div",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26204,
+          "chunk_id": "CHUNK_1b1cb81128fc"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26620,
+          "chunk_id": "CHUNK_eae99c802a08"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27176,
+          "chunk_id": "CHUNK_e3a3fc7da875"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27802,
+          "chunk_id": "CHUNK_b991791157b6"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 28515,
+          "chunk_id": "CHUNK_a5183caea095"
+        }
+      ]
+    },
+    {
+      "id": "ROW_6a37bdb5fed7",
+      "name": "row-grid",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26205,
+          "chunk_id": "CHUNK_f1db8608d757"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26217,
+          "chunk_id": "CHUNK_c328dc43a732"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26225,
+          "chunk_id": "CHUNK_78e8532a7911"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26232,
+          "chunk_id": "CHUNK_c369a9c12cc3"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26246,
+          "chunk_id": "CHUNK_553ad90d23b6"
+        }
+      ]
+    },
+    {
+      "id": "ROW_3b2f8c38c5bf",
+      "name": "Row 2 equal groups --",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26215,
+          "chunk_id": "CHUNK_aaaea37a5de0"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26631,
+          "chunk_id": "CHUNK_5c6ddeafff6c"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27179,
+          "chunk_id": "CHUNK_0fad49b91400"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27805,
+          "chunk_id": "CHUNK_df0ec4d760e4"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 28518,
+          "chunk_id": "CHUNK_90bbc98aa6d1"
+        }
+      ]
+    },
+    {
+      "id": "ROW_d4f8ec771af9",
+      "name": "row-labelEqualbr/Groups/div",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26216,
+          "chunk_id": "CHUNK_736cdcff25db"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26632,
+          "chunk_id": "CHUNK_c2d73e975073"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27180,
+          "chunk_id": "CHUNK_9b4eee820c1f"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27806,
+          "chunk_id": "CHUNK_f3e4528e572e"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 28519,
+          "chunk_id": "CHUNK_5b8e149761a2"
+        }
+      ]
+    },
+    {
+      "id": "ROW_7fa8c4a3d208",
+      "name": "Row 3 array read as columns --",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26223,
+          "chunk_id": "CHUNK_a460c3a57bd9"
+        }
+      ]
+    },
+    {
+      "id": "ROW_a4d2bf586e24",
+      "name": "row-labelArraybr/Cols/div",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26224,
+          "chunk_id": "CHUNK_681ed12fd7a8"
+        }
+      ]
+    },
+    {
+      "id": "ROW_667392673bdc",
+      "name": "Row 4 strip diagram --",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26230,
+          "chunk_id": "CHUNK_99d4dcb415b2"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26643,
+          "chunk_id": "CHUNK_4af54a79af7e"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27192,
+          "chunk_id": "CHUNK_8d3270299259"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27818,
+          "chunk_id": "CHUNK_914f597824ea"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 28531,
+          "chunk_id": "CHUNK_822a721c1e80"
+        }
+      ]
+    },
+    {
+      "id": "ROW_d62a7fc8d621",
+      "name": "row-labelStripbr/Diagram/div",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26231,
+          "chunk_id": "CHUNK_724825771e1b"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26644,
+          "chunk_id": "CHUNK_879bbd419b1c"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27193,
+          "chunk_id": "CHUNK_94995c272ace"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27819,
+          "chunk_id": "CHUNK_52695e5a6306"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 28532,
+          "chunk_id": "CHUNK_87a80c804deb"
+        }
+      ]
+    },
+    {
+      "id": "ROW_96d9b8452680",
+      "name": "Row 5 number line  skip count --",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26244,
+          "chunk_id": "CHUNK_bb5e7baf848e"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26657,
+          "chunk_id": "CHUNK_bff0dfb58095"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27206,
+          "chunk_id": "CHUNK_ddccc2fdd777"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27832,
+          "chunk_id": "CHUNK_1dc254a12f8f"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 28545,
+          "chunk_id": "CHUNK_a766e27e053c"
+        }
+      ]
+    },
+    {
+      "id": "ROW_d8ec7e2334dc",
+      "name": "row-labelNumberbr/Line/div",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26245,
+          "chunk_id": "CHUNK_da0d4fb2fb54"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26658,
+          "chunk_id": "CHUNK_484186cb1d47"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27207,
+          "chunk_id": "CHUNK_bec529cec2f2"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27833,
+          "chunk_id": "CHUNK_eab02662c344"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 28546,
+          "chunk_id": "CHUNK_6c1851e52407"
+        }
+      ]
+    },
+    {
+      "id": "ROW_476c50f19410",
+      "name": "row/div",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26249,
+          "chunk_id": "CHUNK_9fb6bdf4ea14"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26662,
+          "chunk_id": "CHUNK_a152fc6d1da7"
+        }
+      ]
+    },
+    {
+      "id": "ROW_50d02000cf4d",
+      "name": "Row  documentquerySelectorskip-row",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26286,
+          "chunk_id": "CHUNK_f0b0c5f4a221"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26703,
+          "chunk_id": "CHUNK_79e2f50aa334"
+        }
+      ]
+    },
+    {
+      "id": "ROW_8316c5a4f58a",
+      "name": "row uses that same grid-template-columns repeat6 1fr",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26333,
+          "chunk_id": "CHUNK_880dd96e5bec"
+        }
+      ]
+    },
+    {
+      "id": "ROW_6811653a7138",
+      "name": "row / which lane and Ill tighten it again",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26364,
+          "chunk_id": "CHUNK_e1c90d60a4d4"
+        }
+      ]
+    },
+    {
+      "id": "ROW_192c985b17e2",
+      "name": "Row 2  equal groups /",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26455,
+          "chunk_id": "CHUNK_f32b1ea7865a"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26918,
+          "chunk_id": "CHUNK_356f7f8a12b2"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27562,
+          "chunk_id": "CHUNK_24a7e757aa40"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 28264,
+          "chunk_id": "CHUNK_14a3f635ad7f"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 29004,
+          "chunk_id": "CHUNK_b04b46ec98c0"
+        }
+      ]
+    },
+    {
+      "id": "ROW_67cdbf9289ca",
+      "name": "Row 3  combined array  area model 66 /",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26489,
+          "chunk_id": "CHUNK_0de79188e2dd"
+        }
+      ]
+    },
+    {
+      "id": "ROW_fd18a092c199",
+      "name": "Row 4  strip diagram /",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26525,
+          "chunk_id": "CHUNK_85fc59a315b6"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27009,
+          "chunk_id": "CHUNK_0590384d20fb"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27669,
+          "chunk_id": "CHUNK_5b115108c706"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 28382,
+          "chunk_id": "CHUNK_877340551d9a"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 29122,
+          "chunk_id": "CHUNK_3ff884c29a4f"
+        }
+      ]
+    },
+    {
+      "id": "ROW_efcdeb9f8fe9",
+      "name": "row still uses the same 6 vertical lanes  now the array is a true 66 area model with one dot per square",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26615,
+          "chunk_id": "CHUNK_c3c816d25f68"
+        }
+      ]
+    },
+    {
+      "id": "ROW_5d6323f950c3",
+      "name": "row-grid idgroupsRow/div",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26633,
+          "chunk_id": "CHUNK_c193017ad4e1"
+        }
+      ]
+    },
+    {
+      "id": "ROW_13923a8a0bb0",
+      "name": "Row 3 array  area model combined --",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26635,
+          "chunk_id": "CHUNK_56bb7805d5a9"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27183,
+          "chunk_id": "CHUNK_1d27ee61a306"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27809,
+          "chunk_id": "CHUNK_c1f47edd802d"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 28522,
+          "chunk_id": "CHUNK_d735728561b8"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 29262,
+          "chunk_id": "CHUNK_38c2322bc928"
+        }
+      ]
+    },
+    {
+      "id": "ROW_2cf4d3eea029",
+      "name": "row-labelArraybr/amp Area/div",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26636,
+          "chunk_id": "CHUNK_85dbac23487f"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27184,
+          "chunk_id": "CHUNK_575d4efcc879"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27810,
+          "chunk_id": "CHUNK_43fcf979d2c1"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 28523,
+          "chunk_id": "CHUNK_0d859fc24ac2"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 29263,
+          "chunk_id": "CHUNK_04d77594191a"
+        }
+      ]
+    },
+    {
+      "id": "ROW_a4b3ba02b7a3",
+      "name": "row the 6 vertical columns of squares line up with the 6 lanes above and below",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26668,
+          "chunk_id": "CHUNK_afbf7a05e850"
+        }
+      ]
+    },
+    {
+      "id": "ROW_0920e2b49180",
+      "name": "row of the 66 grid",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26669,
+          "chunk_id": "CHUNK_57f2004a0a85"
+        }
+      ]
+    },
+    {
+      "id": "ROW_563e0616c3c1",
+      "name": "row really does need to be a true 66 area model with dots not just stacked bars The vertical lane idea only works if the picture is honest",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26748,
+          "chunk_id": "CHUNK_5c69f228ab83"
+        }
+      ]
+    },
+    {
+      "id": "ROW_504ea6e8aafc",
+      "name": "row is now a 66 grid of squares each with a dot centered inside",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26752,
+          "chunk_id": "CHUNK_135bbd0d23f3"
+        }
+      ]
+    },
+    {
+      "id": "ROW_2298208409a0",
+      "name": "row still has 6 circle groups with 6 dots each",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26754,
+          "chunk_id": "CHUNK_65a21ebec181"
+        }
+      ]
+    },
+    {
+      "id": "ROW_10317b60ccaa",
+      "name": "Row 3  array  area model combined /",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26957,
+          "chunk_id": "CHUNK_c12d93df0888"
+        }
+      ]
+    },
+    {
+      "id": "ROW_ed6a0d4f0da0",
+      "name": "Row 35  array collapsed into six 6s /",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 26992,
+          "chunk_id": "CHUNK_4fdce6de6a35"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27634,
+          "chunk_id": "CHUNK_97868001592a"
+        }
+      ]
+    },
+    {
+      "id": "ROW_1420ce5a8e18",
+      "name": "row-add  opacity 1 ",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27090,
+          "chunk_id": "CHUNK_9a924cc40316"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27097,
+          "chunk_id": "CHUNK_d697046320fd"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27513,
+          "chunk_id": "CHUNK_6b8182b92605"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 28215,
+          "chunk_id": "CHUNK_63d8f3e62ed1"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 28955,
+          "chunk_id": "CHUNK_df8e0a13bb2e"
+        }
+      ]
+    },
+    {
+      "id": "ROW_b0603edadc04",
+      "name": "row-groups",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27091,
+          "chunk_id": "CHUNK_678e4f16d644"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27506,
+          "chunk_id": "CHUNK_260654279a53"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27514,
+          "chunk_id": "CHUNK_463c63af24ec"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 28208,
+          "chunk_id": "CHUNK_cd0f424e684d"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 28216,
+          "chunk_id": "CHUNK_3957200a67a6"
+        }
+      ]
+    },
+    {
+      "id": "ROW_a19f5cb3716d",
+      "name": "row-array",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27092,
+          "chunk_id": "CHUNK_a50187517ad7"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27099,
+          "chunk_id": "CHUNK_ab7415c029fd"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27507,
+          "chunk_id": "CHUNK_36d79f087569"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27515,
+          "chunk_id": "CHUNK_1c29031e2893"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27521,
+          "chunk_id": "CHUNK_2d94f5efc283"
+        }
+      ]
+    },
+    {
+      "id": "ROW_47331755e1d6",
+      "name": "row-strip",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27093,
+          "chunk_id": "CHUNK_bcdece61233e"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27100,
+          "chunk_id": "CHUNK_71baa0fff0b4"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27508,
+          "chunk_id": "CHUNK_da4af776dd49"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27516,
+          "chunk_id": "CHUNK_bc7c5ab47378"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27522,
+          "chunk_id": "CHUNK_14647b36e551"
+        }
+      ]
+    },
+    {
+      "id": "ROW_ba2a3b5fd83c",
+      "name": "row-nl  opacity 025 ",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27094,
+          "chunk_id": "CHUNK_9004bf8c1130"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27517,
+          "chunk_id": "CHUNK_49abf07ff8f0"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 28219,
+          "chunk_id": "CHUNK_c0a1db0b9c05"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 28959,
+          "chunk_id": "CHUNK_ef5a669489c6"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 29764,
+          "chunk_id": "CHUNK_8dd4a00af9ca"
+        }
+      ]
+    },
+    {
+      "id": "ROW_2cf7ec52c86f",
+      "name": "row-groups  opacity 1 ",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27098,
+          "chunk_id": "CHUNK_10fa29a4f83a"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27520,
+          "chunk_id": "CHUNK_be57af082d9e"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 28222,
+          "chunk_id": "CHUNK_f6e92220a73f"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 28962,
+          "chunk_id": "CHUNK_08783e9d9469"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 29767,
+          "chunk_id": "CHUNK_1e64e44ae241"
+        }
+      ]
+    },
+    {
+      "id": "ROW_55ccbcce7685",
+      "name": "row-nl  opacity 035 ",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27101,
+          "chunk_id": "CHUNK_2733f7c6abae"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27523,
+          "chunk_id": "CHUNK_4bed051b8ef9"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 28225,
+          "chunk_id": "CHUNK_278aafe76a07"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 28965,
+          "chunk_id": "CHUNK_b6153f8909e3"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 29770,
+          "chunk_id": "CHUNK_9f7aa9fe0d82"
+        }
+      ]
+    },
+    {
+      "id": "ROW_8424d1b2cade",
+      "name": "row-array  opacity 1 ",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27115,
+          "chunk_id": "CHUNK_396ff0bd1b09"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27525,
+          "chunk_id": "CHUNK_f9bfe9b4b4f6"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27529,
+          "chunk_id": "CHUNK_af9360c5cc4c"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 28227,
+          "chunk_id": "CHUNK_2ce0c2139846"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 28231,
+          "chunk_id": "CHUNK_3e69dca62e84"
+        }
+      ]
+    },
+    {
+      "id": "ROW_bc99c7ec5505",
+      "name": "row-add",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27116,
+          "chunk_id": "CHUNK_b73b92f60adf"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27505,
+          "chunk_id": "CHUNK_7e88c5b7e6f1"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27519,
+          "chunk_id": "CHUNK_b391590ee3a8"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27526,
+          "chunk_id": "CHUNK_d860617d1226"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 28207,
+          "chunk_id": "CHUNK_43fa13077e37"
+        }
+      ]
+    },
+    {
+      "id": "ROW_d65710b701f9",
+      "name": "row-groups  opacity 06 ",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27117,
+          "chunk_id": "CHUNK_5be0c08c9639"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27527,
+          "chunk_id": "CHUNK_65cd6879886e"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 28229,
+          "chunk_id": "CHUNK_b7955f2e416b"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 28969,
+          "chunk_id": "CHUNK_a001c1e76a38"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 29774,
+          "chunk_id": "CHUNK_af22ce58213f"
+        }
+      ]
+    },
+    {
+      "id": "ROW_cba70bab1da1",
+      "name": "row brighten /",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27136,
+          "chunk_id": "CHUNK_d69ef7a5fef1"
+        }
+      ]
+    },
+    {
+      "id": "ROW_aef0a2160458",
+      "name": "row-grid row-add idaddRow/div",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27177,
+          "chunk_id": "CHUNK_3cce6d7eafd4"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27803,
+          "chunk_id": "CHUNK_f7753f88ba88"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 28516,
+          "chunk_id": "CHUNK_1581ef8bec2f"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 29256,
+          "chunk_id": "CHUNK_1c39ef27289a"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 30045,
+          "chunk_id": "CHUNK_0247cf51bbdc"
+        }
+      ]
+    },
+    {
+      "id": "ROW_d537bd76a9ed",
+      "name": "row-grid row-groups idgroupsRow/div",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27181,
+          "chunk_id": "CHUNK_fe99b10b1971"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27807,
+          "chunk_id": "CHUNK_b0c6d72d69b2"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 28520,
+          "chunk_id": "CHUNK_4fab519228f2"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 29260,
+          "chunk_id": "CHUNK_bd23bb7f399c"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 30049,
+          "chunk_id": "CHUNK_ce4847aed699"
+        }
+      ]
+    },
+    {
+      "id": "ROW_fdf2e9acbf05",
+      "name": "row-grid row-array",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27185,
+          "chunk_id": "CHUNK_5c0bf8f9d9f0"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27811,
+          "chunk_id": "CHUNK_0fb3f969c3cb"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 28524,
+          "chunk_id": "CHUNK_8268dd64adc9"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 29264,
+          "chunk_id": "CHUNK_2622dd9b02a3"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 30053,
+          "chunk_id": "CHUNK_2038e04c619e"
+        }
+      ]
+    },
+    {
+      "id": "ROW_0b6ad885a26e",
+      "name": "row idarraySixRow/div",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27189,
+          "chunk_id": "CHUNK_2c77bb28e915"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27815,
+          "chunk_id": "CHUNK_ff1ed0322f31"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 28528,
+          "chunk_id": "CHUNK_f306d0c19eae"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 29268,
+          "chunk_id": "CHUNK_db82d1dc7ac7"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 30057,
+          "chunk_id": "CHUNK_ef6066318173"
+        }
+      ]
+    },
+    {
+      "id": "ROW_b366f9f1f5db",
+      "name": "row-grid row-strip",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27194,
+          "chunk_id": "CHUNK_a9a0c0e91877"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27820,
+          "chunk_id": "CHUNK_331678c321e3"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 28533,
+          "chunk_id": "CHUNK_5ab0dca17f2f"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 29273,
+          "chunk_id": "CHUNK_22122ed27ebb"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 30062,
+          "chunk_id": "CHUNK_8b3d58a0884c"
+        }
+      ]
+    },
+    {
+      "id": "ROW_dbd2a69b7100",
+      "name": "row-grid row-nl",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27208,
+          "chunk_id": "CHUNK_5bf4e5f52de1"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27834,
+          "chunk_id": "CHUNK_90f9a33a4d6a"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 28547,
+          "chunk_id": "CHUNK_c8e3a64e92b6"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 29287,
+          "chunk_id": "CHUNK_14280ca7b177"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 30076,
+          "chunk_id": "CHUNK_95809807d568"
+        }
+      ]
+    },
+    {
+      "id": "ROW_867d89196056",
+      "name": "row idskipRow/div",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27211,
+          "chunk_id": "CHUNK_cfdcce8ed3e5"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27837,
+          "chunk_id": "CHUNK_b8485475982a"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 28550,
+          "chunk_id": "CHUNK_211bf2d38171"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 29290,
+          "chunk_id": "CHUNK_db65f1afa9a3"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 30079,
+          "chunk_id": "CHUNK_e1e651953abd"
+        }
+      ]
+    },
+    {
+      "id": "ROW_1b0bbf66fdb7",
+      "name": "Row of 6s under the array array collapsed",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27268,
+          "chunk_id": "CHUNK_0820c616bb6f"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27909,
+          "chunk_id": "CHUNK_a1541b4e62ce"
+        }
+      ]
+    },
+    {
+      "id": "ROW_df978be486da",
+      "name": "row of six 6s appears under the array  one under each column  showing this whole column is 6",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27391,
+          "chunk_id": "CHUNK_839f41e1d9ab"
+        }
+      ]
+    },
+    {
+      "id": "ROW_8cd25b4d8349",
+      "name": "row brighten with the 6 12 18 24 30 36 landings in the exact same 6 lanes",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27395,
+          "chunk_id": "CHUNK_65fa5931510b"
+        }
+      ]
+    },
+    {
+      "id": "ROW_2b6f6e1223c9",
+      "name": "row also brightens so you can read each segment as one group of 6 too",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27396,
+          "chunk_id": "CHUNK_29f4f88acba0"
+        }
+      ]
+    },
+    {
+      "id": "ROW_4a119ed548c7",
+      "name": "row-nl ",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27509,
+          "chunk_id": "CHUNK_762626cc9c5c"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 28211,
+          "chunk_id": "CHUNK_db251f52349c"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 28951,
+          "chunk_id": "CHUNK_19bee35b70f1"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 29756,
+          "chunk_id": "CHUNK_593d25a678c0"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 30667,
+          "chunk_id": "CHUNK_bdca09a9ea69"
+        }
+      ]
+    },
+    {
+      "id": "ROW_30a76c4aa2df",
+      "name": "row-nl  opacity 05 ",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27531,
+          "chunk_id": "CHUNK_575d9ce99e09"
+        }
+      ]
+    },
+    {
+      "id": "ROW_cd9be9736bde",
+      "name": "row-nl  opacity 1 ",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27534,
+          "chunk_id": "CHUNK_bb70acfc6831"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 28236,
+          "chunk_id": "CHUNK_3507d5c07e8c"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 28976,
+          "chunk_id": "CHUNK_d5b4bfe506fd"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 29781,
+          "chunk_id": "CHUNK_e49ddfb159dd"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 30692,
+          "chunk_id": "CHUNK_afff3637d031"
+        }
+      ]
+    },
+    {
+      "id": "ROW_9b61e25d8b8e",
+      "name": "Row 3  combined array  area model /",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 27599,
+          "chunk_id": "CHUNK_92c4a18d4cc3"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 28301,
+          "chunk_id": "CHUNK_6c92152049ca"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 29041,
+          "chunk_id": "CHUNK_79ae89180c26"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 29844,
+          "chunk_id": "CHUNK_f2b4072d932a"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 30755,
+          "chunk_id": "CHUNK_ffafb60cc302"
+        }
+      ]
+    },
+    {
+      "id": "ROW_350bd823d46d",
+      "name": "row with staggered timing so it feels alive",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 28096,
+          "chunk_id": "CHUNK_b84709863e15"
+        }
+      ]
+    },
+    {
+      "id": "ROW_3eae1a6e3dbe",
+      "name": "row-nl  opacity 055 ",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 28233,
+          "chunk_id": "CHUNK_719fd21ac912"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 28973,
+          "chunk_id": "CHUNK_20d0d8adabcf"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 29778,
+          "chunk_id": "CHUNK_82064538df02"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 30689,
+          "chunk_id": "CHUNK_e111200e3edd"
+        }
+      ]
+    },
+    {
+      "id": "ROW_78f05a0f8502",
+      "name": "Row 35  array collapsed into six 6s with count-up /",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 28336,
+          "chunk_id": "CHUNK_c918903943d1"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 29076,
+          "chunk_id": "CHUNK_e87b7b80f504"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 29879,
+          "chunk_id": "CHUNK_cbfc96ee4592"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 30790,
+          "chunk_id": "CHUNK_4913f99de75c"
+        }
+      ]
+    },
+    {
+      "id": "ROW_f5819f0be786",
+      "name": "Row of 6s under the array array collapsed  countup spans",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 28622,
+          "chunk_id": "CHUNK_20af63c996e4"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 29361,
+          "chunk_id": "CHUNK_f653a3e9d518"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 30150,
+          "chunk_id": "CHUNK_31b2d8f7a7b5"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 31088,
+          "chunk_id": "CHUNK_f4b0801d1863"
+        }
+      ]
+    },
+    {
+      "id": "ROW_9f7ddccc5dd2",
+      "name": "row each spot shows a little counter over it going 0123456 then the final 6 stays",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 28837,
+          "chunk_id": "CHUNK_1b01cfc64b8b"
+        }
+      ]
+    },
+    {
+      "id": "ROW_8e3e17dba1f7",
+      "name": "row of the dots in the arrays actually showed up and landed They all need to land to fill in the 36 dots and they arent and there needs to be like a ten-second processing before then they move down an",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 28845,
+          "chunk_id": "CHUNK_03fe9a9f6bfe"
+        }
+      ]
+    },
+    {
+      "id": "ROW_002c3751af8e",
+      "name": "row r col lane",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 29494,
+          "chunk_id": "CHUNK_41b8bc865ba5"
+        }
+      ]
+    },
+    {
+      "id": "ROW_0242d1d5c2b0",
+      "name": "row/column",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 29638,
+          "chunk_id": "CHUNK_b77f9a1e29d8"
+        }
+      ]
+    },
+    {
+      "id": "ROW_35be18db84fd",
+      "name": "row of six 6s appears underneath each with a 06 count-up above it as the dots conceptually re-form into 6s",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 29640,
+          "chunk_id": "CHUNK_c67a29e3c2b9"
+        }
+      ]
+    },
+    {
+      "id": "ROW_d37dfadf9a03",
+      "name": "row of the array And then the last two things are just uncovered Nothing really happens to them And I want you know the dots to move down there and become six And then itd be great if they turned back",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 29651,
+          "chunk_id": "CHUNK_8b0c40185f98"
+        }
+      ]
+    },
+    {
+      "id": "ROW_bd62a17b79ed",
+      "name": "row  0 row  6 row ",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 30293,
+          "chunk_id": "CHUNK_e60468f91904"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 30338,
+          "chunk_id": "CHUNK_d0b7a51add83"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 31249,
+          "chunk_id": "CHUNK_e8602fec549e"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 31290,
+          "chunk_id": "CHUNK_8fb6f4b4aa75"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 32702,
+          "chunk_id": "CHUNK_91f1a13acf75"
+        }
+      ]
+    },
+    {
+      "id": "ROW_6a8aaab31784",
+      "name": "row  120  lane  60",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 30297,
+          "chunk_id": "CHUNK_82e477f24873"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 31253,
+          "chunk_id": "CHUNK_5e4d67538443"
+        }
+      ]
+    },
+    {
+      "id": "ROW_ce67301535bc",
+      "name": "row  6  col",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 30339,
+          "chunk_id": "CHUNK_189c92f9df08"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 31291,
+          "chunk_id": "CHUNK_4b95583df7a5"
+        }
+      ]
+    },
+    {
+      "id": "ROW_beb6596dd127",
+      "name": "row  120",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 30346,
+          "chunk_id": "CHUNK_7594a59c9d2f"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 31298,
+          "chunk_id": "CHUNK_5fbfd85c2ae6"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 32710,
+          "chunk_id": "CHUNK_e518817ed5e9"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 32747,
+          "chunk_id": "CHUNK_b82208c23b26"
+        }
+      ]
+    },
+    {
+      "id": "ROW_59b8b0e85095",
+      "name": "row no duplicates",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 30535,
+          "chunk_id": "CHUNK_cd0b9d073a13"
+        }
+      ]
+    },
+    {
+      "id": "ROW_3096384ad658",
+      "name": "Row 5  number line  skip count  bottom 6s /",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 30865,
+          "chunk_id": "CHUNK_127f736f9ac9"
+        }
+      ]
+    },
+    {
+      "id": "ROW_0f8831d96e51",
+      "name": "Row 5 number line  skip count  6s --",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 31011,
+          "chunk_id": "CHUNK_db22ff53ebf9"
+        }
+      ]
+    },
+    {
+      "id": "ROW_4e902ae9de8a",
+      "name": "row idnlSixRow/div",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 31017,
+          "chunk_id": "CHUNK_77c8bab3428f"
+        }
+      ]
+    },
+    {
+      "id": "ROW_c86196656d09",
+      "name": "row  bottom 6s",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 31105,
+          "chunk_id": "CHUNK_cadaf9709a65"
+        }
+      ]
+    },
+    {
+      "id": "ROW_12e3263915d8",
+      "name": "row now sends six separate travel dots and each one targets one specific mini-dot spot inside the circle",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 31511,
+          "chunk_id": "CHUNK_eb3481cb4197"
+        }
+      ]
+    },
+    {
+      "id": "ROW_b11ede40c416",
+      "name": "row of six 6 slots",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 31516,
+          "chunk_id": "CHUNK_d81170eb89b1"
+        }
+      ]
+    },
+    {
+      "id": "ROW_5df25be88025",
+      "name": "row no missing dots",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 31527,
+          "chunk_id": "CHUNK_ac5d919c28d9"
+        }
+      ]
+    },
+    {
+      "id": "ROW_3d6859574c63",
+      "name": "row of 6s grow from 0 to 6 once the dots arrive at the number line",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 31528,
+          "chunk_id": "CHUNK_bc660e9e34b1"
+        }
+      ]
+    },
+    {
+      "id": "ROW_218cb5ae1df8",
+      "name": "row  y-position",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 31602,
+          "chunk_id": "CHUNK_6300e95c429d"
+        }
+      ]
+    },
+    {
+      "id": "ROW_f62b90d0a9f8",
+      "name": "Row labels --",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 32130,
+          "chunk_id": "CHUNK_ec6ff4827410"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 35815,
+          "chunk_id": "CHUNK_3621dc01a045"
+        }
+      ]
+    },
+    {
+      "id": "ROW_ffa9ba591458",
+      "name": "row-label x32 y90Repeated addition/text",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 32132,
+          "chunk_id": "CHUNK_ad9a17b36d1a"
+        }
+      ]
+    },
+    {
+      "id": "ROW_3a30a1d0fb81",
+      "name": "row-label x32 y170Equal groups/text",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 32133,
+          "chunk_id": "CHUNK_c920595d1697"
+        }
+      ]
+    },
+    {
+      "id": "ROW_544f285092e6",
+      "name": "row-label x32 y270Array amp area/text",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 32134,
+          "chunk_id": "CHUNK_b18d968477bf"
+        }
+      ]
+    },
+    {
+      "id": "ROW_65b443e6e928",
+      "name": "row-label x32 y360Strip diagram/text",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 32135,
+          "chunk_id": "CHUNK_b55f32195cd9"
+        }
+      ]
+    },
+    {
+      "id": "ROW_4d4221c5f52a",
+      "name": "row-label x32 y440Number line amp skip count/text",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 32136,
+          "chunk_id": "CHUNK_d7b8516fcdbf"
+        }
+      ]
+    },
+    {
+      "id": "ROW_c45301a6e639",
+      "name": "row top --",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 32151,
+          "chunk_id": "CHUNK_f82abf617aa2"
+        }
+      ]
+    },
+    {
+      "id": "ROW_c1c650f7ab51",
+      "name": "row circles with 6 dot slots --",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 32166,
+          "chunk_id": "CHUNK_33a0fc910536"
+        }
+      ]
+    },
+    {
+      "id": "ROW_acda04583bde",
+      "name": "row 05 --",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 32269,
+          "chunk_id": "CHUNK_b15b6b83a478"
+        }
+      ]
+    },
+    {
+      "id": "ROW_195dc1098774",
+      "name": "row --",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 32282,
+          "chunk_id": "CHUNK_851d315dc9c4"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 32309,
+          "chunk_id": "CHUNK_69b9bde00b09"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 32321,
+          "chunk_id": "CHUNK_f18117f029ad"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 33642,
+          "chunk_id": "CHUNK_e53ea358b772"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 34410,
+          "chunk_id": "CHUNK_104400df2325"
+        }
+      ]
+    },
+    {
+      "id": "ROW_523fbcf49f1a",
+      "name": "row-numberline",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 32310,
+          "chunk_id": "CHUNK_247445755607"
+        }
+      ]
+    },
+    {
+      "id": "ROW_b7976b16518f",
+      "name": "row transformtranslate140 458",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 32322,
+          "chunk_id": "CHUNK_e15c498ae2e4"
+        }
+      ]
+    },
+    {
+      "id": "ROW_0b173ea97f9d",
+      "name": "row of 6s --",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 32325,
+          "chunk_id": "CHUNK_a83cebac9e2e"
+        }
+      ]
+    },
+    {
+      "id": "ROW_b2742c9c3ea7",
+      "name": "row transformtranslate140 486",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 32326,
+          "chunk_id": "CHUNK_aeec9fe74f1b"
+        }
+      ]
+    },
+    {
+      "id": "ROW_b418ebddc352",
+      "name": "row NL six row",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 32422,
+          "chunk_id": "CHUNK_4fb05a8e56e0"
+        }
+      ]
+    },
+    {
+      "id": "ROW_7fe18f31f18b",
+      "name": "row values",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 32461,
+          "chunk_id": "CHUNK_dd66b7c64df7"
+        }
+      ]
+    },
+    {
+      "id": "ROW_178c67892724",
+      "name": "Row  documentgetElementByIdgroupsRow  documentgetElementByIdrow-groups",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 32689,
+          "chunk_id": "CHUNK_f25e170f2d1b"
+        }
+      ]
+    },
+    {
+      "id": "ROW_0719292d0a0c",
+      "name": "row  6  lane",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 32703,
+          "chunk_id": "CHUNK_b1bdbec8ab37"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 32739,
+          "chunk_id": "CHUNK_ece3df5ab89a"
+        }
+      ]
+    },
+    {
+      "id": "ROW_0ba04b410c98",
+      "name": "row  30",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 32714,
+          "chunk_id": "CHUNK_ef1e85a9396c"
+        }
+      ]
+    },
+    {
+      "id": "ROW_e83d7c5f0984",
+      "name": "row  25",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 32752,
+          "chunk_id": "CHUNK_617f848d3bd0"
+        }
+      ]
+    },
+    {
+      "id": "ROW_be96898b4c07",
+      "name": "row then count-up on bottom 6s",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 32817,
+          "chunk_id": "CHUNK_0aeef48ae248"
+        }
+      ]
+    },
+    {
+      "id": "ROW_44f87dcb4674",
+      "name": "row of six 6s",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 32868,
+          "chunk_id": "CHUNK_7cce06870a4a"
+        }
+      ]
+    },
+    {
+      "id": "ROW_415b96a5223b",
+      "name": "row of 6s counts up 06",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 32926,
+          "chunk_id": "CHUNK_e2261b9e0f8a"
+        }
+      ]
+    },
+    {
+      "id": "ROW_9e52ee720d9e",
+      "name": "row y  100 --",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 33120,
+          "chunk_id": "CHUNK_3f67328a2f03"
+        }
+      ]
+    },
+    {
+      "id": "ROW_10f2cdfa4c0a",
+      "name": "row six columns of numbers",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 33254,
+          "chunk_id": "CHUNK_fbf7e3ba7609"
+        }
+      ]
+    },
+    {
+      "id": "ROW_5c7674df44fb",
+      "name": "row  Mathfloori / 6",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 33256,
+          "chunk_id": "CHUNK_53ee32178f7c"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 33784,
+          "chunk_id": "CHUNK_da7957cbaa4b"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 34556,
+          "chunk_id": "CHUNK_a972b83bd8e3"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 35071,
+          "chunk_id": "CHUNK_d86ad2d3387e"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 35344,
+          "chunk_id": "CHUNK_30ae7931e681"
+        }
+      ]
+    },
+    {
+      "id": "ROW_e27b9715912a",
+      "name": "row  10",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 33258,
+          "chunk_id": "CHUNK_dab7fd66a53c"
+        }
+      ]
+    },
+    {
+      "id": "ROW_54382caeaa20",
+      "name": "row only",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 33287,
+          "chunk_id": "CHUNK_65ba2a58efe2"
+        }
+      ]
+    },
+    {
+      "id": "ROW_98d00961a9d9",
+      "name": "row within column",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 33309,
+          "chunk_id": "CHUNK_effb257ace67"
+        }
+      ]
+    },
+    {
+      "id": "ROW_2faa884bdf4b",
+      "name": "row already in 6 columns",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 33440,
+          "chunk_id": "CHUNK_0aea53b74805"
+        }
+      ]
+    },
+    {
+      "id": "ROW_70339e28bd57",
+      "name": "row  12",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 33786,
+          "chunk_id": "CHUNK_31a2c3efc449"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 34558,
+          "chunk_id": "CHUNK_2962875b7a2b"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 35073,
+          "chunk_id": "CHUNK_843c59bc3d48"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 35346,
+          "chunk_id": "CHUNK_a0231b71ff66"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 35418,
+          "chunk_id": "CHUNK_3f9bc8a467bf"
+        }
+      ]
+    },
+    {
+      "id": "ROW_3844a1b14363",
+      "name": "row before the strip numbers fade in",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 34033,
+          "chunk_id": "CHUNK_eb39a442b84e"
+        }
+      ]
+    },
+    {
+      "id": "ROW_e1a6d872c11a",
+      "name": "row of 6s appears under the jumps",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 34037,
+          "chunk_id": "CHUNK_3092b21b4fb6"
+        }
+      ]
+    },
+    {
+      "id": "ROW_3a97b74e0a44",
+      "name": "row 6 groups of 6 6 rows of 6 etc",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 34056,
+          "chunk_id": "CHUNK_a7effc69e5dc"
+        }
+      ]
+    },
+    {
+      "id": "ROW_a8e5f4750b46",
+      "name": "row stacked above text",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 35937,
+          "chunk_id": "CHUNK_6f94a7ee162e"
+        }
+      ]
+    },
+    {
+      "id": "ROW_418cbe475ea8",
+      "name": "row  Mathfloori / COL_COUNT",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 35949,
+          "chunk_id": "CHUNK_50bc129d614c"
+        }
+      ]
+    },
+    {
+      "id": "ROW_d7af475a1249",
+      "name": "row  8 // tall vertical stacks",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 35951,
+          "chunk_id": "CHUNK_9c46c0d2a6fe"
+        }
+      ]
+    },
+    {
+      "id": "ROW_cd53d0814182",
+      "name": "row  0 row  ROW_COUNT row ",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 35979,
+          "chunk_id": "CHUNK_b220deb8769f"
+        }
+      ]
+    },
+    {
+      "id": "ROW_62802e3e7972",
+      "name": "row  COL_COUNT",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 35981,
+          "chunk_id": "CHUNK_f887a951cdba"
+        }
+      ]
+    },
+    {
+      "id": "ROW_e70181ddf6af",
+      "name": "row  cellH",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 35983,
+          "chunk_id": "CHUNK_3e4aae285e54"
+        }
+      ]
+    },
+    {
+      "id": "ROW_663e18e0cc86",
+      "name": "row/segment",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 36176,
+          "chunk_id": "CHUNK_ecd72396b9ce"
+        }
+      ]
+    },
+    {
+      "id": "ROW_5b4ff7fe1b62",
+      "name": "row single group prime arrays",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 38283,
+          "chunk_id": "CHUNK_664115e4811c"
+        }
+      ]
+    },
+    {
+      "id": "ROW_123bbe599446",
+      "name": "row aligned exactly over the array columns",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-043_(27-chats).jsonl",
+          "chat_id": "69275168-0a9c-832c-86a4-d45fd414f2c7",
+          "line": 39415,
+          "chunk_id": "CHUNK_e6f353526564"
+        }
+      ]
+    }
+  ],
+  "pipelines": [
+    {
+      "id": "PIPE_ed1b9b2477fe",
+      "name": "GapPipelineEngine  fielddefault_factoryGapPipelineEngine",
+      "evidence": [
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-045_(29-chats).jsonl",
+          "chat_id": "69261348-7fbc-8327-a8ad-6a6e039c333f",
+          "line": 14120,
+          "chunk_id": "CHUNK_2114a7aaf813"
+        },
+        {
+          "member_path": "2026-01-12_MetaBrain_batch-045_(29-chats).jsonl",
+          "chat_id": "69261348-7fbc-8327-a8ad-6a6e039c333f",
+          "line": 14231,
+          "chunk_id": "CHUNK_a6fd95685847"
+        }
+      ]
+    }
+  ],
+  "notes": "LIGHT mode stores up to 5 evidence refs per ROW/pipeline; no excerpts."
+}

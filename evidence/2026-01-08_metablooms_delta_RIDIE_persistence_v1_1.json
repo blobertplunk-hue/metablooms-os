@@ -1,0 +1,61 @@
+{
+  "metablooms_delta_version": "1.0",
+  "delta_id": "metablooms_delta_RIDIE_persistence_v1_1",
+  "created_utc": "2026-01-09T02:08:10.456060Z",
+  "type": "KERNEL_MODULE_PATCH",
+  "target": {
+    "kernel": "metablooms_core",
+    "integration_points": [
+      "modules/",
+      "kernel/",
+      "validators/",
+      "ledger/"
+    ]
+  },
+  "intent": {
+    "name": "RIDIE persistence (durable improvements)",
+    "description": "Adds a sealed persistence adapter so RIDIE improvements (proposals, thresholds, stop-policy tuning) persist across runs via append-only ndjson + state checkpoint. Requires explicit promotion gate to apply proposals.",
+    "depends_on_delta": "2026-01-08_metablooms_delta_RIDIE_v1_0.json",
+    "depends_on_sha256": "d5f2585e44821d8706d78bf0a0d8b43eec531ad47674341ea8a981fe1d9ed8ea"
+  },
+  "ops": [
+    {
+      "op": "ADD_FILE",
+      "path": "modules/ridie_persistence.py",
+      "content": "# MetaBlooms Kernel Module: RIDIE Persistence Adapter\n# Purpose: Make RIDIE improvements durable without mutating canonical artifacts silently.\n#\n# Design:\n# - RIDIE emits \"mutations\" (proposed rule/process adjustments) as data.\n# - This adapter:\n#   1) writes proposals to ridie/proposals.ndjson (append-only)\n#   2) writes a checkpoint ridie/state.json (current thresholds + last stage)\n#   3) emits ledger events via kernel ledger writer (when available)\n# - Promotion is explicit: proposals are only applied when a gate approves them.\n\nfrom __future__ import annotations\nimport json\nfrom dataclasses import dataclass\nfrom pathlib import Path\nfrom typing import Any, Dict, List, Optional\n\n@dataclass\nclass RIDIEPersistence:\n    root: Path\n\n    def __post_init__(self):\n        (self.root / \"ridie\").mkdir(parents=True, exist_ok=True)\n\n    @property\n    def proposals_path(self) -> Path:\n        return self.root / \"ridie\" / \"proposals.ndjson\"\n\n    @property\n    def state_path(self) -> Path:\n        return self.root / \"ridie\" / \"state.json\"\n\n    def append_proposals(self, proposals: List[Dict[str, Any]]) -> None:\n        if not proposals:\n            return\n        with self.proposals_path.open(\"a\", encoding=\"utf-8\") as f:\n            for p in proposals:\n                f.write(json.dumps(p, ensure_ascii=False) + \"\\n\")\n\n    def write_state(self, state: Dict[str, Any]) -> None:\n        self.state_path.write_text(json.dumps(state, indent=2, ensure_ascii=False), encoding=\"utf-8\")\n\n    def load_state(self) -> Optional[Dict[str, Any]]:\n        if not self.state_path.exists():\n            return None\n        return json.loads(self.state_path.read_text(encoding=\"utf-8\"))\n"
+    },
+    {
+      "op": "PATCH_FILE_INSERT",
+      "path": "kernel/stage_runner.py",
+      "pattern": "# HOOK: on_stage_end",
+      "insert_after": true,
+      "content": "# RIDIE PERSISTENCE (auto)\ntry:\n    from modules.ridie_persistence import RIDIEPersistence\n    _ridie_persist = RIDIEPersistence(root=Path(__file__).resolve().parents[1])\n    # if stage context has ridie_mutations, persist them\n    if isinstance(stage_result, dict):\n        muts = stage_result.get(\"ridie_mutations\") or []\n        st = stage_result.get(\"ridie_state\") or {}\n        _ridie_persist.append_proposals(muts)\n        if st:\n            _ridie_persist.write_state(st)\nexcept Exception as _e:\n    # Fail-closed policy: persistence failure must surface upstream\n    raise\n"
+    },
+    {
+      "op": "ADD_FILE",
+      "path": "validators/ridie_persistence_smoke_test.py",
+      "content": "# RIDIE Persistence Smoke Test (deterministic)\n# Run: python validators/ridie_persistence_smoke_test.py\nfrom pathlib import Path\nimport json, tempfile\nfrom modules.ridie_persistence import RIDIEPersistence\n\ndef main():\n    with tempfile.TemporaryDirectory() as d:\n        root = Path(d)\n        rp = RIDIEPersistence(root=root)\n        rp.append_proposals([{\"id\":\"p1\",\"kind\":\"threshold\",\"value\":0.9}])\n        rp.write_state({\"last_stage\":\"K.2\",\"thresholds\":{\"compression\":0.1}})\n        assert rp.proposals_path.exists()\n        assert rp.state_path.exists()\n        st = rp.load_state()\n        assert st[\"last_stage\"]==\"K.2\"\n    print(\"RIDIE_PERSIST_SMOKE_OK\")\n\nif __name__ == \"__main__\":\n    main()\n"
+    },
+    {
+      "op": "PATCH_JSON_APPEND",
+      "path": "MODULE_REGISTRY.json",
+      "json_pointer": "/modules",
+      "value": {
+        "id": "RIDIE_PERSISTENCE",
+        "import": "modules.ridie_persistence",
+        "class": "RIDIEPersistence",
+        "version": "1.1",
+        "purpose": "Durable RIDIE proposals + state checkpoint",
+        "fail_closed_default": true
+      }
+    }
+  ],
+  "tests": [
+    {
+      "name": "RIDIE persistence smoke test",
+      "command": "python validators/ridie_persistence_smoke_test.py",
+      "expected_stdout_contains": "RIDIE_PERSIST_SMOKE_OK"
+    }
+  ],
+  "notes_md": "Adds persistence for RIDIE proposals; does NOT auto-apply changes. Promotion must be gated and ledgered."
+}

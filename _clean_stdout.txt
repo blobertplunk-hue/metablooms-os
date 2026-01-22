@@ -1,0 +1,5 @@
+PASS: P0 canonical root + build_state
+PASS: P0 canonical root + build_state
+PASS: registry v1 valid
+PASS: registry v1 valid
+OK: experiential learning engine present

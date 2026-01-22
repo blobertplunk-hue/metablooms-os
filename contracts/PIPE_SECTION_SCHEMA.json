@@ -1,0 +1,41 @@
+{
+  "version": "v1",
+  "type": "PipeSection",
+  "required": [
+    "id",
+    "name",
+    "input_types",
+    "output_types",
+    "description"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^S\\d+$"
+    },
+    "name": {
+      "type": "string"
+    },
+    "input_types": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "output_types": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "description": {
+      "type": "string"
+    },
+    "constraints": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

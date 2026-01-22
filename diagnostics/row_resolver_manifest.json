@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "built_at": "2026-01-14T23:19:34.668047Z",
+  "components": [
+    "runtime/routers/row_resolver.py",
+    "runtime/preflight/preflight_row_gate.py"
+  ],
+  "enforcement": {
+    "rule": "All non-trivial execution must resolve a ROW",
+    "threshold": 0.65
+  }
+}

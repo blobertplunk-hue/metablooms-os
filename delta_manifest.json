@@ -1,0 +1,29 @@
+{
+  "delta_pack_id": "MB_P0_RESEARCH_MATERIALIZER_V1",
+  "created_utc": 1769007242.8519864,
+  "base_bundle_hint": "MetaBlooms_OS_WHOLEOS_RUNTIME_FULL_GOVERNANCE_V2_CANONICAL_20260121.zip or later",
+  "applies_cleanly_to": [
+    "MetaBlooms_OS_WHOLEOS_RUNTIME_FULL_GOVERNANCE_V2_CANONICAL_20260121.zip"
+  ],
+  "adds": [
+    "metablooms_runtime/invariants/research_materializer.py",
+    "metablooms_live/runtime/research_claims.py"
+  ],
+  "modifies": [
+    "metablooms_live/runtime/gate_runner.py",
+    "metablooms_live/runtime/runtime_entrypoint.py"
+  ],
+  "deletes": [],
+  "notes": [
+    "Introduces Research Materializer to auto-inject claim_id and created_ts when research is required.",
+    "Introduces research_claims helper for claim generation with automatic timestamps.",
+    "Reorders gate runner: preflight materializes + prerequisites; postflight enforces evidence/bindings + commit.",
+    "runtime_entrypoint now sets context['runtime_entrypoint']=True to satisfy non-bypassable router guard."
+  ],
+  "hashes_sha256": {
+    "metablooms_runtime/invariants/research_materializer.py": "6b53569158fa0c5cc2ecf5eb510ffb8efb5760a6340c21820dce2d2d32f9560e",
+    "metablooms_live/runtime/research_claims.py": "54cea27acebe9fc01fa49bdc565842d58cd8b412c3b6225155f07278bdc956e6",
+    "metablooms_live/runtime/gate_runner.py": "f8319ea71246a124f02af471061ca33d1ee2532664fcb89df5e3cab4437a0a16",
+    "metablooms_live/runtime/runtime_entrypoint.py": "b221a34f80c6feb40b9f764177aff8a486ca6371a043c3ffface22c0a7864921"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "resource_limits_version": "RESOURCE_LIMITS_V1",
+  "profiles": {
+    "desktop": {
+      "min_free_bytes": 200000000,
+      "max_artifact_bytes": 20000000,
+      "max_total_task_bytes": 200000000
+    },
+    "termux": {
+      "min_free_bytes": 50000000,
+      "max_artifact_bytes": 8000000,
+      "max_total_task_bytes": 50000000
+    },
+    "windows": {
+      "min_free_bytes": 200000000,
+      "max_artifact_bytes": 20000000,
+      "max_total_task_bytes": 200000000
+    }
+  },
+  "defaults": {
+    "profile": "desktop"
+  },
+  "env_overrides": {
+    "MB_MIN_FREE_BYTES": "min_free_bytes",
+    "MB_MAX_ARTIFACT_BYTES": "max_artifact_bytes",
+    "MB_MAX_TOTAL_TASK_BYTES": "max_total_task_bytes",
+    "MB_RESOURCE_PROFILE": "profile"
+  }
+}

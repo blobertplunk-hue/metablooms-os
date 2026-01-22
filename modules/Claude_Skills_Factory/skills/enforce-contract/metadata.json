@@ -1,0 +1,15 @@
+{
+  "name": "enforce-contract",
+  "description": "Scan & enforce pre-conditions, post-conditions, and invariants before tests/commit to reduce AI hallucination.",
+  "trigger": "Before writing unit tests; before commit; after AI-generated code; when implementing a spec.",
+  "inputs": [
+    "source files / diffs",
+    "method signatures",
+    "spec frame (optional)"
+  ],
+  "outputs": [
+    "contract annotations",
+    "assertion stubs",
+    "contract violation report"
+  ]
+}

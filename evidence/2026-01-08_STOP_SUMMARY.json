@@ -1,0 +1,17 @@
+{
+  "stop_reason": "Quality guardrail: verbatim frame/expectation text not fully attached for all frames; stopping before propagation.",
+  "completed_stages": [
+    "Phase 0 \u2014 Canonical spec frozen",
+    "Phase 1 \u2014 Kindergarten spine scaffold",
+    "Phase 2 \u2014 Trees built for K.1\u2013K.2",
+    "Phase 3 \u2014 Modality binding for K.1\u2013K.2"
+  ],
+  "artifacts": [
+    "/mnt/data/2026-01-08_canonical_engine_spec.json",
+    "/mnt/data/2026-01-08_K_ELAR_spine.json",
+    "/mnt/data/2026-01-08_K_frame_K1_tree.json",
+    "/mnt/data/2026-01-08_K_frame_K2_tree.json",
+    "/mnt/data/2026-01-08_K_frame_K1_tree_modality_bound.json",
+    "/mnt/data/2026-01-08_K_frame_K2_tree_modality_bound.json"
+  ]
+}

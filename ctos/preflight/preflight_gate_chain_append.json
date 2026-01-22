@@ -1,0 +1,7 @@
+{
+  "insert_after": "GATE.P0.BOOT.TARGET.ELECTION.V1",
+  "gate": "GATE.CTOS.ALM.V1",
+  "module": "ctos.preflight.mb_gate_ctos_alm_v1",
+  "mode": "WARN",
+  "escalation_path": "ENFORCE_NEXT"
+}

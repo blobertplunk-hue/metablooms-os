@@ -1,0 +1,108 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MetaBlooms Semantic Segments Registry v1",
+  "type": "object",
+  "required": [
+    "version",
+    "registry_id",
+    "authority",
+    "llm_roles",
+    "segments"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "registry_id": {
+      "type": "string"
+    },
+    "authority": {
+      "type": "object",
+      "required": [
+        "ontology",
+        "architecture"
+      ],
+      "properties": {
+        "ontology": {
+          "type": "string"
+        },
+        "architecture": {
+          "type": "string"
+        }
+      }
+    },
+    "llm_roles": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "segments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "segment_id",
+          "intent",
+          "required_inputs",
+          "produces",
+          "allowed_ops",
+          "forbidden_ops",
+          "validators",
+          "evidence_requirements"
+        ],
+        "properties": {
+          "segment_id": {
+            "type": "string",
+            "pattern": "^seg\\.[a-z0-9_]+\\.[a-z0-9_\\.]+\\.v[0-9]+$"
+          },
+          "intent": {
+            "type": "string"
+          },
+          "required_inputs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "produces": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "allowed_ops": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "forbidden_ops": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "validators": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "evidence_requirements": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "llm_role": {
+            "type": "string"
+          },
+          "constraints_ref": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "runtime": [
+    "BOOT",
+    "GOVERNANCE_GATE",
+    "PIPELINE_INVOCATION",
+    "PHASE_TRANSITION",
+    "EVIDENCE_GATE",
+    "AUTHORITY_LABELING",
+    "FAILURE_CLASSIFICATION",
+    "REMINDER_ENGINE",
+    "CONTRACT_ENFORCEMENT"
+  ],
+  "pipelines": [
+    "SANDCRAWLER_V3",
+    "MB_SHIP_OS",
+    "FDI_02_PACK",
+    "OS_DEBUG_DIAG_TO_ACTION_V1",
+    "DELTA_FORWARDPORT_V1"
+  ],
+  "engines": [
+    "HANGING_THREADS_ENGINE",
+    "SHIPPING_ENGINE"
+  ],
+  "atoms": [
+    "PROCESS_ATOM",
+    "KNOWLEDGE_ATOM",
+    "EVIDENCE_ATOM",
+    "STATE_ATOM"
+  ],
+  "skills": [
+    "enforce-contract",
+    "context-degradation-diagnostic",
+    "reasoning-validation-checklist",
+    "web-automation-executor"
+  ],
+  "modules": [
+    "delta_intake_forwardport",
+    "intuition_finch_runtime"
+  ]
+}

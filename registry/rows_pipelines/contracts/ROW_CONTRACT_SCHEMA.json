@@ -1,0 +1,62 @@
+{
+  "version": "v1",
+  "type": "ROWContract",
+  "required": [
+    "row_id",
+    "intent",
+    "pipelines"
+  ],
+  "properties": {
+    "row_id": {
+      "type": "string"
+    },
+    "intent": {
+      "type": "string"
+    },
+    "pipelines": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "pipeline_id",
+          "activation"
+        ],
+        "properties": {
+          "pipeline_id": {
+            "type": "string"
+          },
+          "activation": {
+            "type": "string",
+            "enum": [
+              "AUTO",
+              "ACTIVE",
+              "SLEEP",
+              "DEFER"
+            ]
+          },
+          "pipe_sections": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "notes": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "fail_closed": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "deferred": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

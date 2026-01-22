@@ -1,0 +1,19 @@
+{
+  "boot_id": "2026-01-21T19:00:18Z",
+  "delta_count": 2,
+  "deltas": [
+    {
+      "auto_apply": false,
+      "delta_file": "GATE.P0.CANONICAL.ROOT.MANIFEST.V1__field_fix.delta.json",
+      "gate_id": "GATE.P0.CANONICAL.ROOT.MANIFEST.V1",
+      "risk_level": "HIGH"
+    },
+    {
+      "auto_apply": false,
+      "delta_file": "GATE.CODE.NO_PLACEHOLDERS.V1__field_fix.delta.json",
+      "gate_id": "GATE.CODE.NO_PLACEHOLDERS.V1",
+      "risk_level": "HIGH"
+    }
+  ],
+  "generated": true
+}

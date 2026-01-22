@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "date": "2026-01-08",
+    "timestamp": "2026-01-09T02:18:06.505082Z"
+  },
+  "purpose": "Global, promotable process rules enforced system-wide",
+  "rules": [
+    {
+      "id": "MIN_EVIDENCE_FIELDS",
+      "description": "Minimum required fields in evidence_claim",
+      "type": "int",
+      "default": 3,
+      "bounds": [
+        3,
+        7
+      ],
+      "enforced_at": [
+        "InvariantChecker",
+        "StageRunner"
+      ],
+      "reversible": true
+    },
+    {
+      "id": "MAX_COMPRESSION_SCORE",
+      "description": "Upper bound for allowed compression risk before halt",
+      "type": "float",
+      "default": 0.25,
+      "bounds": [
+        0.05,
+        0.5
+      ],
+      "enforced_at": [
+        "RIDIE",
+        "StageRunner"
+      ],
+      "reversible": true
+    },
+    {
+      "id": "FRAME_BY_FRAME_ONLY",
+      "description": "Force frame-by-frame execution instead of bulk",
+      "type": "bool",
+      "default": true,
+      "enforced_at": [
+        "StagePlanner"
+      ],
+      "reversible": true
+    }
+  ]
+}

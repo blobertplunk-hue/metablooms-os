@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MetaBlooms Experiential Learning Cycle Record v1",
+  "type": "object",
+  "required": [
+    "cycle_id",
+    "status",
+    "ts_utc",
+    "prompt",
+    "observations",
+    "hypotheses",
+    "actions",
+    "results"
+  ],
+  "properties": {
+    "cycle_id": {
+      "type": "string",
+      "minLength": 6
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "open",
+        "closed",
+        "superseded"
+      ]
+    },
+    "ts_utc": {
+      "type": "string"
+    },
+    "prompt": {
+      "type": "string"
+    },
+    "observations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "hypotheses": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "actions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "results": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evidence": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "references": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "object"
+      }
+    }
+  },
+  "additionalProperties": true
+}

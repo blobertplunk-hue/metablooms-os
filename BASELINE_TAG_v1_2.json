@@ -1,0 +1,9 @@
+{
+  "baseline": "MetaBlooms Convergent Baseline v1.2",
+  "parent": "MetaBlooms Convergent Baseline v1.1",
+  "applied_deltas": [
+    "DELTA__BASELINE_v1_1__TO__P0_TELEMETRY_SEE_MMD_ECL__2026-01-20__021534Z__v1.zip",
+    "DELTA__BASELINE_v1_1__TO__P0_ADVERSARIAL_TESTS__2026-01-20__021534Z__v1.zip"
+  ],
+  "boot_ok": true
+}

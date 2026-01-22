@@ -1,0 +1,65 @@
+{
+  "ok": false,
+  "results": [
+    {
+      "gate_id": "GATE.CHAIN.SCHEMA.V1",
+      "pass": true,
+      "scope": {
+        "kind": "RUN"
+      },
+      "violations": []
+    },
+    {
+      "gate_id": "GATE.AUTOSAVE.KEEP_DROP_WHY.V1",
+      "pass": true,
+      "scope": {
+        "kind": "RUN"
+      },
+      "violations": []
+    },
+    {
+      "gate_id": "GATE.SUBCAUSAL_SENTRY.V1",
+      "pass": true,
+      "scope": {
+        "kind": "RUN"
+      },
+      "violations": []
+    },
+    {
+      "gate_id": "GATE.PROVENANCE.MIN3.V1",
+      "pass": true,
+      "scope": {
+        "kind": "RUN"
+      },
+      "violations": []
+    },
+    {
+      "gate_id": "GATE.DECISION.TRACE.WIRING.V1",
+      "pass": true,
+      "scope": {
+        "kind": "RUN"
+      },
+      "violations": []
+    },
+    {
+      "gate_id": "GATE.DECISION.TRACE.SCHEMA.VALIDATE.V1",
+      "pass": true,
+      "scope": {
+        "kind": "RUN"
+      },
+      "violations": []
+    },
+    {
+      "gate_id": "GATE.ROW.V1",
+      "pass": false,
+      "scope": {
+        "kind": "RUN"
+      },
+      "violations": [
+        "ROW_NOT_RESOLVED"
+      ]
+    }
+  ],
+  "stopped_at_gate": "GATE.ROW.V1"
+}
+BOOT_FAILED:RUNNER_EXIT:2

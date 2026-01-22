@@ -1,0 +1,16 @@
+{
+  "schema_version": "1",
+  "record_type": "DECISION_TRACE",
+  "required_fields": [
+    "ts_utc",
+    "objective_key",
+    "decision_id",
+    "decision",
+    "rationale",
+    "assumptions",
+    "failure_surfaces",
+    "evidence_refs",
+    "actor"
+  ],
+  "notes": "This schema is intentionally minimal and stable. It is designed for auditability, not introspection of private chain-of-thought."
+}

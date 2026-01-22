@@ -1,0 +1,21 @@
+{
+  "module": "mb_module_python",
+  "language": "python",
+  "version": "1.0.0",
+  "segments": [
+    "foundations",
+    "fluency",
+    "agency",
+    "semantics",
+    "algorithms",
+    "uncertainty",
+    "integration"
+  ],
+  "created": "2026-01-21",
+  "routing": "state-driven",
+  "meta": {
+    "supports_stuck_detection": true,
+    "supports_teacher_view": true,
+    "supports_scheduler": true
+  }
+}

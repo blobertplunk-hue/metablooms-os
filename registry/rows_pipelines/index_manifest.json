@@ -1,0 +1,25 @@
+{
+  "system": "rows_pipelines_index",
+  "manifest_version": 1,
+  "official": true,
+  "sources": {
+    "contracts": {
+      "root": "/contracts",
+      "mirror_root": "/registry/rows_pipelines/contracts"
+    },
+    "artifact2": {
+      "root": "/registry/artifact2_rows_pipelines",
+      "index_manifest": "/registry/artifact2_rows_pipelines/index_manifest.json"
+    }
+  },
+  "canonical": {
+    "rows": "/registry/rows_pipelines/canonical/rows_canonical.json",
+    "pipelines": "/registry/rows_pipelines/canonical/pipelines_canonical.json",
+    "aliases": "/registry/rows_pipelines/canonical/aliases.json",
+    "supersedes": "/registry/rows_pipelines/canonical/supersedes.json"
+  },
+  "promotion": {
+    "minimum_operational_fields": ["triggers","inputs","outputs","steps","gates","artifacts"],
+    "quality_gate": ">=4"
+  }
+}

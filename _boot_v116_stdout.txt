@@ -1,0 +1,18 @@
+{
+  "ok": false,
+  "results": [
+    {
+      "gate_id": "GATE.CHAIN.SCHEMA.V1",
+      "pass": false,
+      "scope": {
+        "kind": "RUN"
+      },
+      "violations": [
+        "CHAIN_READ_FAILED",
+        "Unable to read/parse gate chain JSON: [Errno 2] No such file or directory: 'metablooms/preflight/preflight_gate_chain_v1.json'"
+      ]
+    }
+  ],
+  "stopped_at_gate": "GATE.CHAIN.SCHEMA.V1"
+}
+BOOT_FAILED:RUNNER_EXIT:2

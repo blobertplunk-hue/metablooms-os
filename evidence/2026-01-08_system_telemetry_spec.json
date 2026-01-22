@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "date": "2026-01-08",
+    "timestamp": "2026-01-09T02:30:16.069769Z"
+  },
+  "signals": [
+    {
+      "id": "coverage_ratio",
+      "description": "Percent of expected frames/leaves executed",
+      "type": "float",
+      "range": [
+        0,
+        1
+      ],
+      "emitted_by": [
+        "StageRunner"
+      ]
+    },
+    {
+      "id": "compression_risk",
+      "description": "Likelihood that content was summarized or merged",
+      "type": "float",
+      "range": [
+        0,
+        1
+      ],
+      "emitted_by": [
+        "InvariantChecker",
+        "RIDIE"
+      ]
+    },
+    {
+      "id": "fatigue_index",
+      "description": "Signal of verbosity loss or structural drift over time",
+      "type": "float",
+      "range": [
+        0,
+        1
+      ],
+      "emitted_by": [
+        "RIDIE"
+      ]
+    },
+    {
+      "id": "drift_events",
+      "description": "Count of detected schema or invariant violations",
+      "type": "int",
+      "range": [
+        0,
+        null
+      ],
+      "emitted_by": [
+        "InvariantChecker"
+      ]
+    }
+  ],
+  "aggregation": "append-only, per-stage, per-run"
+}

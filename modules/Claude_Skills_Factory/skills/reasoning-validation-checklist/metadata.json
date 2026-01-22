@@ -1,0 +1,14 @@
+{
+  "name": "reasoning-validation-checklist",
+  "description": "Checklist to validate reasoning steps against evidence gates and phase contracts.",
+  "trigger": "Before recommendations; before shipping; before promoting decisions.",
+  "inputs": [
+    "claims",
+    "evidence table",
+    "phase state"
+  ],
+  "outputs": [
+    "pass/fail checklist",
+    "missing evidence list"
+  ]
+}

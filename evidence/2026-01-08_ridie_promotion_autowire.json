@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "date": "2026-01-08",
+    "timestamp": "2026-01-09T02:30:16.069769Z"
+  },
+  "purpose": "Automatically route RIDIE proposals through promotion gate",
+  "flow": [
+    "RIDIE emits proposal",
+    "Proposal persisted to ridie/proposals.ndjson",
+    "PromotionGate loads proposal",
+    "Gate evaluates confidence, scope, reversibility",
+    "Decision ledgered",
+    "If APPROVED \u2192 update process_rule_registry.json"
+  ],
+  "decision_rules": {
+    "min_confidence": 0.8,
+    "min_observations": 2,
+    "requires_reversibility": true
+  }
+}

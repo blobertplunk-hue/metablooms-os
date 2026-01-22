@@ -1,0 +1,104 @@
+{
+  "version": 1,
+  "adapters": {
+    "GATE.ROW.V1": {
+      "module": "runtime.preflight.preflight_row_gate",
+      "callable": "preflight",
+      "input_from": "run_context.prompt",
+      "output_to_state": {
+        "row_resolution": "row"
+      },
+      "normalize": "legacy_allowed_failure"
+    },
+    "GATE.PIPELINE.V1": {
+      "module": "runtime.preflight.preflight_pipeline_gate",
+      "callable": "preflight",
+      "input_from": "state.row_resolution",
+      "output_to_state": {
+        "pipeline_resolution": "pipelines"
+      },
+      "normalize": "legacy_allowed_failure"
+    },
+    "GATE.PIPE_SECTIONS.V1": {
+      "module": "runtime.preflight.preflight_pipe_sections_gate",
+      "callable": "preflight",
+      "input_from": "state.pipeline_resolution",
+      "output_to_state": {
+        "pipe_sections": "sections"
+      },
+      "normalize": "legacy_allowed_failure"
+    },
+    "GATE.EXTRAORDINARY_CODING.AUTO.V1": {
+      "module": "metablooms.preflight.gates.mb_gate_ec_auto",
+      "callable": "run_gate",
+      "input_from": "run_context",
+      "normalize": "ec_auto_gate"
+    },
+    "GATE.AUTO_PATCH.V1": {
+      "module": "runtime.preflight.preflight_auto_patch_gate",
+      "callable": "preflight",
+      "input_from": "state.pipeline_definition",
+      "normalize": "legacy_allowed_failure"
+    },
+    "GATE.AUTO_ACCEPT.V1": {
+      "module": "runtime.preflight.preflight_auto_accept_gate",
+      "callable": "preflight",
+      "input_from": "state.pipeline_definition",
+      "normalize": "legacy_acceptance"
+    },
+    "GATE.CHAIN.SCHEMA.V1": {
+      "module": "metablooms.preflight.gates.mb_gate_preflight_chain_schema_v1",
+      "callable": "run_gate",
+      "input_from": "run_context",
+      "normalize": "ok_errors_gate"
+    },
+    "GATE.AUTOSAVE.KEEP_DROP_WHY.V1": {
+      "module": "metablooms.preflight.gates.mb_gate_autosave_keep_drop_why_v1",
+      "callable": "run_gate",
+      "input_from": "run_context",
+      "normalize": "ok_errors_gate"
+    },
+    "GATE.SUBCAUSAL_SENTRY.V1": {
+      "module": "metablooms.preflight.gates.mb_gate_subcausal_sentry_v1",
+      "callable": "run_gate",
+      "input_from": "run_context",
+      "normalize": "ok_errors_gate"
+    },
+    "GATE.PROVENANCE.MIN3.V1": {
+      "module": "metablooms.preflight.gates.mb_gate_provenance_minimal_v1",
+      "callable": "run_gate",
+      "input_from": "run_context",
+      "normalize": "ok_errors_gate"
+    },
+    "GATE.EXCODE.ECL.V1": {
+      "module": "metablooms.preflight.gates.mb_gate_excode_ecl_v1",
+      "callable": "gate_excode_ecl_v1",
+      "input_from": "run_context",
+      "normalize": "pass_violations_gate"
+    },
+    "GATE.DECISION.TRACE.WIRING.V1": {
+      "module": "metablooms.preflight.gates.mb_gate_decision_trace_wiring_v1",
+      "callable": "run_gate",
+      "input_from": "run_context",
+      "normalize": "ok_errors_gate"
+    },
+    "GATE.DECISION.TRACE.SCHEMA.VALIDATE.V1": {
+      "module": "metablooms.preflight.gates.mb_gate_decision_trace_schema_validate_v1",
+      "callable": "run_gate",
+      "input_from": "run_context",
+      "normalize": "ok_errors_gate"
+    },
+    "GATE.CODE.NO_PLACEHOLDERS.V1": {
+      "module": "metablooms.preflight.gates.mb_gate_no_placeholders_v1",
+      "callable": "run_gate",
+      "input_from": "run_context",
+      "normalize": "ok_errors_gate"
+    },
+    "GATE.CODE.NO_SWALLOWED_EXCEPTIONS.V1": {
+      "module": "metablooms.preflight.gates.mb_gate_no_swallowed_exceptions_v1",
+      "callable": "run_gate",
+      "input_from": "run_context",
+      "normalize": "ok_errors_gate"
+    }
+  }
+}

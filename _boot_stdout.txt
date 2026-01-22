@@ -1,0 +1,1 @@
+BOOT_FAILED:RUNNER_EXCEPTION:'list' object has no attribute 'get'

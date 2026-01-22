@@ -1,0 +1,151 @@
+{
+  "checks": [
+    {
+      "check_id": "GATE.CHAIN.SCHEMA.V1",
+      "evidence": {
+        "callable": "run_gate",
+        "errors": [],
+        "module": "metablooms.preflight.gates.mb_gate_preflight_chain_schema_v1"
+      },
+      "level": "P0",
+      "pass": true,
+      "reason": null
+    },
+    {
+      "check_id": "GATE.P0.CANONICAL.ROOT.MANIFEST.V1",
+      "evidence": {
+        "callable": "run_gate",
+        "errors": [
+          "BOOT_ENTRYPOINT_SHA256_MISMATCH"
+        ],
+        "module": "metablooms.preflight.gates.mb_gate_canonical_root_manifest_v1"
+      },
+      "level": "P0",
+      "pass": false,
+      "reason": "BOOT_ENTRYPOINT_SHA256_MISMATCH"
+    },
+    {
+      "check_id": "GATE.P0.PHASE1.METAGATES.REGISTERED.V1",
+      "evidence": {
+        "callable": "run_gate",
+        "errors": [],
+        "module": "metablooms.preflight.gates.mb_gate_phase1_metagates_registered_v1"
+      },
+      "level": "P0",
+      "pass": true,
+      "reason": null
+    },
+    {
+      "check_id": "GATE.P0.BYTE_TRUTH.V2",
+      "evidence": {
+        "callable": "run_gate",
+        "errors": [],
+        "module": "metablooms.preflight.gates.mb_gate_byte_truth_v2"
+      },
+      "level": "P0",
+      "pass": true,
+      "reason": null
+    },
+    {
+      "check_id": "GATE.P0.DOCS.FAIL_TO_FIX.V1",
+      "evidence": {
+        "callable": "run_gate",
+        "errors": [],
+        "module": "metablooms.preflight.gates.mb_gate_docs_fail_to_fix_v1"
+      },
+      "level": "P0",
+      "pass": true,
+      "reason": null
+    },
+    {
+      "check_id": "GATE.P0.DOCS.HARDENING.FAIL_TO_FIX.V1",
+      "evidence": {
+        "callable": "run_gate",
+        "errors": [],
+        "module": "metablooms.preflight.gates.mb_gate_docs_hardening_fail_to_fix_v1"
+      },
+      "level": "P0",
+      "pass": true,
+      "reason": null
+    },
+    {
+      "check_id": "GATE.CODE.NO_PLACEHOLDERS.V1",
+      "evidence": {
+        "callable": "run_gate",
+        "errors": [
+          "/mnt/data/metablooms_boot_run/metablooms/enforcement/see_sandcrawler.py:5:SILENT_STUB_PASS:class SEEFailClosed",
+          "/mnt/data/metablooms_boot_run/metablooms_runtime/invariants/research_invariant.py:14:SILENT_STUB_PASS:class ResearchFailClosed",
+          "/mnt/data/metablooms_boot_run/metablooms_runtime/invariants/citation_density_invariant.py:27:SILENT_STUB_PASS:class CitationFailClosed",
+          "/mnt/data/metablooms_boot_run/metablooms_runtime/invariants/research_materializer.py:18:SILENT_STUB_PASS:class ResearchMaterializerFailClosed",
+          "/mnt/data/metablooms_boot_run/metablooms_phase2_1/enforcement_hooks/phase2_1_hook_stubs.py:83:FORBIDDEN_TOKEN:TODO",
+          "/mnt/data/metablooms_boot_run/metablooms_phase2_1/enforcement_hooks/phase2_1_hook_stubs.py:87:FORBIDDEN_TOKEN:TODO",
+          "/mnt/data/metablooms_boot_run/metablooms_live/runtime/research_claims.py:12:SILENT_STUB_PASS:class ClaimsFailClosed",
+          "/mnt/data/metablooms_boot_run/metablooms_live/runtime/runtime_entrypoint.py:22:SILENT_STUB_PASS:class RuntimeFailClosed",
+          "/mnt/data/metablooms_boot_run/payload/metablooms_runtime/invariants/research_materializer.py:18:SILENT_STUB_PASS:class ResearchMaterializerFailClosed",
+          "/mnt/data/metablooms_boot_run/payload/metablooms_live/runtime/research_claims.py:12:SILENT_STUB_PASS:class ClaimsFailClosed",
+          "/mnt/data/metablooms_boot_run/payload/metablooms_live/runtime/runtime_entrypoint.py:21:SILENT_STUB_PASS:class RuntimeFailClosed"
+        ],
+        "module": "metablooms.preflight.gates.mb_gate_no_placeholders_v1"
+      },
+      "level": "P0",
+      "pass": false,
+      "reason": "/mnt/data/metablooms_boot_run/metablooms/enforcement/see_sandcrawler.py:5:SILENT_STUB_PASS:class SEEFailClosed; /mnt/data/metablooms_boot_run/metablooms_runtime/invariants/research_invariant.py:14:SILENT_STUB_PASS:class ResearchFailClosed; /mnt/data/metablooms_boot_run/metablooms_runtime/invariants/citation_density_invariant.py:27:SILENT_STUB_PASS:class CitationFailClosed; /mnt/data/metablooms_boot_run/metablooms_runtime/invariants/research_materializer.py:18:SILENT_STUB_PASS:class ResearchMaterializerFailClosed; /mnt/data/metablooms_boot_run/metablooms_phase2_1/enforcement_hooks/phase2_1_hook_stubs.py:83:FORBIDDEN_TOKEN:TODO; /mnt/data/metablooms_boot_run/metablooms_phase2_1/enforcement_hooks/phase2_1_hook_stubs.py:87:FORBIDDEN_TOKEN:TODO; /mnt/data/metablooms_boot_run/metablooms_live/runtime/research_claims.py:12:SILENT_STUB_PASS:class ClaimsFailClosed; /mnt/data/metablooms_boot_run/metablooms_live/runtime/runtime_entrypoint.py:22:SILENT_STUB_PASS:class RuntimeFailClosed; /mnt/data/metablooms_boot_run/payload/metablooms_runtime/invariants/research_materializer.py:18:SILENT_STUB_PASS:class ResearchMaterializerFailClosed; /mnt/data/metablooms_boot_run/payload/metablooms_live/runtime/research_claims.py:12:SILENT_STUB_PASS:class ClaimsFailClosed; /mnt/data/metablooms_boot_run/payload/metablooms_live/runtime/runtime_entrypoint.py:21:SILENT_STUB_PASS:class RuntimeFailClosed"
+    },
+    {
+      "check_id": "GATE.AUTOSAVE.KEEP_DROP_WHY.V1",
+      "evidence": {
+        "callable": "run_gate",
+        "errors": [],
+        "module": "metablooms.preflight.gates.mb_gate_autosave_keep_drop_why_v1"
+      },
+      "level": "P0",
+      "pass": true,
+      "reason": null
+    },
+    {
+      "check_id": "GATE.SUBCAUSAL_SENTRY.V1",
+      "evidence": {
+        "callable": "run_gate",
+        "errors": [],
+        "module": "metablooms.preflight.gates.mb_gate_subcausal_sentry_v1"
+      },
+      "level": "P0",
+      "pass": true,
+      "reason": null
+    },
+    {
+      "check_id": "GATE.PROVENANCE.MIN3.V1",
+      "evidence": {
+        "callable": "run_gate",
+        "errors": [],
+        "module": "metablooms.preflight.gates.mb_gate_provenance_minimal_v1"
+      },
+      "level": "P0",
+      "pass": true,
+      "reason": null
+    },
+    {
+      "check_id": "GATE.DECISION.TRACE.WIRING.V1",
+      "evidence": {
+        "callable": "run_gate",
+        "errors": [],
+        "module": "metablooms.preflight.gates.mb_gate_decision_trace_wiring_v1"
+      },
+      "level": "P0",
+      "pass": true,
+      "reason": null
+    },
+    {
+      "check_id": "GATE.EVIDENCE.SEE.LOOP.V1",
+      "evidence": {
+        "callable": "run_gate",
+        "errors": [],
+        "module": "metablooms.preflight.gates.mb_gate_evidence_see_loop_v1"
+      },
+      "level": "P0",
+      "pass": true,
+      "reason": null
+    }
+  ],
+  "ok": false
+}

@@ -1,0 +1,7 @@
+{
+  "enabled": true,
+  "default_after_boot": "EXECUTED",
+  "refuse_os_claims_when_out_of_bounds": true,
+  "require_mode_header_after_boot": true,
+  "runtime_entry_command": "ENTER_METABLOOMS_RUNTIME"
+}

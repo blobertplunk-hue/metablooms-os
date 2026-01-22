@@ -1,0 +1,783 @@
+{
+  "version": 1,
+  "generated_at": "2026-01-14T22:57:06.321742Z",
+  "artifact": "Archive 2 (1).zip",
+  "section": "sectionF_031_to_035",
+  "sectioning": "FILTERED_MEMBERS_V2",
+  "members": [
+    "2026-01-12_MetaBrain_batch-031_(24-chats).jsonl",
+    "2026-01-12_MetaBrain_batch-032_(25-chats).jsonl",
+    "2026-01-12_MetaBrain_batch-033_(26-chats).jsonl",
+    "2026-01-12_MetaBrain_batch-034_(27-chats).jsonl",
+    "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl"
+  ],
+  "chats_parsed": 5,
+  "rows": [
+    {
+      "id": "ROW_ee7dd316f28a",
+      "name": "row header columns 15 represent MondayFriday",
+      "evidence": [
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_997e18d3625a",
+          "start_line": 1666,
+          "end_line": 1682,
+          "excerpt": "\"delta_meta\": {\n                \"delta_kind\": \"CurriculumPipelineSnapshot\",\n                \"source_chat\": \"2025-11-30_Curriculum_Scraper_Pipeline\",\n                \"author\": \"MetaBlooms OS (ChatGPT)\"\n              },\n              \"deltas\": [\n                {\n                  \"id\": \"\u03941\",\n                  \"title\": \"Table Grammar Reconstruction (Sandcrawler Side)\",\n                  \"summary\": \"Define stable structural grammar for curriculum subject tables, including Social Studies 3-day exception.\",\n                  \"rules\": [\n                    \"Each subject block corresponds to one logical table.\",\n                    \"Column 0 stores the subject label or row header; columns 1\u20135 represent Monday\u2013Friday.\",\n                    \"Social Studies uses only Tuesday\u2013Thursday as active days; Monday and Friday are treated as intentionally empty unless overridden.\",\n                    \"Row headers generally follow TEKS, Content Objective, Language Objective, Spanish equivalents, Vocabulary, IPS, Routines, Resources, Activities, Groups, with minor subject-specific deviations.\",\n                    \"Sandcrawler may reconstruct subject/day mappings using this grammar even when HTML table tags are stripped.\"\n                  ]"
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_2a5e1d5417c6",
+          "start_line": 1670,
+          "end_line": 1686,
+          "excerpt": "},\n              \"deltas\": [\n                {\n                  \"id\": \"\u03941\",\n                  \"title\": \"Table Grammar Reconstruction (Sandcrawler Side)\",\n                  \"summary\": \"Define stable structural grammar for curriculum subject tables, including Social Studies 3-day exception.\",\n                  \"rules\": [\n                    \"Each subject block corresponds to one logical table.\",\n                    \"Column 0 stores the subject label or row header; columns 1\u20135 represent Monday\u2013Friday.\",\n                    \"Social Studies uses only Tuesday\u2013Thursday as active days; Monday and Friday are treated as intentionally empty unless overridden.\",\n                    \"Row headers generally follow TEKS, Content Objective, Language Objective, Spanish equivalents, Vocabulary, IPS, Routines, Resources, Activities, Groups, with minor subject-specific deviations.\",\n                    \"Sandcrawler may reconstruct subject/day mappings using this grammar even when HTML table tags are stripped.\"\n                  ]\n                },\n                {\n                  \"id\": \"\u03942\",\n                  \"title\": \"URL Cleaning Logic for Curriculum Links\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_81f52bb46632",
+          "start_line": 1672,
+          "end_line": 1688,
+          "excerpt": "{\n                  \"id\": \"\u03941\",\n                  \"title\": \"Table Grammar Reconstruction (Sandcrawler Side)\",\n                  \"summary\": \"Define stable structural grammar for curriculum subject tables, including Social Studies 3-day exception.\",\n                  \"rules\": [\n                    \"Each subject block corresponds to one logical table.\",\n                    \"Column 0 stores the subject label or row header; columns 1\u20135 represent Monday\u2013Friday.\",\n                    \"Social Studies uses only Tuesday\u2013Thursday as active days; Monday and Friday are treated as intentionally empty unless overridden.\",\n                    \"Row headers generally follow TEKS, Content Objective, Language Objective, Spanish equivalents, Vocabulary, IPS, Routines, Resources, Activities, Groups, with minor subject-specific deviations.\",\n                    \"Sandcrawler may reconstruct subject/day mappings using this grammar even when HTML table tags are stripped.\"\n                  ]\n                },\n                {\n                  \"id\": \"\u03942\",\n                  \"title\": \"URL Cleaning Logic for Curriculum Links\",\n                  \"summary\": \"Normalize and unwrap Google redirect URLs and filter junk domains before download attempts.\",\n                  \"rules\": ["
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_4311d9332e7d",
+          "start_line": 1673,
+          "end_line": 1689,
+          "excerpt": "\"id\": \"\u03941\",\n                  \"title\": \"Table Grammar Reconstruction (Sandcrawler Side)\",\n                  \"summary\": \"Define stable structural grammar for curriculum subject tables, including Social Studies 3-day exception.\",\n                  \"rules\": [\n                    \"Each subject block corresponds to one logical table.\",\n                    \"Column 0 stores the subject label or row header; columns 1\u20135 represent Monday\u2013Friday.\",\n                    \"Social Studies uses only Tuesday\u2013Thursday as active days; Monday and Friday are treated as intentionally empty unless overridden.\",\n                    \"Row headers generally follow TEKS, Content Objective, Language Objective, Spanish equivalents, Vocabulary, IPS, Routines, Resources, Activities, Groups, with minor subject-specific deviations.\",\n                    \"Sandcrawler may reconstruct subject/day mappings using this grammar even when HTML table tags are stripped.\"\n                  ]\n                },\n                {\n                  \"id\": \"\u03942\",\n                  \"title\": \"URL Cleaning Logic for Curriculum Links\",\n                  \"summary\": \"Normalize and unwrap Google redirect URLs and filter junk domains before download attempts.\",\n                  \"rules\": [\n                    \"All scraped URLs must be HTML-unescaped before processing.\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_69ff99db11a9",
+          "start_line": 2686,
+          "end_line": 2702,
+          "excerpt": "\"delta_meta\": {\n          \"delta_kind\": \"CurriculumPipelineSnapshot\",\n          \"source_chat\": \"2025-11-30_Curriculum_Scraper_Pipeline\",\n          \"author\": \"MetaBlooms OS (ChatGPT)\"\n        },\n        \"deltas\": [\n          {\n            \"id\": \"\u03941\",\n            \"title\": \"Table Grammar Reconstruction (Sandcrawler Side)\",\n            \"summary\": \"Define stable structural grammar for curriculum subject tables, including Social Studies 3-day exception.\",\n            \"rules\": [\n              \"Each subject block corresponds to one logical table.\",\n              \"Column 0 stores the subject label or row header; columns 1\u20135 represent Monday\u2013Friday.\",\n              \"Social Studies uses only Tuesday\u2013Thursday as active days; Monday and Friday are treated as intentionally empty unless overridden.\",\n              \"Row headers generally follow TEKS, Content Objective, Language Objective, Spanish equivalents, Vocabulary, IPS, Routines, Resources, Activities, Groups, with minor subject-specific deviations.\",\n              \"Sandcrawler may reconstruct subject/day mappings using this grammar even when HTML table tags are stripped.\"\n            ]"
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_3594a9ba8182",
+          "start_line": 2690,
+          "end_line": 2706,
+          "excerpt": "},\n        \"deltas\": [\n          {\n            \"id\": \"\u03941\",\n            \"title\": \"Table Grammar Reconstruction (Sandcrawler Side)\",\n            \"summary\": \"Define stable structural grammar for curriculum subject tables, including Social Studies 3-day exception.\",\n            \"rules\": [\n              \"Each subject block corresponds to one logical table.\",\n              \"Column 0 stores the subject label or row header; columns 1\u20135 represent Monday\u2013Friday.\",\n              \"Social Studies uses only Tuesday\u2013Thursday as active days; Monday and Friday are treated as intentionally empty unless overridden.\",\n              \"Row headers generally follow TEKS, Content Objective, Language Objective, Spanish equivalents, Vocabulary, IPS, Routines, Resources, Activities, Groups, with minor subject-specific deviations.\",\n              \"Sandcrawler may reconstruct subject/day mappings using this grammar even when HTML table tags are stripped.\"\n            ]\n          },\n          {\n            \"id\": \"\u03942\",\n            \"title\": \"URL Cleaning Logic for Curriculum Links\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_d29e49c369c0",
+          "start_line": 2692,
+          "end_line": 2708,
+          "excerpt": "{\n            \"id\": \"\u03941\",\n            \"title\": \"Table Grammar Reconstruction (Sandcrawler Side)\",\n            \"summary\": \"Define stable structural grammar for curriculum subject tables, including Social Studies 3-day exception.\",\n            \"rules\": [\n              \"Each subject block corresponds to one logical table.\",\n              \"Column 0 stores the subject label or row header; columns 1\u20135 represent Monday\u2013Friday.\",\n              \"Social Studies uses only Tuesday\u2013Thursday as active days; Monday and Friday are treated as intentionally empty unless overridden.\",\n              \"Row headers generally follow TEKS, Content Objective, Language Objective, Spanish equivalents, Vocabulary, IPS, Routines, Resources, Activities, Groups, with minor subject-specific deviations.\",\n              \"Sandcrawler may reconstruct subject/day mappings using this grammar even when HTML table tags are stripped.\"\n            ]\n          },\n          {\n            \"id\": \"\u03942\",\n            \"title\": \"URL Cleaning Logic for Curriculum Links\",\n            \"summary\": \"Normalize and unwrap Google redirect URLs and filter junk domains before download attempts.\",\n            \"rules\": ["
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_641577c580ea",
+          "start_line": 2693,
+          "end_line": 2709,
+          "excerpt": "\"id\": \"\u03941\",\n            \"title\": \"Table Grammar Reconstruction (Sandcrawler Side)\",\n            \"summary\": \"Define stable structural grammar for curriculum subject tables, including Social Studies 3-day exception.\",\n            \"rules\": [\n              \"Each subject block corresponds to one logical table.\",\n              \"Column 0 stores the subject label or row header; columns 1\u20135 represent Monday\u2013Friday.\",\n              \"Social Studies uses only Tuesday\u2013Thursday as active days; Monday and Friday are treated as intentionally empty unless overridden.\",\n              \"Row headers generally follow TEKS, Content Objective, Language Objective, Spanish equivalents, Vocabulary, IPS, Routines, Resources, Activities, Groups, with minor subject-specific deviations.\",\n              \"Sandcrawler may reconstruct subject/day mappings using this grammar even when HTML table tags are stripped.\"\n            ]\n          },\n          {\n            \"id\": \"\u03942\",\n            \"title\": \"URL Cleaning Logic for Curriculum Links\",\n            \"summary\": \"Normalize and unwrap Google redirect URLs and filter junk domains before download attempts.\",\n            \"rules\": [\n              \"All scraped URLs must be HTML-unescaped before processing.\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_698ea491c2c0",
+          "start_line": 12468,
+          "end_line": 12484,
+          "excerpt": "\"delta_meta\": {\n                \"delta_kind\": \"CurriculumPipelineSnapshot\",\n                \"source_chat\": \"2025-11-30_Curriculum_Scraper_Pipeline\",\n                \"author\": \"MetaBlooms OS (ChatGPT)\"\n              },\n              \"deltas\": [\n                {\n                  \"id\": \"\u03941\",\n                  \"title\": \"Table Grammar Reconstruction (Sandcrawler Side)\",\n                  \"summary\": \"Define stable structural grammar for curriculum subject tables, including Social Studies 3-day exception.\",\n                  \"rules\": [\n                    \"Each subject block corresponds to one logical table.\",\n                    \"Column 0 stores the subject label or row header; columns 1\u20135 represent Monday\u2013Friday.\",\n                    \"Social Studies uses only Tuesday\u2013Thursday as active days; Monday and Friday are treated as intentionally empty unless overridden.\",\n                    \"Row headers generally follow TEKS, Content Objective, Language Objective, Spanish equivalents, Vocabulary, IPS, Routines, Resources, Activities, Groups, with minor subject-specific deviations.\",\n                    \"Sandcrawler may reconstruct subject/day mappings using this grammar even when HTML table tags are stripped.\"\n                  ]"
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_ec7070b43311",
+          "start_line": 12472,
+          "end_line": 12488,
+          "excerpt": "},\n              \"deltas\": [\n                {\n                  \"id\": \"\u03941\",\n                  \"title\": \"Table Grammar Reconstruction (Sandcrawler Side)\",\n                  \"summary\": \"Define stable structural grammar for curriculum subject tables, including Social Studies 3-day exception.\",\n                  \"rules\": [\n                    \"Each subject block corresponds to one logical table.\",\n                    \"Column 0 stores the subject label or row header; columns 1\u20135 represent Monday\u2013Friday.\",\n                    \"Social Studies uses only Tuesday\u2013Thursday as active days; Monday and Friday are treated as intentionally empty unless overridden.\",\n                    \"Row headers generally follow TEKS, Content Objective, Language Objective, Spanish equivalents, Vocabulary, IPS, Routines, Resources, Activities, Groups, with minor subject-specific deviations.\",\n                    \"Sandcrawler may reconstruct subject/day mappings using this grammar even when HTML table tags are stripped.\"\n                  ]\n                },\n                {\n                  \"id\": \"\u03942\",\n                  \"title\": \"URL Cleaning Logic for Curriculum Links\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_4293e97d1ee6",
+          "start_line": 12474,
+          "end_line": 12490,
+          "excerpt": "{\n                  \"id\": \"\u03941\",\n                  \"title\": \"Table Grammar Reconstruction (Sandcrawler Side)\",\n                  \"summary\": \"Define stable structural grammar for curriculum subject tables, including Social Studies 3-day exception.\",\n                  \"rules\": [\n                    \"Each subject block corresponds to one logical table.\",\n                    \"Column 0 stores the subject label or row header; columns 1\u20135 represent Monday\u2013Friday.\",\n                    \"Social Studies uses only Tuesday\u2013Thursday as active days; Monday and Friday are treated as intentionally empty unless overridden.\",\n                    \"Row headers generally follow TEKS, Content Objective, Language Objective, Spanish equivalents, Vocabulary, IPS, Routines, Resources, Activities, Groups, with minor subject-specific deviations.\",\n                    \"Sandcrawler may reconstruct subject/day mappings using this grammar even when HTML table tags are stripped.\"\n                  ]\n                },\n                {\n                  \"id\": \"\u03942\",\n                  \"title\": \"URL Cleaning Logic for Curriculum Links\",\n                  \"summary\": \"Normalize and unwrap Google redirect URLs and filter junk domains before download attempts.\",\n                  \"rules\": ["
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_f428a6a910f3",
+          "start_line": 12475,
+          "end_line": 12491,
+          "excerpt": "\"id\": \"\u03941\",\n                  \"title\": \"Table Grammar Reconstruction (Sandcrawler Side)\",\n                  \"summary\": \"Define stable structural grammar for curriculum subject tables, including Social Studies 3-day exception.\",\n                  \"rules\": [\n                    \"Each subject block corresponds to one logical table.\",\n                    \"Column 0 stores the subject label or row header; columns 1\u20135 represent Monday\u2013Friday.\",\n                    \"Social Studies uses only Tuesday\u2013Thursday as active days; Monday and Friday are treated as intentionally empty unless overridden.\",\n                    \"Row headers generally follow TEKS, Content Objective, Language Objective, Spanish equivalents, Vocabulary, IPS, Routines, Resources, Activities, Groups, with minor subject-specific deviations.\",\n                    \"Sandcrawler may reconstruct subject/day mappings using this grammar even when HTML table tags are stripped.\"\n                  ]\n                },\n                {\n                  \"id\": \"\u03942\",\n                  \"title\": \"URL Cleaning Logic for Curriculum Links\",\n                  \"summary\": \"Normalize and unwrap Google redirect URLs and filter junk domains before download attempts.\",\n                  \"rules\": [\n                    \"All scraped URLs must be HTML-unescaped before processing.\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_fe468600ad6d",
+          "start_line": 13488,
+          "end_line": 13504,
+          "excerpt": "\"delta_meta\": {\n          \"delta_kind\": \"CurriculumPipelineSnapshot\",\n          \"source_chat\": \"2025-11-30_Curriculum_Scraper_Pipeline\",\n          \"author\": \"MetaBlooms OS (ChatGPT)\"\n        },\n        \"deltas\": [\n          {\n            \"id\": \"\u03941\",\n            \"title\": \"Table Grammar Reconstruction (Sandcrawler Side)\",\n            \"summary\": \"Define stable structural grammar for curriculum subject tables, including Social Studies 3-day exception.\",\n            \"rules\": [\n              \"Each subject block corresponds to one logical table.\",\n              \"Column 0 stores the subject label or row header; columns 1\u20135 represent Monday\u2013Friday.\",\n              \"Social Studies uses only Tuesday\u2013Thursday as active days; Monday and Friday are treated as intentionally empty unless overridden.\",\n              \"Row headers generally follow TEKS, Content Objective, Language Objective, Spanish equivalents, Vocabulary, IPS, Routines, Resources, Activities, Groups, with minor subject-specific deviations.\",\n              \"Sandcrawler may reconstruct subject/day mappings using this grammar even when HTML table tags are stripped.\"\n            ]"
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_b2420efbb90a",
+          "start_line": 13492,
+          "end_line": 13508,
+          "excerpt": "},\n        \"deltas\": [\n          {\n            \"id\": \"\u03941\",\n            \"title\": \"Table Grammar Reconstruction (Sandcrawler Side)\",\n            \"summary\": \"Define stable structural grammar for curriculum subject tables, including Social Studies 3-day exception.\",\n            \"rules\": [\n              \"Each subject block corresponds to one logical table.\",\n              \"Column 0 stores the subject label or row header; columns 1\u20135 represent Monday\u2013Friday.\",\n              \"Social Studies uses only Tuesday\u2013Thursday as active days; Monday and Friday are treated as intentionally empty unless overridden.\",\n              \"Row headers generally follow TEKS, Content Objective, Language Objective, Spanish equivalents, Vocabulary, IPS, Routines, Resources, Activities, Groups, with minor subject-specific deviations.\",\n              \"Sandcrawler may reconstruct subject/day mappings using this grammar even when HTML table tags are stripped.\"\n            ]\n          },\n          {\n            \"id\": \"\u03942\",\n            \"title\": \"URL Cleaning Logic for Curriculum Links\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_94499530eb50",
+          "start_line": 13494,
+          "end_line": 13510,
+          "excerpt": "{\n            \"id\": \"\u03941\",\n            \"title\": \"Table Grammar Reconstruction (Sandcrawler Side)\",\n            \"summary\": \"Define stable structural grammar for curriculum subject tables, including Social Studies 3-day exception.\",\n            \"rules\": [\n              \"Each subject block corresponds to one logical table.\",\n              \"Column 0 stores the subject label or row header; columns 1\u20135 represent Monday\u2013Friday.\",\n              \"Social Studies uses only Tuesday\u2013Thursday as active days; Monday and Friday are treated as intentionally empty unless overridden.\",\n              \"Row headers generally follow TEKS, Content Objective, Language Objective, Spanish equivalents, Vocabulary, IPS, Routines, Resources, Activities, Groups, with minor subject-specific deviations.\",\n              \"Sandcrawler may reconstruct subject/day mappings using this grammar even when HTML table tags are stripped.\"\n            ]\n          },\n          {\n            \"id\": \"\u03942\",\n            \"title\": \"URL Cleaning Logic for Curriculum Links\",\n            \"summary\": \"Normalize and unwrap Google redirect URLs and filter junk domains before download attempts.\",\n            \"rules\": ["
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_8ae90a3006c2",
+          "start_line": 13495,
+          "end_line": 13511,
+          "excerpt": "\"id\": \"\u03941\",\n            \"title\": \"Table Grammar Reconstruction (Sandcrawler Side)\",\n            \"summary\": \"Define stable structural grammar for curriculum subject tables, including Social Studies 3-day exception.\",\n            \"rules\": [\n              \"Each subject block corresponds to one logical table.\",\n              \"Column 0 stores the subject label or row header; columns 1\u20135 represent Monday\u2013Friday.\",\n              \"Social Studies uses only Tuesday\u2013Thursday as active days; Monday and Friday are treated as intentionally empty unless overridden.\",\n              \"Row headers generally follow TEKS, Content Objective, Language Objective, Spanish equivalents, Vocabulary, IPS, Routines, Resources, Activities, Groups, with minor subject-specific deviations.\",\n              \"Sandcrawler may reconstruct subject/day mappings using this grammar even when HTML table tags are stripped.\"\n            ]\n          },\n          {\n            \"id\": \"\u03942\",\n            \"title\": \"URL Cleaning Logic for Curriculum Links\",\n            \"summary\": \"Normalize and unwrap Google redirect URLs and filter junk domains before download attempts.\",\n            \"rules\": [\n              \"All scraped URLs must be HTML-unescaped before processing.\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_7f86d7acedef",
+          "start_line": 18227,
+          "end_line": 18243,
+          "excerpt": "\"delta_meta\": {\n                \"delta_kind\": \"CurriculumPipelineSnapshot\",\n                \"source_chat\": \"2025-11-30_Curriculum_Scraper_Pipeline\",\n                \"author\": \"MetaBlooms OS (ChatGPT)\"\n              },\n              \"deltas\": [\n                {\n                  \"id\": \"\u03941\",\n                  \"title\": \"Table Grammar Reconstruction (Sandcrawler Side)\",\n                  \"summary\": \"Define stable structural grammar for curriculum subject tables, including Social Studies 3-day exception.\",\n                  \"rules\": [\n                    \"Each subject block corresponds to one logical table.\",\n                    \"Column 0 stores the subject label or row header; columns 1\u20135 represent Monday\u2013Friday.\",\n                    \"Social Studies uses only Tuesday\u2013Thursday as active days; Monday and Friday are treated as intentionally empty unless overridden.\",\n                    \"Row headers generally follow TEKS, Content Objective, Language Objective, Spanish equivalents, Vocabulary, IPS, Routines, Resources, Activities, Groups, with minor subject-specific deviations.\",\n                    \"Sandcrawler may reconstruct subject/day mappings using this grammar even when HTML table tags are stripped.\"\n                  ]"
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_15461ba8858d",
+          "start_line": 18231,
+          "end_line": 18247,
+          "excerpt": "},\n              \"deltas\": [\n                {\n                  \"id\": \"\u03941\",\n                  \"title\": \"Table Grammar Reconstruction (Sandcrawler Side)\",\n                  \"summary\": \"Define stable structural grammar for curriculum subject tables, including Social Studies 3-day exception.\",\n                  \"rules\": [\n                    \"Each subject block corresponds to one logical table.\",\n                    \"Column 0 stores the subject label or row header; columns 1\u20135 represent Monday\u2013Friday.\",\n                    \"Social Studies uses only Tuesday\u2013Thursday as active days; Monday and Friday are treated as intentionally empty unless overridden.\",\n                    \"Row headers generally follow TEKS, Content Objective, Language Objective, Spanish equivalents, Vocabulary, IPS, Routines, Resources, Activities, Groups, with minor subject-specific deviations.\",\n                    \"Sandcrawler may reconstruct subject/day mappings using this grammar even when HTML table tags are stripped.\"\n                  ]\n                },\n                {\n                  \"id\": \"\u03942\",\n                  \"title\": \"URL Cleaning Logic for Curriculum Links\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_c681aa1c7c99",
+          "start_line": 18233,
+          "end_line": 18249,
+          "excerpt": "{\n                  \"id\": \"\u03941\",\n                  \"title\": \"Table Grammar Reconstruction (Sandcrawler Side)\",\n                  \"summary\": \"Define stable structural grammar for curriculum subject tables, including Social Studies 3-day exception.\",\n                  \"rules\": [\n                    \"Each subject block corresponds to one logical table.\",\n                    \"Column 0 stores the subject label or row header; columns 1\u20135 represent Monday\u2013Friday.\",\n                    \"Social Studies uses only Tuesday\u2013Thursday as active days; Monday and Friday are treated as intentionally empty unless overridden.\",\n                    \"Row headers generally follow TEKS, Content Objective, Language Objective, Spanish equivalents, Vocabulary, IPS, Routines, Resources, Activities, Groups, with minor subject-specific deviations.\",\n                    \"Sandcrawler may reconstruct subject/day mappings using this grammar even when HTML table tags are stripped.\"\n                  ]\n                },\n                {\n                  \"id\": \"\u03942\",\n                  \"title\": \"URL Cleaning Logic for Curriculum Links\",\n                  \"summary\": \"Normalize and unwrap Google redirect URLs and filter junk domains before download attempts.\",\n                  \"rules\": ["
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_21812df40620",
+          "start_line": 18234,
+          "end_line": 18250,
+          "excerpt": "\"id\": \"\u03941\",\n                  \"title\": \"Table Grammar Reconstruction (Sandcrawler Side)\",\n                  \"summary\": \"Define stable structural grammar for curriculum subject tables, including Social Studies 3-day exception.\",\n                  \"rules\": [\n                    \"Each subject block corresponds to one logical table.\",\n                    \"Column 0 stores the subject label or row header; columns 1\u20135 represent Monday\u2013Friday.\",\n                    \"Social Studies uses only Tuesday\u2013Thursday as active days; Monday and Friday are treated as intentionally empty unless overridden.\",\n                    \"Row headers generally follow TEKS, Content Objective, Language Objective, Spanish equivalents, Vocabulary, IPS, Routines, Resources, Activities, Groups, with minor subject-specific deviations.\",\n                    \"Sandcrawler may reconstruct subject/day mappings using this grammar even when HTML table tags are stripped.\"\n                  ]\n                },\n                {\n                  \"id\": \"\u03942\",\n                  \"title\": \"URL Cleaning Logic for Curriculum Links\",\n                  \"summary\": \"Normalize and unwrap Google redirect URLs and filter junk domains before download attempts.\",\n                  \"rules\": [\n                    \"All scraped URLs must be HTML-unescaped before processing.\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_86ece40f830d",
+          "start_line": 19247,
+          "end_line": 19263,
+          "excerpt": "\"delta_meta\": {\n          \"delta_kind\": \"CurriculumPipelineSnapshot\",\n          \"source_chat\": \"2025-11-30_Curriculum_Scraper_Pipeline\",\n          \"author\": \"MetaBlooms OS (ChatGPT)\"\n        },\n        \"deltas\": [\n          {\n            \"id\": \"\u03941\",\n            \"title\": \"Table Grammar Reconstruction (Sandcrawler Side)\",\n            \"summary\": \"Define stable structural grammar for curriculum subject tables, including Social Studies 3-day exception.\",\n            \"rules\": [\n              \"Each subject block corresponds to one logical table.\",\n              \"Column 0 stores the subject label or row header; columns 1\u20135 represent Monday\u2013Friday.\",\n              \"Social Studies uses only Tuesday\u2013Thursday as active days; Monday and Friday are treated as intentionally empty unless overridden.\",\n              \"Row headers generally follow TEKS, Content Objective, Language Objective, Spanish equivalents, Vocabulary, IPS, Routines, Resources, Activities, Groups, with minor subject-specific deviations.\",\n              \"Sandcrawler may reconstruct subject/day mappings using this grammar even when HTML table tags are stripped.\"\n            ]"
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_f1574c84de18",
+          "start_line": 19251,
+          "end_line": 19267,
+          "excerpt": "},\n        \"deltas\": [\n          {\n            \"id\": \"\u03941\",\n            \"title\": \"Table Grammar Reconstruction (Sandcrawler Side)\",\n            \"summary\": \"Define stable structural grammar for curriculum subject tables, including Social Studies 3-day exception.\",\n            \"rules\": [\n              \"Each subject block corresponds to one logical table.\",\n              \"Column 0 stores the subject label or row header; columns 1\u20135 represent Monday\u2013Friday.\",\n              \"Social Studies uses only Tuesday\u2013Thursday as active days; Monday and Friday are treated as intentionally empty unless overridden.\",\n              \"Row headers generally follow TEKS, Content Objective, Language Objective, Spanish equivalents, Vocabulary, IPS, Routines, Resources, Activities, Groups, with minor subject-specific deviations.\",\n              \"Sandcrawler may reconstruct subject/day mappings using this grammar even when HTML table tags are stripped.\"\n            ]\n          },\n          {\n            \"id\": \"\u03942\",\n            \"title\": \"URL Cleaning Logic for Curriculum Links\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_0b79deef0196",
+          "start_line": 19253,
+          "end_line": 19269,
+          "excerpt": "{\n            \"id\": \"\u03941\",\n            \"title\": \"Table Grammar Reconstruction (Sandcrawler Side)\",\n            \"summary\": \"Define stable structural grammar for curriculum subject tables, including Social Studies 3-day exception.\",\n            \"rules\": [\n              \"Each subject block corresponds to one logical table.\",\n              \"Column 0 stores the subject label or row header; columns 1\u20135 represent Monday\u2013Friday.\",\n              \"Social Studies uses only Tuesday\u2013Thursday as active days; Monday and Friday are treated as intentionally empty unless overridden.\",\n              \"Row headers generally follow TEKS, Content Objective, Language Objective, Spanish equivalents, Vocabulary, IPS, Routines, Resources, Activities, Groups, with minor subject-specific deviations.\",\n              \"Sandcrawler may reconstruct subject/day mappings using this grammar even when HTML table tags are stripped.\"\n            ]\n          },\n          {\n            \"id\": \"\u03942\",\n            \"title\": \"URL Cleaning Logic for Curriculum Links\",\n            \"summary\": \"Normalize and unwrap Google redirect URLs and filter junk domains before download attempts.\",\n            \"rules\": ["
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_ddebabb69f29",
+          "start_line": 19254,
+          "end_line": 19270,
+          "excerpt": "\"id\": \"\u03941\",\n            \"title\": \"Table Grammar Reconstruction (Sandcrawler Side)\",\n            \"summary\": \"Define stable structural grammar for curriculum subject tables, including Social Studies 3-day exception.\",\n            \"rules\": [\n              \"Each subject block corresponds to one logical table.\",\n              \"Column 0 stores the subject label or row header; columns 1\u20135 represent Monday\u2013Friday.\",\n              \"Social Studies uses only Tuesday\u2013Thursday as active days; Monday and Friday are treated as intentionally empty unless overridden.\",\n              \"Row headers generally follow TEKS, Content Objective, Language Objective, Spanish equivalents, Vocabulary, IPS, Routines, Resources, Activities, Groups, with minor subject-specific deviations.\",\n              \"Sandcrawler may reconstruct subject/day mappings using this grammar even when HTML table tags are stripped.\"\n            ]\n          },\n          {\n            \"id\": \"\u03942\",\n            \"title\": \"URL Cleaning Logic for Curriculum Links\",\n            \"summary\": \"Normalize and unwrap Google redirect URLs and filter junk domains before download attempts.\",\n            \"rules\": [\n              \"All scraped URLs must be HTML-unescaped before processing.\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_fdd041143538",
+          "start_line": 22862,
+          "end_line": 22878,
+          "excerpt": "\"delta_meta\": {\n                \"delta_kind\": \"CurriculumPipelineSnapshot\",\n                \"source_chat\": \"2025-11-30_Curriculum_Scraper_Pipeline\",\n                \"author\": \"MetaBlooms OS (ChatGPT)\"\n              },\n              \"deltas\": [\n                {\n                  \"id\": \"\u03941\",\n                  \"title\": \"Table Grammar Reconstruction (Sandcrawler Side)\",\n                  \"summary\": \"Define stable structural grammar for curriculum subject tables, including Social Studies 3-day exception.\",\n                  \"rules\": [\n                    \"Each subject block corresponds to one logical table.\",\n                    \"Column 0 stores the subject label or row header; columns 1\u20135 represent Monday\u2013Friday.\",\n                    \"Social Studies uses only Tuesday\u2013Thursday as active days; Monday and Friday are treated as intentionally empty unless overridden.\",\n                    \"Row headers generally follow TEKS, Content Objective, Language Objective, Spanish equivalents, Vocabulary, IPS, Routines, Resources, Activities, Groups, with minor subject-specific deviations.\",\n                    \"Sandcrawler may reconstruct subject/day mappings using this grammar even when HTML table tags are stripped.\"\n                  ]"
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_eb4d2e625ac4",
+          "start_line": 22866,
+          "end_line": 22882,
+          "excerpt": "},\n              \"deltas\": [\n                {\n                  \"id\": \"\u03941\",\n                  \"title\": \"Table Grammar Reconstruction (Sandcrawler Side)\",\n                  \"summary\": \"Define stable structural grammar for curriculum subject tables, including Social Studies 3-day exception.\",\n                  \"rules\": [\n                    \"Each subject block corresponds to one logical table.\",\n                    \"Column 0 stores the subject label or row header; columns 1\u20135 represent Monday\u2013Friday.\",\n                    \"Social Studies uses only Tuesday\u2013Thursday as active days; Monday and Friday are treated as intentionally empty unless overridden.\",\n                    \"Row headers generally follow TEKS, Content Objective, Language Objective, Spanish equivalents, Vocabulary, IPS, Routines, Resources, Activities, Groups, with minor subject-specific deviations.\",\n                    \"Sandcrawler may reconstruct subject/day mappings using this grammar even when HTML table tags are stripped.\"\n                  ]\n                },\n                {\n                  \"id\": \"\u03942\",\n                  \"title\": \"URL Cleaning Logic for Curriculum Links\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_a9e4e082f328",
+          "start_line": 22868,
+          "end_line": 22884,
+          "excerpt": "{\n                  \"id\": \"\u03941\",\n                  \"title\": \"Table Grammar Reconstruction (Sandcrawler Side)\",\n                  \"summary\": \"Define stable structural grammar for curriculum subject tables, including Social Studies 3-day exception.\",\n                  \"rules\": [\n                    \"Each subject block corresponds to one logical table.\",\n                    \"Column 0 stores the subject label or row header; columns 1\u20135 represent Monday\u2013Friday.\",\n                    \"Social Studies uses only Tuesday\u2013Thursday as active days; Monday and Friday are treated as intentionally empty unless overridden.\",\n                    \"Row headers generally follow TEKS, Content Objective, Language Objective, Spanish equivalents, Vocabulary, IPS, Routines, Resources, Activities, Groups, with minor subject-specific deviations.\",\n                    \"Sandcrawler may reconstruct subject/day mappings using this grammar even when HTML table tags are stripped.\"\n                  ]\n                },\n                {\n                  \"id\": \"\u03942\",\n                  \"title\": \"URL Cleaning Logic for Curriculum Links\",\n                  \"summary\": \"Normalize and unwrap Google redirect URLs and filter junk domains before download attempts.\",\n                  \"rules\": ["
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_de25bae5ca4d",
+          "start_line": 22869,
+          "end_line": 22885,
+          "excerpt": "\"id\": \"\u03941\",\n                  \"title\": \"Table Grammar Reconstruction (Sandcrawler Side)\",\n                  \"summary\": \"Define stable structural grammar for curriculum subject tables, including Social Studies 3-day exception.\",\n                  \"rules\": [\n                    \"Each subject block corresponds to one logical table.\",\n                    \"Column 0 stores the subject label or row header; columns 1\u20135 represent Monday\u2013Friday.\",\n                    \"Social Studies uses only Tuesday\u2013Thursday as active days; Monday and Friday are treated as intentionally empty unless overridden.\",\n                    \"Row headers generally follow TEKS, Content Objective, Language Objective, Spanish equivalents, Vocabulary, IPS, Routines, Resources, Activities, Groups, with minor subject-specific deviations.\",\n                    \"Sandcrawler may reconstruct subject/day mappings using this grammar even when HTML table tags are stripped.\"\n                  ]\n                },\n                {\n                  \"id\": \"\u03942\",\n                  \"title\": \"URL Cleaning Logic for Curriculum Links\",\n                  \"summary\": \"Normalize and unwrap Google redirect URLs and filter junk domains before download attempts.\",\n                  \"rules\": [\n                    \"All scraped URLs must be HTML-unescaped before processing.\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_cf076b6af897",
+          "start_line": 23882,
+          "end_line": 23898,
+          "excerpt": "\"delta_meta\": {\n          \"delta_kind\": \"CurriculumPipelineSnapshot\",\n          \"source_chat\": \"2025-11-30_Curriculum_Scraper_Pipeline\",\n          \"author\": \"MetaBlooms OS (ChatGPT)\"\n        },\n        \"deltas\": [\n          {\n            \"id\": \"\u03941\",\n            \"title\": \"Table Grammar Reconstruction (Sandcrawler Side)\",\n            \"summary\": \"Define stable structural grammar for curriculum subject tables, including Social Studies 3-day exception.\",\n            \"rules\": [\n              \"Each subject block corresponds to one logical table.\",\n              \"Column 0 stores the subject label or row header; columns 1\u20135 represent Monday\u2013Friday.\",\n              \"Social Studies uses only Tuesday\u2013Thursday as active days; Monday and Friday are treated as intentionally empty unless overridden.\",\n              \"Row headers generally follow TEKS, Content Objective, Language Objective, Spanish equivalents, Vocabulary, IPS, Routines, Resources, Activities, Groups, with minor subject-specific deviations.\",\n              \"Sandcrawler may reconstruct subject/day mappings using this grammar even when HTML table tags are stripped.\"\n            ]"
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_0cad4d84cbc8",
+          "start_line": 23886,
+          "end_line": 23902,
+          "excerpt": "},\n        \"deltas\": [\n          {\n            \"id\": \"\u03941\",\n            \"title\": \"Table Grammar Reconstruction (Sandcrawler Side)\",\n            \"summary\": \"Define stable structural grammar for curriculum subject tables, including Social Studies 3-day exception.\",\n            \"rules\": [\n              \"Each subject block corresponds to one logical table.\",\n              \"Column 0 stores the subject label or row header; columns 1\u20135 represent Monday\u2013Friday.\",\n              \"Social Studies uses only Tuesday\u2013Thursday as active days; Monday and Friday are treated as intentionally empty unless overridden.\",\n              \"Row headers generally follow TEKS, Content Objective, Language Objective, Spanish equivalents, Vocabulary, IPS, Routines, Resources, Activities, Groups, with minor subject-specific deviations.\",\n              \"Sandcrawler may reconstruct subject/day mappings using this grammar even when HTML table tags are stripped.\"\n            ]\n          },\n          {\n            \"id\": \"\u03942\",\n            \"title\": \"URL Cleaning Logic for Curriculum Links\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_9e32cfe5d931",
+          "start_line": 23888,
+          "end_line": 23904,
+          "excerpt": "{\n            \"id\": \"\u03941\",\n            \"title\": \"Table Grammar Reconstruction (Sandcrawler Side)\",\n            \"summary\": \"Define stable structural grammar for curriculum subject tables, including Social Studies 3-day exception.\",\n            \"rules\": [\n              \"Each subject block corresponds to one logical table.\",\n              \"Column 0 stores the subject label or row header; columns 1\u20135 represent Monday\u2013Friday.\",\n              \"Social Studies uses only Tuesday\u2013Thursday as active days; Monday and Friday are treated as intentionally empty unless overridden.\",\n              \"Row headers generally follow TEKS, Content Objective, Language Objective, Spanish equivalents, Vocabulary, IPS, Routines, Resources, Activities, Groups, with minor subject-specific deviations.\",\n              \"Sandcrawler may reconstruct subject/day mappings using this grammar even when HTML table tags are stripped.\"\n            ]\n          },\n          {\n            \"id\": \"\u03942\",\n            \"title\": \"URL Cleaning Logic for Curriculum Links\",\n            \"summary\": \"Normalize and unwrap Google redirect URLs and filter junk domains before download attempts.\",\n            \"rules\": ["
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_a110e12d1a79",
+          "start_line": 23889,
+          "end_line": 23905,
+          "excerpt": "\"id\": \"\u03941\",\n            \"title\": \"Table Grammar Reconstruction (Sandcrawler Side)\",\n            \"summary\": \"Define stable structural grammar for curriculum subject tables, including Social Studies 3-day exception.\",\n            \"rules\": [\n              \"Each subject block corresponds to one logical table.\",\n              \"Column 0 stores the subject label or row header; columns 1\u20135 represent Monday\u2013Friday.\",\n              \"Social Studies uses only Tuesday\u2013Thursday as active days; Monday and Friday are treated as intentionally empty unless overridden.\",\n              \"Row headers generally follow TEKS, Content Objective, Language Objective, Spanish equivalents, Vocabulary, IPS, Routines, Resources, Activities, Groups, with minor subject-specific deviations.\",\n              \"Sandcrawler may reconstruct subject/day mappings using this grammar even when HTML table tags are stripped.\"\n            ]\n          },\n          {\n            \"id\": \"\u03942\",\n            \"title\": \"URL Cleaning Logic for Curriculum Links\",\n            \"summary\": \"Normalize and unwrap Google redirect URLs and filter junk domains before download attempts.\",\n            \"rules\": [\n              \"All scraped URLs must be HTML-unescaped before processing.\","
+        }
+      ]
+    },
+    {
+      "id": "ROW_f1587b4cac20",
+      "name": "row as local_file",
+      "evidence": [
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_4175bf530137",
+          "start_line": 1706,
+          "end_line": 1722,
+          "excerpt": "},\n                {\n                  \"id\": \"\u03944\",\n                  \"title\": \"Chrome Download Detection and Error Labelling\",\n                  \"summary\": \"Detect newly downloaded files by snapshotting directory contents and assign explicit error labels when no file appears.\",\n                  \"rules\": [\n                    \"Before navigating to a download URL, snapshot the download directory with filename, size, and mtime.\",\n                    \"After navigation, repeatedly scan for files whose (size, mtime) signature differs from the snapshot within a timeout window.\",\n                    \"Associate the most recently modified new file with the URL row as local_file.\",\n                    \"If no file appears, record an error code such as no_file_detected.\",\n                    \"Detect probable permission/403 pages using page title or URL patterns (e.g., 'Error 403', 'You need permission', 'error=access_denied') and record page_error:* codes.\"\n                  ]\n                },\n                {\n                  \"id\": \"\u03945\",\n                  \"title\": \"Weekly Subject File Format for Planning\",\n                  \"summary\": \"Define a standard human-readable weekly subject file format grouped by day.\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_b8455db8c19e",
+          "start_line": 2726,
+          "end_line": 2742,
+          "excerpt": "},\n          {\n            \"id\": \"\u03944\",\n            \"title\": \"Chrome Download Detection and Error Labelling\",\n            \"summary\": \"Detect newly downloaded files by snapshotting directory contents and assign explicit error labels when no file appears.\",\n            \"rules\": [\n              \"Before navigating to a download URL, snapshot the download directory with filename, size, and mtime.\",\n              \"After navigation, repeatedly scan for files whose (size, mtime) signature differs from the snapshot within a timeout window.\",\n              \"Associate the most recently modified new file with the URL row as local_file.\",\n              \"If no file appears, record an error code such as no_file_detected.\",\n              \"Detect probable permission/403 pages using page title or URL patterns (e.g., 'Error 403', 'You need permission', 'error=access_denied') and record page_error:* codes.\"\n            ]\n          },\n          {\n            \"id\": \"\u03945\",\n            \"title\": \"Weekly Subject File Format for Planning\",\n            \"summary\": \"Define a standard human-readable weekly subject file format grouped by day.\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_5683ba1df785",
+          "start_line": 12508,
+          "end_line": 12524,
+          "excerpt": "},\n                {\n                  \"id\": \"\u03944\",\n                  \"title\": \"Chrome Download Detection and Error Labelling\",\n                  \"summary\": \"Detect newly downloaded files by snapshotting directory contents and assign explicit error labels when no file appears.\",\n                  \"rules\": [\n                    \"Before navigating to a download URL, snapshot the download directory with filename, size, and mtime.\",\n                    \"After navigation, repeatedly scan for files whose (size, mtime) signature differs from the snapshot within a timeout window.\",\n                    \"Associate the most recently modified new file with the URL row as local_file.\",\n                    \"If no file appears, record an error code such as no_file_detected.\",\n                    \"Detect probable permission/403 pages using page title or URL patterns (e.g., 'Error 403', 'You need permission', 'error=access_denied') and record page_error:* codes.\"\n                  ]\n                },\n                {\n                  \"id\": \"\u03945\",\n                  \"title\": \"Weekly Subject File Format for Planning\",\n                  \"summary\": \"Define a standard human-readable weekly subject file format grouped by day.\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_8aef63b518f8",
+          "start_line": 13528,
+          "end_line": 13544,
+          "excerpt": "},\n          {\n            \"id\": \"\u03944\",\n            \"title\": \"Chrome Download Detection and Error Labelling\",\n            \"summary\": \"Detect newly downloaded files by snapshotting directory contents and assign explicit error labels when no file appears.\",\n            \"rules\": [\n              \"Before navigating to a download URL, snapshot the download directory with filename, size, and mtime.\",\n              \"After navigation, repeatedly scan for files whose (size, mtime) signature differs from the snapshot within a timeout window.\",\n              \"Associate the most recently modified new file with the URL row as local_file.\",\n              \"If no file appears, record an error code such as no_file_detected.\",\n              \"Detect probable permission/403 pages using page title or URL patterns (e.g., 'Error 403', 'You need permission', 'error=access_denied') and record page_error:* codes.\"\n            ]\n          },\n          {\n            \"id\": \"\u03945\",\n            \"title\": \"Weekly Subject File Format for Planning\",\n            \"summary\": \"Define a standard human-readable weekly subject file format grouped by day.\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_5ae04e814eb9",
+          "start_line": 18267,
+          "end_line": 18283,
+          "excerpt": "},\n                {\n                  \"id\": \"\u03944\",\n                  \"title\": \"Chrome Download Detection and Error Labelling\",\n                  \"summary\": \"Detect newly downloaded files by snapshotting directory contents and assign explicit error labels when no file appears.\",\n                  \"rules\": [\n                    \"Before navigating to a download URL, snapshot the download directory with filename, size, and mtime.\",\n                    \"After navigation, repeatedly scan for files whose (size, mtime) signature differs from the snapshot within a timeout window.\",\n                    \"Associate the most recently modified new file with the URL row as local_file.\",\n                    \"If no file appears, record an error code such as no_file_detected.\",\n                    \"Detect probable permission/403 pages using page title or URL patterns (e.g., 'Error 403', 'You need permission', 'error=access_denied') and record page_error:* codes.\"\n                  ]\n                },\n                {\n                  \"id\": \"\u03945\",\n                  \"title\": \"Weekly Subject File Format for Planning\",\n                  \"summary\": \"Define a standard human-readable weekly subject file format grouped by day.\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_638538a2c97b",
+          "start_line": 19287,
+          "end_line": 19303,
+          "excerpt": "},\n          {\n            \"id\": \"\u03944\",\n            \"title\": \"Chrome Download Detection and Error Labelling\",\n            \"summary\": \"Detect newly downloaded files by snapshotting directory contents and assign explicit error labels when no file appears.\",\n            \"rules\": [\n              \"Before navigating to a download URL, snapshot the download directory with filename, size, and mtime.\",\n              \"After navigation, repeatedly scan for files whose (size, mtime) signature differs from the snapshot within a timeout window.\",\n              \"Associate the most recently modified new file with the URL row as local_file.\",\n              \"If no file appears, record an error code such as no_file_detected.\",\n              \"Detect probable permission/403 pages using page title or URL patterns (e.g., 'Error 403', 'You need permission', 'error=access_denied') and record page_error:* codes.\"\n            ]\n          },\n          {\n            \"id\": \"\u03945\",\n            \"title\": \"Weekly Subject File Format for Planning\",\n            \"summary\": \"Define a standard human-readable weekly subject file format grouped by day.\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_ea2ae33c5329",
+          "start_line": 22902,
+          "end_line": 22918,
+          "excerpt": "},\n                {\n                  \"id\": \"\u03944\",\n                  \"title\": \"Chrome Download Detection and Error Labelling\",\n                  \"summary\": \"Detect newly downloaded files by snapshotting directory contents and assign explicit error labels when no file appears.\",\n                  \"rules\": [\n                    \"Before navigating to a download URL, snapshot the download directory with filename, size, and mtime.\",\n                    \"After navigation, repeatedly scan for files whose (size, mtime) signature differs from the snapshot within a timeout window.\",\n                    \"Associate the most recently modified new file with the URL row as local_file.\",\n                    \"If no file appears, record an error code such as no_file_detected.\",\n                    \"Detect probable permission/403 pages using page title or URL patterns (e.g., 'Error 403', 'You need permission', 'error=access_denied') and record page_error:* codes.\"\n                  ]\n                },\n                {\n                  \"id\": \"\u03945\",\n                  \"title\": \"Weekly Subject File Format for Planning\",\n                  \"summary\": \"Define a standard human-readable weekly subject file format grouped by day.\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_925922f03fcb",
+          "start_line": 23922,
+          "end_line": 23938,
+          "excerpt": "},\n          {\n            \"id\": \"\u03944\",\n            \"title\": \"Chrome Download Detection and Error Labelling\",\n            \"summary\": \"Detect newly downloaded files by snapshotting directory contents and assign explicit error labels when no file appears.\",\n            \"rules\": [\n              \"Before navigating to a download URL, snapshot the download directory with filename, size, and mtime.\",\n              \"After navigation, repeatedly scan for files whose (size, mtime) signature differs from the snapshot within a timeout window.\",\n              \"Associate the most recently modified new file with the URL row as local_file.\",\n              \"If no file appears, record an error code such as no_file_detected.\",\n              \"Detect probable permission/403 pages using page title or URL patterns (e.g., 'Error 403', 'You need permission', 'error=access_denied') and record page_error:* codes.\"\n            ]\n          },\n          {\n            \"id\": \"\u03945\",\n            \"title\": \"Weekly Subject File Format for Planning\",\n            \"summary\": \"Define a standard human-readable weekly subject file format grouped by day.\","
+        }
+      ]
+    },
+    {
+      "id": "ROW_2c0ad3c8e9bf",
+      "name": "row in the downloader runtime stores both url_raw and url_clean plus a local_file path when a download succeeds",
+      "evidence": [
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_e314306b7d60",
+          "start_line": 1736,
+          "end_line": 1752,
+          "excerpt": "\"Other subjects (e.g., Math, Reading, Writing, Science) default to Monday\u2013Friday active days.\"\n                  ]\n                },\n                {\n                  \"id\": \"\u03947\",\n                  \"title\": \"Linking Downloaded Materials into Subject Aggregates\",\n                  \"summary\": \"Connect each curriculum link with its downloaded local material path and surface that link in aggregate files.\",\n                  \"rules\": [\n                    \"Each URL row in the downloader runtime stores both url_raw and url_clean plus a local_file path when a download succeeds.\",\n                    \"Aggregate subject/week files must surface the local_file path alongside the URL fields when present.\",\n                    \"Lesson-planning components should prefer local_file references for generating artifacts (e.g., HTML lessons, slides) to avoid repeated remote fetches.\"\n                  ]\n                },\n                {\n                  \"id\": \"\u03948\",\n                  \"title\": \"V2 Curriculum Pipeline Architecture Separation\",\n                  \"summary\": \"Separate responsibilities into CSV maker, downloader v2, and planner layers.\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_1269d69b377e",
+          "start_line": 1743,
+          "end_line": 1759,
+          "excerpt": "\"rules\": [\n                    \"Each URL row in the downloader runtime stores both url_raw and url_clean plus a local_file path when a download succeeds.\",\n                    \"Aggregate subject/week files must surface the local_file path alongside the URL fields when present.\",\n                    \"Lesson-planning components should prefer local_file references for generating artifacts (e.g., HTML lessons, slides) to avoid repeated remote fetches.\"\n                  ]\n                },\n                {\n                  \"id\": \"\u03948\",\n                  \"title\": \"V2 Curriculum Pipeline Architecture Separation\",\n                  \"summary\": \"Separate responsibilities into CSV maker, downloader v2, and planner layers.\",\n                  \"rules\": [\n                    \"CSV maker (e.g., Apps Script) is responsible only for scraping links and writing CSV; it must remain simple and stable.\",\n                    \"Downloader v2 is responsible for URL cleaning, deduplication, browser automation, file download detection, error labelling, and subject/day aggregation.\",\n                    \"Planner layers (e.g., TeachingEngine WeeklyPlanAssembler) consume aggregates and table grammar to build weekly subject plans with attached materials and schedule details.\"\n                  ]\n                },\n                {"
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_885e428e0bea",
+          "start_line": 2756,
+          "end_line": 2772,
+          "excerpt": "\"Other subjects (e.g., Math, Reading, Writing, Science) default to Monday\u2013Friday active days.\"\n            ]\n          },\n          {\n            \"id\": \"\u03947\",\n            \"title\": \"Linking Downloaded Materials into Subject Aggregates\",\n            \"summary\": \"Connect each curriculum link with its downloaded local material path and surface that link in aggregate files.\",\n            \"rules\": [\n              \"Each URL row in the downloader runtime stores both url_raw and url_clean plus a local_file path when a download succeeds.\",\n              \"Aggregate subject/week files must surface the local_file path alongside the URL fields when present.\",\n              \"Lesson-planning components should prefer local_file references for generating artifacts (e.g., HTML lessons, slides) to avoid repeated remote fetches.\"\n            ]\n          },\n          {\n            \"id\": \"\u03948\",\n            \"title\": \"V2 Curriculum Pipeline Architecture Separation\",\n            \"summary\": \"Separate responsibilities into CSV maker, downloader v2, and planner layers.\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_b655d42aae99",
+          "start_line": 2763,
+          "end_line": 2779,
+          "excerpt": "\"rules\": [\n              \"Each URL row in the downloader runtime stores both url_raw and url_clean plus a local_file path when a download succeeds.\",\n              \"Aggregate subject/week files must surface the local_file path alongside the URL fields when present.\",\n              \"Lesson-planning components should prefer local_file references for generating artifacts (e.g., HTML lessons, slides) to avoid repeated remote fetches.\"\n            ]\n          },\n          {\n            \"id\": \"\u03948\",\n            \"title\": \"V2 Curriculum Pipeline Architecture Separation\",\n            \"summary\": \"Separate responsibilities into CSV maker, downloader v2, and planner layers.\",\n            \"rules\": [\n              \"CSV maker (e.g., Apps Script) is responsible only for scraping links and writing CSV; it must remain simple and stable.\",\n              \"Downloader v2 is responsible for URL cleaning, deduplication, browser automation, file download detection, error labelling, and subject/day aggregation.\",\n              \"Planner layers (e.g., TeachingEngine WeeklyPlanAssembler) consume aggregates and table grammar to build weekly subject plans with attached materials and schedule details.\"\n            ]\n          },\n          {"
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_7d8cc6c6727b",
+          "start_line": 12538,
+          "end_line": 12554,
+          "excerpt": "\"Other subjects (e.g., Math, Reading, Writing, Science) default to Monday\u2013Friday active days.\"\n                  ]\n                },\n                {\n                  \"id\": \"\u03947\",\n                  \"title\": \"Linking Downloaded Materials into Subject Aggregates\",\n                  \"summary\": \"Connect each curriculum link with its downloaded local material path and surface that link in aggregate files.\",\n                  \"rules\": [\n                    \"Each URL row in the downloader runtime stores both url_raw and url_clean plus a local_file path when a download succeeds.\",\n                    \"Aggregate subject/week files must surface the local_file path alongside the URL fields when present.\",\n                    \"Lesson-planning components should prefer local_file references for generating artifacts (e.g., HTML lessons, slides) to avoid repeated remote fetches.\"\n                  ]\n                },\n                {\n                  \"id\": \"\u03948\",\n                  \"title\": \"V2 Curriculum Pipeline Architecture Separation\",\n                  \"summary\": \"Separate responsibilities into CSV maker, downloader v2, and planner layers.\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_a00b1df42550",
+          "start_line": 12545,
+          "end_line": 12561,
+          "excerpt": "\"rules\": [\n                    \"Each URL row in the downloader runtime stores both url_raw and url_clean plus a local_file path when a download succeeds.\",\n                    \"Aggregate subject/week files must surface the local_file path alongside the URL fields when present.\",\n                    \"Lesson-planning components should prefer local_file references for generating artifacts (e.g., HTML lessons, slides) to avoid repeated remote fetches.\"\n                  ]\n                },\n                {\n                  \"id\": \"\u03948\",\n                  \"title\": \"V2 Curriculum Pipeline Architecture Separation\",\n                  \"summary\": \"Separate responsibilities into CSV maker, downloader v2, and planner layers.\",\n                  \"rules\": [\n                    \"CSV maker (e.g., Apps Script) is responsible only for scraping links and writing CSV; it must remain simple and stable.\",\n                    \"Downloader v2 is responsible for URL cleaning, deduplication, browser automation, file download detection, error labelling, and subject/day aggregation.\",\n                    \"Planner layers (e.g., TeachingEngine WeeklyPlanAssembler) consume aggregates and table grammar to build weekly subject plans with attached materials and schedule details.\"\n                  ]\n                },\n                {"
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_28b73086b78a",
+          "start_line": 13558,
+          "end_line": 13574,
+          "excerpt": "\"Other subjects (e.g., Math, Reading, Writing, Science) default to Monday\u2013Friday active days.\"\n            ]\n          },\n          {\n            \"id\": \"\u03947\",\n            \"title\": \"Linking Downloaded Materials into Subject Aggregates\",\n            \"summary\": \"Connect each curriculum link with its downloaded local material path and surface that link in aggregate files.\",\n            \"rules\": [\n              \"Each URL row in the downloader runtime stores both url_raw and url_clean plus a local_file path when a download succeeds.\",\n              \"Aggregate subject/week files must surface the local_file path alongside the URL fields when present.\",\n              \"Lesson-planning components should prefer local_file references for generating artifacts (e.g., HTML lessons, slides) to avoid repeated remote fetches.\"\n            ]\n          },\n          {\n            \"id\": \"\u03948\",\n            \"title\": \"V2 Curriculum Pipeline Architecture Separation\",\n            \"summary\": \"Separate responsibilities into CSV maker, downloader v2, and planner layers.\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_4d00f044fb9a",
+          "start_line": 13565,
+          "end_line": 13581,
+          "excerpt": "\"rules\": [\n              \"Each URL row in the downloader runtime stores both url_raw and url_clean plus a local_file path when a download succeeds.\",\n              \"Aggregate subject/week files must surface the local_file path alongside the URL fields when present.\",\n              \"Lesson-planning components should prefer local_file references for generating artifacts (e.g., HTML lessons, slides) to avoid repeated remote fetches.\"\n            ]\n          },\n          {\n            \"id\": \"\u03948\",\n            \"title\": \"V2 Curriculum Pipeline Architecture Separation\",\n            \"summary\": \"Separate responsibilities into CSV maker, downloader v2, and planner layers.\",\n            \"rules\": [\n              \"CSV maker (e.g., Apps Script) is responsible only for scraping links and writing CSV; it must remain simple and stable.\",\n              \"Downloader v2 is responsible for URL cleaning, deduplication, browser automation, file download detection, error labelling, and subject/day aggregation.\",\n              \"Planner layers (e.g., TeachingEngine WeeklyPlanAssembler) consume aggregates and table grammar to build weekly subject plans with attached materials and schedule details.\"\n            ]\n          },\n          {"
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_b7c37338f30a",
+          "start_line": 18297,
+          "end_line": 18313,
+          "excerpt": "\"Other subjects (e.g., Math, Reading, Writing, Science) default to Monday\u2013Friday active days.\"\n                  ]\n                },\n                {\n                  \"id\": \"\u03947\",\n                  \"title\": \"Linking Downloaded Materials into Subject Aggregates\",\n                  \"summary\": \"Connect each curriculum link with its downloaded local material path and surface that link in aggregate files.\",\n                  \"rules\": [\n                    \"Each URL row in the downloader runtime stores both url_raw and url_clean plus a local_file path when a download succeeds.\",\n                    \"Aggregate subject/week files must surface the local_file path alongside the URL fields when present.\",\n                    \"Lesson-planning components should prefer local_file references for generating artifacts (e.g., HTML lessons, slides) to avoid repeated remote fetches.\"\n                  ]\n                },\n                {\n                  \"id\": \"\u03948\",\n                  \"title\": \"V2 Curriculum Pipeline Architecture Separation\",\n                  \"summary\": \"Separate responsibilities into CSV maker, downloader v2, and planner layers.\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_0b71a70dfacc",
+          "start_line": 18304,
+          "end_line": 18320,
+          "excerpt": "\"rules\": [\n                    \"Each URL row in the downloader runtime stores both url_raw and url_clean plus a local_file path when a download succeeds.\",\n                    \"Aggregate subject/week files must surface the local_file path alongside the URL fields when present.\",\n                    \"Lesson-planning components should prefer local_file references for generating artifacts (e.g., HTML lessons, slides) to avoid repeated remote fetches.\"\n                  ]\n                },\n                {\n                  \"id\": \"\u03948\",\n                  \"title\": \"V2 Curriculum Pipeline Architecture Separation\",\n                  \"summary\": \"Separate responsibilities into CSV maker, downloader v2, and planner layers.\",\n                  \"rules\": [\n                    \"CSV maker (e.g., Apps Script) is responsible only for scraping links and writing CSV; it must remain simple and stable.\",\n                    \"Downloader v2 is responsible for URL cleaning, deduplication, browser automation, file download detection, error labelling, and subject/day aggregation.\",\n                    \"Planner layers (e.g., TeachingEngine WeeklyPlanAssembler) consume aggregates and table grammar to build weekly subject plans with attached materials and schedule details.\"\n                  ]\n                },\n                {"
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_6ecf591e0c81",
+          "start_line": 19317,
+          "end_line": 19333,
+          "excerpt": "\"Other subjects (e.g., Math, Reading, Writing, Science) default to Monday\u2013Friday active days.\"\n            ]\n          },\n          {\n            \"id\": \"\u03947\",\n            \"title\": \"Linking Downloaded Materials into Subject Aggregates\",\n            \"summary\": \"Connect each curriculum link with its downloaded local material path and surface that link in aggregate files.\",\n            \"rules\": [\n              \"Each URL row in the downloader runtime stores both url_raw and url_clean plus a local_file path when a download succeeds.\",\n              \"Aggregate subject/week files must surface the local_file path alongside the URL fields when present.\",\n              \"Lesson-planning components should prefer local_file references for generating artifacts (e.g., HTML lessons, slides) to avoid repeated remote fetches.\"\n            ]\n          },\n          {\n            \"id\": \"\u03948\",\n            \"title\": \"V2 Curriculum Pipeline Architecture Separation\",\n            \"summary\": \"Separate responsibilities into CSV maker, downloader v2, and planner layers.\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_3a4995410efc",
+          "start_line": 19324,
+          "end_line": 19340,
+          "excerpt": "\"rules\": [\n              \"Each URL row in the downloader runtime stores both url_raw and url_clean plus a local_file path when a download succeeds.\",\n              \"Aggregate subject/week files must surface the local_file path alongside the URL fields when present.\",\n              \"Lesson-planning components should prefer local_file references for generating artifacts (e.g., HTML lessons, slides) to avoid repeated remote fetches.\"\n            ]\n          },\n          {\n            \"id\": \"\u03948\",\n            \"title\": \"V2 Curriculum Pipeline Architecture Separation\",\n            \"summary\": \"Separate responsibilities into CSV maker, downloader v2, and planner layers.\",\n            \"rules\": [\n              \"CSV maker (e.g., Apps Script) is responsible only for scraping links and writing CSV; it must remain simple and stable.\",\n              \"Downloader v2 is responsible for URL cleaning, deduplication, browser automation, file download detection, error labelling, and subject/day aggregation.\",\n              \"Planner layers (e.g., TeachingEngine WeeklyPlanAssembler) consume aggregates and table grammar to build weekly subject plans with attached materials and schedule details.\"\n            ]\n          },\n          {"
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_e5616a506eb1",
+          "start_line": 22932,
+          "end_line": 22948,
+          "excerpt": "\"Other subjects (e.g., Math, Reading, Writing, Science) default to Monday\u2013Friday active days.\"\n                  ]\n                },\n                {\n                  \"id\": \"\u03947\",\n                  \"title\": \"Linking Downloaded Materials into Subject Aggregates\",\n                  \"summary\": \"Connect each curriculum link with its downloaded local material path and surface that link in aggregate files.\",\n                  \"rules\": [\n                    \"Each URL row in the downloader runtime stores both url_raw and url_clean plus a local_file path when a download succeeds.\",\n                    \"Aggregate subject/week files must surface the local_file path alongside the URL fields when present.\",\n                    \"Lesson-planning components should prefer local_file references for generating artifacts (e.g., HTML lessons, slides) to avoid repeated remote fetches.\"\n                  ]\n                },\n                {\n                  \"id\": \"\u03948\",\n                  \"title\": \"V2 Curriculum Pipeline Architecture Separation\",\n                  \"summary\": \"Separate responsibilities into CSV maker, downloader v2, and planner layers.\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_5c842500727d",
+          "start_line": 22939,
+          "end_line": 22955,
+          "excerpt": "\"rules\": [\n                    \"Each URL row in the downloader runtime stores both url_raw and url_clean plus a local_file path when a download succeeds.\",\n                    \"Aggregate subject/week files must surface the local_file path alongside the URL fields when present.\",\n                    \"Lesson-planning components should prefer local_file references for generating artifacts (e.g., HTML lessons, slides) to avoid repeated remote fetches.\"\n                  ]\n                },\n                {\n                  \"id\": \"\u03948\",\n                  \"title\": \"V2 Curriculum Pipeline Architecture Separation\",\n                  \"summary\": \"Separate responsibilities into CSV maker, downloader v2, and planner layers.\",\n                  \"rules\": [\n                    \"CSV maker (e.g., Apps Script) is responsible only for scraping links and writing CSV; it must remain simple and stable.\",\n                    \"Downloader v2 is responsible for URL cleaning, deduplication, browser automation, file download detection, error labelling, and subject/day aggregation.\",\n                    \"Planner layers (e.g., TeachingEngine WeeklyPlanAssembler) consume aggregates and table grammar to build weekly subject plans with attached materials and schedule details.\"\n                  ]\n                },\n                {"
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_5fc7c6c584ea",
+          "start_line": 23952,
+          "end_line": 23968,
+          "excerpt": "\"Other subjects (e.g., Math, Reading, Writing, Science) default to Monday\u2013Friday active days.\"\n            ]\n          },\n          {\n            \"id\": \"\u03947\",\n            \"title\": \"Linking Downloaded Materials into Subject Aggregates\",\n            \"summary\": \"Connect each curriculum link with its downloaded local material path and surface that link in aggregate files.\",\n            \"rules\": [\n              \"Each URL row in the downloader runtime stores both url_raw and url_clean plus a local_file path when a download succeeds.\",\n              \"Aggregate subject/week files must surface the local_file path alongside the URL fields when present.\",\n              \"Lesson-planning components should prefer local_file references for generating artifacts (e.g., HTML lessons, slides) to avoid repeated remote fetches.\"\n            ]\n          },\n          {\n            \"id\": \"\u03948\",\n            \"title\": \"V2 Curriculum Pipeline Architecture Separation\",\n            \"summary\": \"Separate responsibilities into CSV maker, downloader v2, and planner layers.\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_f2bd88f86eb1",
+          "start_line": 23959,
+          "end_line": 23975,
+          "excerpt": "\"rules\": [\n              \"Each URL row in the downloader runtime stores both url_raw and url_clean plus a local_file path when a download succeeds.\",\n              \"Aggregate subject/week files must surface the local_file path alongside the URL fields when present.\",\n              \"Lesson-planning components should prefer local_file references for generating artifacts (e.g., HTML lessons, slides) to avoid repeated remote fetches.\"\n            ]\n          },\n          {\n            \"id\": \"\u03948\",\n            \"title\": \"V2 Curriculum Pipeline Architecture Separation\",\n            \"summary\": \"Separate responsibilities into CSV maker, downloader v2, and planner layers.\",\n            \"rules\": [\n              \"CSV maker (e.g., Apps Script) is responsible only for scraping links and writing CSV; it must remain simple and stable.\",\n              \"Downloader v2 is responsible for URL cleaning, deduplication, browser automation, file download detection, error labelling, and subject/day aggregation.\",\n              \"Planner layers (e.g., TeachingEngine WeeklyPlanAssembler) consume aggregates and table grammar to build weekly subject plans with attached materials and schedule details.\"\n            ]\n          },\n          {"
+        }
+      ]
+    },
+    {
+      "id": "ROW_2dd5d39fc768",
+      "name": "row should either have a local_file path or an explicit error field eg page_error403 no_file_detected",
+      "evidence": [
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_50d228360bf3",
+          "start_line": 1775,
+          "end_line": 1791,
+          "excerpt": "\"Snapshot \u0394 files should summarize architecture, rules, and improvements, not raw logs, and be suitable for direct inclusion in Project Files.\"\n                  ]\n                },\n                {\n                  \"id\": \"\u039411\",\n                  \"title\": \"Error Transparency for Non-Downloadable Resources\",\n                  \"summary\": \"Clearly distinguish between successfully downloaded materials and links that could not be downloaded.\",\n                  \"rules\": [\n                    \"Every curriculum resource row should either have a local_file path or an explicit error field (e.g., page_error:403, no_file_detected).\",\n                    \"Aggregates and planners must never silently drop problematic links; they should surface error codes so humans can see what is missing.\",\n                    \"Downstream lesson-planning logic should gracefully skip or flag error-marked resources instead of treating them as missing silently.\"\n                  ]\n                },\n                {\n                  \"id\": \"\u039412\",\n                  \"title\": \"Permission Behavior Awareness for Drive/Docs Links\",\n                  \"summary\": \"Model typical permission failures and communicate them clearly in logs and aggregates.\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_fb33ff1ca440",
+          "start_line": 2795,
+          "end_line": 2811,
+          "excerpt": "\"Snapshot \u0394 files should summarize architecture, rules, and improvements, not raw logs, and be suitable for direct inclusion in Project Files.\"\n            ]\n          },\n          {\n            \"id\": \"\u039411\",\n            \"title\": \"Error Transparency for Non-Downloadable Resources\",\n            \"summary\": \"Clearly distinguish between successfully downloaded materials and links that could not be downloaded.\",\n            \"rules\": [\n              \"Every curriculum resource row should either have a local_file path or an explicit error field (e.g., page_error:403, no_file_detected).\",\n              \"Aggregates and planners must never silently drop problematic links; they should surface error codes so humans can see what is missing.\",\n              \"Downstream lesson-planning logic should gracefully skip or flag error-marked resources instead of treating them as missing silently.\"\n            ]\n          },\n          {\n            \"id\": \"\u039412\",\n            \"title\": \"Permission Behavior Awareness for Drive/Docs Links\",\n            \"summary\": \"Model typical permission failures and communicate them clearly in logs and aggregates.\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_59b3c015c451",
+          "start_line": 12577,
+          "end_line": 12593,
+          "excerpt": "\"Snapshot \u0394 files should summarize architecture, rules, and improvements, not raw logs, and be suitable for direct inclusion in Project Files.\"\n                  ]\n                },\n                {\n                  \"id\": \"\u039411\",\n                  \"title\": \"Error Transparency for Non-Downloadable Resources\",\n                  \"summary\": \"Clearly distinguish between successfully downloaded materials and links that could not be downloaded.\",\n                  \"rules\": [\n                    \"Every curriculum resource row should either have a local_file path or an explicit error field (e.g., page_error:403, no_file_detected).\",\n                    \"Aggregates and planners must never silently drop problematic links; they should surface error codes so humans can see what is missing.\",\n                    \"Downstream lesson-planning logic should gracefully skip or flag error-marked resources instead of treating them as missing silently.\"\n                  ]\n                },\n                {\n                  \"id\": \"\u039412\",\n                  \"title\": \"Permission Behavior Awareness for Drive/Docs Links\",\n                  \"summary\": \"Model typical permission failures and communicate them clearly in logs and aggregates.\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_7d85a17e13e5",
+          "start_line": 13597,
+          "end_line": 13613,
+          "excerpt": "\"Snapshot \u0394 files should summarize architecture, rules, and improvements, not raw logs, and be suitable for direct inclusion in Project Files.\"\n            ]\n          },\n          {\n            \"id\": \"\u039411\",\n            \"title\": \"Error Transparency for Non-Downloadable Resources\",\n            \"summary\": \"Clearly distinguish between successfully downloaded materials and links that could not be downloaded.\",\n            \"rules\": [\n              \"Every curriculum resource row should either have a local_file path or an explicit error field (e.g., page_error:403, no_file_detected).\",\n              \"Aggregates and planners must never silently drop problematic links; they should surface error codes so humans can see what is missing.\",\n              \"Downstream lesson-planning logic should gracefully skip or flag error-marked resources instead of treating them as missing silently.\"\n            ]\n          },\n          {\n            \"id\": \"\u039412\",\n            \"title\": \"Permission Behavior Awareness for Drive/Docs Links\",\n            \"summary\": \"Model typical permission failures and communicate them clearly in logs and aggregates.\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_c1d24e6193db",
+          "start_line": 18336,
+          "end_line": 18352,
+          "excerpt": "\"Snapshot \u0394 files should summarize architecture, rules, and improvements, not raw logs, and be suitable for direct inclusion in Project Files.\"\n                  ]\n                },\n                {\n                  \"id\": \"\u039411\",\n                  \"title\": \"Error Transparency for Non-Downloadable Resources\",\n                  \"summary\": \"Clearly distinguish between successfully downloaded materials and links that could not be downloaded.\",\n                  \"rules\": [\n                    \"Every curriculum resource row should either have a local_file path or an explicit error field (e.g., page_error:403, no_file_detected).\",\n                    \"Aggregates and planners must never silently drop problematic links; they should surface error codes so humans can see what is missing.\",\n                    \"Downstream lesson-planning logic should gracefully skip or flag error-marked resources instead of treating them as missing silently.\"\n                  ]\n                },\n                {\n                  \"id\": \"\u039412\",\n                  \"title\": \"Permission Behavior Awareness for Drive/Docs Links\",\n                  \"summary\": \"Model typical permission failures and communicate them clearly in logs and aggregates.\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_9291e16fbd82",
+          "start_line": 19356,
+          "end_line": 19372,
+          "excerpt": "\"Snapshot \u0394 files should summarize architecture, rules, and improvements, not raw logs, and be suitable for direct inclusion in Project Files.\"\n            ]\n          },\n          {\n            \"id\": \"\u039411\",\n            \"title\": \"Error Transparency for Non-Downloadable Resources\",\n            \"summary\": \"Clearly distinguish between successfully downloaded materials and links that could not be downloaded.\",\n            \"rules\": [\n              \"Every curriculum resource row should either have a local_file path or an explicit error field (e.g., page_error:403, no_file_detected).\",\n              \"Aggregates and planners must never silently drop problematic links; they should surface error codes so humans can see what is missing.\",\n              \"Downstream lesson-planning logic should gracefully skip or flag error-marked resources instead of treating them as missing silently.\"\n            ]\n          },\n          {\n            \"id\": \"\u039412\",\n            \"title\": \"Permission Behavior Awareness for Drive/Docs Links\",\n            \"summary\": \"Model typical permission failures and communicate them clearly in logs and aggregates.\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_5bb8d2ed86ac",
+          "start_line": 22971,
+          "end_line": 22987,
+          "excerpt": "\"Snapshot \u0394 files should summarize architecture, rules, and improvements, not raw logs, and be suitable for direct inclusion in Project Files.\"\n                  ]\n                },\n                {\n                  \"id\": \"\u039411\",\n                  \"title\": \"Error Transparency for Non-Downloadable Resources\",\n                  \"summary\": \"Clearly distinguish between successfully downloaded materials and links that could not be downloaded.\",\n                  \"rules\": [\n                    \"Every curriculum resource row should either have a local_file path or an explicit error field (e.g., page_error:403, no_file_detected).\",\n                    \"Aggregates and planners must never silently drop problematic links; they should surface error codes so humans can see what is missing.\",\n                    \"Downstream lesson-planning logic should gracefully skip or flag error-marked resources instead of treating them as missing silently.\"\n                  ]\n                },\n                {\n                  \"id\": \"\u039412\",\n                  \"title\": \"Permission Behavior Awareness for Drive/Docs Links\",\n                  \"summary\": \"Model typical permission failures and communicate them clearly in logs and aggregates.\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_a04d01b53377",
+          "start_line": 23991,
+          "end_line": 24007,
+          "excerpt": "\"Snapshot \u0394 files should summarize architecture, rules, and improvements, not raw logs, and be suitable for direct inclusion in Project Files.\"\n            ]\n          },\n          {\n            \"id\": \"\u039411\",\n            \"title\": \"Error Transparency for Non-Downloadable Resources\",\n            \"summary\": \"Clearly distinguish between successfully downloaded materials and links that could not be downloaded.\",\n            \"rules\": [\n              \"Every curriculum resource row should either have a local_file path or an explicit error field (e.g., page_error:403, no_file_detected).\",\n              \"Aggregates and planners must never silently drop problematic links; they should surface error codes so humans can see what is missing.\",\n              \"Downstream lesson-planning logic should gracefully skip or flag error-marked resources instead of treating them as missing silently.\"\n            ]\n          },\n          {\n            \"id\": \"\u039412\",\n            \"title\": \"Permission Behavior Awareness for Drive/Docs Links\",\n            \"summary\": \"Model typical permission failures and communicate them clearly in logs and aggregates.\","
+        }
+      ]
+    },
+    {
+      "id": "ROW_634768dae147",
+      "name": "row",
+      "evidence": [
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_d0befb62684e",
+          "start_line": 1803,
+          "end_line": 1819,
+          "excerpt": "\"Aggregate output directory uses a stable location (e.g., Downloads/CurriculumDownloads/Aggregates).\",\n                    \"Each subject receives a file named <Subject>_week.txt with spaces replaced by underscores.\",\n                    \"Within each subject file, resources are grouped under ordered day sections (Monday\u2013Friday or subject-specific active days), preserving subject/day structure for planners.\"\n                  ]\n                },\n                {\n                  \"id\": \"\u039414\",\n                  \"title\": \"Planner Expectations for Resource Records\",\n                  \"summary\": \"Standardize the fields that planner components can expect per resource row.\",\n                  \"rules\": [\n                    \"Each resource row exposed to planners should include: subject, day, label, url_raw, url_clean, snippet (optional), local_file (optional), and error (optional).\",\n                    \"Planners should treat url_clean + local_file as primary for material access and url_raw as a diagnostic/debug field.\",\n                    \"Error fields must be handled explicitly in UI and text outputs (e.g., 'Material missing or permission-locked').\"\n                  ]\n                },\n                {\n                  \"id\": \"\u039415\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_d262bc759bc4",
+          "start_line": 1805,
+          "end_line": 1821,
+          "excerpt": "\"Within each subject file, resources are grouped under ordered day sections (Monday\u2013Friday or subject-specific active days), preserving subject/day structure for planners.\"\n                  ]\n                },\n                {\n                  \"id\": \"\u039414\",\n                  \"title\": \"Planner Expectations for Resource Records\",\n                  \"summary\": \"Standardize the fields that planner components can expect per resource row.\",\n                  \"rules\": [\n                    \"Each resource row exposed to planners should include: subject, day, label, url_raw, url_clean, snippet (optional), local_file (optional), and error (optional).\",\n                    \"Planners should treat url_clean + local_file as primary for material access and url_raw as a diagnostic/debug field.\",\n                    \"Error fields must be handled explicitly in UI and text outputs (e.g., 'Material missing or permission-locked').\"\n                  ]\n                },\n                {\n                  \"id\": \"\u039415\",\n                  \"title\": \"Logging and Debug Clarity for Curriculum Runs\",\n                  \"summary\": \"Adopt loud, structured logging for downloader v2 to make behavior obvious.\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_8c2bfbdc3dd8",
+          "start_line": 2823,
+          "end_line": 2839,
+          "excerpt": "\"Aggregate output directory uses a stable location (e.g., Downloads/CurriculumDownloads/Aggregates).\",\n              \"Each subject receives a file named <Subject>_week.txt with spaces replaced by underscores.\",\n              \"Within each subject file, resources are grouped under ordered day sections (Monday\u2013Friday or subject-specific active days), preserving subject/day structure for planners.\"\n            ]\n          },\n          {\n            \"id\": \"\u039414\",\n            \"title\": \"Planner Expectations for Resource Records\",\n            \"summary\": \"Standardize the fields that planner components can expect per resource row.\",\n            \"rules\": [\n              \"Each resource row exposed to planners should include: subject, day, label, url_raw, url_clean, snippet (optional), local_file (optional), and error (optional).\",\n              \"Planners should treat url_clean + local_file as primary for material access and url_raw as a diagnostic/debug field.\",\n              \"Error fields must be handled explicitly in UI and text outputs (e.g., 'Material missing or permission-locked').\"\n            ]\n          },\n          {\n            \"id\": \"\u039415\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_723864ad10b4",
+          "start_line": 2825,
+          "end_line": 2841,
+          "excerpt": "\"Within each subject file, resources are grouped under ordered day sections (Monday\u2013Friday or subject-specific active days), preserving subject/day structure for planners.\"\n            ]\n          },\n          {\n            \"id\": \"\u039414\",\n            \"title\": \"Planner Expectations for Resource Records\",\n            \"summary\": \"Standardize the fields that planner components can expect per resource row.\",\n            \"rules\": [\n              \"Each resource row exposed to planners should include: subject, day, label, url_raw, url_clean, snippet (optional), local_file (optional), and error (optional).\",\n              \"Planners should treat url_clean + local_file as primary for material access and url_raw as a diagnostic/debug field.\",\n              \"Error fields must be handled explicitly in UI and text outputs (e.g., 'Material missing or permission-locked').\"\n            ]\n          },\n          {\n            \"id\": \"\u039415\",\n            \"title\": \"Logging and Debug Clarity for Curriculum Runs\",\n            \"summary\": \"Adopt loud, structured logging for downloader v2 to make behavior obvious.\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_0e63dce03c11",
+          "start_line": 12605,
+          "end_line": 12621,
+          "excerpt": "\"Aggregate output directory uses a stable location (e.g., Downloads/CurriculumDownloads/Aggregates).\",\n                    \"Each subject receives a file named <Subject>_week.txt with spaces replaced by underscores.\",\n                    \"Within each subject file, resources are grouped under ordered day sections (Monday\u2013Friday or subject-specific active days), preserving subject/day structure for planners.\"\n                  ]\n                },\n                {\n                  \"id\": \"\u039414\",\n                  \"title\": \"Planner Expectations for Resource Records\",\n                  \"summary\": \"Standardize the fields that planner components can expect per resource row.\",\n                  \"rules\": [\n                    \"Each resource row exposed to planners should include: subject, day, label, url_raw, url_clean, snippet (optional), local_file (optional), and error (optional).\",\n                    \"Planners should treat url_clean + local_file as primary for material access and url_raw as a diagnostic/debug field.\",\n                    \"Error fields must be handled explicitly in UI and text outputs (e.g., 'Material missing or permission-locked').\"\n                  ]\n                },\n                {\n                  \"id\": \"\u039415\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_1f4eff2546aa",
+          "start_line": 12607,
+          "end_line": 12623,
+          "excerpt": "\"Within each subject file, resources are grouped under ordered day sections (Monday\u2013Friday or subject-specific active days), preserving subject/day structure for planners.\"\n                  ]\n                },\n                {\n                  \"id\": \"\u039414\",\n                  \"title\": \"Planner Expectations for Resource Records\",\n                  \"summary\": \"Standardize the fields that planner components can expect per resource row.\",\n                  \"rules\": [\n                    \"Each resource row exposed to planners should include: subject, day, label, url_raw, url_clean, snippet (optional), local_file (optional), and error (optional).\",\n                    \"Planners should treat url_clean + local_file as primary for material access and url_raw as a diagnostic/debug field.\",\n                    \"Error fields must be handled explicitly in UI and text outputs (e.g., 'Material missing or permission-locked').\"\n                  ]\n                },\n                {\n                  \"id\": \"\u039415\",\n                  \"title\": \"Logging and Debug Clarity for Curriculum Runs\",\n                  \"summary\": \"Adopt loud, structured logging for downloader v2 to make behavior obvious.\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_346fcbc9bf9b",
+          "start_line": 13625,
+          "end_line": 13641,
+          "excerpt": "\"Aggregate output directory uses a stable location (e.g., Downloads/CurriculumDownloads/Aggregates).\",\n              \"Each subject receives a file named <Subject>_week.txt with spaces replaced by underscores.\",\n              \"Within each subject file, resources are grouped under ordered day sections (Monday\u2013Friday or subject-specific active days), preserving subject/day structure for planners.\"\n            ]\n          },\n          {\n            \"id\": \"\u039414\",\n            \"title\": \"Planner Expectations for Resource Records\",\n            \"summary\": \"Standardize the fields that planner components can expect per resource row.\",\n            \"rules\": [\n              \"Each resource row exposed to planners should include: subject, day, label, url_raw, url_clean, snippet (optional), local_file (optional), and error (optional).\",\n              \"Planners should treat url_clean + local_file as primary for material access and url_raw as a diagnostic/debug field.\",\n              \"Error fields must be handled explicitly in UI and text outputs (e.g., 'Material missing or permission-locked').\"\n            ]\n          },\n          {\n            \"id\": \"\u039415\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_eb8de6c43e64",
+          "start_line": 13627,
+          "end_line": 13643,
+          "excerpt": "\"Within each subject file, resources are grouped under ordered day sections (Monday\u2013Friday or subject-specific active days), preserving subject/day structure for planners.\"\n            ]\n          },\n          {\n            \"id\": \"\u039414\",\n            \"title\": \"Planner Expectations for Resource Records\",\n            \"summary\": \"Standardize the fields that planner components can expect per resource row.\",\n            \"rules\": [\n              \"Each resource row exposed to planners should include: subject, day, label, url_raw, url_clean, snippet (optional), local_file (optional), and error (optional).\",\n              \"Planners should treat url_clean + local_file as primary for material access and url_raw as a diagnostic/debug field.\",\n              \"Error fields must be handled explicitly in UI and text outputs (e.g., 'Material missing or permission-locked').\"\n            ]\n          },\n          {\n            \"id\": \"\u039415\",\n            \"title\": \"Logging and Debug Clarity for Curriculum Runs\",\n            \"summary\": \"Adopt loud, structured logging for downloader v2 to make behavior obvious.\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_67ba3e57f046",
+          "start_line": 18364,
+          "end_line": 18380,
+          "excerpt": "\"Aggregate output directory uses a stable location (e.g., Downloads/CurriculumDownloads/Aggregates).\",\n                    \"Each subject receives a file named <Subject>_week.txt with spaces replaced by underscores.\",\n                    \"Within each subject file, resources are grouped under ordered day sections (Monday\u2013Friday or subject-specific active days), preserving subject/day structure for planners.\"\n                  ]\n                },\n                {\n                  \"id\": \"\u039414\",\n                  \"title\": \"Planner Expectations for Resource Records\",\n                  \"summary\": \"Standardize the fields that planner components can expect per resource row.\",\n                  \"rules\": [\n                    \"Each resource row exposed to planners should include: subject, day, label, url_raw, url_clean, snippet (optional), local_file (optional), and error (optional).\",\n                    \"Planners should treat url_clean + local_file as primary for material access and url_raw as a diagnostic/debug field.\",\n                    \"Error fields must be handled explicitly in UI and text outputs (e.g., 'Material missing or permission-locked').\"\n                  ]\n                },\n                {\n                  \"id\": \"\u039415\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_21dc8dfe4b94",
+          "start_line": 18366,
+          "end_line": 18382,
+          "excerpt": "\"Within each subject file, resources are grouped under ordered day sections (Monday\u2013Friday or subject-specific active days), preserving subject/day structure for planners.\"\n                  ]\n                },\n                {\n                  \"id\": \"\u039414\",\n                  \"title\": \"Planner Expectations for Resource Records\",\n                  \"summary\": \"Standardize the fields that planner components can expect per resource row.\",\n                  \"rules\": [\n                    \"Each resource row exposed to planners should include: subject, day, label, url_raw, url_clean, snippet (optional), local_file (optional), and error (optional).\",\n                    \"Planners should treat url_clean + local_file as primary for material access and url_raw as a diagnostic/debug field.\",\n                    \"Error fields must be handled explicitly in UI and text outputs (e.g., 'Material missing or permission-locked').\"\n                  ]\n                },\n                {\n                  \"id\": \"\u039415\",\n                  \"title\": \"Logging and Debug Clarity for Curriculum Runs\",\n                  \"summary\": \"Adopt loud, structured logging for downloader v2 to make behavior obvious.\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_5ee9d6a86d17",
+          "start_line": 19384,
+          "end_line": 19400,
+          "excerpt": "\"Aggregate output directory uses a stable location (e.g., Downloads/CurriculumDownloads/Aggregates).\",\n              \"Each subject receives a file named <Subject>_week.txt with spaces replaced by underscores.\",\n              \"Within each subject file, resources are grouped under ordered day sections (Monday\u2013Friday or subject-specific active days), preserving subject/day structure for planners.\"\n            ]\n          },\n          {\n            \"id\": \"\u039414\",\n            \"title\": \"Planner Expectations for Resource Records\",\n            \"summary\": \"Standardize the fields that planner components can expect per resource row.\",\n            \"rules\": [\n              \"Each resource row exposed to planners should include: subject, day, label, url_raw, url_clean, snippet (optional), local_file (optional), and error (optional).\",\n              \"Planners should treat url_clean + local_file as primary for material access and url_raw as a diagnostic/debug field.\",\n              \"Error fields must be handled explicitly in UI and text outputs (e.g., 'Material missing or permission-locked').\"\n            ]\n          },\n          {\n            \"id\": \"\u039415\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_395bb191b9f8",
+          "start_line": 19386,
+          "end_line": 19402,
+          "excerpt": "\"Within each subject file, resources are grouped under ordered day sections (Monday\u2013Friday or subject-specific active days), preserving subject/day structure for planners.\"\n            ]\n          },\n          {\n            \"id\": \"\u039414\",\n            \"title\": \"Planner Expectations for Resource Records\",\n            \"summary\": \"Standardize the fields that planner components can expect per resource row.\",\n            \"rules\": [\n              \"Each resource row exposed to planners should include: subject, day, label, url_raw, url_clean, snippet (optional), local_file (optional), and error (optional).\",\n              \"Planners should treat url_clean + local_file as primary for material access and url_raw as a diagnostic/debug field.\",\n              \"Error fields must be handled explicitly in UI and text outputs (e.g., 'Material missing or permission-locked').\"\n            ]\n          },\n          {\n            \"id\": \"\u039415\",\n            \"title\": \"Logging and Debug Clarity for Curriculum Runs\",\n            \"summary\": \"Adopt loud, structured logging for downloader v2 to make behavior obvious.\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_c9399dc7fefe",
+          "start_line": 22999,
+          "end_line": 23015,
+          "excerpt": "\"Aggregate output directory uses a stable location (e.g., Downloads/CurriculumDownloads/Aggregates).\",\n                    \"Each subject receives a file named <Subject>_week.txt with spaces replaced by underscores.\",\n                    \"Within each subject file, resources are grouped under ordered day sections (Monday\u2013Friday or subject-specific active days), preserving subject/day structure for planners.\"\n                  ]\n                },\n                {\n                  \"id\": \"\u039414\",\n                  \"title\": \"Planner Expectations for Resource Records\",\n                  \"summary\": \"Standardize the fields that planner components can expect per resource row.\",\n                  \"rules\": [\n                    \"Each resource row exposed to planners should include: subject, day, label, url_raw, url_clean, snippet (optional), local_file (optional), and error (optional).\",\n                    \"Planners should treat url_clean + local_file as primary for material access and url_raw as a diagnostic/debug field.\",\n                    \"Error fields must be handled explicitly in UI and text outputs (e.g., 'Material missing or permission-locked').\"\n                  ]\n                },\n                {\n                  \"id\": \"\u039415\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_b3691a534d04",
+          "start_line": 23001,
+          "end_line": 23017,
+          "excerpt": "\"Within each subject file, resources are grouped under ordered day sections (Monday\u2013Friday or subject-specific active days), preserving subject/day structure for planners.\"\n                  ]\n                },\n                {\n                  \"id\": \"\u039414\",\n                  \"title\": \"Planner Expectations for Resource Records\",\n                  \"summary\": \"Standardize the fields that planner components can expect per resource row.\",\n                  \"rules\": [\n                    \"Each resource row exposed to planners should include: subject, day, label, url_raw, url_clean, snippet (optional), local_file (optional), and error (optional).\",\n                    \"Planners should treat url_clean + local_file as primary for material access and url_raw as a diagnostic/debug field.\",\n                    \"Error fields must be handled explicitly in UI and text outputs (e.g., 'Material missing or permission-locked').\"\n                  ]\n                },\n                {\n                  \"id\": \"\u039415\",\n                  \"title\": \"Logging and Debug Clarity for Curriculum Runs\",\n                  \"summary\": \"Adopt loud, structured logging for downloader v2 to make behavior obvious.\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_ec349d1b4b58",
+          "start_line": 24019,
+          "end_line": 24035,
+          "excerpt": "\"Aggregate output directory uses a stable location (e.g., Downloads/CurriculumDownloads/Aggregates).\",\n              \"Each subject receives a file named <Subject>_week.txt with spaces replaced by underscores.\",\n              \"Within each subject file, resources are grouped under ordered day sections (Monday\u2013Friday or subject-specific active days), preserving subject/day structure for planners.\"\n            ]\n          },\n          {\n            \"id\": \"\u039414\",\n            \"title\": \"Planner Expectations for Resource Records\",\n            \"summary\": \"Standardize the fields that planner components can expect per resource row.\",\n            \"rules\": [\n              \"Each resource row exposed to planners should include: subject, day, label, url_raw, url_clean, snippet (optional), local_file (optional), and error (optional).\",\n              \"Planners should treat url_clean + local_file as primary for material access and url_raw as a diagnostic/debug field.\",\n              \"Error fields must be handled explicitly in UI and text outputs (e.g., 'Material missing or permission-locked').\"\n            ]\n          },\n          {\n            \"id\": \"\u039415\","
+        },
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_639f87738142",
+          "start_line": 24021,
+          "end_line": 24037,
+          "excerpt": "\"Within each subject file, resources are grouped under ordered day sections (Monday\u2013Friday or subject-specific active days), preserving subject/day structure for planners.\"\n            ]\n          },\n          {\n            \"id\": \"\u039414\",\n            \"title\": \"Planner Expectations for Resource Records\",\n            \"summary\": \"Standardize the fields that planner components can expect per resource row.\",\n            \"rules\": [\n              \"Each resource row exposed to planners should include: subject, day, label, url_raw, url_clean, snippet (optional), local_file (optional), and error (optional).\",\n              \"Planners should treat url_clean + local_file as primary for material access and url_raw as a diagnostic/debug field.\",\n              \"Error fields must be handled explicitly in UI and text outputs (e.g., 'Material missing or permission-locked').\"\n            ]\n          },\n          {\n            \"id\": \"\u039415\",\n            \"title\": \"Logging and Debug Clarity for Curriculum Runs\",\n            \"summary\": \"Adopt loud, structured logging for downloader v2 to make behavior obvious.\","
+        }
+      ]
+    },
+    {
+      "id": "ROW_b9748b808314",
+      "name": "row forever if nobody cleans them up That eventually makes everything worse",
+      "evidence": [
+        {
+          "artifact_id": "ARTIFACT2",
+          "member_path": "2026-01-12_MetaBrain_batch-035_(28-chats).jsonl",
+          "chat_id": "692f2d2c-dde0-8330-b496-42669620a096",
+          "chunk_id": "CHUNK_a07469246549",
+          "start_line": 20830,
+          "end_line": 20846,
+          "excerpt": "So research is always **purpose-aligned**, not generic.\n\n---\n\n## 4\ufe0f\u20e3 `Sandcrawler_CacheMaintenanceEngine_v1.mips.json`\n\n**Why it exists:**  \nSandcrawler logs + caches can grow forever if nobody cleans them up. That eventually makes everything worse.\n\n**What it does:**\n\n- Cleans + compacts old caches and logs  \n- Applies TTL and size limits  \n- Preserves *system-defining* evidence but drops junk  \n\nThis keeps your research system lean and not a hoarder."
+        }
+      ]
+    }
+  ],
+  "pipelines": []
+}

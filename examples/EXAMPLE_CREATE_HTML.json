@@ -1,0 +1,8 @@
+{
+  "utterance": "Let's start a ROW: CREATE_HTML for TEKS 3.8(A) on Google Sites.",
+  "resolved_row": "ROW_CREATE_HTML",
+  "expected_artifacts": [
+    "paste_ready_html",
+    "artifact_manifest.json"
+  ]
+}

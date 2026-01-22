@@ -1,0 +1,6 @@
+{
+  "hooks": [
+    "ctos.hooks.auto_ledger_boot_and_export:on_boot",
+    "ctos.hooks.auto_ledger_boot_and_export:on_export"
+  ]
+}

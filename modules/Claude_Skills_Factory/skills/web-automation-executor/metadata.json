@@ -1,0 +1,15 @@
+{
+  "name": "web-automation-executor",
+  "description": "Governed wrapper for web.run usage (query plan \u2192 retrieves \u2192 citations).",
+  "trigger": "When Sandcrawler is invoked or web research is required.",
+  "inputs": [
+    "query plan",
+    "recency requirements",
+    "domains constraints"
+  ],
+  "outputs": [
+    "sources with citations",
+    "evidence table",
+    "disconfirming pass"
+  ]
+}

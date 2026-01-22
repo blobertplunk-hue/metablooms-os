@@ -1,0 +1,67 @@
+{
+  "version": "v1.1",
+  "base_rubric": [
+    "correctness",
+    "auditability",
+    "determinism",
+    "maintainability",
+    "security_robustness"
+  ],
+  "overlays": {
+    "api_endpoint": {
+      "dimensions": [
+        "input_validation",
+        "status_code_correctness",
+        "authn_authz_consistency"
+      ],
+      "min_thresholds": {
+        "input_validation": 4,
+        "status_code_correctness": 4
+      }
+    },
+    "file_io": {
+      "dimensions": [
+        "atomicity",
+        "overwrite_policy",
+        "path_safety"
+      ],
+      "min_thresholds": {
+        "atomicity": 4,
+        "path_safety": 4
+      }
+    },
+    "db_query": {
+      "dimensions": [
+        "parameterization",
+        "transaction_safety",
+        "migration_friendliness"
+      ],
+      "min_thresholds": {
+        "parameterization": 4,
+        "transaction_safety": 4
+      }
+    },
+    "serializer": {
+      "dimensions": [
+        "schema_validity",
+        "backward_compatibility"
+      ],
+      "min_thresholds": {
+        "schema_validity": 4
+      }
+    }
+  },
+  "triviality_rule": {
+    "max_logical_lines": 10,
+    "requires_pure": true,
+    "disallowed_surfaces": [
+      "parsing",
+      "auth",
+      "money",
+      "encryption",
+      "filesystem",
+      "network",
+      "db"
+    ]
+  }
+}

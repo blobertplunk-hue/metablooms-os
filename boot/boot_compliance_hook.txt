@@ -1,0 +1,8 @@
+
+BOOT_COMPLIANCE_HOOK (PSEUDO)
+- read spec/METABLOOMS_MANIFEST.json
+- for each file:
+    - compute sha256
+    - compare to manifest
+- if any mismatch: HALT_BOOT
+- else: SET METABLOOMS_ACTIVE = true

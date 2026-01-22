@@ -1,0 +1,16 @@
+{
+  "metablooms_runtime_class": "CTOS",
+  "ctos_version": "2.2",
+  "compat": {
+    "metablooms_os_version": "v2.0",
+    "note": "CTOS rebase preserves prior OS labels for backward compatibility; CTOS is the authoritative classification going forward."
+  },
+  "governance": {
+    "fail_closed": true,
+    "evidence_first": true,
+    "quality_gate": "Q0 v1.1",
+    "gate2_required": true
+  },
+  "kernel_invariants_ref": "spec/METABLOOMS_KERNEL_v2.md",
+  "generated_utc": "2026-01-14T00:00:00Z"
+}

@@ -1,0 +1,11 @@
+{
+  "delta_id": "MB_P0_DCC_v1",
+  "intent": "Wire P0 Debug+Code Constitution v1 into MetaBlooms OS",
+  "changes": [
+    "Add P0_DEBUG_CODE_CONSTITUTION_v1.md to canonical governance directory",
+    "Register MB_P0_DEBUG_GOVERNANCE_V1 as always-on gate for CODE/DEBUG",
+    "Add stub gate runner enforcing SEE/MMD/ECL recursion requirement",
+    "Add acceptance tests for wiring verification"
+  ],
+  "status": "STAGED_NOT_EXECUTED"
+}

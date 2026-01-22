@@ -1,0 +1,26 @@
+{
+  "name": "MetaBlooms_CTOS_AUTONOMOUS_FULL",
+  "version": "v2.4.0",
+  "built_at": "2026-01-14T23:37:15.238695Z",
+  "base": "MetaBlooms_CTOS_v2.3.1_ARTIFACT2_INDEXED_FULL_v1.zip",
+  "deltas_applied": [
+    "2026-01-14_delta_row_resolver_into_ctos_v1.zip",
+    "2026-01-14_delta_pipeline_resolver_into_ctos_v1.zip",
+    "2026-01-14_delta_pipe_sections_enforcement_into_ctos_v1.zip",
+    "2026-01-14_delta_pipe_inference_autopatch_into_ctos_v1.zip",
+    "2026-01-14_delta_auto_accept_patches_into_ctos_v1.zip",
+    "2026-01-14_delta_auto_promote_patches_into_ctos_v1.zip",
+    "2026-01-14_delta_promotion_replay_on_boot_into_ctos_v1.zip"
+  ],
+  "capabilities": [
+    "ROW resolution (mandatory)",
+    "Pipeline resolution (mandatory)",
+    "Canonical pipe sections (enforced)",
+    "Auto pipe-section inference",
+    "Auto-patch suggestions",
+    "Auto-accept low-risk patches",
+    "Ledgered promotion into canonical registry",
+    "Promotion replay on boot (self-healing)"
+  ],
+  "autonomy_level": "bounded-autonomy-with-audit"
+}

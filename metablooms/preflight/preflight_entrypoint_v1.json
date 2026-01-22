@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "authoritative_call_site": {
+    "module": "runtime.run.execute_run",
+    "callable": "execute_run"
+  },
+  "invocation_timing": "before_publish_and_state_mutation",
+  "context_source": "run_context",
+  "notes": [
+    "This declaration defines the sole authoritative preflight invocation point.",
+    "This file declares authority only; behavioral wiring occurs in orchestrator adoption."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "context-degradation-diagnostic",
+  "description": "Diagnose context drift / phantom compliance and emit receipts + mitigation steps.",
+  "trigger": "When instructions are not followed; when tool claims lack evidence; when phases drift.",
+  "inputs": [
+    "conversation artifacts",
+    "pipeline invocation",
+    "evidence receipts"
+  ],
+  "outputs": [
+    "drift report",
+    "recommended gates",
+    "status receipt template"
+  ]
+}

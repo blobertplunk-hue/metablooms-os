@@ -1,0 +1,18 @@
+{
+  "module": "mb_module_sql",
+  "language": "sql",
+  "version": "1.0.0",
+  "segments": [
+    "foundations",
+    "queries",
+    "aggregation",
+    "optimization"
+  ],
+  "created": "2026-01-21",
+  "routing": "state-driven",
+  "meta": {
+    "supports_stuck_detection": true,
+    "supports_teacher_view": true,
+    "supports_scheduler": true
+  }
+}

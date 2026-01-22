@@ -1,0 +1,20 @@
+{
+  "boot_verification": {
+    "returncode": 0,
+    "stdout_tail": [
+      "CI_GATE_OK",
+      "BOOT_OK",
+      "ZOOP invariant satisfied. Runtime active."
+    ]
+  },
+  "built_at": "2026-01-13T13:22:30Z",
+  "final_zip": "2026-01-13_MetaBlooms_OS_v1.4.0_FINAL_ROOTBOOT_TWOTIERHASH.zip",
+  "key_decisions": {
+    "boot_discovery": "root-level boot authority (BOOT.md/boot_manifest.json/BOOT_METABLOOMS.py at ZIP root)",
+    "hash_exclusions": [
+      "BOOT_HASHES.json",
+      "boot_manifest.json"
+    ],
+    "hash_scheme": "two-tier (manifest hashes BOOT_HASHES; BOOT_HASHES hashes protected files excluding itself and manifest)"
+  }
+}
