@@ -1,0 +1,13 @@
+{
+  "dashboard_id": "mbml.dashboard.v1",
+  "generated_utc": "2026-01-28T15:22:48Z",
+  "paths": {
+    "bts": "/mnt/data/Metblooms_OS/bts/bts_chat_ledger.ndjson",
+    "tracker_spec": "/mnt/data/Metblooms_OS/mbml_tracker/tracker_spec_v2.json",
+    "orchestrator_out": "/mnt/data/Metblooms_OS/_mbml_out_run1"
+  },
+  "status": {
+    "overall": "PASS_WITH_WARNINGS",
+    "last_run_out": "/mnt/data/Metblooms_OS/_mbml_out_run1"
+  }
+}

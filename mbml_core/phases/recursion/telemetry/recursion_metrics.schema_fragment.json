@@ -1,0 +1,22 @@
+{
+  "telemetry_name": "recursion_metrics",
+  "version": "1.0",
+  "metrics": [
+    {
+      "name": "recursion.action_count",
+      "type": "counter"
+    },
+    {
+      "name": "recursion.upstream_change_ratio",
+      "type": "gauge"
+    },
+    {
+      "name": "recursion.success_rate",
+      "type": "gauge"
+    },
+    {
+      "name": "recursion.new_invariant_count",
+      "type": "counter"
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "phase": "P9.5",
+  "run_id": "chat_20260128T160759Z",
+  "inputs": {
+    "bts_paths": [
+      "/mnt/data/Metblooms_OS/bts/bts_chat_ledger.ndjson"
+    ],
+    "entry_count": 9,
+    "coverage_note": "Scan covers only entries present in provided BTS file; no external ledgers assumed."
+  },
+  "summary": {
+    "overall": "PASS_WITH_WARNINGS",
+    "key_warnings": [
+      "BTS ledger is short (limited scope); meta-audit confidence limited to observed entries.",
+      "No blocking/fail-closed language observed in BTS entries scanned."
+    ]
+  },
+  "analyses": {
+    "pattern_frequency": {
+      "top_tokens": [
+        [
+          "mnt",
+          12
+        ],
+        [
+          "data",
+          12
+        ],
+        [
+          "metblooms_os",
+          9
+        ],
+        [
+          "sha256",
+          7
+        ],
+        [
+          "mbml_sensors",
+          4
+        ],
+        [
+          "artifact",
+          4
+        ],
+        [
+          "json",
+          3
+        ],
+        [
+          "mbml_core",
+          3
+        ],
+        [
+          "files",
+          2
+        ],
+        [
+          "ruff",
+          2
+        ],
+        [
+          "sensor_contract",
+          2
+        ],
+        [
+          "mypy",
+          2
+        ],
+        [
+          "outdir",
+          2
+        ],
+        [
+          "zip",
+          2
+        ],
+        [
+          "ruff_sensor_emit",
+          1
+        ],
+        [
+          "run_ruff",
+          1
+        ],
+        [
+          "c45b827c2473583369e026d27eded750825a79d93c0c2a4c4be6675b4ea6f204",
+          1
+        ],
+        [
+          "ee9fecb1bed97d30946d8dca64b311cc02be4c701a98dba9de077805db8e8f04",
+          1
+        ],
+        [
+          "typing_profile_emit",
+          1
+        ],
+        [
+          "typing_profile_v1",
+          1
+        ],
+        [
+          "f3b311c9c92ce8c29d209a622a4063bac01a9d295f0483152b4274dce940a41a",
+          1
+        ],
+        [
+          "mypy_sensor_emit",
+          1
+        ],
+        [
+          "run_mypy",
+          1
+        ],
+        [
+          "bc146c2c19ed973bf4b0d2680c6d6ab79187e74f064c40eff3dec2364188bcc2",
+          1
+        ],
+        [
+          "d3880aaa46dcb601da5e9af03e7a57996dd595e9f01eddb7041b3b378c8f9678",
+          1
+        ],
+        [
+          "consensus_engine_v2_emit",
+          1
+        ],
+        [
+          "lint_consensus_engine_v2",
+          1
+        ],
+        [
+          "edc317f141ff8b2c458c13462d00d33753cc5493abf339d70c1cf894ab3b2a",
+          1
+        ],
+        [
+          "mbml_orchestrator_v2_emit",
+          1
+        ],
+        [
+          "mbml_orchestrator_v2",
+          1
+        ],
+        [
+          "d85c958ff0b0e955e864c55d726a882e7250e20d72c685240bf682c92f690",
+          1
+        ],
+        [
+          "mbml_run_wrapper_update",
+          1
+        ],
+        [
+          "mbml",
+          1
+        ],
+        [
+          "a86b648fda640f008a2a656f648292baa442cc10fc13e024c071d48c61649618",
+          1
+        ],
+        [
+          "mbml_orchestrator_v2_run",
+          1
+        ],
+        [
+          "mbml_out_run_ruf_mypy",
+          1
+        ],
+        [
+          "stderr",
+          1
+        ],
+        [
+          "mbml_delta_bundle_emit",
+          1
+        ],
+        [
+          "bundle",
+          1
+        ],
+        [
+          "mbml_delta_ruff_mypy_v2",
+          1
+        ]
+      ]
+    },
+    "phase_cost": {
+      "total_entries": 9,
+      "delta_seconds_summary": {
+        "count": 8,
+        "min": 0.0,
+        "max": 222.0,
+        "mean": 27.875
+      },
+      "per_phase_mean_seconds": {
+        "TYPING_PROFILE_EMIT": 0.0,
+        "MYPY_SENSOR_EMIT": 0.0,
+        "CONSENSUS_ENGINE_V2_EMIT": 0.0,
+        "MBML_ORCHESTRATOR_V2_EMIT": 0.0,
+        "MBML_RUN_WRAPPER_UPDATE": 0.0,
+        "MBML_ORCHESTRATOR_V2_RUN": 1.0,
+        "MBML_DELTA_BUNDLE_EMIT": 0.0,
+        "DEP_DELTA_EXPORT": 222.0
+      }
+    },
+    "governance_misuse": {
+      "hit_count": 0,
+      "hits": []
+    },
+    "tooling_friction": {
+      "hit_count": 0,
+      "hits": []
+    },
+    "human_friction": {
+      "hit_count": 0,
+      "hits": []
+    }
+  },
+  "findings": [
+    {
+      "id": "FIND_SCOPE_001",
+      "severity": "MEDIUM",
+      "title": "Limited BTS corpus in scope",
+      "evidence": {
+        "entry_count": 9
+      },
+      "impact": "Meta-audit cannot infer long-run friction patterns from a short ledger.",
+      "fix": "Ensure BTS is emitted for every phase across the full chat/run; aggregate all per-run ledgers before P9.5."
+    }
+  ],
+  "timestamps": {
+    "created_utc": "2026-01-28T16:07:59Z"
+  }
+}

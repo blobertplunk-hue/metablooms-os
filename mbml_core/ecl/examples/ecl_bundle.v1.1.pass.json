@@ -1,0 +1,225 @@
+{
+  "bundle_type": "ecl_bundle",
+  "bundle_version": "1.1",
+  "component_id": "metablooms.core.mmd_gate",
+  "artifacts": {
+    "code_intent_spec": {
+      "artifact_type": "code_intent_spec",
+      "artifact_version": "1.1",
+      "component_id": "metablooms.core.mmd_gate",
+      "summary": "ECL artifacts for MB-GATE-MMD-001 enforcement component.",
+      "purpose": "Define intent, determinism, contracts, observability, and rollback requirements for the MMD gate component.",
+      "scope": "Gate evaluation logic and artifact validation surface.",
+      "non_goals": [
+        "Network access",
+        "Filesystem mutation"
+      ],
+      "assumptions": [
+        {
+          "assumption": "Inputs are provided as JSON objects by the OS pipeline.",
+          "risk_if_false": "Gate may evaluate malformed inputs.",
+          "mitigation": "Fail closed on schema-invalid inputs."
+        }
+      ],
+      "inputs": [
+        {
+          "name": "mmd_artifacts",
+          "type": "object",
+          "required": true,
+          "validation": "Validate against MMD schemas before evaluation."
+        }
+      ],
+      "outputs": [
+        {
+          "name": "gate_result",
+          "type": "object",
+          "definition_of_done": "PASS/FAIL emitted with reasons."
+        }
+      ],
+      "side_effects": [
+        {
+          "effect": "Writes gate_result to artifact stream.",
+          "scope": "artifact_stream",
+          "rollback_required": true
+        }
+      ],
+      "determinism": {
+        "level": "deterministic",
+        "nondeterminism_sources": [],
+        "controls": [
+          "No randomness",
+          "No time-based branching"
+        ]
+      },
+      "security": {
+        "threat_model_summary": "Inputs may be malformed/adversarial; reject invalid artifacts; avoid untrusted code execution.",
+        "sensitive_inputs": [],
+        "secrets_handling": "No secrets; redact untrusted payloads."
+      },
+      "dependencies": [
+        {
+          "name": "json-schema-validator",
+          "version": "draft2020-12",
+          "purpose": "Schema validation",
+          "pinning_strategy": "Pin validator build in OS runtime."
+        }
+      ],
+      "acceptance_criteria": [
+        "Fail closed on missing required artifacts",
+        "Deterministic output for same inputs"
+      ],
+      "citations": [
+        "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0020124"
+      ]
+    },
+    "contract_spec": {
+      "artifact_type": "contract_spec",
+      "artifact_version": "1.1",
+      "component_id": "metablooms.core.mmd_gate",
+      "invariants": [
+        {
+          "id": "ECL-NO-GUESS",
+          "statement": "If evidence is insufficient, output UNKNOWN/FAIL; never infer missing facts.",
+          "enforcement": "hard_fail",
+          "test": "Omit evidence_trace; expect FAIL."
+        }
+      ],
+      "operations": [
+        {
+          "name": "evaluate_gate",
+          "preconditions": [
+            "mmd_artifacts present",
+            "mmd_artifacts schema-valid"
+          ],
+          "postconditions": [
+            "gate_result emitted",
+            "telemetry emitted"
+          ],
+          "failure_modes": [
+            "FM-INVALID-INPUT",
+            "FM-MISSING-ARTIFACTS"
+          ],
+          "telemetry": {
+            "events": [
+              "gate_result"
+            ],
+            "metrics": [
+              "gate_latency_ms"
+            ]
+          }
+        }
+      ]
+    },
+    "failure_mode_registry": {
+      "artifact_type": "failure_mode_registry",
+      "artifact_version": "1.1",
+      "component_id": "metablooms.core.mmd_gate",
+      "failure_modes": [
+        {
+          "id": "FM-INVALID-INPUT",
+          "name": "Invalid input artifact schema",
+          "trigger": "Input fails schema validation",
+          "impact": "Gate cannot safely evaluate; must fail closed",
+          "detectability": "high",
+          "severity_0_5": 4,
+          "mitigation": "Reject inputs and emit schema_error summary",
+          "test_case": "Provide malformed mmd_artifacts; expect FAIL",
+          "telemetry_signal": "mmd_gate.schema_invalid",
+          "related_invariant_ids": [
+            "ECL-NO-GUESS"
+          ],
+          "related_operation_names": [
+            "evaluate_gate"
+          ],
+          "rollback_step_ids": [
+            "RB1"
+          ]
+        },
+        {
+          "id": "FM-MISSING-ARTIFACTS",
+          "name": "Missing required MMD artifacts",
+          "trigger": "Any required MMD artifact missing",
+          "impact": "Downstream could proceed without validated gap detection",
+          "detectability": "high",
+          "severity_0_5": 5,
+          "mitigation": "Fail closed; emit missing_artifacts list",
+          "test_case": "Omit evidence_trace; expect FAIL",
+          "telemetry_signal": "mmd_gate.missing_artifacts",
+          "related_invariant_ids": [
+            "ECL-NO-GUESS"
+          ],
+          "related_operation_names": [
+            "evaluate_gate"
+          ],
+          "rollback_step_ids": [
+            "RB1"
+          ]
+        }
+      ]
+    },
+    "observability_plan": {
+      "artifact_type": "observability_plan",
+      "artifact_version": "1.1",
+      "component_id": "metablooms.core.mmd_gate",
+      "logging": {
+        "format": "jsonl",
+        "required_fields": [
+          "timestamp",
+          "level",
+          "component_id"
+        ],
+        "levels": [
+          "info",
+          "error"
+        ],
+        "redaction_rules": [
+          "Redact untrusted payloads"
+        ]
+      },
+      "metrics": {
+        "required_metrics": [
+          "gate_latency_ms",
+          "gate_fail_rate",
+          "schema_error_rate"
+        ],
+        "units": {
+          "gate_latency_ms": "ms",
+          "gate_fail_rate": "ratio",
+          "schema_error_rate": "ratio"
+        },
+        "sampling": "Record all gate runs"
+      },
+      "tracing": {
+        "enabled": true,
+        "span_model": "One span per gate run"
+      },
+      "correlation": {
+        "correlation_id_field": "correlation_id",
+        "propagation": "Propagate from pipeline context"
+      }
+    },
+    "rollback_plan": {
+      "artifact_type": "rollback_plan",
+      "artifact_version": "1.1",
+      "component_id": "metablooms.core.mmd_gate",
+      "rollback_triggers": [
+        "Output corruption detected downstream"
+      ],
+      "rollback_steps": [
+        {
+          "step": 1,
+          "step_id": "RB1",
+          "action": "Supersede gate_result with rollback_notice",
+          "verification": "Confirm rollback_notice appended"
+        }
+      ],
+      "post_rollback_verification": [
+        "Re-run evaluation deterministically"
+      ],
+      "safety_constraints": [
+        "Never delete artifacts; append-only supersedence",
+        "Fail closed if verification cannot complete"
+      ]
+    }
+  }
+}

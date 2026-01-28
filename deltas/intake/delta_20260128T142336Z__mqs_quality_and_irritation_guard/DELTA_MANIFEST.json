@@ -1,0 +1,34 @@
+{
+  "delta_id": "delta_20260128T142336Z__mqs_quality_and_irritation_guard",
+  "created_utc": "20260128T142336Z",
+  "source_inputs": {
+    "dep_zip": {
+      "path": "/mnt/data/Metablooms_DEP_v1_REEMIT_20260128T140413Z.zip",
+      "sha256": "e4a4de93e7664fdd33278841f2b333f59ee73b344cdb563ad4af783a59c72652"
+    },
+    "chat_deltas_zip": {
+      "path": "/mnt/data/Metablooms_OS_WITH_CHAT_DELTAS_20260128T140143Z.zip",
+      "sha256": "7487bc9be607ef07579039336ea0347fb7ccd395e6d095489bff17633ed33b31"
+    },
+    "parsing_system_txt": {
+      "path": "/mnt/data/Parsing as a System Tool.txt",
+      "sha256": "97b32f6c0483df00e104263c8f6b215fedc4106f990bb432707988b022ec0caa"
+    }
+  },
+  "intent": "Add MQS quality gate + auto-rewrite/reject + quality drift dashboard + irritation guard (asshole/deflection detector) as deltas; ensure new deltas not already present in supplied chat delta packs.",
+  "adds": [
+    "modules/metablooms.quality_gate/mqs_v1.json",
+    "modules/metablooms.quality_gate/quality_gate_policy.json",
+    "modules/metablooms.quality_gate/quality_gate_runner.py",
+    "modules/metablooms.quality_dashboard/quality_drift_dashboard_spec.json",
+    "modules/metablooms.quality_dashboard/build_quality_timeseries.py",
+    "modules/metablooms.irritation_guard/irritation_guard_spec.json",
+    "boot_pipeline/quality_gate_on_every_turn.json",
+    "boot_pipeline/irritation_guard_on_boot.json"
+  ],
+  "modifies": [],
+  "deprecates": [],
+  "notes": [
+    "This delta is produced turn-locally from artifacts provided in this turn; no doc-claims about existing files are made here."
+  ]
+}

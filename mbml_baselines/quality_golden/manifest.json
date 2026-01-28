@@ -1,0 +1,10 @@
+{
+  "id": "a89de8e7-80b4-45a1-862f-90b6bdc90a6f",
+  "created_utc": "2026-01-28T15:29:32Z",
+  "notes": "Initial golden quality baseline",
+  "inputs": [
+    "/mnt/data/Metblooms_OS/mbml_core/ULVRS_v1.schema.json",
+    "/mnt/data/Metblooms_OS/mbml_core/mqs_v1.json",
+    "/mnt/data/Metblooms_OS/mbml_core/mqs_gates_v1.json"
+  ]
+}

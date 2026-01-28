@@ -1,0 +1,25 @@
+{
+  "package": "metablooms_RECURSION_v1",
+  "files": [
+    {
+      "path": "schemas/recursion/recursion_bundle.schema.json",
+      "sha256": "68bf2ce5fd6f903067ca16a9aebdc6777f5fe40d52431821a73915391f38faed",
+      "size_bytes": 5337
+    },
+    {
+      "path": "gates/mb-gate-recursion-007.validator.json",
+      "sha256": "90b67e6d0121e2c40080d1db23d7dded91f7e86768d6df08372b42319977d81c",
+      "size_bytes": 725
+    },
+    {
+      "path": "examples/recursion_bundle.pass.json",
+      "sha256": "b50728f53d64272c6141f3ef9290ab449e3b35945a6513f856a1e3134883f841",
+      "size_bytes": 1503
+    },
+    {
+      "path": "telemetry/recursion_metrics.schema_fragment.json",
+      "sha256": "e302ed19e007b68a2e70753f61d10422719ded1325e4a1ccf3581f1a4739192f",
+      "size_bytes": 402
+    }
+  ]
+}

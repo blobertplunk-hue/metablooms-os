@@ -1,0 +1,6 @@
+{
+  "sensor": "pylint",
+  "row_type": "lint_violation",
+  "non_blocking": true,
+  "degrade_reason": "missing_tool"
+}

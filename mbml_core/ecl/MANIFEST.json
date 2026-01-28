@@ -1,0 +1,50 @@
+{
+  "package": "ecl_package_v1_1",
+  "files": [
+    {
+      "path": "examples/ecl_bundle.v1.1.fail.json",
+      "sha256": "a4f4bb427531552fbdfa169cfffe5850b98cdb077f61e5ef30b0c622aa77683a",
+      "size_bytes": 5436
+    },
+    {
+      "path": "examples/ecl_bundle.v1.1.pass.json",
+      "sha256": "1458f052b33dddc142808a8aa76ff66a20b8095f6d2013aeca40cdf06ee6dbb5",
+      "size_bytes": 6878
+    },
+    {
+      "path": "gates/mb-gate-ecl-001.validator.yaml",
+      "sha256": "ea5cf423962d49a68998a541ffba7d76f153f302c3fc36d614526cc759d426a7",
+      "size_bytes": 3872
+    },
+    {
+      "path": "schemas/ecl/code_intent_spec.schema.json",
+      "sha256": "7932de449bcbfbe73ee0ccabccb629bec3032ffce6a3c11d750f6ef95d482068",
+      "size_bytes": 5723
+    },
+    {
+      "path": "schemas/ecl/contract_spec.schema.json",
+      "sha256": "1045378ffc6fb3adfd677c3a846f3ff146e198bb9453a4145e2022537f775f47",
+      "size_bytes": 3030
+    },
+    {
+      "path": "schemas/ecl/ecl_bundle.schema.json",
+      "sha256": "8abbfff472faa07d33ad649ba4f420431c1a4afc861ccb27c02e67ca8a78b87e",
+      "size_bytes": 1275
+    },
+    {
+      "path": "schemas/ecl/failure_mode_registry.schema.json",
+      "sha256": "47cc4fc6b401f2a21f9756be9f958cdb282085ae22cdea59ce52ba21840aae11",
+      "size_bytes": 2686
+    },
+    {
+      "path": "schemas/ecl/observability_plan.schema.json",
+      "sha256": "6a0b6b20ff28e6e3a040e8b0b78d3ada48c42b226f00cf98f27db513c0665b05",
+      "size_bytes": 2930
+    },
+    {
+      "path": "schemas/ecl/rollback_plan.schema.json",
+      "sha256": "e988db25a2ed2ee4d184db7f2214c08f747a2fd6167df1817482479e3de2cb71",
+      "size_bytes": 1791
+    }
+  ]
+}

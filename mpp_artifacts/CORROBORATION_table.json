@@ -1,0 +1,38 @@
+[
+  {
+    "claim": "Linters are language-specific static analyzers focused on syntax/style",
+    "sources": [
+      "Wikipedia: ESLint",
+      "Graphite: Linting vs other code quality tools"
+    ],
+    "confidence": "high",
+    "notes": "Consistent across multiple independent sources"
+  },
+  {
+    "claim": "No single linter covers all quality dimensions",
+    "sources": [
+      "Cycode: Top code analysis tools",
+      "Qodo.ai: Best static analysis tools"
+    ],
+    "confidence": "high",
+    "notes": "Industry consensus; tools specialize by dimension"
+  },
+  {
+    "claim": "Hybrid pipelines outperform single-tool analysis",
+    "sources": [
+      "arXiv: Hybrid static analysis with LLMs",
+      "Industry trend articles (Cycode, Entelligence)"
+    ],
+    "confidence": "medium-high",
+    "notes": "Research-backed but still emerging practice"
+  },
+  {
+    "claim": "Context-aware analysis reduces false positives",
+    "sources": [
+      "arXiv: LLM-assisted static analysis",
+      "SonarQube documentation on quality profiles"
+    ],
+    "confidence": "medium-high",
+    "notes": "Strong evidence, but implementation-dependent"
+  }
+]

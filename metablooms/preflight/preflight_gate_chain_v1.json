@@ -157,5 +157,33 @@
     "mode": "ENFORCE",
     "description": "Blocks OS shipping/boot when FILE_HANDLING_CONTRACT_V1 is violated",
     "id": "GATE.P0.FILE_HANDLING_CONTRACT.V1"
+  },
+  {
+    "id": "GATE.MBML.PIPELINE.V1",
+    "level": "P1",
+    "mode": "WARN",
+    "description": "Verifies MBML pipeline definition (mpp_pipeline_v2.json) is present and structurally valid",
+    "gate_ref": "mbml_core/phases/preflight/gates/mb-gate-preflight-003.validator.json"
+  },
+  {
+    "id": "GATE.MBML.BTS.BUNDLE.V1",
+    "level": "P1",
+    "mode": "WARN",
+    "description": "Validates BTS bundle schema compliance and decision chain integrity",
+    "gate_ref": "mbml_core/phases/bts/gates/mb-gate-bts-005.validator.json"
+  },
+  {
+    "id": "GATE.MBML.ECL.BUNDLE.V1",
+    "level": "P1",
+    "mode": "WARN",
+    "description": "Validates ECL bundle: invariant completeness, failure mode coverage, rollback traceability",
+    "gate_ref": "mbml_core/ecl/gates/mb-gate-ecl-001.validator.yaml"
+  },
+  {
+    "id": "GATE.MBML.MQS.QUALITY.V1",
+    "level": "P1",
+    "mode": "WARN",
+    "description": "Checks MQS quality score against threshold (PASS>=85, WARN>=70, FAIL<70)",
+    "gate_ref": "modules/metablooms.quality_gate/quality_gate_policy.json"
   }
 ]

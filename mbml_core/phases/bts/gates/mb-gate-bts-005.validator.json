@@ -1,0 +1,34 @@
+{
+  "validator_spec_version": "1.0",
+  "gate_id": "MB-GATE-BTS-005",
+  "gate_name": "BTS Completeness and Traceability Gate",
+  "mode": "fail_closed",
+  "inputs": {
+    "required": [
+      "bts_bundle",
+      "execute_bundle",
+      "ecl_bundle"
+    ]
+  },
+  "rules": [
+    "Schema validation of bts_bundle",
+    "Every execution evidence artifact must be logged in BTS",
+    "Every rollback step must emit at least one BTS signal",
+    "Correlation ID must propagate across SEE \u2192 EXECUTE",
+    "Append-only and hashing must be enabled"
+  ],
+  "outputs": {
+    "on_pass": {
+      "emit": [
+        "gate_result",
+        "bts_telemetry"
+      ]
+    },
+    "on_fail": {
+      "emit": [
+        "gate_result",
+        "failure_reasons"
+      ]
+    }
+  }
+}

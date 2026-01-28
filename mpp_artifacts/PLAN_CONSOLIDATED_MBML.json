@@ -1,0 +1,55 @@
+{
+  "name": "MBML_Final_Plan",
+  "version": "v1",
+  "inputs": {
+    "linters": [
+      "ESLint",
+      "Pylint",
+      "Flake8",
+      "SonarQube (optional)"
+    ],
+    "artifacts": [
+      "code",
+      "docs",
+      "chats",
+      "plans",
+      "runs"
+    ],
+    "governance": [
+      "invariants",
+      "quality episodes",
+      "MQS-v1"
+    ]
+  },
+  "ordering": [
+    "Collect artifacts",
+    "Invoke language linters (sensors)",
+    "Normalize outputs into unified rows",
+    "Extract intent and constraints",
+    "Score quality impact (MQS)",
+    "Suppress false positives via history",
+    "Apply governance gates",
+    "Emit receipts + BTS"
+  ],
+  "decisions": {
+    "blocking_policy": "Block only on security-critical or quality regression",
+    "degrade_policy": "Degrade forward on missing tools",
+    "authority": "Historical excellence > generic rules"
+  },
+  "configs": {
+    "quality_threshold": 78,
+    "ceremony_limit_pct": 15,
+    "mode_required_on_degrade": true
+  },
+  "outputs": [
+    "lint_violation_rows.ndjson",
+    "quality_scores.json",
+    "gate_decisions.json",
+    "execution_receipts.json"
+  ],
+  "constraints": [
+    "Read-only analysis",
+    "No network calls during lint execution",
+    "Append-only BTS logging"
+  ]
+}

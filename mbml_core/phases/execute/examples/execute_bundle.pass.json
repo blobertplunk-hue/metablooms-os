@@ -1,0 +1,49 @@
+{
+  "bundle_type": "execute_bundle",
+  "bundle_version": "1.0",
+  "component_id": "metablooms.pipeline.core",
+  "execution_steps": [
+    {
+      "step_id": "EXEC-STEP-1",
+      "description": "Apply validated changes to pipeline configuration",
+      "inputs": [
+        "validated_artifacts"
+      ],
+      "outputs": [
+        "updated_pipeline_state"
+      ],
+      "side_effects": [
+        "state_mutation"
+      ],
+      "verification": {
+        "method": "Post-change integrity check",
+        "success_criteria": [
+          "Pipeline state hash updated"
+        ],
+        "evidence": [
+          "state_hash",
+          "execution_log"
+        ]
+      },
+      "failure_modes": [
+        "FM-CONFIG-APPLY"
+      ]
+    }
+  ],
+  "guards": [
+    "MB-GATE-PLAN-002",
+    "MB-GATE-PREFLIGHT-003"
+  ],
+  "evidence_emitted": [
+    "execution_log",
+    "state_hash"
+  ],
+  "rollback_alignment": {
+    "rollback_step_ids": [
+      "RB1"
+    ],
+    "post_execution_verification": [
+      "Recompute pipeline hash"
+    ]
+  }
+}

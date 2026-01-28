@@ -1,0 +1,142 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "metablooms://schemas/ulvrs/v1",
+  "title": "ULVRS \u2014 Unified Lossless Versioned Row Schema (v1)",
+  "description": "Single row model for code, chats, runs, governance, lint findings, and quality episodes.",
+  "type": "object",
+  "required": [
+    "row_id",
+    "row_type",
+    "source",
+    "identity",
+    "payload",
+    "context",
+    "provenance",
+    "timestamps"
+  ],
+  "properties": {
+    "row_id": {
+      "type": "string",
+      "description": "Deterministic or UUID identifier"
+    },
+    "row_type": {
+      "type": "string",
+      "enum": [
+        "code_unit",
+        "chat_turn",
+        "run_event",
+        "governance_rule",
+        "lint_violation",
+        "quality_episode",
+        "diff_event"
+      ]
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "system",
+        "artifact"
+      ],
+      "properties": {
+        "system": {
+          "type": "string"
+        },
+        "artifact": {
+          "type": "string"
+        },
+        "path": {
+          "type": "string"
+        }
+      }
+    },
+    "identity": {
+      "type": "object",
+      "description": "Who/what this row refers to",
+      "additionalProperties": true
+    },
+    "payload": {
+      "type": "object",
+      "description": "Primary content (code, text, metrics, findings)",
+      "additionalProperties": true
+    },
+    "context": {
+      "type": "object",
+      "properties": {
+        "intent": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "constraints": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "execution_mode": {
+          "type": "string"
+        },
+        "quality_target": {
+          "type": [
+            "number",
+            "null"
+          ]
+        }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "required": [
+        "run_id",
+        "phase",
+        "run_classification"
+      ],
+      "properties": {
+        "run_id": {
+          "type": "string"
+        },
+        "phase": {
+          "type": "string"
+        },
+        "run_classification": {
+          "type": "string"
+        },
+        "evidence_refs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "timestamps": {
+      "type": "object",
+      "required": [
+        "created_utc"
+      ],
+      "properties": {
+        "created_utc": {
+          "type": "string"
+        },
+        "observed_utc": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "hashes": {
+      "type": "object",
+      "properties": {
+        "fingerprint": {
+          "type": "string"
+        },
+        "content_sha256": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "auto_invoke": "MBML",
+  "when": "artifacts_detected",
+  "mode": "analysis-only"
+}

@@ -1,0 +1,23 @@
+{
+  "emitter_id": "ulvrs.emitter.bts.v1",
+  "input": "bts_chat_ledger.ndjson",
+  "row_type": "run_event",
+  "mapping": {
+    "identity": {
+      "phase": "phase"
+    },
+    "payload": {
+      "payload": "payload"
+    },
+    "context": {
+      "execution_mode": "derived"
+    },
+    "provenance": {
+      "phase": "phase",
+      "run_classification": "derived"
+    },
+    "timestamps": {
+      "created_utc": "ts"
+    }
+  }
+}

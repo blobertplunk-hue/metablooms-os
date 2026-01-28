@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "metablooms://schemas/ecl/ecl_bundle.schema.json",
+  "title": "MetaBlooms ECL Bundle",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "bundle_type",
+    "bundle_version",
+    "component_id",
+    "artifacts"
+  ],
+  "properties": {
+    "bundle_type": {
+      "const": "ecl_bundle"
+    },
+    "bundle_version": {
+      "const": "1.1"
+    },
+    "component_id": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 200
+    },
+    "artifacts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "code_intent_spec",
+        "contract_spec",
+        "failure_mode_registry",
+        "observability_plan",
+        "rollback_plan"
+      ],
+      "properties": {
+        "code_intent_spec": {
+          "$ref": "code_intent_spec.schema.json"
+        },
+        "contract_spec": {
+          "$ref": "contract_spec.schema.json"
+        },
+        "failure_mode_registry": {
+          "$ref": "failure_mode_registry.schema.json"
+        },
+        "observability_plan": {
+          "$ref": "observability_plan.schema.json"
+        },
+        "rollback_plan": {
+          "$ref": "rollback_plan.schema.json"
+        }
+      }
+    }
+  }
+}

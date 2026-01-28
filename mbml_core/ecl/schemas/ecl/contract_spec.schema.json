@@ -1,0 +1,132 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "metablooms://schemas/ecl/contract_spec.schema.json",
+  "title": "ECL Contract Spec",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "artifact_type",
+    "artifact_version",
+    "component_id",
+    "invariants",
+    "operations"
+  ],
+  "properties": {
+    "artifact_type": {
+      "const": "contract_spec"
+    },
+    "artifact_version": {
+      "const": "1.1"
+    },
+    "component_id": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 200
+    },
+    "invariants": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "statement",
+          "enforcement",
+          "test"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[A-Z0-9\\-_.]{3,64}$"
+          },
+          "statement": {
+            "type": "string",
+            "minLength": 10
+          },
+          "enforcement": {
+            "enum": [
+              "hard_fail",
+              "soft_fail"
+            ]
+          },
+          "test": {
+            "type": "string",
+            "minLength": 5
+          }
+        }
+      }
+    },
+    "operations": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "preconditions",
+          "postconditions",
+          "failure_modes",
+          "telemetry"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 2
+          },
+          "preconditions": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 5
+            }
+          },
+          "postconditions": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 5
+            }
+          },
+          "failure_modes": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "pattern": "^[A-Z0-9\\-_.]{3,64}$"
+            }
+          },
+          "telemetry": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "events",
+              "metrics"
+            ],
+            "properties": {
+              "events": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "metrics": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "bundle_type": "recursion_bundle",
+  "bundle_version": "1.0",
+  "component_id": "metablooms.pipeline.core",
+  "inputs": [
+    "audit_bundle",
+    "bts_bundle",
+    "execute_bundle",
+    "plan_bundle"
+  ],
+  "signals": {
+    "telemetry": [
+      "bts.gate_fail_rate",
+      "execute.rollback_count"
+    ],
+    "audit_findings": [
+      "F-LOG-01"
+    ],
+    "gate_failures": []
+  },
+  "analysis": {
+    "method": "RCA",
+    "root_causes": [
+      "Logging verbosity variance caused review friction during audit"
+    ],
+    "confidence": 0.78
+  },
+  "decisions": [
+    {
+      "decision_id": "DEC-001",
+      "description": "Standardize debug logging verbosity across components",
+      "justification": "Improves audit clarity without increasing risk",
+      "risk": "LOW"
+    }
+  ],
+  "actions": [
+    {
+      "action_id": "ACT-001",
+      "target_stage": "BTS",
+      "change_type": "INVARIANT",
+      "expected_effect": "Consistent audit logs and faster reviews"
+    }
+  ],
+  "verification": {
+    "method": "REPLAY",
+    "success_criteria": [
+      "No audit findings related to verbosity",
+      "BTS gate pass rate stable"
+    ],
+    "rollback": "Revert logging invariant if error rates increase"
+  },
+  "learning": {
+    "insights": [
+      "Small observability differences materially affect audit efficiency"
+    ],
+    "new_invariants": [
+      "BTS-LOG-VERBOSITY-STD"
+    ],
+    "documentation_updates": [
+      "bts_logging_guidelines.md"
+    ]
+  },
+  "timestamp": "2026-01-27T19:00:00Z"
+}

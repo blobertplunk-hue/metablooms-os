@@ -1,0 +1,35 @@
+{
+  "validator_spec_version": "1.0",
+  "gate_id": "MB-GATE-EXECUTE-004",
+  "gate_name": "Execution Safety and Determinism Gate",
+  "mode": "fail_closed",
+  "inputs": {
+    "required": [
+      "execute_bundle",
+      "plan_bundle",
+      "preflight_bundle",
+      "ecl_bundle"
+    ]
+  },
+  "rules": [
+    "Schema validation of execute_bundle",
+    "Every execution step must reference failure modes",
+    "Every execution step must define verification and emitted evidence",
+    "Rollback steps must exist in ECL rollback_plan",
+    "All PREFLIGHT checks must be satisfied prior to execution"
+  ],
+  "outputs": {
+    "on_pass": {
+      "emit": [
+        "gate_result",
+        "execution_telemetry"
+      ]
+    },
+    "on_fail": {
+      "emit": [
+        "gate_result",
+        "failure_reasons"
+      ]
+    }
+  }
+}

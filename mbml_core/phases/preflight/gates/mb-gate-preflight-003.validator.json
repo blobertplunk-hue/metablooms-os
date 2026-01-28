@@ -1,0 +1,35 @@
+{
+  "validator_spec_version": "1.0",
+  "gate_id": "MB-GATE-PREFLIGHT-003",
+  "gate_name": "Preflight Safety and Readiness Gate",
+  "mode": "fail_closed",
+  "inputs": {
+    "required": [
+      "preflight_bundle",
+      "plan_bundle",
+      "ecl_bundle",
+      "mmd_gap_inventory"
+    ]
+  },
+  "rules": [
+    "Schema validation of preflight_bundle",
+    "Each check must reference required artifacts",
+    "Each check must declare fail-closed condition",
+    "Rollback steps must exist in ECL rollback_plan",
+    "All PLAN artifacts must be verified by at least one check"
+  ],
+  "outputs": {
+    "on_pass": {
+      "emit": [
+        "gate_result",
+        "preflight_telemetry"
+      ]
+    },
+    "on_fail": {
+      "emit": [
+        "gate_result",
+        "failure_reasons"
+      ]
+    }
+  }
+}

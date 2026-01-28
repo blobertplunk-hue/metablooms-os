@@ -1,0 +1,137 @@
+{
+  "tracker_id": "mbml.tracker.mpp.v2",
+  "created_utc": "2026-01-28T15:22:48Z",
+  "phases": [
+    {
+      "id": "P0",
+      "label": "BOOT",
+      "done_when": [
+        "BOOT_RECEIPT_EMIT"
+      ],
+      "substeps": [
+        "authority",
+        "environment",
+        "intent"
+      ]
+    },
+    {
+      "id": "P1",
+      "label": "SEE",
+      "done_when": [
+        "SEE_sources"
+      ],
+      "substeps": [
+        "queries",
+        "sources",
+        "citations"
+      ]
+    },
+    {
+      "id": "P2",
+      "label": "CORROBORATION",
+      "done_when": [
+        "CORROBORATION_table"
+      ],
+      "substeps": [
+        "cross-checks",
+        "confidence"
+      ]
+    },
+    {
+      "id": "P3",
+      "label": "MMD",
+      "done_when": [
+        "P3_EXPANDED_MMD"
+      ],
+      "substeps": [
+        "gap-list",
+        "fixes"
+      ]
+    },
+    {
+      "id": "P4",
+      "label": "SANDBOX PLANNING",
+      "done_when": [
+        "PLAN_SANDBOX_CORE"
+      ],
+      "substeps": [
+        "tools",
+        "ordering"
+      ]
+    },
+    {
+      "id": "P5",
+      "label": "PLAN CONSOLIDATION",
+      "done_when": [
+        "PLAN_CONSOLIDATED_MBML"
+      ],
+      "substeps": [
+        "merge",
+        "constraints"
+      ]
+    },
+    {
+      "id": "P6",
+      "label": "PREFLIGHT",
+      "done_when": [
+        "PREFLIGHT_gates"
+      ],
+      "substeps": [
+        "safety",
+        "side-effects"
+      ]
+    },
+    {
+      "id": "P7",
+      "label": "EXECUTION",
+      "done_when": [
+        "MBML_ORCHESTRATOR_RUN"
+      ],
+      "substeps": [
+        "run",
+        "receipts"
+      ]
+    },
+    {
+      "id": "P8",
+      "label": "BTS",
+      "done_when": [
+        "bts_chat_ledger.ndjson"
+      ],
+      "substeps": [
+        "append",
+        "hash"
+      ]
+    },
+    {
+      "id": "P9",
+      "label": "AUDIT",
+      "done_when": [
+        "P9_AUDIT_RERUN"
+      ],
+      "substeps": [
+        "checks",
+        "status"
+      ]
+    },
+    {
+      "id": "P10",
+      "label": "RECURSION",
+      "done_when": [
+        "PROMOTE_GOLDEN_FIXTURE"
+      ],
+      "substeps": [
+        "deltas",
+        "promotion"
+      ]
+    }
+  ],
+  "metrics": {
+    "drift": {
+      "source": "/mnt/data/Metblooms_OS/_mbml_out_run1/ulvrs_diff.ndjson"
+    },
+    "quality": {
+      "hook": "quality_episode_rows"
+    }
+  }
+}

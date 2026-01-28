@@ -1,0 +1,25 @@
+{
+  "bundle_type": "preflight_bundle",
+  "bundle_version": "1.0",
+  "component_id": "metablooms.pipeline.core",
+  "checks": [
+    {
+      "check_id": "CHECK-PLAN-ARTIFACTS",
+      "purpose": "Ensure PLAN bundle exists and is schema-valid",
+      "inputs_required": [
+        "plan_bundle"
+      ],
+      "validation_method": "JSON schema validation + cross-artifact checks",
+      "fail_closed_condition": "Missing or invalid plan_bundle",
+      "artifacts_verified": [
+        "plan_bundle"
+      ],
+      "ecl_alignment": {
+        "rollback_step_ids": [
+          "RB1"
+        ],
+        "observability_signal": "preflight.plan.validation"
+      }
+    }
+  ]
+}

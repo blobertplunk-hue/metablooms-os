@@ -1,0 +1,50 @@
+{
+  "delta_id": "delta_20260128T142336Z__mqs_quality_and_irritation_guard",
+  "files": [
+    {
+      "path": "DELTA_MANIFEST.json",
+      "bytes": 1601,
+      "sha256": "e8bbd83d640f76025a83090d630244d734345113229800aedc23bedb129c8c8d"
+    },
+    {
+      "path": "boot_pipeline/irritation_guard_on_boot.json",
+      "bytes": 206,
+      "sha256": "a8e6425e6cc578e9bfb117dd5746e4c6ef54afce458b03fc4c1b5be8b81411c0"
+    },
+    {
+      "path": "boot_pipeline/quality_gate_on_every_turn.json",
+      "bytes": 422,
+      "sha256": "ac142b02d83002c2b28c496f37622fbf6d0c95bbf81361e094645773c7e0b67b"
+    },
+    {
+      "path": "modules/metablooms.irritation_guard/irritation_guard_spec.json",
+      "bytes": 1111,
+      "sha256": "a9f6276d93e2456a0f6c9d14740da2f7a8ef8c2c703cd5d4285b7cdb2fc4e98c"
+    },
+    {
+      "path": "modules/metablooms.quality_dashboard/build_quality_timeseries.py",
+      "bytes": 2792,
+      "sha256": "71095477e514051bf33febd17aa70ad007a7946a463f75d8dec7d4b30967efa3"
+    },
+    {
+      "path": "modules/metablooms.quality_dashboard/quality_drift_dashboard_spec.json",
+      "bytes": 1698,
+      "sha256": "4a003748a8453908d654dacb0e56ca36e4547d8c2542a6eeade8d5f7569b74cd"
+    },
+    {
+      "path": "modules/metablooms.quality_gate/mqs_v1.json",
+      "bytes": 1935,
+      "sha256": "fd37531f51809a30fa7b70f7e9838397ca2efee223cec523bc96ebc46a0571c5"
+    },
+    {
+      "path": "modules/metablooms.quality_gate/quality_gate_policy.json",
+      "bytes": 533,
+      "sha256": "c3e5fe5667ff912746f4b952a971c9e15bb70457c8356a3e4c3a832d852f5a7a"
+    },
+    {
+      "path": "modules/metablooms.quality_gate/quality_gate_runner.py",
+      "bytes": 1846,
+      "sha256": "5681587349f313dadc47430e9b8bbbc2814f5e9dbce707b771cdd99d21f3985d"
+    }
+  ]
+}

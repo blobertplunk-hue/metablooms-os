@@ -1,0 +1,61 @@
+validator_spec_version: "1.0"
+gate_id: "MB-GATE-BTS-005"
+gate_name: "BTS Observability, Auditability, and Integrity Gate"
+mode: "fail_closed"
+
+inputs:
+  required:
+    - bts_bundle
+    - execute_bundle
+    - preflight_bundle
+    - plan_bundle
+    - ecl_bundle
+
+schema_validation:
+  - name: "BTS bundle must validate"
+    input_path: "bts_bundle"
+    schema_ref: "schemas/bts/bts_bundle.schema.json"
+    on_fail: "HARD_FAIL"
+
+cross_artifact_rules:
+  - id: "BTS-MUST-EMIT-CORRELATION-ID"
+    severity: "HARD_FAIL"
+    description: "BTS correlation_id_field must exist and be non-empty"
+    checks:
+      - non_empty_path: "bts_bundle.signals.correlation.correlation_id_field"
+
+  - id: "BTS-MUST-COVER-EXECUTE"
+    severity: "HARD_FAIL"
+    description: "BTS audit_events must include execution start/end and gate results"
+    checks:
+      - set_includes_literal:
+          superset_path: "bts_bundle.logging.audit_events[]"
+          required_literals:
+            - "execute.start"
+            - "execute.end"
+            - "gate_result"
+
+  - id: "BTS-INTEGRITY-REQUIRED"
+    severity: "HARD_FAIL"
+    description: "BTS must be tamper-evident with manifests/hashes enabled"
+    checks:
+      - equals_path: { path: "bts_bundle.integrity.tamper_evident", value: true }
+      - equals_path: { path: "bts_bundle.integrity.manifest_required", value: true }
+
+  - id: "BTS-CITATION-HYGIENE"
+    severity: "HARD_FAIL"
+    description: "BTS must never embed internal citation IDs in emitted citations"
+    checks:
+      - for_each:
+          array: "bts_bundle.logging.redaction_rules"
+          assert:
+            not_regex: { pattern: "(?i)turn\\d+search\\d+|turn\\d+|searchresult\\d+" }
+
+outputs:
+  on_pass:
+    emit:
+      - gate_result: { gate_id: "MB-GATE-BTS-005", status: "PASS" }
+  on_fail:
+    emit:
+      - gate_result: { gate_id: "MB-GATE-BTS-005", status: "FAIL" }
+      - failure_reasons

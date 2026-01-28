@@ -1,0 +1,18 @@
+{
+  "sensor": "eslint",
+  "version": "adapter-v1",
+  "execution_mode": "analysis-only",
+  "capabilities": [
+    "ingest_eslint_json",
+    "normalize_rules",
+    "emit_unified_rows"
+  ],
+  "requires": [
+    "eslint (external)",
+    "eslint-json-formatter"
+  ],
+  "constraints": [
+    "no network access",
+    "no npm install in sandbox"
+  ]
+}

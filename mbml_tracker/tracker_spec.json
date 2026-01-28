@@ -1,0 +1,139 @@
+{
+  "tracker_id": "mbml.tracker.mpp.v1",
+  "created_utc": "2026-01-28T15:20:25Z",
+  "phases": [
+    {
+      "id": "P0",
+      "label": "BOOT",
+      "done_when": [
+        "BOOT_RECEIPT_EMIT",
+        "BOOT_OK"
+      ]
+    },
+    {
+      "id": "P1",
+      "label": "SEE",
+      "done_when": [
+        "P1_SEE",
+        "SEE_sources",
+        "SEE_sources.json"
+      ]
+    },
+    {
+      "id": "P2",
+      "label": "CORROBORATION",
+      "done_when": [
+        "P2_CORROBORATION",
+        "CORROBORATION_table",
+        "CORROBORATION_table.json"
+      ]
+    },
+    {
+      "id": "P3",
+      "label": "MMD",
+      "done_when": [
+        "P3_MMD",
+        "P3_EXPANDED_MMD",
+        "MMD_gaps",
+        "MMD_MBML_SYSTEM"
+      ]
+    },
+    {
+      "id": "P4",
+      "label": "SANDBOX PLANNING",
+      "done_when": [
+        "P4_SANDBOX_PLANNING_CORE",
+        "PLAN_SANDBOX_CORE"
+      ]
+    },
+    {
+      "id": "P5",
+      "label": "PLAN CONSOLIDATION",
+      "done_when": [
+        "P5_PLAN_CONSOLIDATION",
+        "PLAN_CONSOLIDATED_MBML"
+      ]
+    },
+    {
+      "id": "P6",
+      "label": "PREFLIGHT",
+      "done_when": [
+        "P6_PREFLIGHT",
+        "PREFLIGHT_gates"
+      ]
+    },
+    {
+      "id": "P7",
+      "label": "EXECUTION",
+      "done_when": [
+        "P7_EXECUTION",
+        "HYGIENE_PATCH_COMPLETE",
+        "MBML_ORCHESTRATOR_RUN"
+      ]
+    },
+    {
+      "id": "P8",
+      "label": "BTS",
+      "done_when": [
+        "bts_chat_ledger.ndjson"
+      ]
+    },
+    {
+      "id": "P9",
+      "label": "AUDIT",
+      "done_when": [
+        "P9_AUDIT",
+        "P9_AUDIT_RERUN"
+      ]
+    },
+    {
+      "id": "P10",
+      "label": "RECURSION",
+      "done_when": [
+        "P10_RECURSION",
+        "PROMOTE_GOLDEN_FIXTURE"
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "id": "M1",
+      "label": "ULVRS schema emitted",
+      "done_when": [
+        "ULVRS_V1_EMIT"
+      ]
+    },
+    {
+      "id": "M2",
+      "label": "Row emitters + diff engine",
+      "done_when": [
+        "MBML_CORE_EMIT"
+      ]
+    },
+    {
+      "id": "M3",
+      "label": "Orchestrator + CI + baselines",
+      "done_when": [
+        "MBML_ORCHESTRATOR_V1_EMIT"
+      ]
+    },
+    {
+      "id": "M4",
+      "label": "Baseline frozen (run_event corpus)",
+      "done_when": [
+        "BASELINE_FREEZE_RUN_EVENTS"
+      ]
+    },
+    {
+      "id": "M5",
+      "label": "First orchestrator run executed",
+      "done_when": [
+        "MBML_ORCHESTRATOR_RUN"
+      ]
+    }
+  ],
+  "rendering": {
+    "style": "checkbox+strikethrough+active-bold",
+    "show_recent_events": 8
+  }
+}

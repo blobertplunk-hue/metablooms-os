@@ -1,0 +1,36 @@
+{
+  "preflight_name": "MBML_P6_PREFLIGHT",
+  "execution_class": "read-only analysis",
+  "hard_stops": [
+    {
+      "id": "PF-SEC-01",
+      "condition": "write/delete/modify filesystem or network calls",
+      "action": "block",
+      "reason": "violates read-only sandbox constraint"
+    }
+  ],
+  "gated_checks": [
+    {
+      "id": "PF-Q-01",
+      "check": "quality_threshold_defined",
+      "pass_condition": "MQS threshold present",
+      "on_fail": "block"
+    },
+    {
+      "id": "PF-GOV-01",
+      "check": "invariants_loaded",
+      "pass_condition": "INV-L* present",
+      "on_fail": "block"
+    },
+    {
+      "id": "PF-TOOL-01",
+      "check": "linter_availability",
+      "pass_condition": "at least one sensor available",
+      "on_fail": "degrade"
+    }
+  ],
+  "mode_on_degrade": "analysis-only",
+  "preflight_pass_outputs": [
+    "authorized_to_execute_MBML"
+  ]
+}

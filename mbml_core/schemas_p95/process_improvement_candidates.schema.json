@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "metablooms://schemas/p95/process_improvement_candidates.schema.json",
+  "title": "P9.5 Process Improvement Candidates",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "run_id",
+    "candidates",
+    "timestamps"
+  ],
+  "properties": {
+    "run_id": {
+      "type": "string"
+    },
+    "candidates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "priority",
+          "proposal",
+          "rationale",
+          "evidence_refs"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "priority": {
+            "enum": [
+              "P0",
+              "P1",
+              "P2"
+            ]
+          },
+          "proposal": {
+            "type": "string"
+          },
+          "rationale": {
+            "type": "string"
+          },
+          "evidence_refs": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "bts_index",
+                "phase"
+              ],
+              "properties": {
+                "bts_index": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "phase": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "timestamps": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "created_utc"
+      ],
+      "properties": {
+        "created_utc": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

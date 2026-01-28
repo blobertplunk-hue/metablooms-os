@@ -1,0 +1,16 @@
+{
+  "module": "mbml_core",
+  "version": "v1",
+  "created_utc": "2026-01-28T15:12:16Z",
+  "files": {
+    "emit_ulvrs_from_bts.py": {
+      "sha256": "d88be44f14b86c4f18925be7a0c06fc6f28cb30ad2bef70f37648fff6500e1f7"
+    },
+    "wrap_eslint_ulvrs.py": {
+      "sha256": "4b8f3bc8f339952a3661b53703be2517004ee8c33ab1d9e7041c98d823199d6a"
+    },
+    "ulvrs_diff_engine.py": {
+      "sha256": "d8840e3d87e01479ebdd87dd92501048879a4af014efe8dab4800ec9ab2bf570"
+    }
+  }
+}

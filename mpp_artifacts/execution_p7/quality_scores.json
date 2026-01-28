@@ -1,0 +1,7 @@
+{
+  "MQS_version": "v1",
+  "evaluated_rows": 0,
+  "overall_score": null,
+  "mode": "analysis-only",
+  "notes": "No lint sensors available in sandbox; analysis-only execution"
+}

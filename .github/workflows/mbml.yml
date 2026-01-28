@@ -1,0 +1,23 @@
+name: MBML (Meta-Linter)
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  mbml:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run MBML Orchestrator (analysis-only)
+        run: |
+          python3 Metblooms_OS/mbml_core/mbml_orchestrator_v1.py                 --root Metblooms_OS                 --workspace .                 --baseline Metblooms_OS/mbml_baselines/baseline_ulvrs_run_events.ndjson                 --outdir Metblooms_OS/_mbml_out                 --run_class production
+      - name: Upload MBML outputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: mbml-out
+          path: Metblooms_OS/_mbml_out

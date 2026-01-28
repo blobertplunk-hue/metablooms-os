@@ -1,0 +1,12 @@
+{
+  "input_format": "eslint json",
+  "output_format": "mbml_unified_row",
+  "field_map": {
+    "ruleId": "rule_id",
+    "message": "message",
+    "severity": "severity",
+    "line": "location.line",
+    "column": "location.column",
+    "filePath": "artifact_path"
+  }
+}

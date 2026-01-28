@@ -1,0 +1,57 @@
+{
+  "bundle_type": "audit_bundle",
+  "bundle_version": "1.1",
+  "component_id": "metablooms.pipeline.core",
+  "scope": "Post-CMMD pipeline governance audit",
+  "inputs_audited": [
+    "plan_bundle",
+    "preflight_bundle",
+    "execute_bundle",
+    "bts_bundle",
+    "ecl_bundle"
+  ],
+  "checks": [
+    {
+      "check_id": "CHK-PLAN",
+      "target": "plan_bundle",
+      "method": "Schema + gate validation",
+      "expected": "PLAN gate PASS",
+      "observed": "PASS",
+      "status": "PASS"
+    },
+    {
+      "check_id": "CHK-PREFLIGHT",
+      "target": "preflight_bundle",
+      "method": "Gate validation",
+      "expected": "PREFLIGHT gate PASS",
+      "observed": "PASS",
+      "status": "PASS"
+    },
+    {
+      "check_id": "CHK-EXECUTE",
+      "target": "execute_bundle",
+      "method": "Evidence + rollback verification",
+      "expected": "EXECUTE gate PASS",
+      "observed": "PASS",
+      "status": "PASS"
+    }
+  ],
+  "findings": [
+    {
+      "finding_id": "F-LOG-01",
+      "severity": "LOW",
+      "description": "Minor debug verbosity variance",
+      "evidence_refs": [
+        "bts.log.0042"
+      ],
+      "impact": "No safety or governance impact"
+    }
+  ],
+  "verdict": "PASS",
+  "evidence": [
+    "bts_bundle",
+    "gate_results",
+    "execution_logs"
+  ],
+  "timestamp": "2026-01-27T18:30:00Z"
+}

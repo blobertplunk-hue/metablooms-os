@@ -1,0 +1,60 @@
+{
+  "objective": "Expanded Missing Middle Detection for full MBML system, incorporating internal execution and external bundle analysis.",
+  "inputs_considered": [
+    "MMD_gaps.json (initial)",
+    "PLAN_SANDBOX_CORE.json",
+    "PLAN_CONSOLIDATED_MBML.json",
+    "External bundle analysis: MBML_MPP_FULL_BUNDLE.zip"
+  ],
+  "system_level_gaps": [
+    {
+      "gap_id": "MMD-SYS-01",
+      "description": "Implicit BOOT phase (missing explicit boot_receipt.json)",
+      "risk": "Breaks deterministic replay and strict auditability",
+      "required_fix": "Emit explicit boot_receipt.json with timestamp, intent, MPP version",
+      "priority": "high"
+    },
+    {
+      "gap_id": "MMD-SYS-02",
+      "description": "Silent placeholder artifacts (2-byte JSON files)",
+      "risk": "Violates no-fake-work invariant; ingest ambiguity",
+      "required_fix": "Auto-label placeholders or minimally populate with explicit PLACEHOLDER metadata",
+      "priority": "critical"
+    },
+    {
+      "gap_id": "MMD-SYS-03",
+      "description": "Execution artifacts not clearly differentiated between scaffold vs live output",
+      "risk": "Misinterpretation of execution maturity",
+      "required_fix": "Standardize execution_receipt schema with execution_class and completeness flags",
+      "priority": "high"
+    },
+    {
+      "gap_id": "MMD-SYS-04",
+      "description": "Recursion intent under-specified when no violations occur",
+      "risk": "Loss of learning signal in clean runs",
+      "required_fix": "Require RECURSION artifacts to state 'why no deltas' or 'what remains hypothetical'",
+      "priority": "medium"
+    },
+    {
+      "gap_id": "MMD-SYS-05",
+      "description": "No formal distinction between reference MPP runs and production MPP runs",
+      "risk": "Fixtures accidentally treated as live governance history",
+      "required_fix": "Introduce run_classification field (reference | production | experiment)",
+      "priority": "medium"
+    }
+  ],
+  "confirmation": {
+    "what_is_not_a_gap": [
+      "Phase ordering correctness",
+      "Non-blocking semantics",
+      "Sandbox safety",
+      "Plan quality (P4/P5)"
+    ],
+    "external_verdict_alignment": "APPROVED_WITH_WARNINGS"
+  },
+  "output_requirements_for_next_phases": [
+    "Patch placeholder artifacts",
+    "Emit explicit boot_receipt.json",
+    "Re-run audit after hygiene fixes"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "spec_name": "PLAN",
+  "version": "2.0",
+  "description": "Evidence-based planning stage governed by SEE, MMD, and ECL",
+  "artifacts_required": [
+    "plan_bundle"
+  ],
+  "plan_item_requirements": [
+    "closes_gap_ids",
+    "verification",
+    "risk_register",
+    "rollback_alignment",
+    "dependency_enumeration"
+  ],
+  "gates": [
+    "MB-GATE-PLAN-002"
+  ],
+  "fail_closed_conditions": [
+    "plan_items_without_gap_links",
+    "missing_verification",
+    "rollback_not_defined"
+  ]
+}

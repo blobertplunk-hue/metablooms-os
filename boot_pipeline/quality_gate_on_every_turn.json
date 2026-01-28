@@ -1,0 +1,13 @@
+{
+  "hook": "EVERY_TURN_PRE_RESPONSE",
+  "module": "metablooms.quality_gate",
+  "config": [
+    "modules/metablooms.quality_gate/mqs_v1.json",
+    "modules/metablooms.quality_gate/quality_gate_policy.json"
+  ],
+  "runner": "modules/metablooms.quality_gate/quality_gate_runner.py",
+  "outputs": [
+    "analysis/quality_system/last_quality_gate_report.json",
+    "analysis/quality_system/last_quality_gate_rewrite.txt"
+  ]
+}

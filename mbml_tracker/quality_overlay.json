@@ -1,0 +1,12 @@
+{
+  "overlay": "quality",
+  "inputs": [
+    "/mnt/data/Metblooms_OS/mbml_core/mqs_v1.json",
+    "/mnt/data/Metblooms_OS/mbml_core/replay_capsule_v1.json"
+  ],
+  "display": [
+    "current_mqs",
+    "last_quality_episode",
+    "replay_available"
+  ]
+}

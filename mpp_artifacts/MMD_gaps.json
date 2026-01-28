@@ -1,0 +1,49 @@
+{
+  "objective": "Identify gaps between traditional linters/static analysis tools and the MetaBlooms Meta-Linter (MBML).",
+  "gaps": [
+    {
+      "gap_id": "MMD-01",
+      "description": "No intent awareness in traditional linters",
+      "impact": "False positives and inability to judge correctness relative to goals",
+      "mbml_resolution": "Attach intent/context rows and score violations against stated goals"
+    },
+    {
+      "gap_id": "MMD-02",
+      "description": "No cross-artifact reasoning (code vs docs vs chats)",
+      "impact": "System-level issues missed; quality fragmentation",
+      "mbml_resolution": "Unified row schema across all artifacts enabling cross-diffing"
+    },
+    {
+      "gap_id": "MMD-03",
+      "description": "Rule tyranny (all violations treated equally)",
+      "impact": "Noise overwhelms signal; teams ignore lint output",
+      "mbml_resolution": "Historical false-positive suppression and quality-weighted scoring"
+    },
+    {
+      "gap_id": "MMD-04",
+      "description": "Lack of behavioral and execution-posture analysis",
+      "impact": "Cannot detect fake execution, silent downgrade, or policy theater",
+      "mbml_resolution": "Behavioral linting using execution-mode and artifact emission checks"
+    },
+    {
+      "gap_id": "MMD-05",
+      "description": "No regression protection against quality decay",
+      "impact": "Slow erosion of system quality despite passing checks",
+      "mbml_resolution": "Quality Episode baselines and MQS regression gates"
+    },
+    {
+      "gap_id": "MMD-06",
+      "description": "Language lock-in",
+      "impact": "Multiple tools needed with no unifying model",
+      "mbml_resolution": "Meta-layer orchestration that treats linters as sensors"
+    }
+  ],
+  "non_goals": [
+    "Replacing language-level syntax or compiler checks",
+    "Reimplementing AST parsing for each language"
+  ],
+  "constraints": [
+    "MBML must defer to best-in-class linters for syntax correctness",
+    "MBML must remain non-blocking except for safety or critical regression"
+  ]
+}

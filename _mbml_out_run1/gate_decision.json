@@ -1,0 +1,12 @@
+{
+  "status": "FAIL",
+  "mode": "analysis-only",
+  "run_id": "06fd5aaf-c23a-4a97-9970-ab991b8abce5",
+  "reasons": [
+    "ESLint sensor degraded",
+    "Drift: changed_rows=36 > 0"
+  ],
+  "thresholds": {
+    "max_changed_rows": 0
+  }
+}

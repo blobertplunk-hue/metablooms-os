@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+set -e
+ROOT="$(cd "$(dirname "$0")" && pwd)"
+OUT="$ROOT/_mbml_out"
+mkdir -p "$OUT"
+
+ORCH="$ROOT/mbml_core/mbml_orchestrator_v2.py"
+if [ ! -f "$ORCH" ]; then
+  ORCH="$ROOT/mbml_core/mbml_orchestrator_v1.py"
+fi
+
+# P7 EXECUTION (non-blocking by design inside orchestrator)
+python3 "$ORCH"       --root "$ROOT"       --workspace "${1:-$ROOT}"       --baseline "$ROOT/mbml_baselines/baseline_ulvrs_run_events.ndjson"       --outdir "$OUT"       --run_class production || true
+
+# P8 derived drift summary (optional helper)
+python3 "$ROOT/mbml_tracker/emit_drift_summary.py"       "$OUT/ulvrs_diff.ndjson"       "$OUT/drift_summary.json" || true
+
+# P9.5 BTS META-AUDIT (mandatory, advisory-only)
+python3 "$ROOT/mbml_core/p95_bts_meta_audit.py"       --bts "$ROOT/bts/bts_chat_ledger.ndjson"       --outdir "$OUT"       --run-id "$(python3 - <<'PY'
+import json,sys
+try:
+    print(json.load(open(sys.argv[1]))['run_id'])
+except Exception:
+    print("")
+PY
+"$OUT/execution_receipt.json")" || true
+
+cat "$OUT/gate_decision.json"

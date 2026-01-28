@@ -1,0 +1,16 @@
+{
+  "id": "metablooms.quality_gate.policy.v1",
+  "on_fail_below_threshold": "auto_rewrite",
+  "on_hard_fail": "reject",
+  "rewrite_template": [
+    "MODE: <live | partial | degraded | analysis-only | simulated>",
+    "What I did:",
+    "What I could not do:",
+    "Why (unsafe/disallowed vs missing capability):",
+    "Best alternative I can do now:"
+  ],
+  "emit_reports": {
+    "report_json": "analysis/quality_system/last_quality_gate_report.json",
+    "rewrite_text": "analysis/quality_system/last_quality_gate_rewrite.txt"
+  }
+}

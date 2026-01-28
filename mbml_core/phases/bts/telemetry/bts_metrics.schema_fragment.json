@@ -1,0 +1,36 @@
+{
+  "telemetry_name": "bts_metrics",
+  "version": "1.0",
+  "metrics": [
+    {
+      "name": "bts.log_event_count",
+      "type": "counter",
+      "unit": "events"
+    },
+    {
+      "name": "bts.missing_required_field_count",
+      "type": "counter",
+      "unit": "events"
+    },
+    {
+      "name": "bts.hash_chain_enabled",
+      "type": "gauge",
+      "unit": "bool"
+    },
+    {
+      "name": "bts.manifest_present",
+      "type": "gauge",
+      "unit": "bool"
+    },
+    {
+      "name": "bts.correlation_coverage_ratio",
+      "type": "gauge",
+      "unit": "ratio"
+    },
+    {
+      "name": "bts.gate_fail_rate",
+      "type": "gauge",
+      "unit": "ratio"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "recursion_id": "817257c7-bbf0-40d3-82c4-547c02298a68",
+  "derived_from": "AUDIT_report.json",
+  "status": "PASS_WITH_IMPROVEMENTS",
+  "deltas": [
+    {
+      "id": "R-01",
+      "title": "Install at least one linter sensor in sandbox",
+      "change": "Add ESLint (js) or Pylint (py) containerized sensor",
+      "why": "Enable non-empty lint rows during analysis-only execution",
+      "risk": "Low",
+      "rollback": "Disable sensor adapter"
+    },
+    {
+      "id": "R-02",
+      "title": "Auto-wire MBML into boot preflight",
+      "change": "Invoke MBML preflight when artifacts detected",
+      "why": "Ensure continuous quality supervision",
+      "risk": "Low",
+      "rollback": "Disable boot hook"
+    },
+    {
+      "id": "R-03",
+      "title": "Persist Quality Episodes registry",
+      "change": "Write quality episodes to durable registry",
+      "why": "Improve suppression accuracy and regression gates",
+      "risk": "Medium",
+      "rollback": "Revert to static MQS"
+    },
+    {
+      "id": "R-04",
+      "title": "Add CI adapter",
+      "change": "Expose MBML as CI step",
+      "why": "Catch quality regressions pre-merge",
+      "risk": "Low",
+      "rollback": "Remove CI step"
+    }
+  ],
+  "generated_utc": "2026-01-28T14:56:45Z"
+}

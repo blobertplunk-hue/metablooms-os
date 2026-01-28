@@ -179,6 +179,128 @@
       "description": "Governed experiential learning cycles (prompt\u2192obs\u2192hyp\u2192act\u2192res), append-only with boot surfacing; domain: learning.",
       "enabled_by_default": true,
       "path": "engines/experiential_learning"
+    },
+    {
+      "activation": {
+        "conditions": [],
+        "default": "always_on"
+      },
+      "cost_profile": {
+        "cognitive_budget": "medium",
+        "external_io": "none",
+        "nondeterminism_risk": "low",
+        "runtime_seconds_budget": 30
+      },
+      "dependencies": {
+        "hard": [],
+        "soft": ["telemetry"]
+      },
+      "entrypoint": {
+        "path": "mbml_core/mbml_orchestrator_v1.py",
+        "symbol": "main",
+        "type": "callable"
+      },
+      "module_id": "mbml_orchestrator",
+      "purpose": "MetaBlooms Meta-Linter orchestrator: ULVRS normalization, sensor adapters, drift detection, quality gating (analysis-first, non-blocking).",
+      "telemetry": {
+        "enabled": true,
+        "events": [
+          "MBML_RUN_START",
+          "MBML_RUN_COMPLETE",
+          "MBML_GATE_DECISION"
+        ]
+      }
+    },
+    {
+      "activation": {
+        "conditions": [],
+        "default": "always_on"
+      },
+      "cost_profile": {
+        "cognitive_budget": "low",
+        "external_io": "none",
+        "nondeterminism_risk": "low",
+        "runtime_seconds_budget": 5
+      },
+      "dependencies": {
+        "hard": [],
+        "soft": ["mbml_orchestrator"]
+      },
+      "entrypoint": {
+        "path": "modules/metablooms.quality_gate/quality_gate_runner.py",
+        "symbol": null,
+        "type": "file"
+      },
+      "module_id": "quality_gate",
+      "purpose": "MQS v1 quality gate: scores turns against 6 weighted dimensions, auto-rejects below threshold.",
+      "telemetry": {
+        "enabled": true,
+        "events": [
+          "MQS_SCORE_EMITTED",
+          "MQS_GATE_PASS",
+          "MQS_GATE_FAIL"
+        ]
+      }
+    },
+    {
+      "activation": {
+        "conditions": [],
+        "default": "always_on"
+      },
+      "cost_profile": {
+        "cognitive_budget": "low",
+        "external_io": "none",
+        "nondeterminism_risk": "low",
+        "runtime_seconds_budget": 2
+      },
+      "dependencies": {
+        "hard": [],
+        "soft": []
+      },
+      "entrypoint": {
+        "path": "modules/metablooms.irritation_guard",
+        "symbol": null,
+        "type": "package"
+      },
+      "module_id": "irritation_guard",
+      "purpose": "Detects anti-patterns (deflection, circular helpfulness, overcautious refusal) and emits structured corrections.",
+      "telemetry": {
+        "enabled": true,
+        "events": [
+          "IRRITATION_DETECTED",
+          "IRRITATION_CORRECTION_SUGGESTED"
+        ]
+      }
+    },
+    {
+      "activation": {
+        "conditions": [],
+        "default": "always_on"
+      },
+      "cost_profile": {
+        "cognitive_budget": "low",
+        "external_io": "none",
+        "nondeterminism_risk": "low",
+        "runtime_seconds_budget": 5
+      },
+      "dependencies": {
+        "hard": ["quality_gate"],
+        "soft": ["mbml_orchestrator"]
+      },
+      "entrypoint": {
+        "path": "modules/metablooms.quality_dashboard/build_quality_timeseries.py",
+        "symbol": null,
+        "type": "file"
+      },
+      "module_id": "quality_dashboard",
+      "purpose": "Tracks MQS quality drift across turns and emits timeseries data for dashboard display.",
+      "telemetry": {
+        "enabled": true,
+        "events": [
+          "QUALITY_DRIFT_DETECTED",
+          "QUALITY_TIMESERIES_EMITTED"
+        ]
+      }
     }
   ],
   "registry_meta": {

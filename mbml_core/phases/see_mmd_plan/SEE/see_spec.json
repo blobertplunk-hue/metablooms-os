@@ -1,0 +1,23 @@
+{
+  "spec_name": "SEE",
+  "version": "1.1",
+  "description": "Systematic Evidence Engine \u2013 hardened evidence collection and corroboration",
+  "requirements": [
+    "multi_source_search",
+    "source_classification",
+    "claim_interpretation_separation",
+    "failure_mode_identification",
+    "mandatory_corroboration"
+  ],
+  "artifacts_required": [
+    "evidence_list",
+    "source_classification_table",
+    "corroboration_matrix",
+    "rejected_or_unknown_claims"
+  ],
+  "fail_closed_conditions": [
+    "missing_citations",
+    "single_source_claims",
+    "uncorroborated_material_claims"
+  ]
+}

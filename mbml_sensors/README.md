@@ -1,0 +1,1 @@
+Placeholder for linter sensors (ESLint/Pylint). No installs performed.

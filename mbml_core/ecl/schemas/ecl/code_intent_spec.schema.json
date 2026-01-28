@@ -1,0 +1,274 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "metablooms://schemas/ecl/code_intent_spec.schema.json",
+  "title": "ECL Code Intent Spec",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "artifact_type",
+    "artifact_version",
+    "component_id",
+    "summary",
+    "purpose",
+    "scope",
+    "non_goals",
+    "assumptions",
+    "inputs",
+    "outputs",
+    "side_effects",
+    "determinism",
+    "security",
+    "dependencies",
+    "acceptance_criteria",
+    "citations"
+  ],
+  "properties": {
+    "artifact_type": {
+      "const": "code_intent_spec"
+    },
+    "artifact_version": {
+      "const": "1.1"
+    },
+    "component_id": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 200
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 500
+    },
+    "purpose": {
+      "type": "string",
+      "minLength": 20
+    },
+    "scope": {
+      "type": "string",
+      "minLength": 10
+    },
+    "non_goals": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 3
+      }
+    },
+    "assumptions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "assumption",
+          "risk_if_false",
+          "mitigation"
+        ],
+        "properties": {
+          "assumption": {
+            "type": "string",
+            "minLength": 5
+          },
+          "risk_if_false": {
+            "type": "string",
+            "minLength": 5
+          },
+          "mitigation": {
+            "type": "string",
+            "minLength": 5
+          }
+        }
+      }
+    },
+    "inputs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "type",
+          "required",
+          "validation"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "type": {
+            "type": "string",
+            "minLength": 1
+          },
+          "required": {
+            "type": "boolean"
+          },
+          "validation": {
+            "type": "string",
+            "minLength": 5
+          }
+        }
+      }
+    },
+    "outputs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "type",
+          "definition_of_done"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "type": {
+            "type": "string",
+            "minLength": 1
+          },
+          "definition_of_done": {
+            "type": "string",
+            "minLength": 5
+          }
+        }
+      }
+    },
+    "side_effects": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "effect",
+          "scope",
+          "rollback_required"
+        ],
+        "properties": {
+          "effect": {
+            "type": "string",
+            "minLength": 5
+          },
+          "scope": {
+            "type": "string",
+            "minLength": 3
+          },
+          "rollback_required": {
+            "type": "boolean"
+          }
+        }
+      }
+    },
+    "determinism": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "level",
+        "nondeterminism_sources",
+        "controls"
+      ],
+      "properties": {
+        "level": {
+          "enum": [
+            "deterministic",
+            "controlled_nondeterminism"
+          ]
+        },
+        "nondeterminism_sources": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "controls": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 3
+          }
+        }
+      }
+    },
+    "security": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "threat_model_summary",
+        "sensitive_inputs",
+        "secrets_handling"
+      ],
+      "properties": {
+        "threat_model_summary": {
+          "type": "string",
+          "minLength": 10
+        },
+        "sensitive_inputs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "secrets_handling": {
+          "type": "string",
+          "minLength": 10
+        }
+      }
+    },
+    "dependencies": {
+      "type": "array",
+      "minItems": 0,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "version",
+          "purpose",
+          "pinning_strategy"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "version": {
+            "type": "string",
+            "minLength": 1
+          },
+          "purpose": {
+            "type": "string",
+            "minLength": 5
+          },
+          "pinning_strategy": {
+            "type": "string",
+            "minLength": 5
+          }
+        }
+      }
+    },
+    "acceptance_criteria": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 5
+      }
+    },
+    "citations": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 8
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mqs.gates.v1",
+  "thresholds": {
+    "PASS": 85,
+    "PASS_WITH_WARNINGS": 70,
+    "FAIL": 0
+  },
+  "rules": [
+    {
+      "if": "lint_consensus_count >= 1",
+      "effect": "increase_confidence"
+    },
+    {
+      "if": "lint_conflict_count >= 1",
+      "effect": "decrease_confidence"
+    },
+    {
+      "if": "drift_changed_rows > 0",
+      "effect": "FAIL"
+    },
+    {
+      "if": "silent_placeholder == true",
+      "effect": "FAIL"
+    }
+  ]
+}

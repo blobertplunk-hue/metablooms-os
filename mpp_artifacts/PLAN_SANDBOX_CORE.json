@@ -1,0 +1,95 @@
+{
+  "system": "MetaBlooms Meta-Linter (MBML)",
+  "design_principles": [
+    "Linters are sensors, not judges",
+    "Non-blocking by default",
+    "Artifact-first",
+    "Historical quality outranks generic rules",
+    "Language-agnostic supervision layer"
+  ],
+  "core_modules": [
+    {
+      "name": "Lint Sensor Adapters",
+      "responsibility": "Invoke best-in-class linters and normalize outputs",
+      "inputs": [
+        "source artifacts"
+      ],
+      "outputs": [
+        "lint_violation_rows"
+      ]
+    },
+    {
+      "name": "Row Normalization Engine",
+      "responsibility": "Convert all findings into unified row schema",
+      "inputs": [
+        "lint outputs",
+        "chat artifacts",
+        "plans"
+      ],
+      "outputs": [
+        "normalized_rows"
+      ]
+    },
+    {
+      "name": "Context & Intent Extractor",
+      "responsibility": "Attach intent, constraints, and execution context",
+      "inputs": [
+        "chat rows",
+        "governance rules"
+      ],
+      "outputs": [
+        "context_enriched_rows"
+      ]
+    },
+    {
+      "name": "Quality Scoring Engine (MQS)",
+      "responsibility": "Score impact of findings relative to quality baselines",
+      "inputs": [
+        "rows",
+        "quality episodes"
+      ],
+      "outputs": [
+        "quality_scores"
+      ]
+    },
+    {
+      "name": "False-Positive Suppression Engine",
+      "responsibility": "Suppress low-value findings based on history",
+      "inputs": [
+        "rows",
+        "historical outcomes"
+      ],
+      "outputs": [
+        "suppressed_findings"
+      ]
+    },
+    {
+      "name": "Governance Gate Engine",
+      "responsibility": "Decide pass/fail/degrade based on quality impact",
+      "inputs": [
+        "quality_scores"
+      ],
+      "outputs": [
+        "gate_decisions"
+      ]
+    }
+  ],
+  "data_flow": [
+    "Artifacts \u2192 Lint Sensors \u2192 Row Normalization",
+    "Row Normalization \u2192 Context & Intent",
+    "Context & Intent \u2192 Quality Scoring",
+    "Quality Scoring \u2192 Suppression",
+    "Suppression \u2192 Governance Gates"
+  ],
+  "sandbox_constraints": [
+    "No network calls during lint execution",
+    "Read-only analysis only",
+    "All actions logged to BTS"
+  ],
+  "deliverables": [
+    "MBML module spec",
+    "Adapter interfaces",
+    "Quality scoring config",
+    "Governance gate definitions"
+  ]
+}

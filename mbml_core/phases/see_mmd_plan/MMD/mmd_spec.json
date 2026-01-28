@@ -1,0 +1,24 @@
+{
+  "spec_name": "MMD",
+  "version": "1.1",
+  "description": "Missing Middle Detector \u2013 evidence-backed gap detection",
+  "inputs_required": [
+    "see_artifacts",
+    "current_behavior_enumeration"
+  ],
+  "outputs": [
+    "gap_inventory",
+    "severity_ranking",
+    "impact_mapping"
+  ],
+  "gap_taxonomy": [
+    "missing_step",
+    "missing_enforcement",
+    "missing_evidence",
+    "implicit_assumption"
+  ],
+  "fail_closed_conditions": [
+    "no_gap_inventory",
+    "unranked_gaps"
+  ]
+}

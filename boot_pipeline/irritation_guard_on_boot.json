@@ -1,0 +1,6 @@
+{
+  "hook": "EVERY_BOOT",
+  "module": "metablooms.irritation_guard",
+  "config": "modules/metablooms.irritation_guard/irritation_guard_spec.json",
+  "action": "scan_last_response_and_require_quality_gate"
+}

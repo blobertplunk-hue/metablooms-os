@@ -1,0 +1,20 @@
+{
+  "package": "metablooms_POST_CMMD_FIX",
+  "files": [
+    {
+      "path": "schemas/audit/audit_bundle.schema.json",
+      "sha256": "12222ddf3c000aac158ab1fb029c694f545da5065c4835da843b35be1385d3d8",
+      "size_bytes": 3102
+    },
+    {
+      "path": "examples/audit_bundle.pass.json",
+      "sha256": "788d1ddbe9caaebd68d7b417121327163652261f0be0b760286b2562b60000de",
+      "size_bytes": 1326
+    },
+    {
+      "path": "reports/post_cmmd_audit.json",
+      "sha256": "3042df670cb5efac514f6aa6e9df2208be1b7d0b3886ac1ed667a118b93d248b",
+      "size_bytes": 1042
+    }
+  ]
+}

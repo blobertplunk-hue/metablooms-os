@@ -1,0 +1,60 @@
+{
+  "bundle_type": "bts_bundle",
+  "bundle_version": "1.0",
+  "component_id": "metablooms.pipeline.core",
+  "logging": {
+    "format": "jsonl",
+    "required_fields": [
+      "timestamp",
+      "level",
+      "component_id",
+      "correlation_id",
+      "event_id"
+    ],
+    "levels": [
+      "info",
+      "error"
+    ],
+    "redaction_rules": [
+      "Redact untrusted payloads",
+      "Never log secrets"
+    ],
+    "audit_events": [
+      "execute.start",
+      "execute.end",
+      "gate_result",
+      "auth.success",
+      "auth.fail"
+    ]
+  },
+  "retention": {
+    "policy": "Retain security-relevant logs for audit and incident response.",
+    "duration_days": 90,
+    "rotation": "daily rotate + compress"
+  },
+  "integrity": {
+    "tamper_evident": true,
+    "hash_chain": true,
+    "manifest_required": true,
+    "clock_source": "monotonic+utc"
+  },
+  "signals": {
+    "metrics": [
+      "bts.log_event_count",
+      "bts.gate_fail_rate",
+      "bts.correlation_coverage_ratio"
+    ],
+    "events": [
+      "gate_result",
+      "execute.start",
+      "execute.end"
+    ],
+    "traces": [
+      "execute_trace"
+    ],
+    "correlation": {
+      "correlation_id_field": "correlation_id",
+      "propagation": "propagate from pipeline context"
+    }
+  }
+}

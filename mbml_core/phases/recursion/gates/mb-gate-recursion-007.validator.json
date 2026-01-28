@@ -1,0 +1,33 @@
+{
+  "validator_spec_version": "1.0",
+  "gate_id": "MB-GATE-RECURSION-007",
+  "gate_name": "Continuous Improvement & Learning Gate",
+  "mode": "fail_closed",
+  "inputs": {
+    "required": [
+      "recursion_bundle",
+      "audit_bundle",
+      "bts_bundle"
+    ]
+  },
+  "rules": [
+    "Recursion bundle must validate against schema",
+    "At least one action must target an upstream stage",
+    "Verification plan required for each change",
+    "Learning artifacts must update invariants or documentation"
+  ],
+  "outputs": {
+    "on_pass": {
+      "emit": [
+        "gate_result",
+        "recursion_receipt"
+      ]
+    },
+    "on_fail": {
+      "emit": [
+        "gate_result",
+        "failure_reasons"
+      ]
+    }
+  }
+}

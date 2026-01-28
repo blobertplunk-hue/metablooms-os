@@ -1,0 +1,146 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "metablooms://schemas/p95/bts_meta_audit.report.schema.json",
+  "title": "P9.5 BTS Meta Audit Report",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "phase",
+    "run_id",
+    "inputs",
+    "summary",
+    "analyses",
+    "findings",
+    "timestamps"
+  ],
+  "properties": {
+    "phase": {
+      "const": "P9.5"
+    },
+    "run_id": {
+      "type": "string"
+    },
+    "inputs": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "bts_paths",
+        "entry_count"
+      ],
+      "properties": {
+        "bts_paths": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "entry_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "coverage_note": {
+          "type": "string"
+        }
+      }
+    },
+    "summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "overall",
+        "key_warnings"
+      ],
+      "properties": {
+        "overall": {
+          "type": "string"
+        },
+        "key_warnings": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "analyses": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "pattern_frequency",
+        "phase_cost",
+        "governance_misuse",
+        "tooling_friction",
+        "human_friction"
+      ],
+      "properties": {
+        "pattern_frequency": {
+          "type": "object"
+        },
+        "phase_cost": {
+          "type": "object"
+        },
+        "governance_misuse": {
+          "type": "object"
+        },
+        "tooling_friction": {
+          "type": "object"
+        },
+        "human_friction": {
+          "type": "object"
+        }
+      }
+    },
+    "findings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "severity",
+          "title",
+          "evidence",
+          "impact",
+          "fix"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "severity": {
+            "enum": [
+              "LOW",
+              "MEDIUM",
+              "HIGH",
+              "CRITICAL"
+            ]
+          },
+          "title": {
+            "type": "string"
+          },
+          "evidence": {
+            "type": "object"
+          },
+          "impact": {
+            "type": "string"
+          },
+          "fix": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "timestamps": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "created_utc"
+      ],
+      "properties": {
+        "created_utc": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

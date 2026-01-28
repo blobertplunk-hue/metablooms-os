@@ -1,0 +1,6 @@
+{
+  "emitter_id": "ulvrs.emitter.eslint.v1",
+  "input": "eslint NDJSON rows",
+  "row_type": "lint_violation",
+  "mapping": "pass-through (already ULVRS-compliant via adapter)"
+}

@@ -1,0 +1,25 @@
+{
+  "execution_id": "b63e86a7-39dc-4d29-8c5a-7dd6d6d7a9a8",
+  "phase": "P7_EXECUTION",
+  "mode": "analysis-only",
+  "actions_taken": [
+    "Initialized MBML pipeline",
+    "Checked available lint sensors",
+    "Performed normalization step (no findings)",
+    "Computed quality score (null)",
+    "Applied governance gates"
+  ],
+  "actions_not_taken": [
+    "Run external linters",
+    "Produce real lint violations"
+  ],
+  "why_not": "Sandbox has no linter sensors installed",
+  "artifacts_emitted": [
+    "execution_p7/lint_violation_rows.ndjson",
+    "execution_p7/quality_scores.json",
+    "execution_p7/gate_decisions.json"
+  ],
+  "execution_class": "analysis-only",
+  "completeness": "scaffolded",
+  "clarification": "No lint sensors present at time of run; outputs intentionally empty."
+}

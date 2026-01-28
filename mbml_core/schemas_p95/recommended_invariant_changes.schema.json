@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "metablooms://schemas/p95/recommended_invariant_changes.schema.json",
+  "title": "P9.5 Recommended Invariant Changes",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "run_id",
+    "invariants",
+    "timestamps"
+  ],
+  "properties": {
+    "run_id": {
+      "type": "string"
+    },
+    "invariants": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "change_type",
+          "text",
+          "justification",
+          "evidence_refs"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "change_type": {
+            "enum": [
+              "ADD",
+              "MODIFY",
+              "REMOVE"
+            ]
+          },
+          "text": {
+            "type": "string"
+          },
+          "justification": {
+            "type": "string"
+          },
+          "evidence_refs": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "bts_index",
+                "phase"
+              ],
+              "properties": {
+                "bts_index": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "phase": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "timestamps": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "created_utc"
+      ],
+      "properties": {
+        "created_utc": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

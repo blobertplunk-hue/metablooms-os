@@ -1,0 +1,8 @@
+{
+  "boot_id": "529e0d57-282c-491b-a4d9-c56566a93f36",
+  "timestamp_utc": "2026-01-28T15:07:36Z",
+  "intent_summary": "Autonomous MPP run to build MBML soup-to-nuts; hygiene patch per expanded MMD.",
+  "mpp_version": "canonical-11",
+  "run_classification": "reference",
+  "authority": "MetaBlooms OS"
+}

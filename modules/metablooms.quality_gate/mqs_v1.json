@@ -1,0 +1,98 @@
+{
+  "id": "metablooms.mqs.v1",
+  "range": [
+    0,
+    100
+  ],
+  "pass_threshold": 78,
+  "dimensions": [
+    {
+      "id": "execution_first",
+      "weight": 0.25,
+      "description": "Useful work/artifacts appear before explanation",
+      "signals": [
+        "ARTIFACT_PATH",
+        "EXECUTION COMPLETE",
+        "emitted"
+      ]
+    },
+    {
+      "id": "artifact_density",
+      "weight": 0.2,
+      "description": "Artifacts/receipts dominate output",
+      "signals": [
+        "/mnt/data/",
+        "sha256",
+        "manifest",
+        "ndjson",
+        "json"
+      ]
+    },
+    {
+      "id": "mode_explicitness",
+      "weight": 0.15,
+      "description": "MODE is explicit when degraded/partial",
+      "signals": [
+        "MODE:"
+      ]
+    },
+    {
+      "id": "anti_deflection",
+      "weight": 0.15,
+      "description": "Avoid policy/training/deflection theater",
+      "signals_forbidden": [
+        "as an ai",
+        "policy",
+        "training",
+        "fine-tuning",
+        "can't because"
+      ]
+    },
+    {
+      "id": "ceremony_ratio",
+      "weight": 0.1,
+      "description": "Process narration is bounded",
+      "signals_forbidden": [
+        "Phase",
+        "P0",
+        "P1",
+        "MPP"
+      ]
+    },
+    {
+      "id": "context_alignment",
+      "weight": 0.15,
+      "description": "Constraints + intent referenced",
+      "signals": [
+        "Authority",
+        "Objective",
+        "Operating Rules",
+        "invariant"
+      ]
+    }
+  ],
+  "hard_fail_rules": [
+    {
+      "id": "limitation_without_mode",
+      "match_any": [
+        "can't",
+        "cannot",
+        "fail-closed",
+        "unsafe",
+        "disallowed"
+      ],
+      "require_any": [
+        "MODE:"
+      ],
+      "window": "same_response"
+    },
+    {
+      "id": "policy_theater",
+      "match_any": [
+        "cannot due to policy",
+        "policy requires"
+      ],
+      "action": "reject"
+    }
+  ]
+}

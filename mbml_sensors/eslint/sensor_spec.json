@@ -1,0 +1,23 @@
+{
+  "sensor_id": "mbml.sensor.eslint.v1",
+  "tool": "eslint",
+  "language": "js",
+  "exec_mode": "analysis-only",
+  "entrypoint": "run_eslint.sh",
+  "env": {
+    "MBML_ESLINT_BIN": "optional path to eslint binary"
+  },
+  "outputs": {
+    "ulvrs_rows": "NDJSON (lint_violation rows)"
+  },
+  "capability_probe": {
+    "node": "/opt/nvm/versions/node/v22.16.0/bin/node",
+    "npm": "/opt/nvm/versions/node/v22.16.0/bin/npm",
+    "eslint": null
+  },
+  "install_mode": "degraded",
+  "install_notes": [
+    "This sandbox may not have network access for npm install.",
+    "To enable live runs, provide eslint on PATH or vendor node_modules and set MBML_ESLINT_BIN."
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "run_id": "chat_20260128T160759Z",
+  "invariants": [
+    {
+      "id": "INV_P95_REQUIRED",
+      "change_type": "ADD",
+      "text": "P10 RECURSION MUST NOT execute unless P9.5 BTS_META_AUDIT artifacts exist for the same run_id.",
+      "justification": "Ensures recursion is data-driven from BTS, not intuition.",
+      "evidence_refs": [
+        {
+          "bts_index": 0,
+          "phase": "RUFF_SENSOR_EMIT"
+        }
+      ]
+    },
+    {
+      "id": "INV_P95_NONBLOCKING",
+      "change_type": "ADD",
+      "text": "P9.5 BTS_META_AUDIT is advisory-only and MUST NOT block execution or rewrite history.",
+      "justification": "Meta-audit must not become a new gating failure mode.",
+      "evidence_refs": []
+    },
+    {
+      "id": "INV_ARTIFACT_FIRST_BTS",
+      "change_type": "ADD",
+      "text": "Every phase MUST emit at least one artifact or delta proposal; narrative-only steps are invalid.",
+      "justification": "Reduces explanation-only loops; keeps momentum while staying honest.",
+      "evidence_refs": []
+    }
+  ],
+  "timestamps": {
+    "created_utc": "2026-01-28T16:07:59Z"
+  }
+}

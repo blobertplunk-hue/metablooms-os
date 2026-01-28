@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+set -e
+ROOT="$(cd "$(dirname "$0")" && pwd)"
+OUT="$ROOT/_mbml_out"
+mkdir -p "$OUT"
+
+ORCH="$ROOT/mbml_core/mbml_orchestrator_v2.py"
+if [ ! -f "$ORCH" ]; then
+  ORCH="$ROOT/mbml_core/mbml_orchestrator_v1.py"
+fi
+
+python3 "$ORCH"       --root "$ROOT"       --workspace "${1:-$ROOT}"       --baseline "$ROOT/mbml_baselines/baseline_ulvrs_run_events.ndjson"       --outdir "$OUT"       --run_class production || true
+
+python3 "$ROOT/mbml_tracker/emit_drift_summary.py"       "$OUT/ulvrs_diff.ndjson"       "$OUT/drift_summary.json" || true
+
+cat "$OUT/gate_decision.json"

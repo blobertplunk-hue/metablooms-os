@@ -1,0 +1,90 @@
+validator_spec_version: "1.1"
+gate_id: "MB-GATE-ECL-001"
+gate_name: "Extraordinary Coding Law Compliance Gate"
+mode: "fail_closed"
+
+inputs:
+  required:
+    - ecl_bundle
+
+schema_validation:
+  - name: "ECL bundle must validate against bundle schema"
+    input_path: "ecl_bundle"
+    schema_ref: "schemas/ecl/ecl_bundle.schema.json"
+    on_fail: "HARD_FAIL"
+
+cross_artifact_rules:
+  - id: "ECL-COMPONENT-ID-CONSISTENCY"
+    severity: "HARD_FAIL"
+    description: "All artifact component_id values must match ecl_bundle.component_id"
+    checks:
+      - eq: { left: "ecl_bundle.component_id", right: "ecl_bundle.artifacts.code_intent_spec.component_id" }
+      - eq: { left: "ecl_bundle.component_id", right: "ecl_bundle.artifacts.contract_spec.component_id" }
+      - eq: { left: "ecl_bundle.component_id", right: "ecl_bundle.artifacts.failure_mode_registry.component_id" }
+      - eq: { left: "ecl_bundle.component_id", right: "ecl_bundle.artifacts.observability_plan.component_id" }
+      - eq: { left: "ecl_bundle.component_id", right: "ecl_bundle.artifacts.rollback_plan.component_id" }
+
+  - id: "ECL-REFINTEGRITY-FAILUREMODES-TO-CONTRACTS"
+    severity: "HARD_FAIL"
+    description: "Each contract operation failure_mode id must exist in failure_mode_registry.failure_modes[].id"
+    checks:
+      - set_includes:
+          superset_path: "ecl_bundle.artifacts.failure_mode_registry.failure_modes[].id"
+          subset_path: "ecl_bundle.artifacts.contract_spec.operations[].failure_modes[]"
+
+  - id: "ECL-REFINTEGRITY-FAILUREMODES-TO-INVARIANTS"
+    severity: "HARD_FAIL"
+    description: "Each failure mode must reference at least one contract invariant id"
+    checks:
+      - set_includes:
+          superset_path: "ecl_bundle.artifacts.contract_spec.invariants[].id"
+          subset_path: "ecl_bundle.artifacts.failure_mode_registry.failure_modes[].related_invariant_ids[]"
+
+  - id: "ECL-REFINTEGRITY-FAILUREMODES-TO-ROLLBACK"
+    severity: "HARD_FAIL"
+    description: "Each failure mode must reference at least one rollback step_id"
+    checks:
+      - set_includes:
+          superset_path: "ecl_bundle.artifacts.rollback_plan.rollback_steps[].step_id"
+          subset_path: "ecl_bundle.artifacts.failure_mode_registry.failure_modes[].rollback_step_ids[]"
+
+  - id: "ECL-FAILURE-MODES-MUST-HAVE-TELEMETRY"
+    severity: "HARD_FAIL"
+    description: "Every failure mode must declare a telemetry signal"
+    checks:
+      - for_each:
+          array: "ecl_bundle.artifacts.failure_mode_registry.failure_modes"
+          assert: { non_empty: "telemetry_signal" }
+
+  - id: "ECL-ROLLBACK-REQUIRED-FOR-SIDE-EFFECTS"
+    severity: "HARD_FAIL"
+    description: "If any side_effects indicate rollback_required=true, rollback_plan must have rollback_steps"
+    checks:
+      - if_any:
+          array: "ecl_bundle.artifacts.code_intent_spec.side_effects"
+          condition: { equals: { field: "rollback_required", value: true } }
+        then:
+          assert: { min_len_path: { path: "ecl_bundle.artifacts.rollback_plan.rollback_steps", value: 1 } }
+
+  - id: "ECL-OBSERVABILITY-REQUIRES-CORRELATION"
+    severity: "HARD_FAIL"
+    description: "Observability plan must define a correlation id field"
+    checks:
+      - non_empty_path: "ecl_bundle.artifacts.observability_plan.correlation.correlation_id_field"
+
+  - id: "ECL-CITATION-HYGIENE"
+    severity: "HARD_FAIL"
+    description: "Citations must not contain internal IDs/placeholders"
+    checks:
+      - for_each:
+          array: "ecl_bundle.artifacts.code_intent_spec.citations"
+          assert: { not_regex: { pattern: "(?i)turn\\d+search\\d+|turn\\d+|searchresult\\d+|\\bTBD\\b|\\bTODO\\b" } }
+
+outputs:
+  on_pass:
+    emit:
+      - gate_result: { gate_id: "MB-GATE-ECL-001", status: "PASS" }
+  on_fail:
+    emit:
+      - gate_result: { gate_id: "MB-GATE-ECL-001", status: "FAIL" }
+      - failure_reasons

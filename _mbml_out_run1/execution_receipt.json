@@ -1,0 +1,34 @@
+{
+  "run_id": "06fd5aaf-c23a-4a97-9970-ab991b8abce5",
+  "mode": "analysis-only",
+  "run_class": "reference",
+  "receipts": [
+    {
+      "step": "bts_to_ulvrs",
+      "rc": 0,
+      "stderr": ""
+    },
+    {
+      "step": "eslint_sensor",
+      "rc": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"/mnt/data/Metblooms_OS/mbml_sensors/eslint/adapter_eslint.py\", line 94, in <module>\n    raise SystemExit(main())\n                     ^^^^^^\n  File \"/mnt/data/Metblooms_OS/mbml_sensors/eslint/adapter_eslint.py\", line 29, in main\n    rc, stdout, stderr = run(cmd)\n                         ^^^^^^^^\n  File \"/mnt/data/Metblooms_OS/mbml_sensors/eslint/adapter_eslint.py\", line 17, in run\n    p = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.11/subprocess.py\", line 548, in run\n    with Popen(*popenargs, **kwargs) as process:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.11/subprocess.py\", line 1024, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"/usr/lib/python3.11/subprocess.py\", line 1901, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nPermissionError: [Errno 13] Permission denied: 'eslint'"
+    },
+    {
+      "step": "eslint_wrap_ulvrs",
+      "rc": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"/mnt/data/Metblooms_OS/mbml_core/wrap_eslint_ulvrs.py\", line 51, in <module>\n    raise SystemExit(main())\n                     ^^^^^^\n  File \"/mnt/data/Metblooms_OS/mbml_core/wrap_eslint_ulvrs.py\", line 25, in main\n    with open(in_path,\"r\",encoding=\"utf-8\") as f_in, open(out_path,\"w\",encoding=\"utf-8\") as f_out:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: '/mnt/data/Metblooms_OS/_mbml_out_run1/eslint_sensor_rows.ndjson'"
+    },
+    {
+      "step": "diff_engine",
+      "rc": 0,
+      "stderr": ""
+    }
+  ],
+  "artifacts": {
+    "bts_ulvrs": "/mnt/data/Metblooms_OS/_mbml_out_run1/ulvrs_run_events_from_bts.ndjson",
+    "eslint_sensor_rows": "/mnt/data/Metblooms_OS/_mbml_out_run1/eslint_sensor_rows.ndjson",
+    "eslint_ulvrs": "/mnt/data/Metblooms_OS/_mbml_out_run1/ulvrs_eslint_rows.ndjson",
+    "diff": "/mnt/data/Metblooms_OS/_mbml_out_run1/ulvrs_diff.ndjson",
+    "gate_decision": "/mnt/data/Metblooms_OS/_mbml_out_run1/gate_decision.json"
+  }
+}

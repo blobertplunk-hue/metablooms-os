@@ -1,0 +1,188 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "metablooms://schemas/bts/bts_bundle.schema.json",
+  "title": "MetaBlooms BTS Bundle",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "bundle_type",
+    "bundle_version",
+    "component_id",
+    "logging",
+    "retention",
+    "integrity",
+    "signals"
+  ],
+  "properties": {
+    "bundle_type": {
+      "const": "bts_bundle"
+    },
+    "bundle_version": {
+      "const": "1.0"
+    },
+    "component_id": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 200
+    },
+    "logging": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "format",
+        "required_fields",
+        "levels",
+        "redaction_rules",
+        "audit_events"
+      ],
+      "properties": {
+        "format": {
+          "enum": [
+            "jsonl",
+            "ndjson",
+            "json"
+          ]
+        },
+        "required_fields": {
+          "type": "array",
+          "minItems": 5,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "levels": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "enum": [
+              "debug",
+              "info",
+              "warn",
+              "error"
+            ]
+          }
+        },
+        "redaction_rules": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 3
+          }
+        },
+        "audit_events": {
+          "type": "array",
+          "minItems": 3,
+          "items": {
+            "type": "string",
+            "minLength": 3
+          }
+        }
+      }
+    },
+    "retention": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "policy",
+        "duration_days",
+        "rotation"
+      ],
+      "properties": {
+        "policy": {
+          "type": "string",
+          "minLength": 10
+        },
+        "duration_days": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 36500
+        },
+        "rotation": {
+          "type": "string",
+          "minLength": 5
+        }
+      }
+    },
+    "integrity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "tamper_evident",
+        "hash_chain",
+        "manifest_required",
+        "clock_source"
+      ],
+      "properties": {
+        "tamper_evident": {
+          "type": "boolean"
+        },
+        "hash_chain": {
+          "type": "boolean"
+        },
+        "manifest_required": {
+          "type": "boolean"
+        },
+        "clock_source": {
+          "type": "string",
+          "minLength": 3
+        }
+      }
+    },
+    "signals": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "metrics",
+        "events",
+        "traces",
+        "correlation"
+      ],
+      "properties": {
+        "metrics": {
+          "type": "array",
+          "minItems": 3,
+          "items": {
+            "type": "string",
+            "minLength": 3
+          }
+        },
+        "events": {
+          "type": "array",
+          "minItems": 3,
+          "items": {
+            "type": "string",
+            "minLength": 3
+          }
+        },
+        "traces": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 3
+          }
+        },
+        "correlation": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "correlation_id_field",
+            "propagation"
+          ],
+          "properties": {
+            "correlation_id_field": {
+              "type": "string",
+              "minLength": 2
+            },
+            "propagation": {
+              "type": "string",
+              "minLength": 5
+            }
+          }
+        }
+      }
+    }
+  }
+}

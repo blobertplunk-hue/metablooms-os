@@ -1,0 +1,91 @@
+{
+  "id": "mpp.pipeline.v2",
+  "phases": [
+    {
+      "id": "P0",
+      "name": "BOOT",
+      "blocking": true,
+      "mandatory": true
+    },
+    {
+      "id": "P1",
+      "name": "SEE",
+      "blocking": false,
+      "mandatory": true
+    },
+    {
+      "id": "P2",
+      "name": "CORROBORATION",
+      "blocking": false,
+      "mandatory": true
+    },
+    {
+      "id": "P3",
+      "name": "MMD",
+      "blocking": false,
+      "mandatory": true
+    },
+    {
+      "id": "P4",
+      "name": "SANDBOX_PLANNING_CORE",
+      "blocking": false,
+      "mandatory": true
+    },
+    {
+      "id": "P5",
+      "name": "PLAN_CONSOLIDATION",
+      "blocking": false,
+      "mandatory": true
+    },
+    {
+      "id": "P6",
+      "name": "PREFLIGHT",
+      "blocking": true,
+      "mandatory": true
+    },
+    {
+      "id": "P7",
+      "name": "EXECUTION",
+      "blocking": false,
+      "mandatory": true
+    },
+    {
+      "id": "P8",
+      "name": "BTS",
+      "blocking": false,
+      "mandatory": true
+    },
+    {
+      "id": "P9",
+      "name": "AUDIT",
+      "blocking": false,
+      "mandatory": true
+    },
+    {
+      "id": "P9.5",
+      "name": "BTS_META_AUDIT",
+      "blocking": false,
+      "mandatory": true,
+      "advisory_only": true
+    },
+    {
+      "id": "P10",
+      "name": "RECURSION",
+      "blocking": false,
+      "mandatory": true,
+      "requires": [
+        "P9.5"
+      ]
+    }
+  ],
+  "invariants": [
+    {
+      "id": "INV_P95_REQUIRED",
+      "text": "P10 cannot run without P9.5 artifacts for same run_id."
+    },
+    {
+      "id": "INV_P95_NONBLOCKING",
+      "text": "P9.5 never blocks execution."
+    }
+  ]
+}

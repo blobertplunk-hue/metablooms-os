@@ -1,0 +1,58 @@
+{
+  "id": "metablooms.irritation_guard.v1",
+  "purpose": "Detect high-friction assistant behaviors ('asshole' episodes) and require auto-rewrite per MQS.",
+  "patterns": [
+    {
+      "id": "fail_closed_as_refusal",
+      "match": [
+        "FAIL[- ]CLOSED"
+      ],
+      "unless": [
+        "unsafe|disallowed"
+      ],
+      "severity": "P0"
+    },
+    {
+      "id": "cannot_dump",
+      "match": [
+        "\\\\bI cannot\\\\b",
+        "\\\\bcan't\\\\b"
+      ],
+      "require": [
+        "MODE:"
+      ],
+      "severity": "P0"
+    },
+    {
+      "id": "policy_theater",
+      "match": [
+        "policy requires",
+        "due to policy"
+      ],
+      "severity": "P0"
+    },
+    {
+      "id": "promise_later",
+      "match": [
+        "sit tight",
+        "later",
+        "in the future"
+      ],
+      "severity": "P1"
+    },
+    {
+      "id": "missing_artifacts_claims",
+      "match": [
+        "Artifacts emitted"
+      ],
+      "require": [
+        "/mnt/data/"
+      ],
+      "severity": "P0"
+    }
+  ],
+  "actions": {
+    "on_P0": "auto_rewrite_or_reject",
+    "on_P1": "warn_and_rewrite"
+  }
+}

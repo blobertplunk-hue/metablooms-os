@@ -1,0 +1,35 @@
+{
+  "package": "metablooms_BTS_v1",
+  "files": [
+    {
+      "path": "examples/bts_bundle.fail.json",
+      "sha256": "8d30a7a907224c20051b3ad7d8cb31386aef4aa8e39b7b2117dbb92ac1a9280e",
+      "size_bytes": 1268
+    },
+    {
+      "path": "examples/bts_bundle.pass.json",
+      "sha256": "3a6584eb6beceda1c9654d82a2de6afe5f97e0a2fcf0b5de4d12b18b9af9b697",
+      "size_bytes": 1267
+    },
+    {
+      "path": "gates/mb-gate-bts-005.validator.json",
+      "sha256": "a18417c7e726b0d739116b0a942ade67faf40bd56636db3a2105c564044c3f8c",
+      "size_bytes": 758
+    },
+    {
+      "path": "gates/mb-gate-bts-005.validator.yaml",
+      "sha256": "645d7a69605cae0280f5655bd688cb1a2061435e3415d412700705be9164ee89",
+      "size_bytes": 1894
+    },
+    {
+      "path": "schemas/bts/bts_bundle.schema.json",
+      "sha256": "41210ff6a2121ea36e010af8654f58015f2ab617e693228afa317a7cf754adc2",
+      "size_bytes": 3981
+    },
+    {
+      "path": "telemetry/bts_metrics.schema_fragment.json",
+      "sha256": "9586a642a0a3e76e48314f6c62574a742d6911be237d95260383e361eca26ca7",
+      "size_bytes": 677
+    }
+  ]
+}

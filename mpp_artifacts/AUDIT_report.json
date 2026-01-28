@@ -1,0 +1,46 @@
+{
+  "scope": "MBML MPP run P0\u2013P7",
+  "checks": [
+    {
+      "check": "Artifact-backed execution",
+      "status": "PASS",
+      "evidence": [
+        "mpp_artifacts/PLAN_CONSOLIDATED_MBML.json",
+        "mpp_artifacts/PREFLIGHT_gates.json",
+        "mpp_artifacts/execution_p7/execution_receipt.json"
+      ]
+    },
+    {
+      "check": "Mode declaration on degradation",
+      "status": "PASS",
+      "evidence": [
+        "execution_receipt.json contains mode=analysis-only"
+      ]
+    },
+    {
+      "check": "No fake execution claims",
+      "status": "PASS",
+      "evidence": [
+        "execution_receipt.json lists actions_not_taken with reasons"
+      ]
+    },
+    {
+      "check": "BTS append-only behavior",
+      "status": "PASS",
+      "evidence": [
+        "bts/bts_chat_ledger.ndjson shows sequential P0\u2013P7 entries"
+      ]
+    },
+    {
+      "check": "Governance adherence",
+      "status": "PASS",
+      "evidence": [
+        "No claims of SEE beyond P1",
+        "No claims of lint execution without sensors"
+      ]
+    }
+  ],
+  "violations": [],
+  "overall_status": "PASS",
+  "audit_ts": "2026-01-28T14:55:58Z"
+}

@@ -1,0 +1,79 @@
+{
+  "id": "metablooms.quality_dashboard.spec.v1",
+  "inputs": [
+    {
+      "id": "rows_ndjson",
+      "path": "analysis/high_quality_replay/unified_rows.ndjson",
+      "required": false
+    },
+    {
+      "id": "bts_ledger",
+      "path": "_bts_ledger/bts_chat_ledger.ndjson",
+      "required": false
+    }
+  ],
+  "metrics": [
+    {
+      "id": "mqs_score_proxy",
+      "description": "recompute MQS proxy from row content or response text"
+    },
+    {
+      "id": "artifact_density",
+      "description": "count of artifact paths/hashes per turn"
+    },
+    {
+      "id": "missing_mode_rate",
+      "description": "limitation keywords without MODE"
+    },
+    {
+      "id": "deflection_rate",
+      "description": "policy/training phrases"
+    },
+    {
+      "id": "ceremony_ratio",
+      "description": "process narration tokens / total"
+    }
+  ],
+  "charts": [
+    {
+      "id": "score_over_time",
+      "type": "line",
+      "x": "turn_utc",
+      "y": "mqs_score_proxy"
+    },
+    {
+      "id": "deflection_spikes",
+      "type": "bar",
+      "x": "turn_utc",
+      "y": "deflection_rate"
+    },
+    {
+      "id": "missing_mode",
+      "type": "bar",
+      "x": "turn_utc",
+      "y": "missing_mode_rate"
+    }
+  ],
+  "alerts": [
+    {
+      "id": "quality_drop",
+      "when": "mqs_score_proxy drops >= 15 points vs trailing 5 turns"
+    },
+    {
+      "id": "deflection_spike",
+      "when": "deflection_rate > 0.10"
+    },
+    {
+      "id": "missing_mode_spike",
+      "when": "missing_mode_rate > 0.05"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "analysis/quality_system/quality_timeseries.json"
+    },
+    {
+      "path": "analysis/quality_system/quality_timeseries.csv"
+    }
+  ]
+}

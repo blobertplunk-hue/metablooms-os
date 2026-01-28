@@ -1,0 +1,26 @@
+{
+  "emitter_id": "ulvrs.emitter.chat.v1",
+  "input": "chat transcript (messages with role, content, timestamps)",
+  "row_type": "chat_turn",
+  "mapping": {
+    "identity": {
+      "speaker": "role",
+      "turn_index": "index"
+    },
+    "payload": {
+      "text": "content"
+    },
+    "context": {
+      "intent": "derived_or_null",
+      "constraints": "derived",
+      "execution_mode": "derived"
+    },
+    "provenance": {
+      "phase": "P?",
+      "run_classification": "reference"
+    },
+    "timestamps": {
+      "created_utc": "message_ts"
+    }
+  }
+}

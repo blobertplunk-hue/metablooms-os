@@ -1,0 +1,45 @@
+{
+  "id": "mqs.v1",
+  "description": "Meta Quality Score derived from ULVRS rows",
+  "weights": {
+    "artifact_ratio": 0.25,
+    "evidence_citations": 0.2,
+    "governance_compliance": 0.2,
+    "non_blocking_execution": 0.15,
+    "clarity_density": 0.1,
+    "drift_free": 0.1
+  },
+  "scoring_rules": [
+    {
+      "metric": "artifact_ratio",
+      "how": "artifacts / total_output",
+      "pass_if": ">=0.4"
+    },
+    {
+      "metric": "evidence_citations",
+      "how": "count >= 1 when SEE invoked",
+      "pass_if": ">=1"
+    },
+    {
+      "metric": "governance_compliance",
+      "how": "no silent placeholders",
+      "pass_if": "true"
+    },
+    {
+      "metric": "non_blocking_execution",
+      "how": "no refusal unless unsafe",
+      "pass_if": "true"
+    },
+    {
+      "metric": "clarity_density",
+      "how": "explicit sections per 500 tokens",
+      "pass_if": ">=3"
+    },
+    {
+      "metric": "drift_free",
+      "how": "changed_rows == 0",
+      "pass_if": "true"
+    }
+  ],
+  "output": "0..100"
+}
