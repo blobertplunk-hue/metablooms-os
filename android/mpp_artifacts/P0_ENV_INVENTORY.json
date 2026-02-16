@@ -1,0 +1,63 @@
+{
+  "tool_name": "QuickUpload (Android → GitHub)",
+  "tier": "B_native_app",
+  "mpp_sequence": "SEE → MMD → PLAN → PREFLIGHT → EXECUTE → BTS → AUDIT → RECURSION",
+  "android": {
+    "min_sdk": 26,
+    "target_sdk": 35,
+    "device_oem": "UNKNOWN",
+    "android_version": "UNKNOWN",
+    "battery_optimizations": {
+      "doze_expected": true,
+      "oem_task_killer_risk": "MEDIUM",
+      "mitigation": [
+        "WorkManager",
+        "Foreground-mode for long uploads",
+        "User education screen for battery exclusions"
+      ]
+    }
+  },
+  "storage": {
+    "model": "Storage Access Framework (SAF) + persistable URI grants",
+    "needs_folder_picker": true,
+    "needs_file_picker": true,
+    "persist_permissions": true,
+    "persist_cap_risk": "Persisted URI grants are capped (plan for pruning/re-authorization)"
+  },
+  "network": {
+    "intermittent_expected": true,
+    "captive_portal_possible": true,
+    "retry_policy": "exponential_backoff_with_jitter",
+    "constraints": [
+      "only_unmetered_optional_toggle",
+      "require_network_default_true"
+    ]
+  },
+  "github": {
+    "hosting": "github.com",
+    "account_type": "personal_or_org_UNKNOWN",
+    "repo_access": "push_required",
+    "branching": {
+      "default_branch_unknown": true,
+      "branch_protection_possible": true
+    }
+  },
+  "auth": {
+    "preferred": "OAuth_device_flow",
+    "fallbacks": ["fine_grained_PAT"],
+    "secrets_storage": "Android Keystore + encrypted storage",
+    "token_scopes": "least_privilege"
+  },
+  "file_profile": {
+    "typical_count_per_upload": "UNKNOWN",
+    "typical_size_mb": "UNKNOWN",
+    "max_expected_size_mb": "UNKNOWN",
+    "large_file_strategy": "API_threshold + LFS_or_alt_path"
+  },
+  "ux_goals": [
+    "Share-sheet quick upload",
+    "Queued uploads with per-file status",
+    "Clear failure messages with guided fixes",
+    "Minimal steps: pick repo once, reuse"
+  ]
+}
