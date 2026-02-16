@@ -56,6 +56,37 @@ interface GitHubApi {
         @Body body: CreateBranchRequest
     ): Response<Any>
 
+    // --- Git Data API (Blobs, Trees, Commits) ---
+
+    @POST("repos/{owner}/{repo}/git/blobs")
+    suspend fun createBlob(
+        @Path("owner") owner: String,
+        @Path("repo") repo: String,
+        @Body body: CreateBlobRequest
+    ): Response<CreateBlobResponse>
+
+    @POST("repos/{owner}/{repo}/git/trees")
+    suspend fun createTree(
+        @Path("owner") owner: String,
+        @Path("repo") repo: String,
+        @Body body: CreateTreeRequest
+    ): Response<CreateTreeResponse>
+
+    @POST("repos/{owner}/{repo}/git/commits")
+    suspend fun createCommit(
+        @Path("owner") owner: String,
+        @Path("repo") repo: String,
+        @Body body: CreateCommitRequest
+    ): Response<CreateCommitResponse>
+
+    @PATCH("repos/{owner}/{repo}/git/refs/heads/{branch}")
+    suspend fun updateRef(
+        @Path("owner") owner: String,
+        @Path("repo") repo: String,
+        @Path("branch") branch: String,
+        @Body body: UpdateRefRequest
+    ): Response<Any>
+
     // --- User ---
 
     @GET("user")

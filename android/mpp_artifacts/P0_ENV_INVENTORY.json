@@ -40,24 +40,52 @@
     "branching": {
       "default_branch_unknown": true,
       "branch_protection_possible": true
+    },
+    "api_tiers": {
+      "contents_api_max_bytes": 1000000,
+      "blobs_api_max_bytes": 100000000,
+      "tree_api_batch_commit": true
     }
   },
   "auth": {
     "preferred": "OAuth_device_flow",
     "fallbacks": ["fine_grained_PAT"],
     "secrets_storage": "Android Keystore + encrypted storage",
-    "token_scopes": "least_privilege"
+    "token_scopes": "least_privilege",
+    "token_lifecycle": {
+      "validation_on_worker_start": true,
+      "clear_on_401": true,
+      "mid_batch_401_aborts_batch": true
+    }
   },
   "file_profile": {
     "typical_count_per_upload": "UNKNOWN",
     "typical_size_mb": "UNKNOWN",
     "max_expected_size_mb": "UNKNOWN",
-    "large_file_strategy": "API_threshold + LFS_or_alt_path"
+    "large_file_strategy": "Blobs API for 1-100MB, LFS guidance for >100MB"
   },
   "ux_goals": [
     "Share-sheet quick upload",
     "Queued uploads with per-file status",
     "Clear failure messages with guided fixes",
-    "Minimal steps: pick repo once, reuse"
-  ]
+    "Minimal steps: pick repo once, reuse",
+    "Batch commit: N files → 1 commit when targeting same repo+branch"
+  ],
+  "preflight_gates": {
+    "_description": "All UNKNOWN fields below MUST be resolved before production release. Checked at PREFLIGHT stage.",
+    "must_resolve_before_execute": [
+      "android.device_oem — needed to test OEM task killer mitigations",
+      "android.android_version — needed to confirm scoped storage behavior",
+      "github.account_type — affects rate limits (personal vs org) and branch protection defaults",
+      "file_profile.typical_count_per_upload — determines if batch commit is the common path",
+      "file_profile.typical_size_mb — determines if Blobs API is the common path",
+      "file_profile.max_expected_size_mb — determines if LFS flow needs to be built or just guidance"
+    ],
+    "must_resolve_before_release": [
+      "GITHUB_CLIENT_ID in build.gradle.kts — replace placeholder with registered OAuth App ID",
+      "Proguard rules validated with release build",
+      "Notification permission runtime prompt (Android 13+) tested",
+      "Battery optimization UX tested on at least 2 OEMs"
+    ]
+  }
 }

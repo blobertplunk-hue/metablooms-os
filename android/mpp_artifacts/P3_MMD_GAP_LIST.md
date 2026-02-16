@@ -23,9 +23,10 @@ Each item includes detection, user message, and remediation.
 - **Remediate:** Offer overwrite (fetch new SHA), rename, or new branch
 
 ## 5. Large files
-- **Detect:** Size threshold exceeded; API limitation behaviors
-- **Message:** "This file is too large for direct API upload."
-- **Remediate:** Offer (a) Git LFS guidance, (b) alternate storage, or (c) disclaimer
+- **Detect:** Size > 1 MB routes to Blobs API; size > 100 MB triggers hard gate
+- **Message (1-100 MB):** "Using extended upload for large file…" (transparent to user)
+- **Message (>100 MB):** "This file is too large for GitHub API (max 100 MB). Use Git LFS."
+- **Remediate:** Blobs API path handles 1-100 MB automatically; >100 MB shows LFS guidance
 
 ## 6. Rate limiting
 - **Detect:** 403 with rate limit headers
@@ -41,3 +42,19 @@ Each item includes detection, user message, and remediation.
 - **Detect:** URI open fails
 - **Message:** "That file can't be found anymore."
 - **Remediate:** Remove from queue; prompt to re-add
+
+## 9. Token expires or is revoked during background queue processing
+- **Detect:** 401 response from any GitHub API call; token validation fails at worker start
+- **Message:** "Authentication expired or invalid. Please sign in again."
+- **Remediate:** Clear stored token → UI shows sign-in prompt; all pending items marked RETRYING (not FAILED, so no attempt count burned); re-queue automatically after re-auth
+- **Batch behavior:** If 401 occurs mid-batch blob creation, entire batch aborts to RETRYING state
+
+## 10. Duplicate upload (idempotency failure)
+- **Detect:** content_sha256 matches an existing queued/completed item for same repo+path
+- **Message:** "Duplicate: identical file already queued or uploaded to this path."
+- **Remediate:** Skip and mark as duplicate; user can force re-upload by removing the original item first
+
+## 11. Multi-file upload creates N commits (API chatter)
+- **Detect:** Multiple files queued for same repo+branch
+- **Message:** (none — transparent optimization)
+- **Remediate:** Batch via Git Tree API: create blobs → single tree → single commit → update ref. N files = 1 commit instead of N commits. Reduces API calls and keeps commit history clean.

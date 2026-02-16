@@ -99,6 +99,49 @@ data class CreateBranchRequest(
     val sha: String
 )
 
+// --- Git Data API (Blobs, Trees, Commits) ---
+
+data class CreateBlobRequest(
+    val content: String, // Base64-encoded
+    val encoding: String = "base64"
+)
+
+data class CreateBlobResponse(
+    val sha: String,
+    val url: String
+)
+
+data class TreeEntry(
+    val path: String,
+    val mode: String = "100644", // regular file
+    val type: String = "blob",
+    val sha: String
+)
+
+data class CreateTreeRequest(
+    @SerializedName("base_tree") val baseTree: String,
+    val tree: List<TreeEntry>
+)
+
+data class CreateTreeResponse(
+    val sha: String
+)
+
+data class CreateCommitRequest(
+    val message: String,
+    val tree: String,
+    val parents: List<String>
+)
+
+data class CreateCommitResponse(
+    val sha: String
+)
+
+data class UpdateRefRequest(
+    val sha: String,
+    val force: Boolean = false
+)
+
 // --- Rate Limit ---
 
 data class RateLimitResponse(
