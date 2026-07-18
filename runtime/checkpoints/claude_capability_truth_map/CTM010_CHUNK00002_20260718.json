@@ -1,0 +1,41 @@
+{
+  "artifacts": {
+    "independent_validation_path": "runtime/reports/transcript_mining/claude_capability_truth_map/CTM-010-CHUNK-00002_INDEPENDENT_VALIDATION.json",
+    "independent_validation_sha256": "ae3e024b60bbbae673501528280321b54b776938ea11866a145cb49b7597334b",
+    "promotion_receipt_path": "runtime/receipts/claude_capability_truth_map_controller/CLAUDE_CAPABILITY_TRUTH_MAP_CTM010_CHUNK00002_SEMANTIC_CLUSTER_REVIEW_20260718T232551Z_RECEIPT.json",
+    "promotion_receipt_sha256": "245e006d9e78dee516178c9d20bef410b9495f4cd9260d29431b03b65a0cec5a",
+    "result_path": "runtime/work/claude_capability_truth_map/results/CTM-010-CHUNK-00002_RESULT.json",
+    "result_sha256": "81c77e63280c1815bc4f1c3a620f5cf3bc30cff46f3bc0a357c6094820ee0b01",
+    "state_db_path": "runtime/state/claude_capability_truth_map/CAPABILITY_TRUTH_WORKFLOW.sqlite",
+    "state_db_sha256": "ef66092d64c472c445eaa92542d85eb40d6959d847f8687cdc865e5d7205cbe1"
+  },
+  "chunk_id": "CTM-010-CHUNK-00002",
+  "coverage": {
+    "candidate_clusters_committed": 20,
+    "multi_cluster_evidence_records": 102,
+    "source_records_reviewed": 250,
+    "total_candidate_clusters_committed": 40,
+    "truth_statuses_assigned": 0,
+    "unique_source_records_preserved": 250
+  },
+  "created_utc": "2026-07-18T23:26:28.156936Z",
+  "decision": "PASS_CANDIDATE_CLUSTERS_COMMITTED",
+  "epistemic_boundary": "This checkpoint proves candidate semantic clustering and provenance preservation only. It does not establish that any capability is currently implemented, working, or authoritative.",
+  "handling_notice": "Aggregate coordination metadata only. Owner-private transcript excerpts and evidence rows are not published.",
+  "next_action": "CTM-010_PREPARE_CHUNK_00003",
+  "schema": "mb.claude_capability_truth_map.chunk_checkpoint.v1",
+  "stage_id": "CTM-010",
+  "status": "PASS",
+  "validation": {
+    "aliases_unique": true,
+    "all_packet_records_preserved": true,
+    "candidate_only_states": true,
+    "cluster_count_within_limit": true,
+    "controller_validation_pass": true,
+    "ledger_total_line_count_40": true,
+    "no_truth_status_assigned": true,
+    "packet_record_count_250": true,
+    "sqlite_integrity_ok": true
+  },
+  "workflow_id": "CLAUDE_CAPABILITY_TRUTH_MAP_MAX_WORK_V1"
+}
