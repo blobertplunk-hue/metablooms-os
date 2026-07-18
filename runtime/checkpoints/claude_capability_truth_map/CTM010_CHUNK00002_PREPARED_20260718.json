@@ -1,0 +1,39 @@
+{
+  "artifacts": {
+    "packet_path": "runtime/work/claude_capability_truth_map/packets/CTM-010-CHUNK-00002.json",
+    "packet_sha256": "8bd12744876f3158c9326b69357179cf7ec7f2f735d102777b6fe5227dd038e8"
+  },
+  "chunk_id": "CTM-010-CHUNK-00002",
+  "coverage": {
+    "remaining_candidate_records": 13339,
+    "source_records_selected": 250,
+    "total_reserved_records": 500,
+    "truth_statuses_assigned": 0
+  },
+  "created_utc": "2026-07-18T23:11:48.623066Z",
+  "decision": "PASS_PACKET_PREPARED",
+  "epistemic_boundary": "This checkpoint proves packet preparation only; it does not establish semantic clustering or implementation truth.",
+  "handling_notice": "Aggregate coordination metadata only. Owner-private transcript excerpts are not published.",
+  "next_action": "CTM-010_CHUNK_00002_SEMANTIC_CLUSTER_REVIEW",
+  "schema": "mb.claude_capability_truth_map.packet_checkpoint.v1",
+  "stage_id": "CTM-010",
+  "status": "PASS",
+  "validation": {
+    "candidate_only_boundary_present": true,
+    "chunk_id_ok": true,
+    "db_chunk_members_match_packet": true,
+    "db_chunk_status_review_required": true,
+    "db_packet_path_promotable": true,
+    "no_overlap_with_prior_chunks": true,
+    "packet_count_250": true,
+    "packet_schema_ok": true,
+    "provenance_complete": true,
+    "record_ids_unique": true,
+    "sqlite_integrity_ok": true,
+    "state_current_chunk_ok": true,
+    "state_current_packet_ok": true,
+    "state_next_action_ok": true,
+    "truth_statuses_assigned_zero": true
+  },
+  "workflow_id": "CLAUDE_CAPABILITY_TRUTH_MAP_MAX_WORK_V1"
+}
