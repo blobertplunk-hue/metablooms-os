@@ -1,0 +1,72 @@
+{
+  "coverage": {
+    "analysis_T01_IMPLEMENTATION_TRUTH": 7071,
+    "analysis_T02_OPEN_WORK": 18297,
+    "analysis_T03_VERSION_CHURN": 39506,
+    "analysis_T04_ARCHITECTURE_DECISIONS": 4876,
+    "analysis_T05_CAPABILITY_INVENTORY": 47220,
+    "analysis_T06_OPERATOR_REQUIREMENTS": 6521,
+    "analysis_T07_EVALUATION_EVIDENCE": 60108,
+    "analysis_T08_ARTIFACT_LINEAGE": 83788,
+    "analysis_T09_EXTERNAL_FEEDBACK": 28327,
+    "analysis_T10_AUTOMATION_EFFICIENCY": 16032,
+    "analytical_records": 311746,
+    "artifact_mentions": 115889,
+    "attachments": 524,
+    "citations": 1030,
+    "content_blocks": 65650,
+    "conversations": 286,
+    "design_chats": 1,
+    "file_refs": 3354,
+    "memories": 3,
+    "messages": 10752,
+    "project_docs": 3,
+    "projects": 3,
+    "relationships": 16055,
+    "research_sources": 6,
+    "source_files": 7,
+    "tags": 778453,
+    "urls": 26276,
+    "users": 1
+  },
+  "created_at_utc": "2026-07-18T21:22:32.702808Z",
+  "decision": "STAGE1_TOP10_FOUNDATION_COMPLETE",
+  "deliverables": [
+    {
+      "bytes": 129619108,
+      "filename": "CLAUDE_CORPUS_INDEX_TOP10_COMPACT_20260718.tar.zst",
+      "role": "complete_compact_parquet_metadata_and_top10_index",
+      "sha256": "3b7077e870d1a63a720816b7e7cad8ca969f6cb310a9b51eb6785e8d5d9c6790"
+    },
+    {
+      "bytes": 209616391,
+      "filename": "CLAUDE_CORPUS_INDEX_FTS_SQLITE_20260718.sqlite.zst",
+      "role": "optional_local_sqlite_fts_search_database",
+      "sha256": "6a3238446ae714d4455b54bba07186f376eb2c8d8cc9bcd9e30f072dcff921e0"
+    }
+  ],
+  "epistemic_boundary": "Top-ten analytical rows are deterministic candidate evidence records, not final semantic adjudications; derived chat URLs are unvalidated and basename matches do not prove behavior.",
+  "governed_promotion": {
+    "promoted_outputs": 18,
+    "receipt_path": "runtime/receipts/claude_corpus_index_stage1_top10/CLAUDE_CORPUS_INDEX_STAGE1_TOP10_FOUNDATION_20260718T212147Z_RECEIPT.json",
+    "receipt_sha256": "71f9b0fe4981a682498648f12e430349a51faeb86cc424cc7e559667baae333c"
+  },
+  "handling_notice": "Aggregate-only public coordination checkpoint. Full corpus artifacts are OWNER_PRIVATE and are not published to GitHub.",
+  "independent_validation_decision": "PASS",
+  "next_stage": "CLAUDE_CORPUS_INDEX_STAGE2_SEMANTIC_ADJUDICATION_AND_CURRENT_OS_CROSSWALK",
+  "schema": "mb.claude_corpus_index.github_checkpoint.v1",
+  "source_zip_sha256": "261f523de572f1650192cab8cee4b1c8016d15c28e09466fc3bdb73fbf10a26d",
+  "status": "PASS",
+  "top10_counts": {
+    "T01_IMPLEMENTATION_TRUTH": 7071,
+    "T02_OPEN_WORK": 18297,
+    "T03_VERSION_CHURN": 39506,
+    "T04_ARCHITECTURE_DECISIONS": 4876,
+    "T05_CAPABILITY_INVENTORY": 47220,
+    "T06_OPERATOR_REQUIREMENTS": 6521,
+    "T07_EVALUATION_EVIDENCE": 60108,
+    "T08_ARTIFACT_LINEAGE": 83788,
+    "T09_EXTERNAL_FEEDBACK": 28327,
+    "T10_AUTOMATION_EFFICIENCY": 16032
+  }
+}
