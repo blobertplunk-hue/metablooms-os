@@ -1,0 +1,33 @@
+{
+  "artifacts": {
+    "current_state_path": "runtime/state/claude_capability_truth_map/CURRENT_STATE.json",
+    "current_state_sha256": "96e103594335a5329d1b2871ea35dbd11e83407a30c5e14a542463d0f8719799",
+    "independent_validation_path": "runtime/reports/transcript_mining/claude_capability_truth_map/CTM-010-CHUNK-00003_INDEPENDENT_VALIDATION.json",
+    "independent_validation_sha256": "18d2b927e2a1aa240efac9390db00b3c1af1c2a450a478aa97e7c953619a4789",
+    "promotion_receipt_path": "/mnt/data/Metablooms_OS/runtime/receipts/claude_capability_truth_map_controller/CLAUDE_CAPABILITY_TRUTH_MAP_CTM010_CHUNK00003_SEMANTIC_CLUSTER_REVIEW_20260719T030416Z_RECEIPT.json",
+    "promotion_receipt_sha256": "ba6d7471c1d4241121c5485c0c180e1057ed1dd7262855867b6ebaee434aa592",
+    "result_path": "runtime/work/claude_capability_truth_map/results/CTM-010-CHUNK-00003_RESULT.json",
+    "result_sha256": "0d8248b55f535033835f8d578c8712ed5bbf4a4c0e0ab750c942a96addd40619",
+    "state_db_path": "runtime/state/claude_capability_truth_map/CAPABILITY_TRUTH_WORKFLOW.sqlite",
+    "state_db_sha256": "03c5f1ecf1db9f161805560f8abe66b34d648704c0ea30aace93096f8586957a"
+  },
+  "chunk_id": "CTM-010-CHUNK-00003",
+  "coverage": {
+    "candidate_clusters_committed": 20,
+    "multi_cluster_evidence_records": 157,
+    "source_records_reviewed": 250,
+    "total_candidate_clusters_committed": 60,
+    "truth_statuses_assigned": 0,
+    "unique_source_records_preserved": 250
+  },
+  "created_utc": "2026-07-19T03:05:20.162823Z",
+  "decision": "PASS_CANDIDATE_CLUSTERS_COMMITTED_LOCAL_PUBLICATION_PENDING",
+  "epistemic_boundary": "This checkpoint proves candidate semantic clustering, provenance preservation, and local transactional commit only. It does not establish that any capability is currently implemented, working, or authoritative.",
+  "handling_notice": "Aggregate coordination metadata only. Owner-private transcript excerpts and evidence rows are not published.",
+  "next_action": "PUBLISH_AND_VERIFY_CYCLE",
+  "schema": "mb.claude_capability_truth_map.chunk_checkpoint.v1",
+  "stage_id": "CTM-010",
+  "status": "PASS",
+  "workflow_id": "CLAUDE_CAPABILITY_TRUTH_MAP_MAX_WORK_V1",
+  "workflow_revision": 2
+}
