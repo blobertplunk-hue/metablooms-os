@@ -1,0 +1,45 @@
+{
+  "artifacts": {
+    "export_tool": {
+      "path": "tools/metablooms/canonical_export_v2.py",
+      "sha256": "1298bb937c78353ffffec80afe84ecd9e3597ec3f1b4178accff95d8177049e1"
+    },
+    "mutation_gate": {
+      "path": "tools/metablooms/mutation_evidence_gate_v1.py",
+      "sha256": "c8050802fe76c7d69e48226016fa0b56907f2c8ac6bd9c8e110734ac45845f99"
+    },
+    "policy": {
+      "path": "runtime/contracts/export/CANONICAL_EXPORT_POLICY_v2.json",
+      "sha256": "fbeb9e2ebe7bdd1efcd080cf4b5fd9e4efe5636b723224ed25ef2ae956463ce6"
+    },
+    "report": {
+      "path": "runtime/reports/s02_export_repair/S02_EXPORT_REPAIR_REPORT.md",
+      "sha256": "d7fab296fd9033833b0c5fc0d3f3379f462db1eaf63f505d12515296ad3de779"
+    }
+  },
+  "created_utc": "2026-07-19T12:09:30.861877Z",
+  "decision": "EXPORT_ENUMERATION_HYGIENE_AND_MUTATION_EVIDENCE_CONTROLS_ACTIVE",
+  "implemented": {
+    "audit_remediation_boot_disambiguation": true,
+    "canonical_exclusion_policy": true,
+    "complete_per_file_manifest": true,
+    "environment_manifest_substitution": true,
+    "standalone_exact_reconciliation_verifier": true,
+    "vacuous_mutation_evidence_rejected": true
+  },
+  "next_action": "S02_CANONICAL_EXPORT_BUILD_AND_FRESH_RESTORE_VERIFICATION",
+  "schema": "mb.s02_export_repair.github_checkpoint.v1",
+  "status": "PASS",
+  "validation": {
+    "active_tests": "2 passed",
+    "nested_root": {
+      "counts": {
+        "DIVERGENT": 8,
+        "DUPLICATE": 56,
+        "UNIQUE": 218
+      },
+      "files": 282
+    },
+    "truth_claim_boundary": "Controls implemented; no new full export or real mutation score claimed."
+  }
+}
