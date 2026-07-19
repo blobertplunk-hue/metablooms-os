@@ -1,0 +1,31 @@
+{
+  "artifacts": {
+    "current_state_path": "runtime/state/claude_capability_truth_map/CURRENT_STATE.json",
+    "current_state_sha256": "4ff9861c90cb5a5de46286ffe3d0763754fd08120e757dff481fd4e772a74452",
+    "promotion_receipt_path": "runtime/receipts/claude_capability_truth_map_controller/CLAUDE_CAPABILITY_TRUTH_MAP_CTM010CHUNK00041_SEMANTIC_CLUSTER_REVIEW_V5_20260719T133756Z_RECEIPT.json",
+    "promotion_receipt_sha256": "0341beaca25fa5a9d5785b2f398ad042731c07358d437b702732fba711f55c64",
+    "result_path": "runtime/work/claude_capability_truth_map/results/CTM-010-CHUNK-00041_RESULT.json",
+    "result_sha256": "780cea8fd3fc1d5a8dc0b5dd043c5eb1de046e439df209a1f951283170f89abc",
+    "state_db_path": "runtime/state/claude_capability_truth_map/CAPABILITY_TRUTH_WORKFLOW.sqlite",
+    "state_db_sha256": "ac4ffef5f20eb2ce014ac06f0927e39b5a9f4bf65cbee51ef6a6b3584a903fc5"
+  },
+  "chunk_id": "CTM-010-CHUNK-00041",
+  "coverage": {
+    "candidate_clusters_committed": 20,
+    "multi_cluster_evidence_records": 112,
+    "source_records_reviewed": 250,
+    "total_candidate_clusters_committed": 820,
+    "truth_statuses_assigned": 0,
+    "unique_source_records_preserved": 250
+  },
+  "created_utc": "2026-07-19T13:37:56.442735Z",
+  "decision": "PASS_CANDIDATE_CLUSTERS_COMMITTED_LOCAL_PUBLICATION_PENDING",
+  "epistemic_boundary": "Candidate semantic clustering and provenance preservation only; no current implementation truth is established.",
+  "handling_notice": "Aggregate coordination metadata only. Owner-private transcript excerpts and evidence rows are not published.",
+  "next_action": "PUBLISH_AND_VERIFY_CYCLE",
+  "schema": "mb.claude_capability_truth_map.chunk_checkpoint.v1",
+  "stage_id": "CTM-010",
+  "status": "PASS",
+  "workflow_id": "CLAUDE_CAPABILITY_TRUTH_MAP_MAX_WORK_V1",
+  "workflow_revision": 5
+}
