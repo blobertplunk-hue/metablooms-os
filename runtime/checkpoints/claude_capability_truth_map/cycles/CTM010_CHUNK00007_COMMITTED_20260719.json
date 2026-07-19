@@ -1,0 +1,45 @@
+{
+  "artifacts": {
+    "independent_validation_path": "runtime/reports/transcript_mining/claude_capability_truth_map/CTM-010-CHUNK-00007_INDEPENDENT_VALIDATION.json",
+    "independent_validation_sha256": "d633a35c7d7b3c99f88dcbfb10b9cb42a69e256a40f24fb68b46222cad7474d4",
+    "promotion_receipt_path": "runtime/receipts/claude_capability_truth_map_controller/CLAUDE_CAPABILITY_TRUTH_MAP_CTM010_CHUNK00007_SEMANTIC_CLUSTER_REVIEW_20260719T045132Z_RECEIPT.json",
+    "promotion_receipt_sha256": "5de5e1bd9d8d6af5d64c4cb505df5fe38929b85500dbce38b063315410a0d8f6",
+    "result_path": "runtime/work/claude_capability_truth_map/results/CTM-010-CHUNK-00007_RESULT.json",
+    "result_sha256": "449819c6bc23470d58e3e5ff6111bf9b6e824b5ec384e9e6abdf8cc604e3f2f6",
+    "state_db_path": "runtime/state/claude_capability_truth_map/CAPABILITY_TRUTH_WORKFLOW.sqlite",
+    "state_db_sha256": "f92bcbb88929d58f91ae7ea2ac17c63abc1786d52ddc147b5e89aff3b9895f0b"
+  },
+  "chunk_id": "CTM-010-CHUNK-00007",
+  "coverage": {
+    "candidate_clusters_committed": 20,
+    "multi_cluster_evidence_records": 215,
+    "source_records_reviewed": 250,
+    "total_candidate_clusters_committed": 140,
+    "truth_statuses_assigned": 0,
+    "unique_source_records_preserved": 250
+  },
+  "created_utc": "2026-07-19T04:52:33.720276Z",
+  "decision": "PASS_CANDIDATE_CLUSTERS_COMMITTED_LOCAL_PUBLICATION_PENDING",
+  "epistemic_boundary": "Candidate semantic clustering and provenance preservation only. This does not establish that any capability is currently implemented, working, or authoritative.",
+  "handling_notice": "Aggregate coordination metadata only. Owner-private transcript excerpts and evidence rows are not published.",
+  "next_action": "PUBLISH_AND_VERIFY_CYCLE",
+  "schema": "mb.claude_capability_truth_map.chunk_checkpoint.v2",
+  "stage_id": "CTM-010",
+  "status": "PASS",
+  "validation": {
+    "aliases_unique": true,
+    "all_packet_records_preserved": true,
+    "candidate_only_states": true,
+    "capability_version_count_140": true,
+    "chunk_committed": true,
+    "cluster_count_within_limit": true,
+    "compact_view_validation_pass": true,
+    "controller_validation_pass": true,
+    "no_truth_status_assigned": true,
+    "packet_record_count_250": true,
+    "sqlite_integrity_ok": true,
+    "total_candidate_clusters_committed": true
+  },
+  "workflow_id": "CLAUDE_CAPABILITY_TRUTH_MAP_MAX_WORK_V1",
+  "workflow_revision": 3
+}
