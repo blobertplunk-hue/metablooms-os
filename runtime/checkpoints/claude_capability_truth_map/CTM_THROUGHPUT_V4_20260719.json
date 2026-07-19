@@ -1,0 +1,59 @@
+{
+  "artifacts": {
+    "accelerator_sha256": "c3768e1dab9139e03b08a506314f188348c3089ca864d267693a64020415ba18",
+    "contract_sha256": "822690896806843274759fdf72101fdf37de3016324ef9d40804abf40ee793dc",
+    "controller_sha256": "007750accc4b2f4558a22a7b60e7df64e3d2cae1fbaa17c37a8918243dfa2971",
+    "migration_receipt": "runtime/receipts/claude_capability_truth_map_controller/CTM_THROUGHPUT_V4_MIGRATION_RECEIPT.json"
+  },
+  "created_utc": "2026-07-19T05:37:04.026313+00:00",
+  "decision": "THROUGHPUT_V4_ACTIVE",
+  "enforcement": {
+    "max_cycles_per_turn": 10,
+    "per_cycle_github_exact_readback": true,
+    "per_cycle_local_promotion": true,
+    "robust_predictor": true,
+    "soft_turn_budget_seconds": 3600,
+    "topic_assist_candidate_only": true
+  },
+  "handling_notice": "Aggregate coordination metadata only. No transcript excerpts or owner-private evidence are published.",
+  "next_action": "CTM-010_BEGIN_TURN_GENERATION_AND_PREPARE_CHUNK_00008",
+  "schema": "mb.ctm.throughput_v4.github_checkpoint.v1",
+  "status": "PASS",
+  "truth_statuses_assigned": 0,
+  "validation": {
+    "checks": {
+      "controller_compile": true,
+      "plan_validation": true,
+      "prediction_below_old_532_5": true,
+      "prediction_not_reckless": true
+    },
+    "decision": "PASS",
+    "history": [
+      390.0,
+      365.0,
+      235.0,
+      533.492187
+    ],
+    "limits": {
+      "compact_review_view_max_chars": 105000,
+      "continuation_safety_margin_seconds": 75,
+      "cycle_prediction_mode": "robust_median_mad_v2",
+      "cycle_prediction_window": 8,
+      "max_capabilities": 20,
+      "max_current_artifact_candidates": 500,
+      "max_cycles_per_turn": 10,
+      "max_evidence_excerpts": 250,
+      "max_llm_context_chars": 180000,
+      "max_turn_review_chars": 900000,
+      "max_wall_seconds": 3600,
+      "minimum_context_reserve_fraction": 0.12,
+      "minimum_wall_clock_reserve_seconds": 75,
+      "predicted_cycle_default_seconds": 390,
+      "semantic_topic_assist": "NMF_TFIDF_CANDIDATE_ONLY"
+    },
+    "next_review_chars": 99561,
+    "prediction_seconds": 435.625,
+    "schema": "mb.ctm.throughput_v4.test.v1"
+  },
+  "workflow_revision": 4
+}
