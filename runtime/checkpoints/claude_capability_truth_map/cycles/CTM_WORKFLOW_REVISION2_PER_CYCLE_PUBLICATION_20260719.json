@@ -1,0 +1,54 @@
+{
+  "artifacts": {
+    "contract": {
+      "path": "runtime/contracts/transcript_mining/CLAUDE_CAPABILITY_TRUTH_MAP_WORKFLOW_CONTRACT_v1.json",
+      "sha256": "3139a5c96a0d0b6d57f0c904ae05767035cc5372b999f3c017f82175d157d372"
+    },
+    "controller": {
+      "path": "tools/metablooms/claude_capability_truth_map_controller_v1.py",
+      "sha256": "7edc561337c4b09a884b3635f37d189038ac22d76e09814aaa51fb96e96e7b88"
+    },
+    "current_state": {
+      "path": "runtime/state/claude_capability_truth_map/CURRENT_STATE.json",
+      "sha256": "c88327aee3bb944a8007c09bd269be1b6a89a15774d6a450c4d2803b995828f8"
+    },
+    "plan": {
+      "path": "runtime/work/start_workflow_packets/CLAUDE_CAPABILITY_TRUTH_MAP_PLAN_AND_CONTROLLER_FOUNDATION/artifacts/WORKFLOW_PLAN.json",
+      "sha256": "6e49ebdcfc98d53e8ab4a2e746d62c4ae4cc6572ff34677bb986cae890e44ef8"
+    },
+    "promotion_receipt": "runtime/receipts/claude_capability_truth_map_controller/CLAUDE_CAPABILITY_TRUTH_MAP_PER_CYCLE_LOCAL_AND_GITHUB_PUBLICATION_BARRIER_V2_20260719T022828Z_RECEIPT.json",
+    "state_db": {
+      "path": "runtime/state/claude_capability_truth_map/CAPABILITY_TRUTH_WORKFLOW.sqlite",
+      "sha256": "36045100a70e21fa6b6255a6c879e7f173ffc2ed2ce5d5fb6c789b69cc73d868"
+    },
+    "test_receipt": "runtime/reports/plans/claude_capability_truth_map_max_work_v1/PER_CYCLE_PUBLICATION_TEST_RECEIPT.json"
+  },
+  "created_utc": "2026-07-19T02:29:28.182871Z",
+  "current_chunk": "CTM-010-CHUNK-00003",
+  "current_chunk_state": "REVIEW_REQUIRED",
+  "current_stage": "CTM-010",
+  "decision": "PER_CYCLE_LOCAL_AND_GITHUB_PUBLICATION_BARRIER_ACTIVE",
+  "enforcement": {
+    "canonical_packet_path_bookkeeping_repaired": true,
+    "commit_requires_publication_before_next_cycle": true,
+    "github_exact_remote_readback_required": true,
+    "github_payload_policy": "AGGREGATE_ONLY_NO_TRANSCRIPT_EXCERPTS",
+    "max_work_routes_unpublished_cycle_to_publication": true,
+    "prepare_blocks_unpublished_committed_cycle": true
+  },
+  "epistemic_boundary": "This checkpoint proves workflow enforcement and durability controls only. It does not review chunk 00003 or establish implementation truth for any capability.",
+  "handling_notice": "Aggregate coordination metadata only. No transcript excerpts, evidence rows, message text, or owner-private corpus content are published.",
+  "next_action": "CTM-010_CHUNK_00003_SEMANTIC_CLUSTER_REVIEW",
+  "schema": "mb.claude_capability_truth_map.workflow_migration_checkpoint.v1",
+  "status": "PASS",
+  "truth_statuses_assigned": 0,
+  "validation": {
+    "active_root_hash_readback": "PASS",
+    "controller_compile": "PASS",
+    "plan_validation": "PASS",
+    "positive_and_negative_fixtures": "PASS",
+    "sqlite_integrity": "PASS"
+  },
+  "workflow_id": "CLAUDE_CAPABILITY_TRUTH_MAP_MAX_WORK_V1",
+  "workflow_revision": 2
+}
