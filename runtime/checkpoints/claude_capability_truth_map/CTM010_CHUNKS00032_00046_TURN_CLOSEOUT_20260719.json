@@ -1,0 +1,44 @@
+{
+  "coverage": {
+    "candidate_clusters_added_this_turn": 300,
+    "chunks_completed_this_turn": 15,
+    "records_reviewed_this_turn": 3750,
+    "remaining_candidate_records": 2339,
+    "total_candidate_clusters": 920,
+    "total_committed_chunks": 46,
+    "total_records_reviewed": 11500,
+    "truth_statuses_assigned": 0
+  },
+  "created_utc": "2026-07-19T13:49:28.483814Z",
+  "decision": "FIFTEEN_DURABLE_CYCLES_CONTROLLED_CONTEXT_STOP",
+  "durability": {
+    "per_cycle_github_exact_readback": true,
+    "per_cycle_local_promotion": true,
+    "sqlite_integrity": "ok",
+    "unpublished_committed_cycles": 0,
+    "verified_cycles_this_turn": 15
+  },
+  "epistemic_boundary": "Candidate-only semantic clustering; no current implementation truth assigned.",
+  "handling_notice": "Aggregate-only coordination metadata. No transcript excerpts or owner-private evidence rows are published.",
+  "next_action": "CTM-010_BEGIN_TURN_GENERATION_AND_PREPARE_CHUNK_00047",
+  "performance": {
+    "median_cycle_seconds": 55.516,
+    "median_steady_state_cycle_seconds": 54.093,
+    "review_chars_used": 1404449,
+    "total_seconds_recorded": 889.377
+  },
+  "schema": "mb.ctm.turn_closeout.github_checkpoint.v1",
+  "status": "PASS",
+  "stop_evidence": {
+    "completed_cycles": 15,
+    "max_cycles": 16,
+    "minimum_context_reserve_fraction": 0.12,
+    "projected_context_fraction": 0.066341875,
+    "reason": "projected remaining fraction=0.066",
+    "remaining_wall_seconds": 3354.2827749999997,
+    "workflow_status": "RUNNING"
+  },
+  "turn_id": "CTM-TURN-20260719T132043Z-CHUNK32",
+  "workflow_id": "CLAUDE_CAPABILITY_TRUTH_MAP_MAX_WORK_V1",
+  "workflow_revision": 5
+}
