@@ -1,0 +1,41 @@
+{
+  "artifacts": {
+    "current_state_sha256": "300f66ea1ee0b2efac3567e2445469b10d9a42ec29fab6188b138186938b98ee",
+    "database_sha256": "3abe76ef3f3e674da3594d4690e4f4ca4b344b9f6875e947a67aa891dc12cc10",
+    "plan_sha256": "1b0f2bfd166c979cc218120da1a2f5258ffa4a262600092bc6ab203bce8ea914",
+    "validation_path": "runtime/reports/transcript_mining/claude_capability_truth_map/CTM-010_STAGE_COMPLETION_VALIDATION.json",
+    "validation_sha256": "5b01e7ce1bdf9a9f73a29a3f426a5269d5f82b734b17b87dc48ebe8f468ece68"
+  },
+  "coverage": {
+    "candidate_clusters": 1120,
+    "chunks": 56,
+    "distinct_evidence_records": 13839,
+    "legacy_pre_barrier_chunks": 2,
+    "post_barrier_exact_readbacks": 54,
+    "source_records": 13839,
+    "truth_statuses_assigned": 0
+  },
+  "created_utc": "2026-07-19T14:30:03.007143Z",
+  "decision": "CTM010_COMPLETE_READY_FOR_CTM020",
+  "durability": {
+    "per_cycle_github_exact_readback": true,
+    "per_cycle_local_promotion": true,
+    "sqlite_integrity": "ok",
+    "unpublished_committed_cycles": 0
+  },
+  "epistemic_boundary": "CTM-010 completion proves candidate clustering coverage and provenance only. It does not establish current implementation truth for any capability.",
+  "handling_notice": "Aggregate-only coordination metadata. No transcript excerpts or owner-private evidence rows are published.",
+  "next_action": "CTM-020_DESIGN_AND_PREPARE_FIRST_DECISION_HISTORY_CHUNK",
+  "schema": "mb.ctm.ctm010_completion.github_checkpoint.v1",
+  "source_reconstruction_notice": "The active 13,839-record candidate source is the previously disclosed deterministic reconstruction; original source bytes were not recovered.",
+  "status": "PASS",
+  "turn": {
+    "chunks_completed": 10,
+    "clusters_added": 200,
+    "cycle_metrics_count": 10,
+    "records_reviewed": 2339,
+    "review_chars_used": 927197,
+    "total_seconds_recorded": 580.452
+  },
+  "workflow_revision": 6
+}
