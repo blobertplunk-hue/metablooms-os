@@ -1,0 +1,37 @@
+{
+  "artifacts": {
+    "contract_sha256": "3cbb97bb9daf8aa00d69b828c9d9c566b420c1f3afd79b81915795f598344487",
+    "controller_sha256": "04b420c95fee49fccf515057c029f9b8ebe1b482adaf81f7059f70f04ddb0069",
+    "current_state_sha256": "b5b49bbb3abaed82a6e70ac06b214cb2f42dfd79d95cfad1c81caed9f8726c53",
+    "database_sha256": "c0bc5173809a32da82379d5ea7ac18b1ab931f6be3e66b6639a2583bf79354e2",
+    "plan_sha256": "ff7ab974e672998b42287047e2ed7caf106bdfcf0ec4a4f31f92e79b31624044",
+    "promotion_receipt_path": "runtime/receipts/claude_capability_truth_map_controller/CTM_THROUGHPUT_V6_OPERATOR_AUTHORIZED_30_PERCENT_LIMIT_INCREASE_20260719T141026Z_RECEIPT.json",
+    "promotion_receipt_sha256": "cf32a427272e65fa3151a4c58189d85a28c2ed8a9a835bcac01d237ef516a920"
+  },
+  "created_utc": "2026-07-19T14:11:16.785420Z",
+  "decision": "THROUGHPUT_V6_ACTIVE_30_PERCENT_CEILING_INCREASE",
+  "epistemic_boundary": "This checkpoint proves workflow-control migration only; no current implementation truth is assigned.",
+  "handling_notice": "Aggregate-only coordination metadata. No transcript excerpts or owner-private evidence rows are published.",
+  "last_published_chunk": "CTM-010-CHUNK-00046",
+  "limits": {
+    "compact_review_view_max_chars": 136500,
+    "max_current_artifact_candidates": 650,
+    "max_cycles_per_turn": 21,
+    "max_llm_context_chars": 234000,
+    "max_turn_review_chars": 2080000,
+    "max_wall_seconds": 6240
+  },
+  "next_action": "CTM-010_BEGIN_TURN_GENERATION_AND_PREPARE_CHUNK_00047",
+  "schema": "mb.ctm.throughput_v6.github_checkpoint.v1",
+  "status": "PASS",
+  "unchanged_controls": {
+    "candidate_only_boundary": true,
+    "max_capabilities": 20,
+    "max_evidence_excerpts": 250,
+    "minimum_context_reserve_fraction": 0.12,
+    "minimum_wall_clock_reserve_seconds": 75,
+    "per_cycle_github_exact_readback": true,
+    "per_cycle_local_promotion": true
+  },
+  "workflow_revision": 6
+}
