@@ -1,0 +1,40 @@
+{
+  "schema": "mb.ctm.ten_cycle_turn_and_throughput_v5.github_checkpoint.v1",
+  "created_utc": "2026-07-19T06:12:24.510247+00:00",
+  "status": "PASS",
+  "decision": "TEN_DURABLE_CYCLES_COMPLETE_THROUGHPUT_V5_ACTIVE",
+  "coverage": {
+    "chunks_completed_this_turn": 10,
+    "records_reviewed_this_turn": 2500,
+    "candidate_clusters_added_this_turn": 200,
+    "total_committed_chunks": 17,
+    "total_candidate_clusters": 340,
+    "truth_statuses_assigned": 0
+  },
+  "durability": {
+    "per_cycle_local_promotion": true,
+    "per_cycle_github_exact_readback": true,
+    "unpublished_committed_cycles": 0,
+    "sqlite_integrity": "ok"
+  },
+  "revision_5": {
+    "max_cycles_per_turn": 16,
+    "soft_turn_budget_seconds": 4800,
+    "max_turn_review_chars": 1600000,
+    "predicted_cycle_default_seconds": 300,
+    "review_char_database_accounting_repaired": true,
+    "revision_hash_stamping_repaired": true,
+    "controller_sha256": "04b420c95fee49fccf515057c029f9b8ebe1b482adaf81f7059f70f04ddb0069",
+    "contract_sha256": "b8b723b222b65dd0af336469b20e6432998c9f42a58606331b85ee12b9bffcbe",
+    "plan_sha256": "370f6c495b3a42f8f9b35015954ac9deb5b575b39a06a7f4a035221c22baf93a"
+  },
+  "stop_evidence": {
+    "revision4_stop_reason": "completed=10 max=10",
+    "remaining_wall_seconds": 1800,
+    "remaining_context_fraction": 0.5,
+    "predicted_next_cycle_seconds": 253.5
+  },
+  "handling_notice": "Aggregate-only coordination metadata. No transcript excerpts or owner-private evidence rows are published.",
+  "epistemic_boundary": "Candidate-only semantic clustering; no current implementation truth assigned.",
+  "next_action": "CTM-010_BEGIN_TURN_GENERATION_AND_PREPARE_CHUNK_00018"
+}
