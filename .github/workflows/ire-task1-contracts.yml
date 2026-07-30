@@ -1,0 +1,45 @@
+name: IRE Task 1 contracts
+
+on:
+  push:
+    branches:
+      - feature/ire-task1-contracts-20260730
+    paths:
+      - runtime/cartridges/pending/instructional_resource_extractor_v1/package.json
+      - runtime/cartridges/pending/instructional_resource_extractor_v1/schemas/protocol_message.schema.json
+      - runtime/cartridges/pending/instructional_resource_extractor_v1/extension/tests/schema-contract.test.ts
+      - .github/workflows/ire-task1-contracts.yml
+
+permissions:
+  contents: write
+
+jobs:
+  contract-test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: runtime/cartridges/pending/instructional_resource_extractor_v1
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: feature/ire-task1-contracts-20260730
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: runtime/cartridges/pending/instructional_resource_extractor_v1/package.json
+      - name: Install locked dependencies
+        run: npm install --ignore-scripts
+      - name: Run schema contract tests
+        run: npm test -- --run extension/tests/schema-contract.test.ts
+      - name: Commit generated lockfile
+        run: |
+          git config user.name "metablooms-ci"
+          git config user.email "metablooms-ci@users.noreply.github.com"
+          git add package-lock.json
+          if git diff --cached --quiet; then
+            echo "Lockfile already current."
+          else
+            git commit -m "build(ire): lock Task 1 JavaScript dependencies"
+            git push origin HEAD:feature/ire-task1-contracts-20260730
+          fi
