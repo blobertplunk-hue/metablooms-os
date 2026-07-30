@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "mb.ire.protocol_message.v1",
+  "type": "object",
+  "required": ["schema", "type", "message_id", "payload"],
+  "additionalProperties": false,
+  "properties": {
+    "schema": {"const": "mb.ire.protocol.v1"},
+    "type": {
+      "enum": [
+        "HELLO", "CAPTURE_BATCH", "EXPORT_REQUEST", "EXPORT_RESULT",
+        "CLASSIFICATION_RESULT", "OPERATOR_STOP", "RESUME", "ERROR"
+      ]
+    },
+    "message_id": {"type": "string", "minLength": 1, "maxLength": 160},
+    "payload": {"type": "object"}
+  }
+}
