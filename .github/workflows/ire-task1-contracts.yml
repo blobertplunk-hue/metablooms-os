@@ -9,6 +9,12 @@ on:
       - runtime/cartridges/pending/instructional_resource_extractor_v1/schemas/protocol_message.schema.json
       - runtime/cartridges/pending/instructional_resource_extractor_v1/extension/tests/schema-contract.test.ts
       - .github/workflows/ire-task1-contracts.yml
+  pull_request:
+    branches:
+      - main
+    paths:
+      - runtime/cartridges/pending/instructional_resource_extractor_v1/**
+      - .github/workflows/ire-task1-contracts.yml
 
 permissions:
   contents: write
@@ -27,19 +33,14 @@ jobs:
         with:
           node-version: '22'
           cache: npm
-          cache-dependency-path: runtime/cartridges/pending/instructional_resource_extractor_v1/package.json
+          cache-dependency-path: runtime/cartridges/pending/instructional_resource_extractor_v1/package-lock.json
       - name: Install locked dependencies
-        run: npm install --ignore-scripts
+        run: npm ci --ignore-scripts
       - name: Run schema contract tests
         run: npm test -- --run extension/tests/schema-contract.test.ts
-      - name: Commit generated lockfile
-        run: |
-          git config user.name "metablooms-ci"
-          git config user.email "metablooms-ci@users.noreply.github.com"
-          git add package-lock.json
-          if git diff --cached --quiet; then
-            echo "Lockfile already current."
-          else
-            git commit -m "build(ire): lock Task 1 JavaScript dependencies"
-            git push origin HEAD:feature/ire-task1-contracts-20260730
-          fi
+      - name: Upload verified lockfile
+        uses: actions/upload-artifact@v4
+        with:
+          name: ire-task1-package-lock
+          path: runtime/cartridges/pending/instructional_resource_extractor_v1/package-lock.json
+          if-no-files-found: error
