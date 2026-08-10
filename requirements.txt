@@ -1,3 +1,0 @@
-# MetaBlooms OS Python dependencies (minimal, v1)
-# Keep this file aligned with non-stdlib imports used inside /metablooms.
-jsonschema>=4.0.0
