@@ -1,1 +1,0 @@
-print('delta identity validated')
