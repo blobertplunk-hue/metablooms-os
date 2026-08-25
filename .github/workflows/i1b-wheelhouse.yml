@@ -1,0 +1,109 @@
+name: MetaBlooms Inspect I1B Wheelhouse
+
+on:
+  push:
+    branches:
+      - i1b-wheelhouse-20260825
+    paths:
+      - .github/workflows/i1b-wheelhouse.yml
+
+permissions:
+  contents: read
+
+jobs:
+  build-wheelhouse:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.13.5
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.13.5'
+          cache: 'pip'
+
+      - name: Install pinned resolver
+        run: python -m pip install --disable-pip-version-check 'uv==0.10.0'
+
+      - name: Resolve hash-locked binary-only closure
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p i1b-out/wheelhouse
+          printf 'inspect-ai==0.3.260\n' > i1b-out/requirements.in
+          uv pip compile \
+            --python-version 3.13.5 \
+            --python-platform x86_64-unknown-linux-gnu \
+            --no-build \
+            --generate-hashes \
+            i1b-out/requirements.in \
+            -o i1b-out/requirements.lock
+          python -m pip download \
+            --disable-pip-version-check \
+            --require-hashes \
+            --only-binary=:all: \
+            --dest i1b-out/wheelhouse \
+            -r i1b-out/requirements.lock
+
+      - name: Verify exact Inspect wheel and build manifest
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd i1b-out
+          test -f wheelhouse/inspect_ai-0.3.260-py3-none-any.whl
+          printf '3da1dd4e4cbaec248b507799beb71eb9917eee1062eab1d9aeb6a8b5a03a386a  wheelhouse/inspect_ai-0.3.260-py3-none-any.whl\n' | sha256sum -c -
+          python - <<'PY'
+          import hashlib, json, pathlib, platform, sys
+          root = pathlib.Path('wheelhouse')
+          rows=[]
+          for p in sorted(root.iterdir()):
+              if p.is_file():
+                  b=p.read_bytes()
+                  rows.append({'filename':p.name,'bytes':len(b),'sha256':hashlib.sha256(b).hexdigest()})
+          manifest={
+              'schema':'mb.inspect_i1b_wheelhouse_manifest.v1',
+              'target':{'python':platform.python_version(),'implementation':platform.python_implementation(),'platform':platform.platform(),'machine':platform.machine()},
+              'inspect_pin':{'distribution':'inspect-ai','version':'0.3.260','wheel_filename':'inspect_ai-0.3.260-py3-none-any.whl','wheel_sha256':'3da1dd4e4cbaec248b507799beb71eb9917eee1062eab1d9aeb6a8b5a03a386a'},
+              'artifact_count':len(rows),
+              'artifacts':rows,
+          }
+          pathlib.Path('WHEELHOUSE_MANIFEST.json').write_text(json.dumps(manifest,indent=2,sort_keys=True)+'\n')
+          PY
+          sha256sum requirements.in requirements.lock WHEELHOUSE_MANIFEST.json > CONTROL_SHA256SUMS.txt
+
+      - name: Offline install and closure verification
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m venv i1b-out/qualification-venv
+          i1b-out/qualification-venv/bin/python -m pip install --disable-pip-version-check --no-index --find-links i1b-out/wheelhouse --require-hashes -r i1b-out/requirements.lock
+          i1b-out/qualification-venv/bin/python -m pip check | tee i1b-out/PIP_CHECK.txt
+          i1b-out/qualification-venv/bin/python -m pip freeze --all | LC_ALL=C sort > i1b-out/PIP_FREEZE.txt
+          i1b-out/qualification-venv/bin/python - <<'PY'
+          import importlib.metadata as md, json, pathlib, platform, sys
+          version = md.version('inspect-ai')
+          assert version == '0.3.260', version
+          eps=[]
+          for ep in md.entry_points(group='inspect_ai'):
+              dist_name = ep.dist.metadata.get('Name') if ep.dist else None
+              dist_version = ep.dist.version if ep.dist else None
+              eps.append({'name':ep.name,'value':ep.value,'group':ep.group,'distribution':dist_name,'distribution_version':dist_version})
+          payload={'schema':'mb.inspect_i1b_extensions.v1','inspect_version':version,'entry_point_group':'inspect_ai','entry_points':sorted(eps,key=lambda x:(x['distribution'] or '',x['name'],x['value'])),'entry_point_count':len(eps)}
+          pathlib.Path('i1b-out/INSPECT_EXTENSIONS.json').write_text(json.dumps(payload,indent=2,sort_keys=True)+'\n')
+          runtime={'schema':'mb.inspect_i1b_runtime_identity.v1','inspect_ai_version':version,'python_version':platform.python_version(),'python_implementation':platform.python_implementation(),'platform':platform.platform(),'machine':platform.machine()}
+          pathlib.Path('i1b-out/RUNTIME_IDENTITY.json').write_text(json.dumps(runtime,indent=2,sort_keys=True)+'\n')
+          PY
+          i1b-out/qualification-venv/bin/inspect --version | tee i1b-out/INSPECT_VERSION.txt
+          rm -rf i1b-out/qualification-venv
+          sha256sum i1b-out/PIP_CHECK.txt i1b-out/PIP_FREEZE.txt i1b-out/INSPECT_EXTENSIONS.json i1b-out/RUNTIME_IDENTITY.json i1b-out/INSPECT_VERSION.txt >> i1b-out/CONTROL_SHA256SUMS.txt
+
+      - name: Upload hash-qualified wheelhouse
+        uses: actions/upload-artifact@v4
+        with:
+          name: metablooms-inspect-i1b-wheelhouse-py313-linux-x86_64
+          path: i1b-out/
+          if-no-files-found: error
+          compression-level: 0
+          retention-days: 7
