@@ -1,0 +1,78 @@
+name: MetaBlooms Inspect I4 Model Graders
+
+on:
+  push:
+    branches:
+      - i4-grader-repro-20260825
+    paths:
+      - .github/workflows/i4-model-graders.yml
+
+permissions:
+  contents: read
+
+jobs:
+  grade:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - slug: smollm2_360m
+            model: HuggingFaceTB/SmolLM2-360M-Instruct
+          - slug: qwen25_05b
+            model: Qwen/Qwen2.5-0.5B-Instruct
+    steps:
+      - name: Checkout isolated grader branch
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Install frozen grader framework versions
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m pip install --disable-pip-version-check \
+            'inspect-ai==0.3.260' \
+            'torch==2.8.0' \
+            'transformers==4.56.2' \
+            'accelerate==1.10.1'
+          python -m pip check
+
+      - name: Verify frozen corpus identity
+        shell: bash
+        run: |
+          set -euo pipefail
+          sha256sum i4-grader/I4_GRADING_CORPUS.json
+
+      - name: Run Inspect model-grader campaign
+        shell: bash
+        env:
+          TOKENIZERS_PARALLELISM: 'false'
+          TRANSFORMERS_NO_ADVISORY_WARNINGS: '1'
+          OMP_NUM_THREADS: '2'
+          MKL_NUM_THREADS: '2'
+        run: |
+          set -euo pipefail
+          mkdir -p "i4-out/${{ matrix.slug }}"
+          python i4-grader/i4_grader_runner.py \
+            --corpus i4-grader/I4_GRADING_CORPUS.json \
+            --model-id '${{ matrix.model }}' \
+            --model-slug '${{ matrix.slug }}' \
+            --out-dir "i4-out/${{ matrix.slug }}"
+          printf '%s\n' "workflow_sha=${GITHUB_SHA}" > "i4-out/${{ matrix.slug }}/WORKFLOW_IDENTITY.txt"
+          printf '%s\n' "model=${{ matrix.model }}" >> "i4-out/${{ matrix.slug }}/WORKFLOW_IDENTITY.txt"
+          printf '%s\n' "slug=${{ matrix.slug }}" >> "i4-out/${{ matrix.slug }}/WORKFLOW_IDENTITY.txt"
+          sha256sum "i4-out/${{ matrix.slug }}/GRADER_RESULT.json" "i4-out/${{ matrix.slug }}/ARTIFACT_MANIFEST.json" > "i4-out/${{ matrix.slug }}/CONTROL_SHA256SUMS.txt"
+
+      - name: Upload hash-bound grader evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: metablooms-i4-${{ matrix.slug }}
+          path: i4-out/${{ matrix.slug }}/
+          if-no-files-found: error
+          compression-level: 0
+          retention-days: 7
