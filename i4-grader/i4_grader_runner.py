@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 from __future__ import annotations
-import argparse, hashlib, importlib.metadata as md, json, platform, re, subprocess, sys, time
+import argparse, hashlib, importlib.metadata as md, json, os, platform, re, subprocess, sys, time
 from pathlib import Path
 from typing import Any
 
@@ -10,6 +10,8 @@ from inspect_ai.dataset import MemoryDataset, Sample
 from inspect_ai.model import GenerateConfig, get_model
 from inspect_ai.scorer import model_graded_fact
 from inspect_ai.solver import solver
+
+GRADE_RE = re.compile(r"(?im)GRADE\s*:\s*([CI])")
 
 
 def sha256_file(path: Path) -> str:
@@ -60,13 +62,18 @@ def score_rows(log, corpus):
 def one_run(corpus, model_id: str, revision: str, mode: str, seed: int | None, log_dir: Path):
     samples=[Sample(input=c['question'], target=c['reference'], id=c['case_id'], metadata={'candidate_answer':c['candidate_answer']}) for c in corpus['cases']]
     if mode=='deterministic':
-        cfg=GenerateConfig(max_tokens=96, seed=0, temperature=None, top_p=None)
+        cfg=GenerateConfig(max_tokens=12, seed=0, temperature=None, top_p=None)
         do_sample=False
     else:
-        cfg=GenerateConfig(max_tokens=96, seed=seed, temperature=0.7, top_p=0.9)
+        cfg=GenerateConfig(max_tokens=12, seed=seed, temperature=0.7, top_p=0.9)
         do_sample=True
     grader=get_model('hf/'+model_id, config=cfg, memoize=False, device='cpu', do_sample=do_sample, revision=revision)
-    scorer=model_graded_fact(model=grader, partial_credit=False)
+    scorer=model_graded_fact(
+        model=grader,
+        partial_credit=False,
+        instructions='Return exactly one line: GRADE: C if the submission contains the factual content in the expert answer; otherwise return exactly one line: GRADE: I. Do not include reasoning or any other text.',
+        grade_pattern=r'(?im)^\s*GRADE\s*:\s*([CI])\s*$'
+    )
     task=Task(dataset=MemoryDataset(samples, name='metablooms-i4-semantic-grading'), solver=fixed_candidate_answer(), scorer=scorer, name='metablooms_i4_model_grader')
     started=time.perf_counter()
     logs=eval(task, model='mockllm/model', log_dir=str(log_dir), display='none', trace=True, log_samples=True)
@@ -116,6 +123,7 @@ def main():
         'platform':platform.platform(),
         'machine':platform.machine(),
         'package_freeze_sha256':hashlib.sha256(freeze.encode()).hexdigest(),
+        'grader_protocol':os.environ.get('I4_GRADER_PROTOCOL','concise-grade-v2'),
         'runs':runs,
         'promotion_authorized':False,
     }
