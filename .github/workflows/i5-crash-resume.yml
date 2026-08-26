@@ -1,0 +1,114 @@
+name: MetaBlooms Inspect I5 Crash Resume
+
+on:
+  push:
+    branches: [i5-crash-resume-20260825]
+    paths: [.github/workflows/i5-crash-resume.yml]
+
+permissions:
+  contents: read
+
+jobs:
+  crash-resume:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13.5'
+      - name: Install exact Inspect
+        run: python -m pip install --disable-pip-version-check 'inspect-ai==0.3.260'
+      - name: Execute forced crash and checkpoint resume
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p i5-out/logs
+          cat > i5_task.py <<'PY'
+          from inspect_ai import Task, task
+          from inspect_ai.dataset import MemoryDataset, Sample
+          from inspect_ai.solver import solver
+          from inspect_ai.util import checkpointer
+          import json, os
+          from pathlib import Path
+          MARK=Path(os.environ['I5_MARKERS']); CRASH=Path(os.environ['I5_CRASH_MARKER'])
+          def mark(o):
+              with MARK.open('a',encoding='utf-8') as f:
+                  f.write(json.dumps(o,sort_keys=True)+'\n'); f.flush(); os.fsync(f.fileno())
+          @solver
+          def cp_solver():
+              async def solve(state, generate):
+                  async with checkpointer() as cp:
+                      holder=[0]
+                      restored=cp.track('i5_step', lambda: holder[0], 0)
+                      holder[0]=restored
+                      mark({'sample':str(state.sample_id),'event':'enter','attempt':cp.attempt,'step':holder[0]})
+                      while holder[0] < 3:
+                          holder[0]+=1
+                          await cp.checkpoint()
+                          mark({'sample':str(state.sample_id),'event':'checkpoint','attempt':cp.attempt,'step':holder[0]})
+                          if str(state.sample_id)=='S2' and holder[0]==2 and not CRASH.exists():
+                              CRASH.write_text('forced\n')
+                              mark({'sample':'S2','event':'forced_crash','attempt':cp.attempt,'step':holder[0]})
+                              os._exit(88)
+                      state.output.completion=f'DONE:{state.sample_id}:{holder[0]}'
+                  return state
+              return solve
+          @task
+          def i5_checkpoint_task():
+              return Task(dataset=MemoryDataset([Sample(input='x',id=f'S{i}') for i in range(1,4)],name='i5-checkpoint'),solver=cp_solver(),scorer=None,name='i5_checkpoint_task')
+          PY
+          export I5_MARKERS="$PWD/i5-out/markers.jsonl" I5_CRASH_MARKER="$PWD/i5-out/crash.marker" PYTHONDONTWRITEBYTECODE=1 TERM=dumb
+          printf '{"campaign":"I5","config":"manual-checkpoint","inspect":"0.3.260"}\n' > i5-out/effective_config.json
+          sha256sum i5-out/effective_config.json > i5-out/config_before.sha256
+          set +e
+          inspect eval ./i5_task.py@i5_checkpoint_task --model mockllm/model --checkpoint manual --max-samples 1 --log-dir i5-out/logs --display none --no-score >i5-out/first_stdout.txt 2>i5-out/first_stderr.txt
+          FIRST_RC=$?
+          set -e
+          echo "$FIRST_RC" > i5-out/first_rc.txt
+          test "$FIRST_RC" -eq 88
+          ORIGINAL=$(find i5-out/logs -name '*.eval' | head -1)
+          inspect log recover --overwrite "$ORIGINAL" --display none >i5-out/recover_stdout.txt 2>i5-out/recover_stderr.txt || true
+          inspect eval-retry "$ORIGINAL" --checkpoint manual --max-samples 1 --log-dir i5-out/logs --display none --no-score --json >i5-out/retry_jsonl.txt 2>i5-out/retry_stderr.txt
+          sha256sum i5-out/effective_config.json > i5-out/config_after.sha256
+          FINAL=$(find i5-out/logs -name '*.eval' -printf '%T@ %p\n' | sort -nr | head -1 | cut -d' ' -f2-)
+          inspect log dump "$FINAL" > i5-out/final_log.json
+          python - <<'PY'
+          import hashlib,json,pathlib,collections
+          root=pathlib.Path('i5-out')
+          o=json.load(open(root/'final_log.json'))
+          samples=o.get('samples',[])
+          ids=[str(s['id']) for s in samples]
+          completions={str(s['id']):s.get('output',{}).get('completion') for s in samples}
+          events=[json.loads(x) for x in (root/'markers.jsonl').read_text().splitlines()]
+          enters=collections.Counter(e['sample'] for e in events if e['event']=='enter')
+          resume_enters=[e for e in events if e['event']=='enter' and e.get('attempt')=='resume']
+          result={
+            'schema':'mb.inspect_i5_crash_resume_remote.v1',
+            'inspect_version':'0.3.260',
+            'forced_crash_rc':int((root/'first_rc.txt').read_text()),
+            'final_status':o.get('status'),
+            'final_sample_ids':ids,
+            'final_unique_sample_ids':sorted(set(ids)),
+            'final_completions':completions,
+            'enter_counts':dict(enters),
+            'resume_enters':resume_enters,
+            'events':events,
+            'config_before_sha256':(root/'config_before.sha256').read_text().split()[0],
+            'config_after_sha256':(root/'config_after.sha256').read_text().split()[0],
+            'promotion_authorized':False,
+          }
+          (root/'RESULT.json').write_text(json.dumps(result,indent=2,sort_keys=True)+'\n')
+          files=[]
+          for p in sorted(x for x in root.rglob('*') if x.is_file()):
+              b=p.read_bytes(); files.append({'path':str(p.relative_to(root)),'bytes':len(b),'sha256':hashlib.sha256(b).hexdigest()})
+          (root/'MANIFEST.json').write_text(json.dumps({'schema':'mb.inspect_i5_crash_resume_manifest.v1','files':files},indent=2,sort_keys=True)+'\n')
+          print(json.dumps(result,indent=2))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: metablooms-i5-crash-resume
+          path: i5-out/
+          if-no-files-found: error
+          compression-level: 0
+          retention-days: 7
