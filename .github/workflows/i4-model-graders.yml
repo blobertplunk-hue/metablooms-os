@@ -51,6 +51,7 @@ jobs:
       - name: Run Inspect model-grader campaign
         shell: bash
         env:
+          I4_GRADER_PROTOCOL: 'concise-grade-v2'
           TOKENIZERS_PARALLELISM: 'false'
           TRANSFORMERS_NO_ADVISORY_WARNINGS: '1'
           OMP_NUM_THREADS: '2'
@@ -66,6 +67,7 @@ jobs:
           printf '%s\n' "workflow_sha=${GITHUB_SHA}" > "i4-out/${{ matrix.slug }}/WORKFLOW_IDENTITY.txt"
           printf '%s\n' "model=${{ matrix.model }}" >> "i4-out/${{ matrix.slug }}/WORKFLOW_IDENTITY.txt"
           printf '%s\n' "slug=${{ matrix.slug }}" >> "i4-out/${{ matrix.slug }}/WORKFLOW_IDENTITY.txt"
+          printf '%s\n' "grader_protocol=concise-grade-v2" >> "i4-out/${{ matrix.slug }}/WORKFLOW_IDENTITY.txt"
           sha256sum "i4-out/${{ matrix.slug }}/GRADER_RESULT.json" "i4-out/${{ matrix.slug }}/ARTIFACT_MANIFEST.json" > "i4-out/${{ matrix.slug }}/CONTROL_SHA256SUMS.txt"
 
       - name: Upload hash-bound grader evidence
