@@ -1,0 +1,15 @@
+{
+  "schema": "mb.inspect_i4_grading_corpus.v1",
+  "cases": [
+    {"case_id":"I4-001","question":"What city is the capital of France?","reference":"Paris is the capital of France.","candidate_answer":"France's capital is Paris.","gold":"C","critical":false,"family":"paraphrase"},
+    {"case_id":"I4-002","question":"How many minutes are in two hours?","reference":"There are 120 minutes in two hours.","candidate_answer":"Two hours contains 120 minutes, or 7,200 seconds.","gold":"C","critical":false,"family":"extra_detail"},
+    {"case_id":"I4-003","question":"Does water freeze at 0 degrees Celsius at standard pressure?","reference":"Yes. At standard atmospheric pressure, water freezes at 0 °C.","candidate_answer":"No. At standard pressure water stays liquid at 0 °C and freezes only below -10 °C.","gold":"I","critical":true,"family":"negation"},
+    {"case_id":"I4-004","question":"What is 9 multiplied by 7?","reference":"9 × 7 = 63.","candidate_answer":"9 times 7 equals 72.","gold":"I","critical":true,"family":"numeric_error"},
+    {"case_id":"I4-005","question":"Which planet is known for its prominent ring system?","reference":"Saturn is known for its prominent ring system.","candidate_answer":"Saturn is the planet best known for its extensive rings.","gold":"C","critical":false,"family":"paraphrase"},
+    {"case_id":"I4-006","question":"Who wrote Pride and Prejudice?","reference":"Jane Austen wrote Pride and Prejudice.","candidate_answer":"Charlotte Brontë wrote Pride and Prejudice.","gold":"I","critical":true,"family":"entity_error"},
+    {"case_id":"I4-007","question":"What gas do plants primarily take in for photosynthesis?","reference":"Plants primarily take in carbon dioxide for photosynthesis.","candidate_answer":"Plants take in CO2 for photosynthesis and release oxygen as a byproduct.","gold":"C","critical":false,"family":"extra_detail"},
+    {"case_id":"I4-008","question":"Is a square always a rectangle?","reference":"Yes. A square satisfies the definition of a rectangle because it has four right angles.","candidate_answer":"No. A square can never be a rectangle because all four sides are equal.","gold":"I","critical":true,"family":"category_error"},
+    {"case_id":"I4-009","question":"What is the chemical symbol for sodium?","reference":"The chemical symbol for sodium is Na.","candidate_answer":"Na.","gold":"C","critical":false,"family":"concise_equivalence"},
+    {"case_id":"I4-010","question":"How many sides does a hexagon have?","reference":"A hexagon has six sides.","candidate_answer":"A hexagon has six sides and six vertices.","gold":"C","critical":false,"family":"extra_detail"}
+  ]
+}
