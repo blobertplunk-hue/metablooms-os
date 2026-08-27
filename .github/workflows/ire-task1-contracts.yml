@@ -1,0 +1,46 @@
+name: IRE Task 1 contracts
+
+on:
+  push:
+    branches:
+      - feature/ire-task1-contracts-20260730
+    paths:
+      - runtime/cartridges/pending/instructional_resource_extractor_v1/package.json
+      - runtime/cartridges/pending/instructional_resource_extractor_v1/schemas/protocol_message.schema.json
+      - runtime/cartridges/pending/instructional_resource_extractor_v1/extension/tests/schema-contract.test.ts
+      - .github/workflows/ire-task1-contracts.yml
+  pull_request:
+    branches:
+      - main
+    paths:
+      - runtime/cartridges/pending/instructional_resource_extractor_v1/**
+      - .github/workflows/ire-task1-contracts.yml
+
+permissions:
+  contents: write
+
+jobs:
+  contract-test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: runtime/cartridges/pending/instructional_resource_extractor_v1
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: feature/ire-task1-contracts-20260730
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: runtime/cartridges/pending/instructional_resource_extractor_v1/package-lock.json
+      - name: Install locked dependencies
+        run: npm ci --ignore-scripts
+      - name: Run schema contract tests
+        run: npm test -- --run extension/tests/schema-contract.test.ts
+      - name: Upload verified lockfile
+        uses: actions/upload-artifact@v4
+        with:
+          name: ire-task1-package-lock
+          path: runtime/cartridges/pending/instructional_resource_extractor_v1/package-lock.json
+          if-no-files-found: error

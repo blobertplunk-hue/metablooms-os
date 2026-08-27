@@ -1,0 +1,19 @@
+{
+  "name": "@metablooms/instructional-resource-extractor",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node esbuild.mjs",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "ajv": "8.20.0",
+    "esbuild": "0.28.1",
+    "typescript": "5.9.2",
+    "vitest": "4.1.10"
+  }
+}
